@@ -18,17 +18,15 @@ public class NormalTileBehaviour : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if(collision.tag == "LoadingBar")
+        this.gameObject.transform.position = new Vector2(9999999999999999, 99999999999999999);
+
+        if(collision.tag == "LoadingBar" && collision.gameObject.name == "LoadingBar")
         {
             Destroy(this.gameObject);
         }
-        else if(collision.tag == "TileDestroyer")
+        else if (collision.tag == "TileDestroyer")
         {
             Destroy(this.gameObject);
-            //should just destroy
-            Debug.Log("I should just destroy");
-            //TileCatcher tc = GameObject.Find("LoadingBar").GetComponent<TileCatcher>();
-            //tc.Reducebytenprocent();
         }
     }
 }
