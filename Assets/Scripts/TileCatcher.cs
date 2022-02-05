@@ -328,7 +328,12 @@ public class TileCatcher : MonoBehaviour
 
     public void Reducebytenprocent()
     {
-        procent -= 10;
+        if(procent > 5)
+        {
+            procent -= 10;
+
+        }
+
         UpdateLoadingBar();
     }
 }
