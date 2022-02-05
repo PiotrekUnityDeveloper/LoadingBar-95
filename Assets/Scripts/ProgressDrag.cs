@@ -48,5 +48,10 @@ public class ProgressDrag : MonoBehaviour
             this.gameObject.transform.localPosition = new Vector3(mousePos.x - startPosX, mousePos.y - startPosY, 0);
 
         }
+
+        if(this.gameObject.transform.position.x < 3.15f)
+        {
+            this.gameObject.transform.position = new Vector2(3.15f, this.transform.position.y);
+        }
     }
 }

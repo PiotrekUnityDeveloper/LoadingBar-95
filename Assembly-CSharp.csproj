@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{02A8B1C2-588C-90C2-D63C-D6A7A094806D}</ProjectGuid>
+    <ProjectGuid>{6F1D2D6F-D0CB-B19A-0DF6-41F2F515DDBB}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -54,6 +54,8 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\ProgressDrag.cs" />
+    <Compile Include="Assets\Scripts\TileCatcher.cs" />
+    <Compile Include="Assets\Scripts\TileAnimation.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
