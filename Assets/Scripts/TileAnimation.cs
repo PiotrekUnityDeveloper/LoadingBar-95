@@ -26,6 +26,9 @@ public class TileAnimation : MonoBehaviour
     {
         if(collision.tag == "AnimationEnd")
         {
+            TileCatcher tc = GameObject.Find("LoadingBar").GetComponent<TileCatcher>();
+            tc.UpdateLoadingBar();
+            //destroy animation object
             Destroy(this.gameObject);
         }
     }

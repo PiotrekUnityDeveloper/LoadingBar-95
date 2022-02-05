@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class TileCatcher : MonoBehaviour
 {
@@ -28,6 +29,13 @@ public class TileCatcher : MonoBehaviour
     public GameObject tile19;
     public GameObject tile20;
 
+    //Animations
+    public GameObject Instantiator;
+    public GameObject AnimatedTile;
+
+    //UI
+    public Text procentText;
+
 
 
     // Start is called before the first frame update
@@ -46,87 +54,281 @@ public class TileCatcher : MonoBehaviour
     {
         if(collision.tag == "NormalTile")
         {
+            procent += 5;
             //Instantiate animation tile
+            Instantiator.transform.position = new Vector2(collision.transform.position.x, Instantiator.transform.position.y);
+            GameObject g = Instantiate(AnimatedTile, Instantiator.transform.position, Quaternion.identity);
+            g.transform.parent = GameObject.Find("LoadingBar").gameObject.transform;
+
+            procentText.text = (procent + "%");
 
             //switch %
-            switch(procent)
-            {
-                case 5:
-                    tile1.SetActive(true);
-                    break;
-                case 10:
-                    tile1.SetActive(true);
-                    tile2.SetActive(true);
-                    break;
-                case 15:
-                    tile1.SetActive(true);
-                    tile2.SetActive(true);
-                    tile3.SetActive(true);
-                    break;
-                case 20:
-                    tile1.SetActive(true);
-                    tile2.SetActive(true);
-                    tile3.SetActive(true);
-                    tile4.SetActive(true);
-                    break;
-                case 25:
-                    tile1.SetActive(true);
-                    tile2.SetActive(true);
-                    tile3.SetActive(true);
-                    tile4.SetActive(true);
-                    tile5.SetActive(true);
-                    break;
-                case 30:
-                    tile1.SetActive(true);
-                    tile2.SetActive(true);
-                    tile3.SetActive(true);
-                    tile4.SetActive(true);
-                    tile5.SetActive(true);
-                    tile6.SetActive(true);
-                    break;
-                case 35:
-                    tile1.SetActive(true);
-                    tile2.SetActive(true);
-                    tile3.SetActive(true);
-                    tile4.SetActive(true);
-                    tile5.SetActive(true);
-                    tile6.SetActive(true);
-                    tile7.SetActive(true);
-                    break;
-                case 40:
-                    tile1.SetActive(true);
-                    tile2.SetActive(true);
-                    tile3.SetActive(true);
-                    tile4.SetActive(true);
-                    tile5.SetActive(true);
-                    tile6.SetActive(true);
-                    tile7.SetActive(true);
-                    tile8.SetActive(true);
-                    break;
-                case 45:
-                    tile1.SetActive(true);
-                    tile2.SetActive(true);
-                    tile3.SetActive(true);
-                    tile4.SetActive(true);
-                    tile5.SetActive(true);
-                    tile6.SetActive(true);
-                    tile7.SetActive(true);
-                    tile8.SetActive(true);
-                    tile9.SetActive(true);
-                    break;
-                case 50:
-                    tile1.SetActive(true);
-                    tile2.SetActive(true);
-                    tile3.SetActive(true);
-                    tile4.SetActive(true);
-                    tile5.SetActive(true);
-                    tile6.SetActive(true);
-                    tile7.SetActive(true);
-                    tile8.SetActive(true);
-                    tile9.SetActive(true);
-                    tile10.SetActive(true);
-                    break;
-            }
+            //after tileanimation destroys
+
+            print("collected one NORMAL TILE");
         }
+    }
+
+    public void UpdateLoadingBar() //EXTREMELY BAD CODING PRACTICE, SORRY IM JUST LAZY
+    {
+        switch (procent)
+        {
+            case 5:
+                tile1.SetActive(true);
+                break;
+            case 10:
+                tile1.SetActive(true);
+                tile2.SetActive(true);
+                break;
+            case 15:
+                tile1.SetActive(true);
+                tile2.SetActive(true);
+                tile3.SetActive(true);
+                break;
+            case 20:
+                tile1.SetActive(true);
+                tile2.SetActive(true);
+                tile3.SetActive(true);
+                tile4.SetActive(true);
+                break;
+            case 25:
+                tile1.SetActive(true);
+                tile2.SetActive(true);
+                tile3.SetActive(true);
+                tile4.SetActive(true);
+                tile5.SetActive(true);
+                break;
+            case 30:
+                tile1.SetActive(true);
+                tile2.SetActive(true);
+                tile3.SetActive(true);
+                tile4.SetActive(true);
+                tile5.SetActive(true);
+                tile6.SetActive(true);
+                break;
+            case 35:
+                tile1.SetActive(true);
+                tile2.SetActive(true);
+                tile3.SetActive(true);
+                tile4.SetActive(true);
+                tile5.SetActive(true);
+                tile6.SetActive(true);
+                tile7.SetActive(true);
+                break;
+            case 40:
+                tile1.SetActive(true);
+                tile2.SetActive(true);
+                tile3.SetActive(true);
+                tile4.SetActive(true);
+                tile5.SetActive(true);
+                tile6.SetActive(true);
+                tile7.SetActive(true);
+                tile8.SetActive(true);
+                break;
+            case 45:
+                tile1.SetActive(true);
+                tile2.SetActive(true);
+                tile3.SetActive(true);
+                tile4.SetActive(true);
+                tile5.SetActive(true);
+                tile6.SetActive(true);
+                tile7.SetActive(true);
+                tile8.SetActive(true);
+                tile9.SetActive(true);
+                break;
+            case 50:
+                tile1.SetActive(true);
+                tile2.SetActive(true);
+                tile3.SetActive(true);
+                tile4.SetActive(true);
+                tile5.SetActive(true);
+                tile6.SetActive(true);
+                tile7.SetActive(true);
+                tile8.SetActive(true);
+                tile9.SetActive(true);
+                tile10.SetActive(true);
+                break;
+            case 55:
+                tile1.SetActive(true);
+                tile2.SetActive(true);
+                tile3.SetActive(true);
+                tile4.SetActive(true);
+                tile5.SetActive(true);
+                tile6.SetActive(true);
+                tile7.SetActive(true);
+                tile8.SetActive(true);
+                tile9.SetActive(true);
+                tile10.SetActive(true);
+                tile11.SetActive(true);
+                break;
+            case 60:
+                tile1.SetActive(true);
+                tile2.SetActive(true);
+                tile3.SetActive(true);
+                tile4.SetActive(true);
+                tile5.SetActive(true);
+                tile6.SetActive(true);
+                tile7.SetActive(true);
+                tile8.SetActive(true);
+                tile9.SetActive(true);
+                tile10.SetActive(true);
+                tile11.SetActive(true);
+                tile12.SetActive(true);
+                break;
+            case 65:
+                tile1.SetActive(true);
+                tile2.SetActive(true);
+                tile3.SetActive(true);
+                tile4.SetActive(true);
+                tile5.SetActive(true);
+                tile6.SetActive(true);
+                tile7.SetActive(true);
+                tile8.SetActive(true);
+                tile9.SetActive(true);
+                tile10.SetActive(true);
+                tile11.SetActive(true);
+                tile12.SetActive(true);
+                tile13.SetActive(true);
+                break;
+            case 70:
+                tile1.SetActive(true);
+                tile2.SetActive(true);
+                tile3.SetActive(true);
+                tile4.SetActive(true);
+                tile5.SetActive(true);
+                tile6.SetActive(true);
+                tile7.SetActive(true);
+                tile8.SetActive(true);
+                tile9.SetActive(true);
+                tile10.SetActive(true);
+                tile11.SetActive(true);
+                tile12.SetActive(true);
+                tile13.SetActive(true);
+                tile14.SetActive(true);
+                break;
+            case 75:
+                tile1.SetActive(true);
+                tile2.SetActive(true);
+                tile3.SetActive(true);
+                tile4.SetActive(true);
+                tile5.SetActive(true);
+                tile6.SetActive(true);
+                tile7.SetActive(true);
+                tile8.SetActive(true);
+                tile9.SetActive(true);
+                tile10.SetActive(true);
+                tile11.SetActive(true);
+                tile12.SetActive(true);
+                tile13.SetActive(true);
+                tile14.SetActive(true);
+                tile15.SetActive(true);
+                break;
+            case 80:
+                tile1.SetActive(true);
+                tile2.SetActive(true);
+                tile3.SetActive(true);
+                tile4.SetActive(true);
+                tile5.SetActive(true);
+                tile6.SetActive(true);
+                tile7.SetActive(true);
+                tile8.SetActive(true);
+                tile9.SetActive(true);
+                tile10.SetActive(true);
+                tile11.SetActive(true);
+                tile12.SetActive(true);
+                tile13.SetActive(true);
+                tile14.SetActive(true);
+                tile15.SetActive(true);
+                tile16.SetActive(true);
+                break;
+            case 85:
+                tile1.SetActive(true);
+                tile2.SetActive(true);
+                tile3.SetActive(true);
+                tile4.SetActive(true);
+                tile5.SetActive(true);
+                tile6.SetActive(true);
+                tile7.SetActive(true);
+                tile8.SetActive(true);
+                tile9.SetActive(true);
+                tile10.SetActive(true);
+                tile11.SetActive(true);
+                tile12.SetActive(true);
+                tile13.SetActive(true);
+                tile14.SetActive(true);
+                tile15.SetActive(true);
+                tile16.SetActive(true);
+                tile17.SetActive(true);
+                break;
+            case 90:
+                tile1.SetActive(true);
+                tile2.SetActive(true);
+                tile3.SetActive(true);
+                tile4.SetActive(true);
+                tile5.SetActive(true);
+                tile6.SetActive(true);
+                tile7.SetActive(true);
+                tile8.SetActive(true);
+                tile9.SetActive(true);
+                tile10.SetActive(true);
+                tile11.SetActive(true);
+                tile12.SetActive(true);
+                tile13.SetActive(true);
+                tile14.SetActive(true);
+                tile15.SetActive(true);
+                tile16.SetActive(true);
+                tile17.SetActive(true);
+                tile18.SetActive(true);
+                break;
+            case 95:
+                tile1.SetActive(true);
+                tile2.SetActive(true);
+                tile3.SetActive(true);
+                tile4.SetActive(true);
+                tile5.SetActive(true);
+                tile6.SetActive(true);
+                tile7.SetActive(true);
+                tile8.SetActive(true);
+                tile9.SetActive(true);
+                tile10.SetActive(true);
+                tile11.SetActive(true);
+                tile12.SetActive(true);
+                tile13.SetActive(true);
+                tile14.SetActive(true);
+                tile15.SetActive(true);
+                tile16.SetActive(true);
+                tile17.SetActive(true);
+                tile18.SetActive(true);
+                tile19.SetActive(true);
+                break;
+            case 100:
+                tile1.SetActive(true);
+                tile2.SetActive(true);
+                tile3.SetActive(true);
+                tile4.SetActive(true);
+                tile5.SetActive(true);
+                tile6.SetActive(true);
+                tile7.SetActive(true);
+                tile8.SetActive(true);
+                tile9.SetActive(true);
+                tile10.SetActive(true);
+                tile11.SetActive(true);
+                tile12.SetActive(true);
+                tile13.SetActive(true);
+                tile14.SetActive(true);
+                tile15.SetActive(true);
+                tile16.SetActive(true);
+                tile17.SetActive(true);
+                tile18.SetActive(true);
+                tile19.SetActive(true);
+                tile20.SetActive(true);
+                break;
+        }
+    }
+
+    public void Reducebytenprocent()
+    {
+        procent -= 10;
+        UpdateLoadingBar();
     }
 }
