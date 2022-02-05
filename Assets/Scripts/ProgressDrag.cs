@@ -17,7 +17,7 @@ public class ProgressDrag : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetMouseButtonDown(0))
+        if (Input.GetMouseButtonDown(0))
         {
             Vector3 mousePos;
             mousePos = Input.mousePosition;
@@ -31,13 +31,13 @@ public class ProgressDrag : MonoBehaviour
             isDragging = true;
         }
 
-        if(Input.GetMouseButtonUp(0))
+        if (Input.GetMouseButtonUp(0))
         {
-            isDragging=false;
+            isDragging = false;
 
         }
 
-        if(isDragging)
+        if (isDragging)
         {
             Vector3 mousePos;
             mousePos = Input.mousePosition;
@@ -49,9 +49,24 @@ public class ProgressDrag : MonoBehaviour
 
         }
 
-        if(this.gameObject.transform.position.x < 3.15f)
+        if (this.gameObject.transform.position.x < 3.15f)
         {
             this.gameObject.transform.position = new Vector2(3.15f, this.transform.position.y);
+        }
+
+        if (this.gameObject.transform.position.x > 9)
+        {
+            this.gameObject.transform.position = new Vector2(9f, this.transform.position.y);
+        }
+
+        if (this.gameObject.transform.position.y > 3.90f)
+        {
+            this.gameObject.transform.position = new Vector2(this.transform.position.x, 3.90f);
+        }
+
+        if (this.gameObject.transform.position.y < -4.04f)
+        {
+            this.gameObject.transform.position = new Vector2(this.transform.position.x, -4.04f);
         }
     }
 }
