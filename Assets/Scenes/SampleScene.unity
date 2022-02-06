@@ -4858,9 +4858,10 @@ MonoBehaviour:
   subbounds: 1
   difficultyMaxMultiplier: 2.5
   difficultyMinMultiplier: 2.5
-  maxtiledelay: 2.19
+  maxtiledelay: 2.7
   mintiledelay: 0.1
   NormalTilePrefab: {fileID: 2127355301356826546, guid: 45711e6f3b372914d8d2ea5220cb1363, type: 3}
+  canspawn: 1
 --- !u!1 &1955616168
 GameObject:
   m_ObjectHideFlags: 0

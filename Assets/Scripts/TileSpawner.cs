@@ -20,6 +20,9 @@ public class TileSpawner : MonoBehaviour
     //utility
     private List<GameObject> activetiles = new List<GameObject>();
 
+    //conditions
+    public bool canspawn = true;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -49,9 +52,13 @@ public class TileSpawner : MonoBehaviour
     public IEnumerator TileSpawnerDelayer()
     {
         yield return new WaitForSeconds(Random.Range(mintiledelay, maxtiledelay));
-        GameObject instantiatedobj = Instantiate(NormalTilePrefab, this.transform.transform.position, Quaternion.identity);
-        activetiles.Add(instantiatedobj);
-        instantiatedobj.transform.parent = GameObject.Find("TileLister").transform;
+        if(canspawn == true)
+        {
+            GameObject instantiatedobj = Instantiate(NormalTilePrefab, this.transform.transform.position, Quaternion.identity);
+            activetiles.Add(instantiatedobj);
+            instantiatedobj.transform.parent = GameObject.Find("TileLister").transform;
+        }
+        
         StartCoroutine(TileSpawnerDelayer());
     }
 
