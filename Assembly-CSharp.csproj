@@ -53,10 +53,11 @@
     <UnityVersion>2020.3.25f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\ProgressDrag.cs" />
-    <Compile Include="Assets\Scripts\TileCatcher.cs" />
-    <Compile Include="Assets\Scripts\TileAnimation.cs" />
     <Compile Include="Assets\Scripts\NormalTileBehaviour.cs" />
+    <Compile Include="Assets\Scripts\TileCatcher.cs" />
+    <Compile Include="Assets\Scripts\ProgressDrag.cs" />
+    <Compile Include="Assets\Scripts\TileAnimation.cs" />
+    <Compile Include="Assets\Scripts\TileSpawner.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

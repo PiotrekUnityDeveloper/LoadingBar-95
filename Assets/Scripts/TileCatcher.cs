@@ -66,7 +66,8 @@ public class TileCatcher : MonoBehaviour
             //switch %
             //after tileanimation destroys
 
-            print("collected one NORMAL TILE");
+            //print("collected one NORMAL TILE");
+
         }
     }
 
@@ -343,17 +344,41 @@ public class TileCatcher : MonoBehaviour
         }
     }
 
+    public void Reducebyfiveprocent()
+    {
+        UpdateLoadingBar();
+        if (procent > 5)
+        {
+            procent -= 5;
+            UpdateLoadingBar();
+        }
+
+        UpdateLoadingBar();
+
+        if (procent > 95)
+        {
+            GameWin();
+        }
+
+        UpdateLoadingBar();
+        UpdateLoadingBar();
+    }
+
     public GameObject draggo;
     
 
     public void GameWin()
     {
 
+        TileSpawner ts = GameObject.Find("InstantiatedTileHolder").GetComponent<TileSpawner>();
+        ts.DeleteExistingTiles();
+
         draggo = GameObject.FindGameObjectWithTag("DragObject");
         if(draggo.GetComponent<Rigidbody2D>() == null)
         {
             Rigidbody2D rg2d = draggo.AddComponent<Rigidbody2D>();
-            draggo.GetComponent<Rigidbody2D>().gravityScale = -0.5f;
+            draggo.GetComponent<Rigidbody2D>().gravityScale = -0.8f;
+            draggo.GetComponent<Rigidbody2D>().freezeRotation = true;
             //BoxCollider2D bc2d = draggo.AddComponent<BoxCollider2D>(); ALREADY INCLUDED
             ProgressDrag pd = GameObject.Find("DragParent").GetComponent<ProgressDrag>();
             pd.candrag = false;

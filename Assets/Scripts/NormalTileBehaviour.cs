@@ -28,7 +28,7 @@ public class NormalTileBehaviour : MonoBehaviour
         {
             //this.gameObject.transform.position = new Vector2(9999999999999999, 99999999999999999);
             TileCatcher tc = GameObject.Find("LoadingBar").GetComponent<TileCatcher>();
-            tc.Reducebytenprocent();
+            tc.Reducebyfiveprocent();
             Destroy(this.gameObject);
         }
     }
