@@ -8,6 +8,8 @@ public class ProgressDrag : MonoBehaviour
     private float startPosY;
     private bool isDragging;
 
+    public bool candrag = true;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -17,6 +19,16 @@ public class ProgressDrag : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
+
+
+        //put code other than progressbar dragging here!
+
+        if(candrag == false)
+        {
+            return;
+        }
+
         if (Input.GetMouseButtonDown(0))
         {
             Vector3 mousePos;

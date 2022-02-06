@@ -8,6 +8,7 @@ TagManager:
   - TileDestroyer
   - AnimationEnd
   - NormalTile
+  - DragObject
   layers:
   - Default
   - TransparentFX
@@ -15,10 +16,10 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
-  - 
-  - 
+  - TileLayer
+  - ProgressBar
+  - ProgressBarHolder
+  - DragObjectLayer
   - 
   - 
   - 

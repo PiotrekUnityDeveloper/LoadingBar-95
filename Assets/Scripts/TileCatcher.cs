@@ -41,7 +41,8 @@ public class TileCatcher : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        StartCoroutine(HundredProcentDelayChecker());
+
     }
 
     // Update is called once per frame
@@ -335,5 +336,35 @@ public class TileCatcher : MonoBehaviour
         }
 
         UpdateLoadingBar();
+
+        if(procent > 95)
+        {
+            GameWin();
+        }
+    }
+
+    public GameObject draggo;
+    
+
+    public void GameWin()
+    {
+        draggo = GameObject.FindGameObjectWithTag("DragObject");
+        Rigidbody2D rg2d = draggo.AddComponent<Rigidbody2D>();
+        rg2d.gravityScale = -0.5f;
+        //BoxCollider2D bc2d = draggo.AddComponent<BoxCollider2D>(); ALREADY INCLUDED
+        ProgressDrag pd = GameObject.Find("DragParent").GetComponent<ProgressDrag>();
+        pd.candrag = false;
+    }
+
+    public IEnumerator HundredProcentDelayChecker()
+    {
+        if(procent > 95)
+        {
+            GameWin();
+        }
+
+        yield return new WaitForSecondsRealtime(0.2f);
+
+        StartCoroutine(HundredProcentDelayChecker());
     }
 }
