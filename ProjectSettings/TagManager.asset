@@ -9,6 +9,7 @@ TagManager:
   - AnimationEnd
   - NormalTile
   - DragObject
+  - TileHold
   layers:
   - Default
   - TransparentFX
