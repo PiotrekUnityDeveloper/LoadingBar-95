@@ -348,12 +348,17 @@ public class TileCatcher : MonoBehaviour
 
     public void GameWin()
     {
+
         draggo = GameObject.FindGameObjectWithTag("DragObject");
-        Rigidbody2D rg2d = draggo.AddComponent<Rigidbody2D>();
-        rg2d.gravityScale = -0.5f;
-        //BoxCollider2D bc2d = draggo.AddComponent<BoxCollider2D>(); ALREADY INCLUDED
-        ProgressDrag pd = GameObject.Find("DragParent").GetComponent<ProgressDrag>();
-        pd.candrag = false;
+        if(draggo.GetComponent<Rigidbody2D>() == null)
+        {
+            Rigidbody2D rg2d = draggo.AddComponent<Rigidbody2D>();
+            draggo.GetComponent<Rigidbody2D>().gravityScale = -0.5f;
+            //BoxCollider2D bc2d = draggo.AddComponent<BoxCollider2D>(); ALREADY INCLUDED
+            ProgressDrag pd = GameObject.Find("DragParent").GetComponent<ProgressDrag>();
+            pd.candrag = false;
+        }
+        
     }
 
     public IEnumerator HundredProcentDelayChecker()
