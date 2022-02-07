@@ -110,8 +110,9 @@ public class TileCatcher : MonoBehaviour
 
     private void Awake()
     {
-        bluecolor = new Color(22, 0, 209);
+        bluecolor = new Color(0, 29, 145);
         orangecolor = new Color(255, 179, 0);
+
     }
 
     // Start is called before the first frame update
