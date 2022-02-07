@@ -35,6 +35,7 @@ public class TileCatcher : MonoBehaviour
 
     //UI
     public Text procentText;
+    public Text procentTextShadow;
 
 
 
@@ -48,7 +49,7 @@ public class TileCatcher : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        procentTextShadow.text = procentText.text;
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -69,10 +70,28 @@ public class TileCatcher : MonoBehaviour
             //print("collected one NORMAL TILE");
 
         }
+        else if (collision.tag == "OrangeTile")
+        {
+            procent += 5;
+            //Instantiate animation tile
+            Instantiator.transform.position = new Vector2(collision.transform.position.x, Instantiator.transform.position.y);
+            GameObject g = Instantiate(AnimatedTile, Instantiator.transform.position, Quaternion.identity);
+            g.transform.parent = GameObject.Find("LoadingBar").gameObject.transform;
+            g.gameObject.GetComponent<SpriteRenderer>().color = new Color(255, 179, 0);
+
+            procentText.text = (procent + "%");
+
+            //switch %
+            //after tileanimation destroys
+
+            //print("collected one NORMAL TILE");
+
+        }
     }
 
     public void UpdateLoadingBar() //EXTREMELY BAD CODING PRACTICE, SORRY IM JUST LAZY
     {
+
         switch (procent)
         {
             case 5:
@@ -324,6 +343,284 @@ public class TileCatcher : MonoBehaviour
                 tile18.SetActive(true);
                 tile19.SetActive(true);
                 tile20.SetActive(true);
+                break;
+        }
+    }
+
+    public void UpdateOrangeLoadingBar() //EXTREMELY BAD CODING PRACTICE, SORRY IM JUST LAZY
+    {
+
+        switch (procent)
+        {
+            case 5:
+                tile1.SetActive(true);
+                tile1.gameObject.GetComponent<SpriteRenderer>().color = new Color(255, 179, 0);
+                break;
+            case 10:
+                tile1.SetActive(true);
+                tile2.SetActive(true);
+                tile2.gameObject.GetComponent<SpriteRenderer>().color = new Color(255, 179, 0);
+                break;
+            case 15:
+                tile1.SetActive(true);
+                tile2.SetActive(true);
+                tile3.SetActive(true);
+                tile3.gameObject.GetComponent<SpriteRenderer>().color = new Color(255, 179, 0);
+                break;
+            case 20:
+                tile1.SetActive(true);
+                tile2.SetActive(true);
+                tile3.SetActive(true);
+                tile4.SetActive(true);
+                tile4.gameObject.GetComponent<SpriteRenderer>().color = new Color(255, 179, 0);
+                break;
+            case 25:
+                tile1.SetActive(true);
+                tile2.SetActive(true);
+                tile3.SetActive(true);
+                tile4.SetActive(true);
+                tile5.SetActive(true);
+                tile5.gameObject.GetComponent<SpriteRenderer>().color = new Color(255, 179, 0);
+                break;
+            case 30:
+                tile1.SetActive(true);
+                tile2.SetActive(true);
+                tile3.SetActive(true);
+                tile4.SetActive(true);
+                tile5.SetActive(true);
+                tile6.SetActive(true);
+                tile6.gameObject.GetComponent<SpriteRenderer>().color = new Color(255, 179, 0);
+                break;
+            case 35:
+                tile1.SetActive(true);
+                tile2.SetActive(true);
+                tile3.SetActive(true);
+                tile4.SetActive(true);
+                tile5.SetActive(true);
+                tile6.SetActive(true);
+                tile7.SetActive(true);
+                tile7.gameObject.GetComponent<SpriteRenderer>().color = new Color(255, 179, 0);
+                break;
+            case 40:
+                tile1.SetActive(true);
+                tile2.SetActive(true);
+                tile3.SetActive(true);
+                tile4.SetActive(true);
+                tile5.SetActive(true);
+                tile6.SetActive(true);
+                tile7.SetActive(true);
+                tile8.SetActive(true);
+                tile8.gameObject.GetComponent<SpriteRenderer>().color = new Color(255, 179, 0);
+                break;
+            case 45:
+                tile1.SetActive(true);
+                tile2.SetActive(true);
+                tile3.SetActive(true);
+                tile4.SetActive(true);
+                tile5.SetActive(true);
+                tile6.SetActive(true);
+                tile7.SetActive(true);
+                tile8.SetActive(true);
+                tile9.SetActive(true);
+                tile9.gameObject.GetComponent<SpriteRenderer>().color = new Color(255, 179, 0);
+                break;
+            case 50:
+                tile1.SetActive(true);
+                tile2.SetActive(true);
+                tile3.SetActive(true);
+                tile4.SetActive(true);
+                tile5.SetActive(true);
+                tile6.SetActive(true);
+                tile7.SetActive(true);
+                tile8.SetActive(true);
+                tile9.SetActive(true);
+                tile10.SetActive(true);
+                tile10.gameObject.GetComponent<SpriteRenderer>().color = new Color(255, 179, 0);
+                break;
+            case 55:
+                tile1.SetActive(true);
+                tile2.SetActive(true);
+                tile3.SetActive(true);
+                tile4.SetActive(true);
+                tile5.SetActive(true);
+                tile6.SetActive(true);
+                tile7.SetActive(true);
+                tile8.SetActive(true);
+                tile9.SetActive(true);
+                tile10.SetActive(true);
+                tile11.SetActive(true);
+                tile11.gameObject.GetComponent<SpriteRenderer>().color = new Color(255, 179, 0);
+                break;
+            case 60:
+                tile1.SetActive(true);
+                tile2.SetActive(true);
+                tile3.SetActive(true);
+                tile4.SetActive(true);
+                tile5.SetActive(true);
+                tile6.SetActive(true);
+                tile7.SetActive(true);
+                tile8.SetActive(true);
+                tile9.SetActive(true);
+                tile10.SetActive(true);
+                tile11.SetActive(true);
+                tile12.SetActive(true);
+                tile12.gameObject.GetComponent<SpriteRenderer>().color = new Color(255, 179, 0);
+                break;
+            case 65:
+                tile1.SetActive(true);
+                tile2.SetActive(true);
+                tile3.SetActive(true);
+                tile4.SetActive(true);
+                tile5.SetActive(true);
+                tile6.SetActive(true);
+                tile7.SetActive(true);
+                tile8.SetActive(true);
+                tile9.SetActive(true);
+                tile10.SetActive(true);
+                tile11.SetActive(true);
+                tile12.SetActive(true);
+                tile13.SetActive(true);
+                tile13.gameObject.GetComponent<SpriteRenderer>().color = new Color(255, 179, 0);
+                break;
+            case 70:
+                tile1.SetActive(true);
+                tile2.SetActive(true);
+                tile3.SetActive(true);
+                tile4.SetActive(true);
+                tile5.SetActive(true);
+                tile6.SetActive(true);
+                tile7.SetActive(true);
+                tile8.SetActive(true);
+                tile9.SetActive(true);
+                tile10.SetActive(true);
+                tile11.SetActive(true);
+                tile12.SetActive(true);
+                tile13.SetActive(true);
+                tile14.SetActive(true);
+                tile14.gameObject.GetComponent<SpriteRenderer>().color = new Color(255, 179, 0);
+                break;
+            case 75:
+                tile1.SetActive(true);
+                tile2.SetActive(true);
+                tile3.SetActive(true);
+                tile4.SetActive(true);
+                tile5.SetActive(true);
+                tile6.SetActive(true);
+                tile7.SetActive(true);
+                tile8.SetActive(true);
+                tile9.SetActive(true);
+                tile10.SetActive(true);
+                tile11.SetActive(true);
+                tile12.SetActive(true);
+                tile13.SetActive(true);
+                tile14.SetActive(true);
+                tile15.SetActive(true);
+                tile15.gameObject.GetComponent<SpriteRenderer>().color = new Color(255, 179, 0);
+                break;
+            case 80:
+                tile1.SetActive(true);
+                tile2.SetActive(true);
+                tile3.SetActive(true);
+                tile4.SetActive(true);
+                tile5.SetActive(true);
+                tile6.SetActive(true);
+                tile7.SetActive(true);
+                tile8.SetActive(true);
+                tile9.SetActive(true);
+                tile10.SetActive(true);
+                tile11.SetActive(true);
+                tile12.SetActive(true);
+                tile13.SetActive(true);
+                tile14.SetActive(true);
+                tile15.SetActive(true);
+                tile16.SetActive(true);
+                tile16.gameObject.GetComponent<SpriteRenderer>().color = new Color(255, 179, 0);
+                break;
+            case 85:
+                tile1.SetActive(true);
+                tile2.SetActive(true);
+                tile3.SetActive(true);
+                tile4.SetActive(true);
+                tile5.SetActive(true);
+                tile6.SetActive(true);
+                tile7.SetActive(true);
+                tile8.SetActive(true);
+                tile9.SetActive(true);
+                tile10.SetActive(true);
+                tile11.SetActive(true);
+                tile12.SetActive(true);
+                tile13.SetActive(true);
+                tile14.SetActive(true);
+                tile15.SetActive(true);
+                tile16.SetActive(true);
+                tile17.SetActive(true);
+                tile17.gameObject.GetComponent<SpriteRenderer>().color = new Color(255, 179, 0);
+                break;
+            case 90:
+                tile1.SetActive(true);
+                tile2.SetActive(true);
+                tile3.SetActive(true);
+                tile4.SetActive(true);
+                tile5.SetActive(true);
+                tile6.SetActive(true);
+                tile7.SetActive(true);
+                tile8.SetActive(true);
+                tile9.SetActive(true);
+                tile10.SetActive(true);
+                tile11.SetActive(true);
+                tile12.SetActive(true);
+                tile13.SetActive(true);
+                tile14.SetActive(true);
+                tile15.SetActive(true);
+                tile16.SetActive(true);
+                tile17.SetActive(true);
+                tile18.SetActive(true);
+                tile18.gameObject.GetComponent<SpriteRenderer>().color = new Color(255, 179, 0);
+                break;
+            case 95:
+                tile1.SetActive(true);
+                tile2.SetActive(true);
+                tile3.SetActive(true);
+                tile4.SetActive(true);
+                tile5.SetActive(true);
+                tile6.SetActive(true);
+                tile7.SetActive(true);
+                tile8.SetActive(true);
+                tile9.SetActive(true);
+                tile10.SetActive(true);
+                tile11.SetActive(true);
+                tile12.SetActive(true);
+                tile13.SetActive(true);
+                tile14.SetActive(true);
+                tile15.SetActive(true);
+                tile16.SetActive(true);
+                tile17.SetActive(true);
+                tile18.SetActive(true);
+                tile19.SetActive(true);
+                tile19.gameObject.GetComponent<SpriteRenderer>().color = new Color(255, 179, 0);
+                break;
+            case 100:
+                tile1.SetActive(true);
+                tile2.SetActive(true);
+                tile3.SetActive(true);
+                tile4.SetActive(true);
+                tile5.SetActive(true);
+                tile6.SetActive(true);
+                tile7.SetActive(true);
+                tile8.SetActive(true);
+                tile9.SetActive(true);
+                tile10.SetActive(true);
+                tile11.SetActive(true);
+                tile12.SetActive(true);
+                tile13.SetActive(true);
+                tile14.SetActive(true);
+                tile15.SetActive(true);
+                tile16.SetActive(true);
+                tile17.SetActive(true);
+                tile18.SetActive(true);
+                tile19.SetActive(true);
+                tile20.SetActive(true);
+                tile20.gameObject.GetComponent<SpriteRenderer>().color = new Color(255, 179, 0);
                 break;
         }
     }

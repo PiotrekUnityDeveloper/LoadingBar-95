@@ -8,6 +8,9 @@ public class TileAnimation : MonoBehaviour
     public float tilespeed;
     public float speedincrease;
 
+    //other
+    public bool isTileOrange;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -27,7 +30,20 @@ public class TileAnimation : MonoBehaviour
         if(collision.tag == "AnimationEnd")
         {
             TileCatcher tc = GameObject.Find("LoadingBar").GetComponent<TileCatcher>();
-            tc.UpdateLoadingBar();
+            if(this.gameObject.GetComponent<SpriteRenderer>().color == new Color(255, 179, 0))
+            {
+                isTileOrange = true;
+                tc.UpdateOrangeLoadingBar();
+            }
+            else
+            {
+                isTileOrange = false;
+                tc.UpdateLoadingBar();
+            }
+
+
+
+            
             //destroy animation object
             Destroy(this.gameObject);
         }

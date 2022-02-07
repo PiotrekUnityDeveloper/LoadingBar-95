@@ -16,6 +16,7 @@ public class TileSpawner : MonoBehaviour
     public float mintiledelay;
 
     public GameObject NormalTilePrefab;
+    public GameObject OrangeTilePrefab;
 
     //utility
     private List<GameObject> activetiles = new List<GameObject>();
@@ -54,9 +55,23 @@ public class TileSpawner : MonoBehaviour
         yield return new WaitForSeconds(Random.Range(mintiledelay, maxtiledelay));
         if(canspawn == true)
         {
-            GameObject instantiatedobj = Instantiate(NormalTilePrefab, this.transform.transform.position, Quaternion.identity);
-            activetiles.Add(instantiatedobj);
-            instantiatedobj.transform.parent = GameObject.Find("TileLister").transform;
+            int e = Random.Range(1, 3);
+
+            if(e == 1)
+            {
+                GameObject instantiatedobj = Instantiate(NormalTilePrefab, this.transform.transform.position, Quaternion.identity);
+                activetiles.Add(instantiatedobj);
+                instantiatedobj.transform.parent = GameObject.Find("TileLister").transform;
+            }
+            else if(e == 2)
+            {
+                GameObject instantiatedobj = Instantiate(OrangeTilePrefab, this.transform.transform.position, Quaternion.identity);
+                activetiles.Add(instantiatedobj);
+                instantiatedobj.transform.parent = GameObject.Find("TileLister").transform;
+            }
+
+
+            
         }
         
         StartCoroutine(TileSpawnerDelayer());
