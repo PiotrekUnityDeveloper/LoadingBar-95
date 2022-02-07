@@ -36,6 +36,7 @@ public class TileCatcher : MonoBehaviour
     //UI
     public Text procentText;
     public Text procentTextShadow;
+    public Text secondProcentShadow;
 
 
 
@@ -50,6 +51,7 @@ public class TileCatcher : MonoBehaviour
     void Update()
     {
         procentTextShadow.text = procentText.text;
+        secondProcentShadow.text = procentText.text;
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -669,6 +671,9 @@ public class TileCatcher : MonoBehaviour
 
         TileSpawner ts = GameObject.Find("InstantiatedTileHolder").GetComponent<TileSpawner>();
         ts.DeleteExistingTiles();
+
+        //GameManager gm = GameObject.Find("GameManager").GetComponent<GameManager>();
+        //gm.ShowGraphWindow();
 
         draggo = GameObject.FindGameObjectWithTag("DragObject");
         if(draggo.GetComponent<Rigidbody2D>() == null)
