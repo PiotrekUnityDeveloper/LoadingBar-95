@@ -105,6 +105,9 @@ public class TileCatcher : MonoBehaviour
     public Color bluecolor;
     public Color orangecolor;
 
+    //windows
+    public GameObject SummaryWindow;
+
     private void Awake()
     {
         bluecolor = new Color(22, 0, 209);
@@ -756,7 +759,15 @@ public class TileCatcher : MonoBehaviour
             ProgressDrag pd = GameObject.Find("DragParent").GetComponent<ProgressDrag>();
             pd.candrag = false;
         }
-        
+
+        StartCoroutine(DelaySummaryWindow());
+    }
+
+    public IEnumerator DelaySummaryWindow()
+    {
+        yield return new WaitForSecondsRealtime(1f);
+        SummaryWindow.SetActive(true); //alternatively add animator trigger here
+        ScoreCounter();
     }
 
     public IEnumerator HundredProcentDelayChecker()
