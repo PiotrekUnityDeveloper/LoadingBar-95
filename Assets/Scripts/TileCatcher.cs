@@ -110,7 +110,7 @@ public class TileCatcher : MonoBehaviour
 
     private void Awake()
     {
-        bluecolor = new Color(22, 0, 22);
+        bluecolor = Color.blue;
         orangecolor = new Color(255, 179, 0);
 
     }
