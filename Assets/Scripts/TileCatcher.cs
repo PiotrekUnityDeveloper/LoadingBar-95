@@ -770,11 +770,18 @@ public class TileCatcher : MonoBehaviour
         ScoreCounter();
     }
 
+    public bool isGameWon = false;
+
     public IEnumerator HundredProcentDelayChecker()
     {
-        if(procent > 95)
+        
+        if(procent > 95 && isGameWon == false)
         {
             GameWin();
+
+            TileSpawner ts = GameObject.Find("InstantiatedTileHolder").GetComponent<TileSpawner>();
+            ts.canspawn = false;
+            isGameWon = true;
         }
 
         yield return new WaitForSecondsRealtime(0.2f);
@@ -1017,6 +1024,9 @@ public class TileCatcher : MonoBehaviour
 
         bluepoints.value = BlueTiles * 5;
         orangepoints.value = OrangeTiles * 5;
+
+        Debug.Log("There was " + BlueTiles + " Blue Tiles and " + OrangeTiles + " Orange Tiles so there was " + bluepoints.value + "% of bluepoints and " + orangepoints.value + "% of orangepoints");
+
 
         //change graph's texture here
 
