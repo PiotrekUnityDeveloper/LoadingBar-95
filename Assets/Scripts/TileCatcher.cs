@@ -108,6 +108,9 @@ public class TileCatcher : MonoBehaviour
     //windows
     public GameObject SummaryWindow;
 
+    public GameObject GraphTab;
+    public GameObject GProgressTab;
+
     private void Awake()
     {
         bluecolor = Color.blue;
@@ -739,10 +742,13 @@ public class TileCatcher : MonoBehaviour
     }
 
     public GameObject draggo;
-    
+
+    public GameObject graphsscreen;
 
     public void GameWin()
     {
+        graphsscreen.SetActive(true);
+        
 
         TileSpawner ts = GameObject.Find("InstantiatedTileHolder").GetComponent<TileSpawner>();
         ts.DeleteExistingTiles();
@@ -762,6 +768,14 @@ public class TileCatcher : MonoBehaviour
         }
 
         StartCoroutine(DelaySummaryWindow());
+    }
+
+    public void SummaryNextButton()
+    {
+        GameManager gm = GameObject.Find("GameManager").GetComponent<GameManager>();
+        GraphTab.SetActive(false);
+        GProgressTab.SetActive(true);
+        gm.launchprogressing();
     }
 
     public IEnumerator DelaySummaryWindow()
@@ -1028,6 +1042,11 @@ public class TileCatcher : MonoBehaviour
 
         Debug.Log("There was " + BlueTiles + " Blue Tiles and " + OrangeTiles + " Orange Tiles so there was " + bluepoints.value + "% of bluepoints and " + orangepoints.value + "% of orangepoints");
 
+        if(bluepoints.value > 95)
+        {
+            GameManager gmm = GameObject.Find("GameManager").GetComponent<GameManager>();
+            gmm.progressstuff.Add("Perfect");
+        }
 
         //change graph's texture here
 

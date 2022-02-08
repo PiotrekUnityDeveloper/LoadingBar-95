@@ -11,6 +11,7 @@ TagManager:
   - DragObject
   - TileHold
   - OrangeTile
+  - PointsIncreaser
   layers:
   - Default
   - TransparentFX
