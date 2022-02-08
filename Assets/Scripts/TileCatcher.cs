@@ -1108,7 +1108,15 @@ public class TileCatcher : MonoBehaviour
 
         Debug.Log("There was " + BlueTiles + " Blue Tiles and " + OrangeTiles + " Orange Tiles so there was " + bluepoints.value + "% of bluepoints and " + orangepoints.value + "% of orangepoints");
 
+        /*
         if(bluepoints.value == bluepoints.maxValue)
+        {
+            GameManager gmm = GameObject.Find("GameManager").GetComponent<GameManager>();
+            gmm.progressstuff.Add("Perfect");
+        }
+        */
+
+        if(BlueTiles > 19)
         {
             GameManager gmm = GameObject.Find("GameManager").GetComponent<GameManager>();
             gmm.progressstuff.Add("Perfect");

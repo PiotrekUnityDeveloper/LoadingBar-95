@@ -19,20 +19,35 @@ public class GameManager : MonoBehaviour
     //windows
     public GameObject graphwindow;
     public GameObject progresswindow;
+    public GameObject badgestatswindow;
+
+    //window interactable stuff
+    public GameObject win2button;
 
     //level
     public int currentLevel;
 
+    
+    
 
     //progressing
     public int ProLevels;
     public int ExpertLevels;
     public int MasterLevels;
+    public int GrandMasterLevels;
+    public int WarriorLevels;
 
     //conditions
+    [Tooltip("PRO BADGE BOOST - from 5000 to 7500")]
     public bool isPro;
-    public bool isMaster;
+    [Tooltip("EXPERT BADGE BOOST - from 7500 to 10000")]
     public bool isExpert;
+    [Tooltip("MASTER BADGE BOOST - from 10000 to 12500")]
+    public bool isMaster;
+    [Tooltip("GRANDMASTER BADGE BOOST - from 12500 to 17500")]
+    public bool isGrandMaster;
+    [Tooltip("PRO BADGE BOOST - from 17500 to 25000")]
+    public bool isWarrior;
 
     //progressing prefabs
     public GameObject progressinfoPrefab;
@@ -86,7 +101,9 @@ public class GameManager : MonoBehaviour
 
 
         currentLevel += 1;
+        PlayerPrefs.SetInt("95level", currentLevel);
 
+        /*
         if(isPro)
         {
             levelslider.maxValue = ProLevels;
@@ -102,6 +119,17 @@ public class GameManager : MonoBehaviour
             levelslider.maxValue = MasterLevels;
             progressstuff.Add("Master");
         }
+        else if (isGrandMaster)
+        {
+            levelslider.maxValue = MasterLevels;
+            progressstuff.Add("GrandMaster");
+        }
+        else if (isWarrior)
+        {
+            levelslider.maxValue = MasterLevels;
+            progressstuff.Add("Warrior");
+        }
+        */
 
         levelslider.value = currentLevel;
 
@@ -120,9 +148,25 @@ public class GameManager : MonoBehaviour
             isMaster = true;
         }
 
-        
+        if (GrandMasterLevels == levelslider.value)
+        {
+            isGrandMaster = true;
+        }
 
-        if(isMaster)
+        if (WarriorLevels == levelslider.value)
+        {
+            isWarrior = true;
+        }
+
+        if(isWarrior)
+        {
+            progressstuff.Add("Warrior");
+        }
+        else if(isGrandMaster)
+        {
+            progressstuff.Add("GrandMaster");
+        }
+        else if (isMaster)
         {
             progressstuff.Add("Master");
         }
@@ -154,15 +198,15 @@ public class GameManager : MonoBehaviour
         {
             randomstartingprogress = Random.Range(7000, 14000);
         }
-        else if (leveltype == 3) //HARD
+        else if (leveltype == 4) //HARD
         {
             randomstartingprogress = Random.Range(14000, 19900);
         }
-        else if (leveltype == 3) //VERY HARD
+        else if (leveltype == 5) //VERY HARD
         {
             randomstartingprogress = Random.Range(19900, 26000);
         }
-        else if (leveltype == 3) //HARDCORE
+        else if (leveltype == 6) //HARDCORE
         {
             randomstartingprogress = Random.Range(26000, 40000);
         }
@@ -199,7 +243,7 @@ public class GameManager : MonoBehaviour
 
         //yield return new WaitForSecondsRealtime(1.5f);
 
-        progressstuff.Add("Complete");
+        progressstuff.Add("Complete Game");
 
         foreach (string s in progressstuff)
         {
@@ -279,13 +323,13 @@ public class GameManager : MonoBehaviour
                 GameObject instG4 = Instantiate(progressinfoPrefab, infoinstantiotor.transform.position, Quaternion.identity);
                 if(instG4 != null)
                 {
-                    instG.transform.parent = GameObject.Find("inst").transform;
-                    instG.GetComponent<Image>().sprite = Win95;
+                    instG4.transform.parent = GameObject.Find("inst").transform;
+                    instG4.GetComponent<Image>().sprite = Win95;
                     //progresstxt = instG.transform.GetChild(0).GetComponent<Text>();
                     //incrementpointslabel = GameObject.FindGameObjectWithTag("PointsIncreaser").GetComponent<Text>();
                     //incrementpointslabel = GameObject.Find("incpoints").GetComponent<Text>();
                     //incrementpointslabel = instG.transform.GetChild(0).GetComponent<Text>();
-                    instG.GetComponent<Animator>().SetTrigger("newPoint");
+                    instG4.GetComponent<Animator>().SetTrigger("newPoint");
                 }
                 
                 print("randomized number is " + randomstartingprogress);
@@ -313,7 +357,7 @@ public class GameManager : MonoBehaviour
                 Destroy(instG4);
             }
 
-            if (s == "Complete")
+            if (s == "Complete Game")
             {
                 GameObject instG2 = Instantiate(progressinfoPrefab, infoinstantiotor.transform.position, Quaternion.identity);
                 if (instG2 != null)
@@ -350,11 +394,152 @@ public class GameManager : MonoBehaviour
 
         foreach(string s in progressstuff)
         {
-            finalList.text = (finalList.text + $"\n" + "-> " + s);
+            if(s != null)
+            {
+                finalList.text += ($"\n" + "-> " + s);
+            }
+            
         }
 
         progressstuff.Clear();
 
+        yield return new WaitForSecondsRealtime(1.1f);
+
+        win2button.SetActive(true);
+
+    }
+
+    //window 3 animators
+    public Animator win3animator;
+
+    //labels
+    public Text currentbadge;
+    public Text nextbadge;
+    public Text totalaquired;
+    public Text badgesleft;
+    public Text nextbadgein;
+
+    public Text currentbonus;
+    public Text nextbonus;
+
+    //images
+    public Image oldb;
+    public Image newb;
+
+    /*
+     [Tooltip("PRO BADGE BOOST - from 5000 to 7500")]
+    public bool isPro;
+    [Tooltip("EXPERT BADGE BOOST - from 7500 to 10000")]
+    public bool isExpert;
+    [Tooltip("MASTER BADGE BOOST - from 10000 to 12500")]
+    public bool isMaster;
+    [Tooltip("GRANDMASTER BADGE BOOST - from 12500 to 17500")]
+    public bool isGrandMaster;
+    [Tooltip("PRO BADGE BOOST - from 17500 to 25000")]
+    public bool isWarrior; */
+
+
+    //sprites
+    public Sprite ProBadge;
+    public Sprite ExpertBadge;
+    public Sprite MasterBadge;
+    public Sprite GrandMasterBadge;
+    public Sprite WarriorBadge;
+
+    public void openbadgestats()
+    {
+        StartCoroutine(window3buttoncooldown());
+        graphwindow.SetActive(false);
+        progresswindow.SetActive(false);
+        badgestatswindow.SetActive(true);
+        win3animator.SetTrigger("open");
+
+        oldb.gameObject.SetActive(true);
+        newb.gameObject.SetActive(true);
+
+        if (isWarrior == true)
+        {
+            currentbadge.text = "Warrior";
+            nextbadge.text = "None";
+            totalaquired.text = "5";
+            badgesleft.text = "0";
+            nextbadgein.text = "NaN";
+            currentbonus.text = "17500-25000 points";
+            nextbonus.text = "NaN";
+            oldb.gameObject.SetActive(false);
+            newb.sprite = WarriorBadge;
+        }
+        else if (isGrandMaster == true)
+        {
+            currentbadge.text = "GrandMaster";
+            nextbadge.text = "Warrior";
+            totalaquired.text = "4";
+            badgesleft.text = "1";
+            nextbadgein.text = (WarriorLevels - currentLevel).ToString();
+            currentbonus.text = "12500-17500 points";
+            nextbonus.text = "17500-25000 points";
+            oldb.sprite = GrandMasterBadge;
+            newb.sprite = WarriorBadge;
+        }
+        else if (isMaster == true)
+        {
+            currentbadge.text = "Master";
+            nextbadge.text = "GrandMaster";
+            totalaquired.text = "3";
+            badgesleft.text = "2";
+            nextbadgein.text = (GrandMasterLevels - currentLevel).ToString();
+            currentbonus.text = "10000-12500 points";
+            nextbonus.text = "12500-17500 points";
+            oldb.sprite = MasterBadge;
+            newb.sprite = GrandMasterBadge;
+        }
+        else if(isExpert == true)
+        {
+            currentbadge.text = "Expert";
+            nextbadge.text = "Master";
+            totalaquired.text = "2";
+            badgesleft.text = "3";
+            nextbadgein.text = (MasterLevels - currentLevel).ToString();
+            currentbonus.text = "7500-10000 points";
+            nextbonus.text = "10000-12500 points";
+            oldb.sprite = ExpertBadge;
+            newb.sprite = MasterBadge;
+        }
+        else if(isPro == true)
+        {
+            currentbadge.text = "Pro";
+            nextbadge.text = "Expert";
+            totalaquired.text = "1";
+            badgesleft.text = "4";
+            nextbadgein.text = (ExpertLevels - currentLevel).ToString();
+            currentbonus.text = "5000-7500 points";
+            nextbonus.text = "7500-10000 points";
+            oldb.sprite = ProBadge;
+            newb.sprite = ExpertBadge;
+        }
+        else
+        {
+            currentbadge.text = "None";
+            nextbadge.text = "Pro";
+            totalaquired.text = "0";
+            badgesleft.text = "5";
+            nextbadgein.text = (ProLevels - currentLevel).ToString();
+            currentbonus.text = "0 points";
+            nextbonus.text = "5000-7500 points";
+            oldb.gameObject.SetActive(false);
+            newb.sprite = ProBadge;
+        }
+
+
+    }
+
+    public GameObject thirdButton;
+
+    public IEnumerator window3buttoncooldown()
+    {
+        thirdButton.SetActive(false);
+        yield return new WaitForSecondsRealtime(1.9f);
+        thirdButton.SetActive(true);
     }
 
     public IEnumerator levelup()
@@ -366,7 +551,7 @@ public class GameManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        currentLevel = PlayerPrefs.GetInt("95level", 1);
     }
 
     // Update is called once per frame
