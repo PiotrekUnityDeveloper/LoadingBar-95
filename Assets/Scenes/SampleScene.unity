@@ -7966,9 +7966,9 @@ MonoBehaviour:
   graphwindow: {fileID: 2019581965}
   progresswindow: {fileID: 992123141}
   currentLevel: 0
-  ProLevels: 0
-  ExpertLevels: 0
-  MasterLevels: 0
+  ProLevels: 10
+  ExpertLevels: 50
+  MasterLevels: 100
   isPro: 0
   isMaster: 0
   isExpert: 0
@@ -7981,6 +7981,7 @@ MonoBehaviour:
   progresspointsmultiplier: 0
   leveltype: 1
   SessionPoints: 0
+  completeobjectprefab: {fileID: 2587012450422489537, guid: a3e4f9c859eec0148956c6a30dc56cc7, type: 3}
   ProgressPoints: {fileID: 21300000, guid: b0dff585de249a7458fffa3cb9141634, type: 3}
   Perfect: {fileID: 21300000, guid: b28ea01fd9d9cdf4489d1fc9a8debcb4, type: 3}
   Pro: {fileID: 21300000, guid: 0c8e29a11e5f5cd4796a710e8f0b7352, type: 3}

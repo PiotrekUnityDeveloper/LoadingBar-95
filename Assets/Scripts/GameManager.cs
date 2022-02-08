@@ -48,12 +48,16 @@ public class GameManager : MonoBehaviour
     public int SessionPoints;
     int randomstartingprogress;
 
+    public GameObject completeobjectprefab;
+
     //textures
     public Sprite ProgressPoints;
 
     public Sprite Perfect;
     public Sprite Pro;
     public Sprite Win95;
+    public Sprite Completed;
+     
 
     public List<string> progressstuff = new List<string>();
 
@@ -159,9 +163,12 @@ public class GameManager : MonoBehaviour
         GameObject instG = Instantiate(progressinfoPrefab, infoinstantiotor.transform.position, Quaternion.identity);
         instG.transform.parent = GameObject.Find("inst").transform;
         instG.GetComponent<Image>().sprite = ProgressPoints;
-        incrementpointslabel = GameObject.FindGameObjectWithTag("PointsIncreaser").GetComponent<Text>();
+        //incrementpointslabel = GameObject.FindGameObjectWithTag("PointsIncreaser").GetComponent<Text>();
+        //incrementpointslabel = GameObject.Find("incpoints").GetComponent<Text>();
+        incrementpointslabel = instG.transform.GetChild(0).GetComponent<Text>();
         instG.GetComponent<Animator>().SetTrigger("newPoint");
-        for(int i = randomstartingprogress; i < randomstartingprogress; i++)
+        print("randomized number is " + randomstartingprogress);
+        for (int i = randomstartingprogress; i < randomstartingprogress; i++)
         {
             yield return new WaitForSecondsRealtime(0.01f);
             incrementpointslabel.text = ("Progress Score: " + i);
@@ -170,7 +177,9 @@ public class GameManager : MonoBehaviour
         SessionPoints += randomstartingprogress;
         totalpointslabel.text = ("Total Points: " + SessionPoints);
 
-        yield return new WaitForSecondsRealtime(1.5f);
+        //yield return new WaitForSecondsRealtime(1.5f);
+
+        progressstuff.Add("Complete");
 
         foreach (string s in progressstuff)
         {
@@ -181,15 +190,18 @@ public class GameManager : MonoBehaviour
                 GameObject instG2 = Instantiate(progressinfoPrefab, infoinstantiotor.transform.position, Quaternion.identity);
                 instG2.transform.parent = GameObject.Find("inst").transform;
                 instG2.GetComponent<Image>().sprite = Pro;
-                incrementpointslabel = GameObject.FindGameObjectWithTag("PointsIncreaser").GetComponent<Text>();
+                //incrementpointslabel = GameObject.FindGameObjectWithTag("PointsIncreaser").GetComponent<Text>();
+                //incrementpointslabel = GameObject.Find("incpoints").GetComponent<Text>();
+                incrementpointslabel = instG2.transform.GetChild(0).GetComponent<Text>();
                 instG2.GetComponent<Animator>().SetTrigger("newPoint");
                 randomstartingprogress = Random.Range(5000, 7500);
+                print("randomized number is " + randomstartingprogress);
                 for (int i = randomstartingprogress; i < randomstartingprogress; i++)
                 {
                     yield return new WaitForSecondsRealtime(0.01f);
                     incrementpointslabel.text = ("Pro Badge: " + i);
                 }
-                yield return new WaitForSecondsRealtime(1.55f);
+                yield return new WaitForSecondsRealtime(1.45f);
                 SessionPoints += randomstartingprogress;
                 totalpointslabel.text = ("Total Points: " + SessionPoints);
                 Destroy(instG2);
@@ -201,14 +213,17 @@ public class GameManager : MonoBehaviour
                 instG2.transform.parent = GameObject.Find("inst").transform;
                 instG2.GetComponent<Image>().sprite = Perfect;
                 incrementpointslabel = GameObject.FindGameObjectWithTag("PointsIncreaser").GetComponent<Text>();
+                incrementpointslabel = GameObject.Find("incpoints").GetComponent<Text>();
+                incrementpointslabel = instG2.transform.GetChild(0).GetComponent<Text>();
                 instG2.GetComponent<Animator>().SetTrigger("newPoint");
                 randomstartingprogress = Random.Range(1000, 3200);
+                print("randomized number is " + randomstartingprogress);
                 for (int i = randomstartingprogress; i < randomstartingprogress; i++)
                 {
                     yield return new WaitForSecondsRealtime(0.01f);
                     incrementpointslabel.text = ("Perfectionist: " + i);
                 }
-                yield return new WaitForSecondsRealtime(1.55f);
+                yield return new WaitForSecondsRealtime(1.45f);
                 SessionPoints += randomstartingprogress;
                 totalpointslabel.text = ("Total Points: " + SessionPoints);
                 Destroy(instG2);
@@ -219,21 +234,48 @@ public class GameManager : MonoBehaviour
                 GameObject instG2 = Instantiate(progressinfoPrefab, infoinstantiotor.transform.position, Quaternion.identity);
                 instG2.transform.parent = GameObject.Find("inst").transform;
                 instG2.GetComponent<Image>().sprite = Win95;
-                incrementpointslabel = GameObject.FindGameObjectWithTag("PointsIncreaser").GetComponent<Text>();
+                //incrementpointslabel = instG2.transform.GetChild(0).GetComponent<Text>();
+                //incrementpointslabel = GameObject.FindGameObjectWithTag("PointsIncreaser").GetComponent<Text>();
+                //incrementpointslabel = GameObject.Find("incpoints").GetComponent<Text>();
+                incrementpointslabel = instG2.transform.GetChild(0).GetComponent<Text>();
                 instG2.GetComponent<Animator>().SetTrigger("newPoint");
                 randomstartingprogress = Random.Range(1000, 3200);
+                print("randomized number is " + randomstartingprogress);
                 for (int i = randomstartingprogress; i < randomstartingprogress; i++)
                 {
                     yield return new WaitForSecondsRealtime(0.01f);
                     incrementpointslabel.text = ("LoadingBar 95: " + i);
                 }
-                yield return new WaitForSecondsRealtime(1.55f);
+                yield return new WaitForSecondsRealtime(1.45f);
                 SessionPoints += randomstartingprogress;
                 totalpointslabel.text = ("Total Points: " + SessionPoints);
                 Destroy(instG2);
             }
 
-            
+            if (s == "Complete")
+            {
+                GameObject instG2 = Instantiate(progressinfoPrefab, infoinstantiotor.transform.position, Quaternion.identity);
+                instG2.transform.parent = GameObject.Find("inst").transform;
+                instG2.GetComponent<Image>().sprite = Completed;
+                //incrementpointslabel = instG2.transform.GetChild(0).GetComponent<Text>();
+                //incrementpointslabel = GameObject.FindGameObjectWithTag("PointsIncreaser").GetComponent<Text>();
+                //incrementpointslabel = GameObject.Find("incpoints").GetComponent<Text>();
+                incrementpointslabel = instG2.transform.GetChild(0).GetComponent<Text>();
+                instG2.GetComponent<Animator>().SetTrigger("newPoint");
+                randomstartingprogress = 0;
+                print("randomized number is " + randomstartingprogress);
+                for (int i = randomstartingprogress; i < randomstartingprogress; i++)
+                {
+                    //yield return new WaitForSecondsRealtime(0.01f);
+                    //incrementpointslabel.text = ("LoadingBar 95: " + i);
+                }
+                yield return new WaitForSecondsRealtime(1.45f);
+                SessionPoints += randomstartingprogress;
+                totalpointslabel.text = ("Total Points: " + SessionPoints);
+                Destroy(instG2);
+            }
+
+
         }
 
         progressstuff.Clear();
