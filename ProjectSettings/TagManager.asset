@@ -12,6 +12,8 @@ TagManager:
   - TileHold
   - OrangeTile
   - PointsIncreaser
+  - PinkTile
+  - RedTile
   layers:
   - Default
   - TransparentFX
