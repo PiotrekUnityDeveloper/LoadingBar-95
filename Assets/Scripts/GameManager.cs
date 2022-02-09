@@ -21,6 +21,7 @@ public class GameManager : MonoBehaviour
     public GameObject progresswindow;
     public GameObject badgestatswindow;
     public GameObject overallprogresswindow;
+    public GameObject backgroundswindow;
 
     //window interactable stuff
     public GameObject win2button;
@@ -93,7 +94,10 @@ public class GameManager : MonoBehaviour
 
     public List<string> progressstuff = new List<string>();
 
-    
+    private void Awake()
+    {
+        PlayerPrefs.DeleteAll();
+    }
 
     public void launchprogressing()
     {
@@ -985,7 +989,7 @@ public class GameManager : MonoBehaviour
 
         if(SessionPoints > (ovprogressslider.maxValue - ovprogressslider.value))
         {
-            for (int i = 0; i < (ovprogressslider.maxValue - 10); i += 5)
+            for (int i = 0; i < ovprogressslider.value - 20; i += 20)
             {
                 yield return new WaitForSecondsRealtime(0.00001f);
                 ovprogressslider.value += 5;
@@ -1195,6 +1199,8 @@ public class GameManager : MonoBehaviour
         win4button.SetActive(true);
     }
 
+    
+
     public void hidesoundwindow()
     {
         soundupgradeWindow.SetActive(false);
@@ -1218,6 +1224,122 @@ public class GameManager : MonoBehaviour
     public void hideprocessorwindow()
     {
         processorupgradeWidnow.SetActive(false);
+    }
+
+    public void showfifthwindow()
+    {
+        overallprogresswindow.SetActive(false);
+        backgroundswindow.SetActive(true);
+
+        StartCoroutine(LoadBackgrounds());
+    }
+
+    public Text backcounter;
+    public Slider background2;
+    public Slider background3;
+    public Slider background4;
+
+    private int levelsfor2 = 10;
+    private int levelsfor3 = 20;
+    private int levelsfor4 = 30;
+
+    public Button back2btn;
+    public Button back3btn;
+    public Button back4btn;
+
+    public Sprite back1txt;
+    public Sprite back2txt;
+    public Sprite back3txt;
+    public Sprite back4txt;
+
+    public IEnumerator LoadBackgrounds()
+    {
+        if(PlayerPrefs.GetInt("back2", 0) == 1)
+        {
+            back2btn.gameObject.SetActive(true);
+            background2.gameObject.SetActive(false);
+            backcounter.text = "2/4";
+        }
+
+        if (PlayerPrefs.GetInt("back3", 0) == 1)
+        {
+            back3btn.gameObject.SetActive(true);
+            background3.gameObject.SetActive(false);
+            backcounter.text = "3/4";
+        }
+
+        if (PlayerPrefs.GetInt("back4", 0) == 1)
+        {
+            back4btn.gameObject.SetActive(true);
+            background4.gameObject.SetActive(false);
+            backcounter.text = "4/4";
+        }
+
+        background2.maxValue = levelsfor2;
+        background3.maxValue = levelsfor3;
+        background4.maxValue = levelsfor4;
+
+        yield return new WaitForSecondsRealtime(1.4f);
+        
+
+        background2.value = levelsfor2 - currentLevel;
+        background3.value = levelsfor3 - currentLevel;
+        background4.value = levelsfor4 - currentLevel;
+
+        if(background2.value == background2.maxValue)
+        {
+            PlayerPrefs.SetInt("back2", 1);
+            back2btn.gameObject.SetActive(true);
+            background2.gameObject.SetActive(false);
+        }
+        else
+        {
+            PlayerPrefs.SetInt("back2", 0);
+        }
+
+        if(background3.value == background3.maxValue)
+        {
+            PlayerPrefs.SetInt("back3", 1);
+            back2btn.gameObject.SetActive(true);
+            background3.gameObject.SetActive(false);
+        }
+        else
+        {
+            PlayerPrefs.SetInt("back3", 0);
+        }
+
+        if(background4.value == background4.maxValue)
+        {
+            PlayerPrefs.SetInt("back4", 1);
+            back2btn.gameObject.SetActive(true);
+            background4.gameObject.SetActive(false);
+        }
+        else
+        {
+            PlayerPrefs.SetInt("back4", 0);
+        }
+    }
+
+    public Image backgroundholder;
+
+    public void SetLocalBackground(int backgroundid)
+    {
+        if(backgroundid == 1)
+        {
+            backgroundholder.sprite = back1txt;
+        }
+        else if(backgroundid == 2)
+        {
+            backgroundholder.sprite = back2txt;
+        }
+        else if (backgroundid == 3)
+        {
+            backgroundholder.sprite = back3txt;
+        }
+        else if (backgroundid == 4)
+        {
+            backgroundholder.sprite = back4txt;
+        }
     }
 
     public IEnumerator levelup()
