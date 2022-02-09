@@ -20,6 +20,7 @@ public class GameManager : MonoBehaviour
     public GameObject graphwindow;
     public GameObject progresswindow;
     public GameObject badgestatswindow;
+    public GameObject overallprogresswindow;
 
     //window interactable stuff
     public GameObject win2button;
@@ -170,18 +171,28 @@ public class GameManager : MonoBehaviour
         if(isWarrior)
         {
             progressstuff.Add("Warrior");
+            progressstuff.Add("GrandMaster");
+            progressstuff.Add("Master");
+            progressstuff.Add("Expert");
+            progressstuff.Add("Pro");
         }
         else if(isGrandMaster)
         {
             progressstuff.Add("GrandMaster");
+            progressstuff.Add("Master");
+            progressstuff.Add("Expert");
+            progressstuff.Add("Pro");
         }
         else if (isMaster)
         {
             progressstuff.Add("Master");
+            progressstuff.Add("Expert");
+            progressstuff.Add("Pro");
         }
         else if(isExpert)
         {
             progressstuff.Add("Expert");
+            progressstuff.Add("Pro");
         }
         else if(isPro)
         {
@@ -656,7 +667,7 @@ public class GameManager : MonoBehaviour
                 }
                 print("randomized number is " + randomstartingprogress);
                 labelanimmmmmmmmmmmmmmmmmator.SetTrigger("label1");
-                for (int i = 0; i < randomstartingprogress; i += 1)
+                for (int i = 0; i < randomstartingprogress; i += 5)
                 {
                     yield return new WaitForSecondsRealtime(0.0000001f);
                     //progresstxt.text = ("Pro Badge: " + i);
@@ -724,7 +735,8 @@ public class GameManager : MonoBehaviour
                 
                 print("randomized number is " + randomstartingprogress);
                 labelanimmmmmmmmmmmmmmmmmator.SetTrigger("label1");
-                for (int i = 0; i < randomstartingprogress; i+=5)
+                randomstartingprogress = Random.Range(450, 9000);
+                for (int i = 0; i < randomstartingprogress; i+=10)
                 {
                     yield return new WaitForSecondsRealtime(0.0000001f);
                     //progresstxt.text = ("LoadingBar 95: " + i);
@@ -920,6 +932,7 @@ public class GameManager : MonoBehaviour
             newb.sprite = ProBadge;
         }
 
+        
 
     }
 
@@ -930,6 +943,180 @@ public class GameManager : MonoBehaviour
         thirdButton.SetActive(false);
         yield return new WaitForSecondsRealtime(1.9f);
         thirdButton.SetActive(true);
+    }
+
+    public void showfouthwindow()
+    {
+        badgestatswindow.SetActive(false);
+        overallprogresswindow.SetActive(true);
+        StartCoroutine(overallprogressbarwindow());
+    }
+
+    //win4elements
+    public Image nextOS;
+    public Slider ovprogressslider;
+
+    //checkpoints
+    private int soundvalue;
+    private int screenvalue;
+    private int RAMvalue;
+    private int graphcardvalue;
+    private int processorvalue;
+
+    //infowindows
+    public GameObject soundupgradeWindow;
+    public GameObject screenupgradeWindow;
+    public GameObject RAMupgradeWindow;
+    public GameObject graphicsupgradeWidnow;
+    public GameObject processorupgradeWidnow;
+
+    //OStextures
+    public Sprite LB95;
+
+    //buttons
+    public GameObject win4button;
+
+
+    public IEnumerator overallprogressbarwindow()
+    {
+        ovprogressslider.value = PlayerPrefs.GetFloat("savedprogress", 0);
+
+        if(SessionPoints > (ovprogressslider.maxValue - ovprogressslider.value))
+        {
+            for (int i = 0; i < (ovprogressslider.maxValue - 10); i += 5)
+            {
+                yield return new WaitForSecondsRealtime(0.00001f);
+                ovprogressslider.value += 5;
+
+                if (i == soundvalue)
+                {
+                    soundupgradeWindow.SetActive(true);
+                    soundupgradeWindow.GetComponent<Animator>().SetTrigger("showme");
+                }
+                else if (i == screenvalue)
+                {
+                    screenupgradeWindow.SetActive(true);
+                    screenupgradeWindow.GetComponent<Animator>().SetTrigger("showme");
+                }
+                else if (i == RAMvalue)
+                {
+                    RAMupgradeWindow.SetActive(true);
+                    RAMupgradeWindow.GetComponent<Animator>().SetTrigger("showme");
+                }
+                else if (i == graphcardvalue)
+                {
+                    graphicsupgradeWidnow.SetActive(true);
+                    graphicsupgradeWidnow.GetComponent<Animator>().SetTrigger("showme");
+                }
+                else if (i == processorvalue)
+                {
+                    processorupgradeWidnow.SetActive(true);
+                    processorupgradeWidnow.GetComponent<Animator>().SetTrigger("showme");
+                }
+            }
+        }
+        else
+        {
+            /*
+            print(SessionPoints + " tyle jest punktow");
+
+            for (int i = SessionPoints; i > 5; i -= 5)
+            {
+                yield return new WaitForSecondsRealtime(0.00001f);
+                ovprogressslider.value += 5;
+
+                if (i == soundvalue)
+                {
+                    soundupgradeWindow.SetActive(true);
+                    print("warots i = " + i + "   " + "warotsc progresbara= " + ovprogressslider.value);
+                    soundupgradeWindow.GetComponent<Animator>().SetTrigger("showme");
+                }
+                else if (i == screenvalue)
+                {
+                    screenupgradeWindow.SetActive(true);
+                    screenupgradeWindow.GetComponent<Animator>().SetTrigger("showme");
+                }
+                else if (i == RAMvalue)
+                {
+                    RAMupgradeWindow.SetActive(true);
+                    RAMupgradeWindow.GetComponent<Animator>().SetTrigger("showme");
+                }
+                else if (i == graphcardvalue)
+                {
+                    graphicsupgradeWidnow.SetActive(true);
+                    graphicsupgradeWidnow.GetComponent<Animator>().SetTrigger("showme");
+                }
+                else if (i == processorvalue)
+                {
+                    processorupgradeWidnow.SetActive(true);
+                    processorupgradeWidnow.GetComponent<Animator>().SetTrigger("showme");
+                }
+            }
+            */
+
+            for(int i = 0; i < SessionPoints; i+=100)
+            {
+                yield return new WaitForSeconds(0.001f);
+                ovprogressslider.value += 100;
+
+                if (i == soundvalue)
+                {
+                    soundupgradeWindow.SetActive(true);
+                    print("warots i = " + i + "   " + "warotsc progresbara= " + ovprogressslider.value);
+                    soundupgradeWindow.GetComponent<Animator>().SetTrigger("showme");
+                }
+                else if (i == screenvalue)
+                {
+                    screenupgradeWindow.SetActive(true);
+                    screenupgradeWindow.GetComponent<Animator>().SetTrigger("showme");
+                }
+                else if (i == RAMvalue)
+                {
+                    RAMupgradeWindow.SetActive(true);
+                    RAMupgradeWindow.GetComponent<Animator>().SetTrigger("showme");
+                }
+                else if (i == graphcardvalue)
+                {
+                    graphicsupgradeWidnow.SetActive(true);
+                    graphicsupgradeWidnow.GetComponent<Animator>().SetTrigger("showme");
+                }
+                else if (i == processorvalue)
+                {
+                    processorupgradeWidnow.SetActive(true);
+                    processorupgradeWidnow.GetComponent<Animator>().SetTrigger("showme");
+                }
+            }
+        }
+
+        PlayerPrefs.SetFloat("savedprogress", ovprogressslider.value);
+        yield return new WaitForSecondsRealtime(2f);
+
+        win4button.SetActive(true);
+    }
+
+    public void hidesoundwindow()
+    {
+        soundupgradeWindow.SetActive(false);
+    }
+
+    public void hidescreenwindow()
+    {
+        screenupgradeWindow.SetActive(false);
+    }
+
+    public void hideramwindow()
+    {
+        RAMupgradeWindow.SetActive(false);
+    }
+
+    public void hidegraphiccardwindow()
+    {
+        graphicsupgradeWidnow.SetActive(false);
+    }
+
+    public void hideprocessorwindow()
+    {
+        processorupgradeWidnow.SetActive(false);
     }
 
     public IEnumerator levelup()

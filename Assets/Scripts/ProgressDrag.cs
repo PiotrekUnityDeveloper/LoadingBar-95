@@ -50,6 +50,25 @@ public class ProgressDrag : MonoBehaviour
 
         }
 
+        if (Input.GetAxis("Mouse X") < 0 || Input.GetAxis("Mouse X") > 0)
+        {
+            if(Input.GetMouseButton(0))
+            {
+                //Vector3 mousePos;
+                //mousePos = Input.mousePosition;
+
+                //mousePos = Camera.main.ScreenToWorldPoint(mousePos);
+
+
+                //startPosX = mousePos.x - this.gameObject.transform.localPosition.x;
+                //startPosY = mousePos.y - this.gameObject.transform.localPosition.y;
+
+
+                //isDragging = true;
+            }
+        }
+        
+
         if (isDragging)
         {
             Vector3 mousePos;
