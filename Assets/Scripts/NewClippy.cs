@@ -39,9 +39,16 @@ public class NewClippy : MonoBehaviour
             if(pd.isDragging == true)
             {
                 pd.isDragging = false;
-
+                StartCoroutine(RelaunchDrag());
                 collision.gameObject.transform.position += dir * Time.deltaTime * pushvalue * 3.2f;
             }
         }
+    }
+
+    public IEnumerator RelaunchDrag()
+    {
+        yield return new WaitForSecondsRealtime(0.19f);
+        ProgressDrag pd2 = GameObject.Find("DragParent").GetComponent<ProgressDrag>();
+        pd2.isDragging = true;
     }
 }

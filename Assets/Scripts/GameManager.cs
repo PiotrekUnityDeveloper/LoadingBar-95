@@ -957,11 +957,11 @@ public class GameManager : MonoBehaviour
     public Slider ovprogressslider;
 
     //checkpoints
-    private int soundvalue;
-    private int screenvalue;
-    private int RAMvalue;
-    private int graphcardvalue;
-    private int processorvalue;
+    private int soundvalue = 50000;
+    private int screenvalue = 120000;
+    private int RAMvalue = 180000;
+    private int graphcardvalue = 260000;
+    private int processorvalue = 400000;
 
     //infowindows
     public GameObject soundupgradeWindow;
@@ -975,6 +975,8 @@ public class GameManager : MonoBehaviour
 
     //buttons
     public GameObject win4button;
+
+    public Text progresstextinfo;
 
 
     public IEnumerator overallprogressbarwindow()
@@ -1054,10 +1056,11 @@ public class GameManager : MonoBehaviour
             }
             */
 
-            for(int i = 0; i < SessionPoints; i+=100)
+            for(int i = 0; i < SessionPoints; i+=20)
             {
-                yield return new WaitForSeconds(0.001f);
-                ovprogressslider.value += 100;
+                yield return new WaitForSeconds(0.000001f);
+                ovprogressslider.value += 20;
+                progresstextinfo.text = (i.ToString());
 
                 if (i == soundvalue)
                 {
@@ -1087,6 +1090,104 @@ public class GameManager : MonoBehaviour
                 }
             }
         }
+
+        if (PlayerPrefs.GetFloat("savedprogress", 0) < processorvalue)
+        {
+            //do nothing
+            if(ovprogressslider.value > processorvalue)
+            {
+                processorupgradeWidnow.SetActive(true);
+                //processorupgradeWidnow.GetComponent<Animator>().SetTrigger("showme");
+            }
+        }
+        else if (PlayerPrefs.GetFloat("savedprogress", 0) > graphcardvalue)
+        {
+            if (ovprogressslider.value > processorvalue)
+            {
+                processorupgradeWidnow.SetActive(true);
+                //processorupgradeWidnow.GetComponent<Animator>().SetTrigger("showme");
+            }
+
+            if(ovprogressslider.value > graphcardvalue)
+            {
+                graphicsupgradeWidnow.SetActive(true);
+            }
+        }
+        else if (PlayerPrefs.GetFloat("savedprogress", 0) > RAMvalue)
+        {
+            if (ovprogressslider.value > processorvalue)
+            {
+                processorupgradeWidnow.SetActive(true);
+                //processorupgradeWidnow.GetComponent<Animator>().SetTrigger("showme");
+            }
+
+            if (ovprogressslider.value > graphcardvalue)
+            {
+                graphicsupgradeWidnow.SetActive(true);
+            }
+
+            if (ovprogressslider.value > RAMvalue)
+            {
+                RAMupgradeWindow.SetActive(true);
+            }
+        }
+        else if (PlayerPrefs.GetFloat("savedprogress", 0) > screenvalue)
+        {
+            if (ovprogressslider.value > processorvalue)
+            {
+                processorupgradeWidnow.SetActive(true);
+                //processorupgradeWidnow.GetComponent<Animator>().SetTrigger("showme");
+            }
+
+            if (ovprogressslider.value > graphcardvalue)
+            {
+                graphicsupgradeWidnow.SetActive(true);
+            }
+
+            if (ovprogressslider.value > RAMvalue)
+            {
+                RAMupgradeWindow.SetActive(true);
+            }
+
+            if (ovprogressslider.value > screenvalue)
+            {
+                screenupgradeWindow.SetActive(true);
+            }
+        }
+        else if (PlayerPrefs.GetFloat("savedprogress", 0) > soundvalue)
+        {
+            if (ovprogressslider.value > processorvalue)
+            {
+                processorupgradeWidnow.SetActive(true);
+                //processorupgradeWidnow.GetComponent<Animator>().SetTrigger("showme");
+            }
+
+            if (ovprogressslider.value > graphcardvalue)
+            {
+                graphicsupgradeWidnow.SetActive(true);
+            }
+
+            if (ovprogressslider.value > RAMvalue)
+            {
+                RAMupgradeWindow.SetActive(true);
+            }
+
+            if (ovprogressslider.value > screenvalue)
+            {
+                screenupgradeWindow.SetActive(true);
+            }
+
+            if (ovprogressslider.value > soundvalue)
+            {
+                soundupgradeWindow.SetActive(true);
+            }
+        }
+        else
+        {
+            //nothign ehre
+        }
+
+
 
         PlayerPrefs.SetFloat("savedprogress", ovprogressslider.value);
         yield return new WaitForSecondsRealtime(2f);
