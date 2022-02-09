@@ -6,7 +6,8 @@ public class ProgressDrag : MonoBehaviour
 {
     private float startPosX;
     private float startPosY;
-    private bool isDragging;
+    [HideInInspector]
+    public bool isDragging;
 
     public bool candrag = true;
 

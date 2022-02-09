@@ -116,6 +116,9 @@ public class TileCatcher : MonoBehaviour
     //other stuff
     public string LatestColor;
 
+    public GameObject DragObj;
+    public Rigidbody2D dragRigid;
+
     private void Awake()
     {
         bluecolor = Color.blue;
@@ -127,7 +130,7 @@ public class TileCatcher : MonoBehaviour
     void Start()
     {
         StartCoroutine(HundredProcentDelayChecker());
-
+        dragRigid = DragObj.GetComponent<Rigidbody2D>();
     }
 
     // Update is called once per frame
@@ -141,6 +144,7 @@ public class TileCatcher : MonoBehaviour
     {
         if(collision.tag == "NormalTile")
         {
+            ///Destroy(dragRigid.GetComponent<Rigidbody2D>());
             procent += 5;
             //Instantiate animation tile
             Instantiator.transform.position = new Vector2(collision.transform.position.x, Instantiator.transform.position.y);
@@ -157,6 +161,7 @@ public class TileCatcher : MonoBehaviour
         }
         else if (collision.tag == "OrangeTile")
         {
+            //Destroy(dragRigid.GetComponent<Rigidbody2D>());
             procent += 5;
             //Instantiate animation tile
             Instantiator.transform.position = new Vector2(collision.transform.position.x, Instantiator.transform.position.y);
@@ -174,6 +179,7 @@ public class TileCatcher : MonoBehaviour
         }
         else if (collision.tag == "PinkTile")
         {
+            //Destroy(dragRigid.GetComponent<Rigidbody2D>());
             procent -= 5;
             //Instantiate animation tile
             //Instantiator.transform.position = new Vector2(collision.transform.position.x, Instantiator.transform.position.y);
@@ -193,6 +199,7 @@ public class TileCatcher : MonoBehaviour
         }
         else if (collision.tag == "RedTile")
         {
+            //Destroy(dragRigid.GetComponent<Rigidbody2D>());
             //procent -= 5;
             //Instantiate animation tile
             //Instantiator.transform.position = new Vector2(collision.transform.position.x, Instantiator.transform.position.y);
@@ -210,6 +217,10 @@ public class TileCatcher : MonoBehaviour
             //print("collected one NORMAL TILE");
 
         }
+
+        //DragObj.AddComponent<Rigidbody2D>();
+        //DragObj.GetComponent<Rigidbody2D>().gravityScale = 0;
+        //DragObj.GetComponent<Rigidbody2D>().angularDrag = 0;
     }
 
     public void UpdateLoadingBar() //EXTREMELY BAD CODING PRACTICE, SORRY IM JUST LAZY
@@ -817,7 +828,12 @@ public class TileCatcher : MonoBehaviour
         
 
         TileSpawner ts = GameObject.Find("InstantiatedTileHolder").GetComponent<TileSpawner>();
+
+        ts.canspawn = false;
+        ts.canspawnclippys = false;
         ts.DeleteExistingTiles();
+        ts.DeleteExistingClippys();
+        
 
         //GameManager gm = GameObject.Find("GameManager").GetComponent<GameManager>();
         //gm.ShowGraphWindow();
@@ -846,7 +862,7 @@ public class TileCatcher : MonoBehaviour
 
     public IEnumerator DelaySummaryWindow()
     {
-        yield return new WaitForSecondsRealtime(1f);
+        yield return new WaitForSecondsRealtime(1.45f);
         SummaryWindow.SetActive(true); //alternatively add animator trigger here
         ScoreCounter();
     }

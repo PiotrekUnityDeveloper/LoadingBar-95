@@ -20,15 +20,24 @@ public class TileSpawner : MonoBehaviour
 
     //utility
     private List<GameObject> activetiles = new List<GameObject>();
+    private List<GameObject> activeclippys = new List<GameObject>();
 
     //conditions
     public bool canspawn = true;
+    public bool canspawnclippys = true;
+
+    [Header("clippy spawning stuff")]
+
+    public GameObject clippyPrefab;
+    public float minClippyDelay;
+    public float maxClippyDelay;
 
     // Start is called before the first frame update
     void Start()
     {
         UpdateDifficultyMultiplier();
         StartCoroutine(TileSpawnerDelayer());
+        StartCoroutine(ClippySpawner());
     }
 
     public void UpdateDifficultyMultiplier()
@@ -77,11 +86,33 @@ public class TileSpawner : MonoBehaviour
         StartCoroutine(TileSpawnerDelayer());
     }
 
+    public IEnumerator ClippySpawner()
+    {
+        yield return new WaitForSecondsRealtime(Random.Range(minClippyDelay, maxClippyDelay));
+
+        if(canspawnclippys == true)
+        {
+            GameObject clippy = Instantiate(clippyPrefab, new Vector2(Random.Range(4.7f, 7.5f), Random.Range(-4.27f, 4.31f)), Quaternion.identity);
+            activeclippys.Add(clippy);
+            clippy.transform.parent = GameObject.Find("ClippyLister").transform;
+        }
+
+        StartCoroutine(ClippySpawner());
+    }
+
     public void DeleteExistingTiles()
     {
         foreach(GameObject g in activetiles)
         {
             Destroy(g);
+        }
+    }
+
+    public void DeleteExistingClippys()
+    {
+        foreach(GameObject g2 in activeclippys)
+        {
+            Destroy(g2);
         }
     }
 }
