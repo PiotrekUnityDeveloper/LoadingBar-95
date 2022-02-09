@@ -1252,6 +1252,8 @@ public class GameManager : MonoBehaviour
     public Sprite back3txt;
     public Sprite back4txt;
 
+    public GameObject winDOW5btn;
+
     public IEnumerator LoadBackgrounds()
     {
         if(PlayerPrefs.GetInt("back2", 0) == 1)
@@ -1266,6 +1268,7 @@ public class GameManager : MonoBehaviour
             back3btn.gameObject.SetActive(true);
             background3.gameObject.SetActive(false);
             backcounter.text = "3/4";
+            
         }
 
         if (PlayerPrefs.GetInt("back4", 0) == 1)
@@ -1273,7 +1276,10 @@ public class GameManager : MonoBehaviour
             back4btn.gameObject.SetActive(true);
             background4.gameObject.SetActive(false);
             backcounter.text = "4/4";
+            
         }
+
+        
 
         background2.maxValue = levelsfor2;
         background3.maxValue = levelsfor3;
@@ -1286,15 +1292,21 @@ public class GameManager : MonoBehaviour
         background3.value = levelsfor3 - currentLevel;
         background4.value = levelsfor4 - currentLevel;
 
-        if(background2.value == background2.maxValue)
+        background2.value = PlayerPrefs.GetFloat("back2val", 0);
+        background3.value = PlayerPrefs.GetFloat("back3val", 0);
+        background4.value = PlayerPrefs.GetFloat("back4val", 0);
+
+        if (background2.value == background2.maxValue)
         {
             PlayerPrefs.SetInt("back2", 1);
             back2btn.gameObject.SetActive(true);
             background2.gameObject.SetActive(false);
+            PlayerPrefs.SetFloat("back2val", background4.value);
         }
         else
         {
             PlayerPrefs.SetInt("back2", 0);
+            PlayerPrefs.SetFloat("back2val", background4.value);
         }
 
         if(background3.value == background3.maxValue)
@@ -1302,10 +1314,12 @@ public class GameManager : MonoBehaviour
             PlayerPrefs.SetInt("back3", 1);
             back2btn.gameObject.SetActive(true);
             background3.gameObject.SetActive(false);
+            PlayerPrefs.SetFloat("back3val", background4.value);
         }
         else
         {
             PlayerPrefs.SetInt("back3", 0);
+            PlayerPrefs.SetFloat("back3val", background4.value);
         }
 
         if(background4.value == background4.maxValue)
@@ -1313,11 +1327,19 @@ public class GameManager : MonoBehaviour
             PlayerPrefs.SetInt("back4", 1);
             back2btn.gameObject.SetActive(true);
             background4.gameObject.SetActive(false);
+            PlayerPrefs.SetFloat("back4val", background4.value);
         }
         else
         {
             PlayerPrefs.SetInt("back4", 0);
+            PlayerPrefs.SetFloat("back4val", background4.value);
         }
+
+        
+
+        yield return new WaitForSecondsRealtime(1f);
+
+        winDOW5btn.SetActive(true);
     }
 
     public Image backgroundholder;
