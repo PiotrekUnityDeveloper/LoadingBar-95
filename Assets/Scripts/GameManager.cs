@@ -96,6 +96,7 @@ public class GameManager : MonoBehaviour
     public Sprite Minusonehundred;
 
     public Sprite TempChallenge;
+    public Sprite AFK;
 
     public Sprite Levelup;
 
@@ -311,7 +312,7 @@ public class GameManager : MonoBehaviour
         instG.GetComponent<Animator>().SetTrigger("newPoint");
         print("randomized number is " + randomstartingprogress);
         labelanimmmmmmmmmmmmmmmmmator.SetTrigger("label1");
-        for (int i = 0; i < randomstartingprogress; i+=5)
+        for (int i = 0; i < randomstartingprogress; i+=200)
         {
             yield return new WaitForSecondsRealtime(0.0000001f);
             //incrementpointslabel.text = ("Progress Score: " + i);
@@ -322,7 +323,7 @@ public class GameManager : MonoBehaviour
         {
             instG.GetComponent<Animator>().SetTrigger("delPoint");
         }
-        yield return new WaitForSecondsRealtime(1.4f);
+        yield return new WaitForSecondsRealtime(0.5f);
         SessionPoints += randomstartingprogress;
         totalpointslabel.text = ("Total Points: " + SessionPoints);
         
@@ -367,6 +368,52 @@ public class GameManager : MonoBehaviour
                     instG2.GetComponent<Animator>().SetTrigger("delPoint");
                 }
                 
+                labelanimmmmmmmmmmmmmmmmmator.SetTrigger("close");
+                Destroy(instG2);
+            }
+
+            if (s == "AFK")
+            {
+                GameObject instG2 = Instantiate(progressinfoPrefab, infoinstantiotor.transform.position, Quaternion.identity);
+                if (instG2 != null)
+                {
+                    instG2.transform.parent = GameObject.Find("inst").transform;
+                    instG2.GetComponent<Image>().sprite = AFK;
+                    //incrementpointslabel = GameObject.FindGameObjectWithTag("PointsIncreaser").GetComponent<Text>();
+                    //incrementpointslabel = GameObject.Find("incpoints").GetComponent<Text>();
+                    //incrementpointslabel = instG2.transform.GetChild(0).GetComponent<Text>();
+                    //progresstxt = instG2.transform.GetChild(0).GetComponent<Text>();
+                    instG2.GetComponent<Animator>().SetTrigger("newPoint");
+                    
+                    if(leveltype < 4)
+                    {
+                        randomstartingprogress = 250;
+                    }
+                    else if (leveltype > 3 && leveltype < 6)
+                    {
+                        randomstartingprogress = Random.Range(15000, 21000);
+                    }
+                    else if(leveltype == 6)
+                    {
+                        randomstartingprogress = Random.Range(50000, 90000);
+                    }
+                }
+                print("randomized number is " + randomstartingprogress);
+                labelanimmmmmmmmmmmmmmmmmator.SetTrigger("label1");
+                for (int i = 0; i < randomstartingprogress; i += 200)
+                {
+                    yield return new WaitForSecondsRealtime(0.0000001f);
+                    //progresstxt.text = ("Pro Badge: " + i);
+                    realscoreincreasinglabel.text = ("Pro Badge: " + i);
+                }
+                yield return new WaitForSecondsRealtime(1f);
+                SessionPoints += randomstartingprogress;
+                totalpointslabel.text = ("Total Points: " + SessionPoints);
+                if (instG2 != null)
+                {
+                    instG2.GetComponent<Animator>().SetTrigger("delPoint");
+                }
+
                 labelanimmmmmmmmmmmmmmmmmator.SetTrigger("close");
                 Destroy(instG2);
             }
@@ -1554,6 +1601,7 @@ public class GameManager : MonoBehaviour
 
     public IEnumerator showrewardwindow()
     {
+        dayprogressslider.value = PlayerPrefs.GetFloat("dayprogress", 0);
         dayprogressslider.maxValue = 7; //thats how many days are required to get the final prize
         ///NOTE: I CANT CHECK IF THE PLAYER IS OPENING THE APP IN 7 DAYS IN A ROW
         ///CUZ THIS SYSTEM USES SYSTEM'S LOCAL TIME SO THATS IMPOSSIBLE (i want this game to be fully playable in offline mode)
@@ -1577,6 +1625,8 @@ public class GameManager : MonoBehaviour
             dayprogressslider.value += 1;
         }
 
+        PlayerPrefs.SetFloat("dayprogress", dayprogressslider.value);
+        
         yield return new WaitForSecondsRealtime(0.9f);
 
 
@@ -1639,10 +1689,10 @@ public class GameManager : MonoBehaviour
         {
             if(SessionPoints >= 100000)
             {
-                for(int ii = 0; ii < 10000; ii+=100)
+                for(int ii = 0; ii < 10000; ii+=1000)
                 {
                     yield return new WaitForSecondsRealtime(0.0001f);
-                    p1c1progress.value += 100;
+                    p1c1progress.value += 1000;
                 }
                 //completion effect
 
@@ -1651,10 +1701,10 @@ public class GameManager : MonoBehaviour
             }
             else if(SessionPoints < 100000)
             {
-                for(int ii = 0; ii < SessionPoints; ii+=25)
+                for(int ii = 0; ii < SessionPoints; ii+=1000)
                 {
                     yield return new WaitForSecondsRealtime(0.0001f);
-                    p1c1progress.value += 25;
+                    p1c1progress.value += 1000;
                 }
             }
 
@@ -1663,10 +1713,10 @@ public class GameManager : MonoBehaviour
 
             if(pdd.ballpoints >= 1000)
             {
-                for(int jj = 0; jj < 1000; jj+=5)
+                for(int jj = 0; jj < 1000; jj+=10)
                 {
                     yield return new WaitForSecondsRealtime(0.0001f);
-                    p1c2progress.value += 5;
+                    p1c2progress.value += 10;
                 }
                 //completion effect
                 PlayerPrefs.SetInt("p1c2", 5000);
@@ -1674,10 +1724,10 @@ public class GameManager : MonoBehaviour
             }
             else if(pdd.ballpoints < 1000)
             {
-                for (int jj = 0; jj < 1000; jj += 1)
+                for (int jj = 0; jj < 1000; jj += 10)
                 {
                     yield return new WaitForSecondsRealtime(0.0001f);
-                    p1c2progress.value += 1;
+                    p1c2progress.value += 10;
                 }
             }
 
@@ -1688,7 +1738,7 @@ public class GameManager : MonoBehaviour
                 for (int nnn = 0; nnn < 5; nnn++)
                 {
 
-                    yield return new WaitForSecondsRealtime(0.4f);
+                    yield return new WaitForSecondsRealtime(0.35f);
                     p1c3progress.value += 1;
                 }
                 //completion effect
@@ -1700,7 +1750,7 @@ public class GameManager : MonoBehaviour
                 for (int nnn = 0; nnn < catchedcats; nnn++)
                 {
 
-                    yield return new WaitForSecondsRealtime(0.4f);
+                    yield return new WaitForSecondsRealtime(0.35f);
                     p1c3progress.value += 1;
                 }
             }
@@ -1765,7 +1815,7 @@ public class GameManager : MonoBehaviour
             }
         }
 
-        yield return new WaitForSecondsRealtime(1.5f);
+        yield return new WaitForSecondsRealtime(1.01f);
 
         seventhnextbutton.SetActive(true);
     }

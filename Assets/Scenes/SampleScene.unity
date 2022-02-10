@@ -2437,7 +2437,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &198355536
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5184,7 +5184,7 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0.533864, y: 1}
+  m_AnchorMax: {x: 0.4, y: 1}
   m_AnchoredPosition: {x: -5.1373587, y: 0.0000059604645}
   m_SizeDelta: {x: -0.23309, y: -0.0000038147}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -7169,9 +7169,9 @@ MonoBehaviour:
   m_HandleRect: {fileID: 0}
   m_Direction: 0
   m_MinValue: 0
-  m_MaxValue: 500000
+  m_MaxValue: 100000
   m_WholeNumbers: 1
-  m_Value: 266932
+  m_Value: 26296
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -10046,7 +10046,7 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0.533864, y: 1}
+  m_AnchorMax: {x: 0.821, y: 1}
   m_AnchoredPosition: {x: -5.1373587, y: 0.0000059604645}
   m_SizeDelta: {x: -0.23309, y: -0.0000038147}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -14340,9 +14340,9 @@ MonoBehaviour:
   m_HandleRect: {fileID: 0}
   m_Direction: 0
   m_MinValue: 0
-  m_MaxValue: 500000
+  m_MaxValue: 1
   m_WholeNumbers: 1
-  m_Value: 266932
+  m_Value: 0
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -17401,9 +17401,9 @@ MonoBehaviour:
   m_HandleRect: {fileID: 0}
   m_Direction: 0
   m_MinValue: 0
-  m_MaxValue: 500000
+  m_MaxValue: 2000
   m_WholeNumbers: 1
-  m_Value: 266932
+  m_Value: 805
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -18042,9 +18042,9 @@ MonoBehaviour:
   m_HandleRect: {fileID: 0}
   m_Direction: 0
   m_MinValue: 0
-  m_MaxValue: 500000
+  m_MaxValue: 5
   m_WholeNumbers: 1
-  m_Value: 266932
+  m_Value: 2
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -21976,9 +21976,9 @@ MonoBehaviour:
   m_HandleRect: {fileID: 0}
   m_Direction: 0
   m_MinValue: 0
-  m_MaxValue: 500000
+  m_MaxValue: 1000
   m_WholeNumbers: 1
-  m_Value: 266932
+  m_Value: 821
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -22023,7 +22023,7 @@ MonoBehaviour:
   overallprogresswindow: {fileID: 1991094475}
   backgroundswindow: {fileID: 931752949}
   rewardwindow: {fileID: 1809471754}
-  tempchallengeswindow: {fileID: 0}
+  tempchallengeswindow: {fileID: 198355535}
   win2button: {fileID: 1436159035}
   currentLevel: 0
   ProLevels: 10
@@ -22062,7 +22062,8 @@ MonoBehaviour:
   Hardcore: {fileID: 21300000, guid: ce0ab51129af9964fbca39c8caa87253, type: 3}
   Yinyang: {fileID: 21300000, guid: 735a8a2d8c494c14086330f76426bee9, type: 3}
   Minusonehundred: {fileID: 21300000, guid: bfe45f9de63b8f0409dcfcf0ad315e9d, type: 3}
-  TempChallenge: {fileID: 0}
+  TempChallenge: {fileID: 21300000, guid: 1b3b085fcf7d78f4297583e6ea41d001, type: 3}
+  AFK: {fileID: 21300000, guid: 5fef7294b69551644b796dffd54653a5, type: 3}
   Levelup: {fileID: 21300000, guid: b33af27c889f85148960ee77bef787b8, type: 3}
   progresstxt: {fileID: 0}
   progressstuff: []
@@ -22602,7 +22603,7 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0.533864, y: 1}
+  m_AnchorMax: {x: 0.26296, y: 1}
   m_AnchoredPosition: {x: -5.1373587, y: 0.0000059604645}
   m_SizeDelta: {x: -0.23309, y: -0.0000038147}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -23148,9 +23149,9 @@ MonoBehaviour:
   m_HandleRect: {fileID: 0}
   m_Direction: 0
   m_MinValue: 0
-  m_MaxValue: 500000
+  m_MaxValue: 1
   m_WholeNumbers: 1
-  m_Value: 266932
+  m_Value: 0
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
