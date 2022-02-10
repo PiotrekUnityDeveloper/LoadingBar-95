@@ -32,12 +32,15 @@ public class TileSpawner : MonoBehaviour
     public float minClippyDelay;
     public float maxClippyDelay;
 
+    
+
     // Start is called before the first frame update
     void Start()
     {
         UpdateDifficultyMultiplier();
         StartCoroutine(TileSpawnerDelayer());
         StartCoroutine(ClippySpawner());
+        // fingerpoints = 0;
     }
 
     public void UpdateDifficultyMultiplier()

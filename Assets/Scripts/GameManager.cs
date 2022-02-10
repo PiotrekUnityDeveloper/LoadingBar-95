@@ -23,6 +23,7 @@ public class GameManager : MonoBehaviour
     public GameObject overallprogresswindow;
     public GameObject backgroundswindow;
     public GameObject rewardwindow;
+    public GameObject tempchallengeswindow; //aka OBJECTIVES idk
 
     //window interactable stuff
     public GameObject win2button;
@@ -73,6 +74,9 @@ public class GameManager : MonoBehaviour
 
     public GameObject completeobjectprefab;
 
+    //other vals
+    public int clippysdestroyed;
+
     //textures
     public Sprite ProgressPoints;
 
@@ -91,12 +95,20 @@ public class GameManager : MonoBehaviour
     public Sprite Yinyang;
     public Sprite Minusonehundred;
 
+    public Sprite TempChallenge;
+
     public Sprite Levelup;
 
     public Text progresstxt;
      
 
     public List<string> progressstuff = new List<string>();
+
+
+    //bonuses
+
+    public int catchedcats;
+    public int catchedbonus;
 
     private void Awake()
     {
@@ -178,31 +190,61 @@ public class GameManager : MonoBehaviour
             isWarrior = true;
         }
 
-        if(isWarrior)
+        if(PlayerPrefs.GetInt("p1c1", 0) == 5000)
+        {
+            progressstuff.Add("TempC");
+        }
+
+        if (PlayerPrefs.GetInt("p1c2", 0) == 5000)
+        {
+            progressstuff.Add("TempC");
+        }
+        if (PlayerPrefs.GetInt("p1c3", 0) == 5000)
+        {
+            progressstuff.Add("TempC");
+        }
+
+        if (PlayerPrefs.GetInt("p2c1", 0) == 5000)
+        {
+            progressstuff.Add("TempC");
+        }
+
+        if (PlayerPrefs.GetInt("p2c2", 0) == 5000)
+        {
+            progressstuff.Add("TempC");
+        }
+
+        if (PlayerPrefs.GetInt("p2c3", 0) == 5000)
+        {
+            progressstuff.Add("TempC");
+        }
+
+
+        if (isWarrior)
         {
             progressstuff.Add("Warrior");
-            progressstuff.Add("GrandMaster");
-            progressstuff.Add("Master");
-            progressstuff.Add("Expert");
-            progressstuff.Add("Pro");
+            //progressstuff.Add("GrandMaster");
+            //progressstuff.Add("Master");
+            //progressstuff.Add("Expert");
+            //progressstuff.Add("Pro");
         }
         else if(isGrandMaster)
         {
             progressstuff.Add("GrandMaster");
-            progressstuff.Add("Master");
-            progressstuff.Add("Expert");
-            progressstuff.Add("Pro");
+            //progressstuff.Add("Master");
+            //progressstuff.Add("Expert");
+            //progressstuff.Add("Pro");
         }
         else if (isMaster)
         {
             progressstuff.Add("Master");
-            progressstuff.Add("Expert");
-            progressstuff.Add("Pro");
+            //progressstuff.Add("Expert");
+            //progressstuff.Add("Pro");
         }
         else if(isExpert)
         {
             progressstuff.Add("Expert");
-            progressstuff.Add("Pro");
+            //progressstuff.Add("Pro");
         }
         else if(isPro)
         {
@@ -211,12 +253,20 @@ public class GameManager : MonoBehaviour
 
         //DEFAULT PROGRESS POINTS (CHANGEABLE)
 
-        
+        ProgressDrag pddd3 = GameObject.Find("DragParent").GetComponent<ProgressDrag>();
+
+        if (pddd3.fingerpoints < 1)
+        {
+            //p2c2progress.value = p2c2progress.maxValue;
+            progressstuff.Add("AFK");
+        }
+
+
         //randomstartingprogress = Random.Range(1500, 10000);
 
         //randomstartingprogress = Mathf.Round(randomstartingprogress); THIS IS AN INT
 
-        if(leveltype == 1) //RELAX
+        if (leveltype == 1) //RELAX
         {
             randomstartingprogress = Random.Range(1500, 2800);
             progressstuff.Add("Relax");
@@ -303,13 +353,13 @@ public class GameManager : MonoBehaviour
                 }
                 print("randomized number is " + randomstartingprogress);
                 labelanimmmmmmmmmmmmmmmmmator.SetTrigger("label1");
-                for (int i = 0; i < randomstartingprogress; i+=5)
+                for (int i = 0; i < randomstartingprogress; i+=10)
                 {
                     yield return new WaitForSecondsRealtime(0.0000001f);
                     //progresstxt.text = ("Pro Badge: " + i);
                     realscoreincreasinglabel.text = ("Pro Badge: " + i);
                 }
-                yield return new WaitForSecondsRealtime(1.45f);
+                yield return new WaitForSecondsRealtime(1f);
                 SessionPoints += randomstartingprogress;
                 totalpointslabel.text = ("Total Points: " + SessionPoints);
                 if(instG2 != null)
@@ -317,6 +367,40 @@ public class GameManager : MonoBehaviour
                     instG2.GetComponent<Animator>().SetTrigger("delPoint");
                 }
                 
+                labelanimmmmmmmmmmmmmmmmmator.SetTrigger("close");
+                Destroy(instG2);
+            }
+
+            if (s == "TempC")
+            {
+                GameObject instG2 = Instantiate(progressinfoPrefab, infoinstantiotor.transform.position, Quaternion.identity);
+                if (instG2 != null)
+                {
+                    instG2.transform.parent = GameObject.Find("inst").transform;
+                    instG2.GetComponent<Image>().sprite = TempChallenge;
+                    //incrementpointslabel = GameObject.FindGameObjectWithTag("PointsIncreaser").GetComponent<Text>();
+                    //incrementpointslabel = GameObject.Find("incpoints").GetComponent<Text>();
+                    //incrementpointslabel = instG2.transform.GetChild(0).GetComponent<Text>();
+                    //progresstxt = instG2.transform.GetChild(0).GetComponent<Text>();
+                    instG2.GetComponent<Animator>().SetTrigger("newPoint");
+                    randomstartingprogress = 5000;
+                }
+                print("TempC number is " + randomstartingprogress);
+                labelanimmmmmmmmmmmmmmmmmator.SetTrigger("label1");
+                for (int i = 0; i < randomstartingprogress; i += 10) //CHANGE 50 TO 10 ITS THE TRANSITION IS TOO FAST
+                {
+                    yield return new WaitForSecondsRealtime(0.0000001f);
+                    //progresstxt.text = ("Pro Badge: " + i);
+                    realscoreincreasinglabel.text = ("Temporary Challenge: " + i);
+                }
+                yield return new WaitForSecondsRealtime(0.8f);
+                SessionPoints += randomstartingprogress;
+                totalpointslabel.text = ("Total Points: " + SessionPoints);
+                if (instG2 != null)
+                {
+                    instG2.GetComponent<Animator>().SetTrigger("delPoint");
+                }
+
                 labelanimmmmmmmmmmmmmmmmmator.SetTrigger("close");
                 Destroy(instG2);
             }
@@ -337,13 +421,13 @@ public class GameManager : MonoBehaviour
                 }
                 print("randomized number is " + randomstartingprogress);
                 labelanimmmmmmmmmmmmmmmmmator.SetTrigger("label1");
-                for (int i = 0; i < randomstartingprogress; i += 10)
+                for (int i = 0; i < randomstartingprogress; i += 50)
                 {
                     yield return new WaitForSecondsRealtime(0.0000001f);
                     //progresstxt.text = ("Pro Badge: " + i);
                     realscoreincreasinglabel.text = ("Expert Badge: " + i);
                 }
-                yield return new WaitForSecondsRealtime(1.45f);
+                yield return new WaitForSecondsRealtime(1f);
                 SessionPoints += randomstartingprogress;
                 totalpointslabel.text = ("Total Points: " + SessionPoints);
                 if (instG2 != null)
@@ -371,13 +455,13 @@ public class GameManager : MonoBehaviour
                 }
                 print("randomized number is " + randomstartingprogress);
                 labelanimmmmmmmmmmmmmmmmmator.SetTrigger("label1");
-                for (int i = 0; i < randomstartingprogress; i += 20)
+                for (int i = 0; i < randomstartingprogress; i += 100)
                 {
                     yield return new WaitForSecondsRealtime(0.0000001f);
                     //progresstxt.text = ("Pro Badge: " + i);
                     realscoreincreasinglabel.text = ("Master Badge: " + i);
                 }
-                yield return new WaitForSecondsRealtime(1.45f);
+                yield return new WaitForSecondsRealtime(1f);
                 SessionPoints += randomstartingprogress;
                 totalpointslabel.text = ("Total Points: " + SessionPoints);
                 if (instG2 != null)
@@ -405,13 +489,13 @@ public class GameManager : MonoBehaviour
                 }
                 print("randomized number is " + randomstartingprogress);
                 labelanimmmmmmmmmmmmmmmmmator.SetTrigger("label1");
-                for (int i = 0; i < randomstartingprogress; i += 20)
+                for (int i = 0; i < randomstartingprogress; i += 150)
                 {
                     yield return new WaitForSecondsRealtime(0.0000001f);
                     //progresstxt.text = ("Pro Badge: " + i);
                     realscoreincreasinglabel.text = ("GrandMaster Badge: " + i);
                 }
-                yield return new WaitForSecondsRealtime(1.45f);
+                yield return new WaitForSecondsRealtime(1f);
                 SessionPoints += randomstartingprogress;
                 totalpointslabel.text = ("Total Points: " + SessionPoints);
                 if (instG2 != null)
@@ -439,13 +523,13 @@ public class GameManager : MonoBehaviour
                 }
                 print("randomized number is " + randomstartingprogress);
                 labelanimmmmmmmmmmmmmmmmmator.SetTrigger("label1");
-                for (int i = 0; i < randomstartingprogress; i += 20)
+                for (int i = 0; i < randomstartingprogress; i += 100)
                 {
                     yield return new WaitForSecondsRealtime(0.0000001f);
                     //progresstxt.text = ("Pro Badge: " + i);
                     realscoreincreasinglabel.text = ("Warrior Badge: " + i);
                 }
-                yield return new WaitForSecondsRealtime(1.45f);
+                yield return new WaitForSecondsRealtime(1f);
                 SessionPoints += randomstartingprogress;
                 totalpointslabel.text = ("Total Points: " + SessionPoints);
                 if (instG2 != null)
@@ -479,7 +563,7 @@ public class GameManager : MonoBehaviour
                     //progresstxt.text = ("Pro Badge: " + i);
                     realscoreincreasinglabel.text = ("Relax Difficulty: " + i);
                 }
-                yield return new WaitForSecondsRealtime(1.45f);
+                yield return new WaitForSecondsRealtime(1f);
                 SessionPoints += randomstartingprogress;
                 totalpointslabel.text = ("Total Points: " + SessionPoints);
                 if (instG2 != null)
@@ -513,7 +597,7 @@ public class GameManager : MonoBehaviour
                     //progresstxt.text = ("Pro Badge: " + i);
                     realscoreincreasinglabel.text = ("Easy Difficulty: " + i);
                 }
-                yield return new WaitForSecondsRealtime(1.45f);
+                yield return new WaitForSecondsRealtime(1f);
                 SessionPoints += randomstartingprogress;
                 totalpointslabel.text = ("Total Points: " + SessionPoints);
                 if (instG2 != null)
@@ -547,7 +631,7 @@ public class GameManager : MonoBehaviour
                     //progresstxt.text = ("Pro Badge: " + i);
                     realscoreincreasinglabel.text = ("Normal Difficulty: " + i);
                 }
-                yield return new WaitForSecondsRealtime(1.45f);
+                yield return new WaitForSecondsRealtime(1f);
                 SessionPoints += randomstartingprogress;
                 totalpointslabel.text = ("Total Points: " + SessionPoints);
                 if (instG2 != null)
@@ -575,13 +659,13 @@ public class GameManager : MonoBehaviour
                 }
                 print("randomized number is " + randomstartingprogress);
                 labelanimmmmmmmmmmmmmmmmmator.SetTrigger("label1");
-                for (int i = 0; i < randomstartingprogress; i += 10)
+                for (int i = 0; i < randomstartingprogress; i += 50)
                 {
                     yield return new WaitForSecondsRealtime(0.0000001f);
                     //progresstxt.text = ("Pro Badge: " + i);
                     realscoreincreasinglabel.text = ("Hard Difficulty: " + i);
                 }
-                yield return new WaitForSecondsRealtime(1.45f);
+                yield return new WaitForSecondsRealtime(1f);
                 SessionPoints += randomstartingprogress;
                 totalpointslabel.text = ("Total Points: " + SessionPoints);
                 if (instG2 != null)
@@ -609,13 +693,13 @@ public class GameManager : MonoBehaviour
                 }
                 print("randomized number is " + randomstartingprogress);
                 labelanimmmmmmmmmmmmmmmmmator.SetTrigger("label1");
-                for (int i = 0; i < randomstartingprogress; i += 10)
+                for (int i = 0; i < randomstartingprogress; i += 100)
                 {
                     yield return new WaitForSecondsRealtime(0.0000001f);
                     //progresstxt.text = ("Pro Badge: " + i);
                     realscoreincreasinglabel.text = ("Very Hard Difficulty: " + i);
                 }
-                yield return new WaitForSecondsRealtime(1.45f);
+                yield return new WaitForSecondsRealtime(1f);
                 SessionPoints += randomstartingprogress;
                 totalpointslabel.text = ("Total Points: " + SessionPoints);
                 if (instG2 != null)
@@ -643,13 +727,13 @@ public class GameManager : MonoBehaviour
                 }
                 print("randomized number is " + randomstartingprogress);
                 labelanimmmmmmmmmmmmmmmmmator.SetTrigger("label1");
-                for (int i = 0; i < randomstartingprogress; i += 20)
+                for (int i = 0; i < randomstartingprogress; i += 250)
                 {
                     yield return new WaitForSecondsRealtime(0.0000001f);
                     //progresstxt.text = ("Pro Badge: " + i);
                     realscoreincreasinglabel.text = ("HARDCORE! Difficulty: " + i);
                 }
-                yield return new WaitForSecondsRealtime(1.45f);
+                yield return new WaitForSecondsRealtime(1f);
                 SessionPoints += randomstartingprogress;
                 totalpointslabel.text = ("Total Points: " + SessionPoints);
                 if (instG2 != null)
@@ -683,7 +767,7 @@ public class GameManager : MonoBehaviour
                     //progresstxt.text = ("Pro Badge: " + i);
                     realscoreincreasinglabel.text = ("Level up!: " + i);
                 }
-                yield return new WaitForSecondsRealtime(1.45f);
+                yield return new WaitForSecondsRealtime(1f);
                 SessionPoints += randomstartingprogress;
                 totalpointslabel.text = ("Total Points: " + SessionPoints);
                 if (instG2 != null)
@@ -717,7 +801,7 @@ public class GameManager : MonoBehaviour
                     //progresstxt.text = ("Perfectionist: " + i);
                     realscoreincreasinglabel.text = ("Progress Score: " + i);
                 }
-                yield return new WaitForSecondsRealtime(1.45f);
+                yield return new WaitForSecondsRealtime(1f);
                 SessionPoints += randomstartingprogress;
                 totalpointslabel.text = ("Total Points: " + SessionPoints);
                 if (instG2 != null)
@@ -744,13 +828,13 @@ public class GameManager : MonoBehaviour
                 //progresstxt = instG2.transform.GetChild(0).GetComponent<Text>();
                 print("randomized number is " + randomstartingprogress);
                 labelanimmmmmmmmmmmmmmmmmator.SetTrigger("label1");
-                for (int i = 0; i < randomstartingprogress; i += 5)
+                for (int i = 0; i < randomstartingprogress; i += 10)
                 {
                     yield return new WaitForSecondsRealtime(0.0000001f);
                     //progresstxt.text = ("Perfectionist: " + i);
                     realscoreincreasinglabel.text = ("Yin&Yang: " + i);
                 }
-                yield return new WaitForSecondsRealtime(1.45f);
+                yield return new WaitForSecondsRealtime(1f);
                 SessionPoints += randomstartingprogress;
                 totalpointslabel.text = ("Total Points: " + SessionPoints);
                 if (instG2 != null)
@@ -777,13 +861,13 @@ public class GameManager : MonoBehaviour
                 //progresstxt = instG2.transform.GetChild(0).GetComponent<Text>();
                 print("randomized number is " + randomstartingprogress);
                 labelanimmmmmmmmmmmmmmmmmator.SetTrigger("label1");
-                for (int i = 0; i < randomstartingprogress; i += 5)
+                for (int i = 0; i < randomstartingprogress; i += 10)
                 {
                     yield return new WaitForSecondsRealtime(0.0000001f);
                     //progresstxt.text = ("Perfectionist: " + i);
                     realscoreincreasinglabel.text = ("Yin&Yang: " + i);
                 }
-                yield return new WaitForSecondsRealtime(1.45f);
+                yield return new WaitForSecondsRealtime(0.9f);
                 SessionPoints += randomstartingprogress;
                 totalpointslabel.text = ("Total Points: " + SessionPoints);
                 if (instG2 != null)
@@ -812,7 +896,7 @@ public class GameManager : MonoBehaviour
                 print("randomized number is " + randomstartingprogress);
                 labelanimmmmmmmmmmmmmmmmmator.SetTrigger("label1");
                 randomstartingprogress = Random.Range(450, 9000);
-                for (int i = 0; i < randomstartingprogress; i+=10)
+                for (int i = 0; i < randomstartingprogress; i+=20)
                 {
                     yield return new WaitForSecondsRealtime(0.0000001f);
                     //progresstxt.text = ("LoadingBar 95: " + i);
@@ -824,7 +908,7 @@ public class GameManager : MonoBehaviour
                     instG4.GetComponent<Animator>().SetTrigger("delPoint");
                 }
                 labelanimmmmmmmmmmmmmmmmmator.SetTrigger("close");
-                yield return new WaitForSecondsRealtime(1.45f);
+                yield return new WaitForSecondsRealtime(1f);
                 if (instG4 != null)
                 {
                     instG4.GetComponent<Animator>().SetTrigger("delPoint");
@@ -1497,6 +1581,193 @@ public class GameManager : MonoBehaviour
 
 
         sixthnextbtn.gameObject.SetActive(true);
+    }
+
+    public GameObject pack1;
+    public GameObject pack2;
+
+    //stuff from pack1
+    public Slider p1c1progress;
+    public Slider p1c2progress;
+    public Slider p1c3progress;
+
+    public GameObject p1c1image;
+    public GameObject p1c2image;
+    public GameObject p1c3image;
+
+    //stuff from pack2
+    public Slider p2c1progress;
+    public Slider p2c2progress;
+    public Slider p2c3progress;
+
+    //public GameObject p2c1image;
+    //public GameObject p2c2image;
+    // public GameObject p2c3image;
+
+    public GameObject seventhnextbutton;
+
+    public void ShowChallengesWindow()
+    {
+        rewardwindow.SetActive(false);
+        tempchallengeswindow.SetActive(true);
+        StartCoroutine(ChallengesWindow());
+    }
+
+    public IEnumerator ChallengesWindow()
+    {
+        //randomize objectives pack
+        int i = Random.Range(1, 3);
+
+        if (i == 1)
+        {
+            pack1.SetActive(true);
+            p1c1progress.value = 0;
+            p1c2progress.value = 0;
+            p1c3progress.value = 0;
+        }
+        else if(i == 2)
+        {
+            pack2.SetActive(true);
+            p2c1progress.value = 0;
+            p2c2progress.value = 0;
+            p2c3progress.value = 0;
+        }
+
+        yield return new WaitForSeconds(1.2f);
+
+        if (i == 1)
+        {
+            if(SessionPoints >= 100000)
+            {
+                for(int ii = 0; ii < 10000; ii+=100)
+                {
+                    yield return new WaitForSecondsRealtime(0.0001f);
+                    p1c1progress.value += 100;
+                }
+                //completion effect
+
+                PlayerPrefs.SetInt("p1c1", 5000);
+                p1c1image.SetActive(true);
+            }
+            else if(SessionPoints < 100000)
+            {
+                for(int ii = 0; ii < SessionPoints; ii+=25)
+                {
+                    yield return new WaitForSecondsRealtime(0.0001f);
+                    p1c1progress.value += 25;
+                }
+            }
+
+            yield return new WaitForSecondsRealtime(1f);
+            ProgressDrag pdd = GameObject.Find("DragParent").GetComponent<ProgressDrag>();
+
+            if(pdd.ballpoints >= 1000)
+            {
+                for(int jj = 0; jj < 1000; jj+=5)
+                {
+                    yield return new WaitForSecondsRealtime(0.0001f);
+                    p1c2progress.value += 5;
+                }
+                //completion effect
+                PlayerPrefs.SetInt("p1c2", 5000);
+                p1c2image.SetActive(true);
+            }
+            else if(pdd.ballpoints < 1000)
+            {
+                for (int jj = 0; jj < 1000; jj += 1)
+                {
+                    yield return new WaitForSecondsRealtime(0.0001f);
+                    p1c2progress.value += 1;
+                }
+            }
+
+            yield return new WaitForSecondsRealtime(1f);
+
+            if(catchedcats >= 5)
+            {
+                for (int nnn = 0; nnn < 5; nnn++)
+                {
+
+                    yield return new WaitForSecondsRealtime(0.4f);
+                    p1c3progress.value += 1;
+                }
+                //completion effect
+                PlayerPrefs.SetInt("p1c3", 5000);
+                p1c3image.SetActive(true);
+            }
+            else
+            {
+                for (int nnn = 0; nnn < catchedcats; nnn++)
+                {
+
+                    yield return new WaitForSecondsRealtime(0.4f);
+                    p1c3progress.value += 1;
+                }
+            }
+
+            yield return new WaitForSecondsRealtime(1.5f);
+
+            seventhnextbutton.SetActive(true);
+        }
+        else if (i == 2)
+        {
+            if(SessionPoints <= 2000)
+            {
+                for(int ii = 0; ii < SessionPoints; ii++)
+                {
+                    yield return new WaitForSecondsRealtime(0.0001f);
+                    p2c1progress.value += 1;
+                    
+                }
+
+                //completion effect
+                PlayerPrefs.SetInt("p2c1", 5000);
+                p1c1image.SetActive(true);
+            }
+            else
+            {
+                for (int ii = 0; ii < 2000; ii++)
+                {
+                    yield return new WaitForSecondsRealtime(0.0001f);
+                    p2c1progress.value += 1;
+
+                }
+
+                p2c1progress.value = p2c1progress.maxValue;
+            }
+
+            yield return new WaitForSecondsRealtime(1f);
+
+            ProgressDrag pddd = GameObject.Find("DragParent").GetComponent<ProgressDrag>();
+
+            if(pddd.fingerpoints < 2)
+            {
+                p2c2progress.value = p2c2progress.maxValue;
+                PlayerPrefs.SetInt("p2c2", 5000);
+                p1c2image.SetActive(true);
+            }
+            else if(pddd.fingerpoints > 1)
+            {
+                p2c2progress.value = 0;
+            }
+
+            yield return new WaitForSecondsRealtime(1f);
+
+            if(clippysdestroyed == 0)
+            {
+                p2c3progress.value = 1;
+                PlayerPrefs.SetInt("p2c3", 5000);
+                p1c3image.SetActive(true);
+            }
+            else
+            {
+                p2c3progress.value = 0;
+            }
+        }
+
+        yield return new WaitForSecondsRealtime(1.5f);
+
+        seventhnextbutton.SetActive(true);
     }
 
     public IEnumerator levelup()

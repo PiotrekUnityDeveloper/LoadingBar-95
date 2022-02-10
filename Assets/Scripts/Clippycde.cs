@@ -18,6 +18,8 @@ public class Clippycde : MonoBehaviour
 
     public void destroymyself()
     {
+        GameManager gmm = GameObject.Find("GameManager").GetComponent<GameManager>();
+        gmm.clippysdestroyed += 1;
         Destroy(this.gameObject);
     }
 }

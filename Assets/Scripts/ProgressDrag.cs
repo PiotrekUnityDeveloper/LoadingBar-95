@@ -11,10 +11,15 @@ public class ProgressDrag : MonoBehaviour
 
     public bool candrag = true;
 
+    public int fingerpoints;
+
+    public int ballpoints;
+    public int balltouches;
+
     // Start is called before the first frame update
     void Start()
     {
-        
+        fingerpoints = 0;
     }
 
     // Update is called once per frame
@@ -42,6 +47,8 @@ public class ProgressDrag : MonoBehaviour
             startPosY = mousePos.y - this.gameObject.transform.localPosition.y;
 
             isDragging = true;
+
+            fingerpoints += 1;
         }
 
         if (Input.GetMouseButtonUp(0))
