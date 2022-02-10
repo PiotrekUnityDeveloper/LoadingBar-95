@@ -22,6 +22,7 @@ public class GameManager : MonoBehaviour
     public GameObject badgestatswindow;
     public GameObject overallprogresswindow;
     public GameObject backgroundswindow;
+    public GameObject rewardwindow;
 
     //window interactable stuff
     public GameObject win2button;
@@ -86,6 +87,9 @@ public class GameManager : MonoBehaviour
     public Sprite Hard;
     public Sprite VeryHard;
     public Sprite Hardcore;
+
+    public Sprite Yinyang;
+    public Sprite Minusonehundred;
 
     public Sprite Levelup;
 
@@ -712,6 +716,72 @@ public class GameManager : MonoBehaviour
                     yield return new WaitForSecondsRealtime(0.0000001f);
                     //progresstxt.text = ("Perfectionist: " + i);
                     realscoreincreasinglabel.text = ("Progress Score: " + i);
+                }
+                yield return new WaitForSecondsRealtime(1.45f);
+                SessionPoints += randomstartingprogress;
+                totalpointslabel.text = ("Total Points: " + SessionPoints);
+                if (instG2 != null)
+                {
+                    instG2.GetComponent<Animator>().SetTrigger("delPoint");
+                }
+                labelanimmmmmmmmmmmmmmmmmator.SetTrigger("close");
+                Destroy(instG2);
+            }
+
+            if (s == "Yin&Yang")
+            {
+                GameObject instG2 = Instantiate(progressinfoPrefab, infoinstantiotor.transform.position, Quaternion.identity);
+                if (instG2 != null)
+                {
+                    instG2.transform.parent = GameObject.Find("inst").transform;
+                    instG2.GetComponent<Image>().sprite = Yinyang;
+                    //incrementpointslabel = GameObject.FindGameObjectWithTag("PointsIncreaser").GetComponent<Text>();
+                    //incrementpointslabel = GameObject.Find("incpoints").GetComponent<Text>();
+                    //incrementpointslabel = instG2.transform.GetChild(0).GetComponent<Text>();
+                    instG2.GetComponent<Animator>().SetTrigger("newPoint");
+                }
+                randomstartingprogress = Random.Range(1800, 3200);
+                //progresstxt = instG2.transform.GetChild(0).GetComponent<Text>();
+                print("randomized number is " + randomstartingprogress);
+                labelanimmmmmmmmmmmmmmmmmator.SetTrigger("label1");
+                for (int i = 0; i < randomstartingprogress; i += 5)
+                {
+                    yield return new WaitForSecondsRealtime(0.0000001f);
+                    //progresstxt.text = ("Perfectionist: " + i);
+                    realscoreincreasinglabel.text = ("Yin&Yang: " + i);
+                }
+                yield return new WaitForSecondsRealtime(1.45f);
+                SessionPoints += randomstartingprogress;
+                totalpointslabel.text = ("Total Points: " + SessionPoints);
+                if (instG2 != null)
+                {
+                    instG2.GetComponent<Animator>().SetTrigger("delPoint");
+                }
+                labelanimmmmmmmmmmmmmmmmmator.SetTrigger("close");
+                Destroy(instG2);
+            }
+
+            if (s == "Invert")
+            {
+                GameObject instG2 = Instantiate(progressinfoPrefab, infoinstantiotor.transform.position, Quaternion.identity);
+                if (instG2 != null)
+                {
+                    instG2.transform.parent = GameObject.Find("inst").transform;
+                    instG2.GetComponent<Image>().sprite = Minusonehundred;
+                    //incrementpointslabel = GameObject.FindGameObjectWithTag("PointsIncreaser").GetComponent<Text>();
+                    //incrementpointslabel = GameObject.Find("incpoints").GetComponent<Text>();
+                    //incrementpointslabel = instG2.transform.GetChild(0).GetComponent<Text>();
+                    instG2.GetComponent<Animator>().SetTrigger("newPoint");
+                }
+                randomstartingprogress = Random.Range(4000, 6750);
+                //progresstxt = instG2.transform.GetChild(0).GetComponent<Text>();
+                print("randomized number is " + randomstartingprogress);
+                labelanimmmmmmmmmmmmmmmmmator.SetTrigger("label1");
+                for (int i = 0; i < randomstartingprogress; i += 5)
+                {
+                    yield return new WaitForSecondsRealtime(0.0000001f);
+                    //progresstxt.text = ("Perfectionist: " + i);
+                    realscoreincreasinglabel.text = ("Yin&Yang: " + i);
                 }
                 yield return new WaitForSecondsRealtime(1.45f);
                 SessionPoints += randomstartingprogress;
@@ -1374,6 +1444,59 @@ public class GameManager : MonoBehaviour
         {
             backgroundholder.sprite = back4txt;
         }
+    }
+
+    //sixthwindow values and stuff
+    public Slider dayprogressslider;
+
+    //next button (that belongs to window6)
+    public void OnMouseUpAsButton()
+    {
+       
+    }
+
+    public Button sixthnextbtn;
+
+    //reference
+    public int day = (int)System.DateTime.Now.Day;
+
+
+    public void SHOWSIXTHSCREENWINDOW()
+    {
+        backgroundswindow.SetActive(false);
+        rewardwindow.SetActive(true);
+        StartCoroutine(showrewardwindow());
+    }
+
+    public IEnumerator showrewardwindow()
+    {
+        dayprogressslider.maxValue = 7; //thats how many days are required to get the final prize
+        ///NOTE: I CANT CHECK IF THE PLAYER IS OPENING THE APP IN 7 DAYS IN A ROW
+        ///CUZ THIS SYSTEM USES SYSTEM'S LOCAL TIME SO THATS IMPOSSIBLE (i want this game to be fully playable in offline mode)
+        ///================
+        ///toally not beacuse im lazy
+        day = (int)System.DateTime.Now.Day;
+        //Debug.Log("todays date (DOW) is: " dt.DayOfWeek);
+        print("today is the: " + day.ToString());
+
+        if(PlayerPrefs.GetString("weekday", "monday") == day.ToString()) //is the todays date equal to "yesterdays" date? [IF YES THEN DONT ADD A DAY TO PROGRESSBAR]
+        {
+            //do nothing or just tell the player that he already got the reward
+        }
+        else
+        {
+            PlayerPrefs.SetString("weekday", day.ToString());
+
+            print("changed weekday var to: " + PlayerPrefs.GetString("weekday", "monday")); //should be a new var
+            //increase the progressbar by 1
+            yield return new WaitForSecondsRealtime(1f);
+            dayprogressslider.value += 1;
+        }
+
+        yield return new WaitForSecondsRealtime(0.9f);
+
+
+        sixthnextbtn.gameObject.SetActive(true);
     }
 
     public IEnumerator levelup()

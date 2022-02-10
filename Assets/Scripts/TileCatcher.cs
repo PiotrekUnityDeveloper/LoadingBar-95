@@ -1138,9 +1138,29 @@ public class TileCatcher : MonoBehaviour
             gmm.progressstuff.Add("Perfect");
         }
 
+        if (OrangeTiles > 19)
+        {
+            GameManager gmm = GameObject.Find("GameManager").GetComponent<GameManager>();
+            gmm.progressstuff.Add("Invert");
+        }
+
+        if (OrangeTiles < 11 && OrangeTiles > 9)
+        {
+            GameManager gmm = GameObject.Find("GameManager").GetComponent<GameManager>();
+            gmm.progressstuff.Add("Yin&Yang");
+        }
+        else if (BlueTiles < 11 && BlueTiles > 9)
+        {
+            GameManager gmm = GameObject.Find("GameManager").GetComponent<GameManager>();
+            gmm.progressstuff.Add("Yin&Yang");
+        }
+
+        //DAILY REWARD WINDOW
+        
+
         //change graph's texture here
 
-        switch(bluepoints.value)
+        switch (bluepoints.value)
         {
             case 0:
                 graphimg.GetComponent<Image>().sprite = blue0;
@@ -1207,5 +1227,15 @@ public class TileCatcher : MonoBehaviour
                 break;
 
         }
+    }
+
+    //sixth window stuff
+
+    //sithx window is at the top hah!
+
+
+    public void showrewardswindow()
+    {
+        //NTO HERE GO TO GAMEMANGER
     }
 }
