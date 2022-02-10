@@ -106,6 +106,8 @@ public class GameManager : MonoBehaviour
 
     public IEnumerator startprogressing()
     {
+        currentLevel = PlayerPrefs.GetInt("95level", 0);
+
         graphwindow.SetActive(false);
         progresswindow.SetActive(true);
 
@@ -1256,7 +1258,11 @@ public class GameManager : MonoBehaviour
 
     public IEnumerator LoadBackgrounds()
     {
-        if(PlayerPrefs.GetInt("back2", 0) == 1)
+        background2.value = PlayerPrefs.GetFloat("back2val", 0);
+        background3.value = PlayerPrefs.GetFloat("back3val", 0);
+        background4.value = PlayerPrefs.GetFloat("back4val", 0);
+
+        if (PlayerPrefs.GetInt("back2", 0) == 1)
         {
             back2btn.gameObject.SetActive(true);
             background2.gameObject.SetActive(false);
@@ -1286,15 +1292,19 @@ public class GameManager : MonoBehaviour
         background4.maxValue = levelsfor4;
 
         yield return new WaitForSecondsRealtime(1.4f);
-        
 
-        background2.value = levelsfor2 - currentLevel;
-        background3.value = levelsfor3 - currentLevel;
-        background4.value = levelsfor4 - currentLevel;
 
-        background2.value = PlayerPrefs.GetFloat("back2val", 0);
-        background3.value = PlayerPrefs.GetFloat("back3val", 0);
-        background4.value = PlayerPrefs.GetFloat("back4val", 0);
+        //background2.value = levelsfor2 - currentLevel;
+        //background3.value = levelsfor3 - currentLevel;
+        //background4.value = levelsfor4 - currentLevel;
+
+        //background2.value = PlayerPrefs.GetFloat("back2val", 0);
+        //background3.value = PlayerPrefs.GetFloat("back3val", 0);
+        //background4.value = PlayerPrefs.GetFloat("back4val", 0);
+
+        background2.value += 1;
+        background3.value += 1;
+        background4.value += 1;
 
         if (background2.value == background2.maxValue)
         {
@@ -1335,7 +1345,9 @@ public class GameManager : MonoBehaviour
             PlayerPrefs.SetFloat("back4val", background4.value);
         }
 
-        
+        PlayerPrefs.SetFloat("back2val", background4.value);
+        PlayerPrefs.SetFloat("back3val", background4.value);
+        PlayerPrefs.SetFloat("back4val", background4.value);
 
         yield return new WaitForSecondsRealtime(1f);
 
