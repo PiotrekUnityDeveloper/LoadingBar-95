@@ -890,7 +890,7 @@ public class GameManager : MonoBehaviour
                 {
                     yield return new WaitForSecondsRealtime(0.0000001f);
                     //progresstxt.text = ("Perfectionist: " + i);
-                    realscoreincreasinglabel.text = ("Progress Score: " + i);
+                    realscoreincreasinglabel.text = ("Perfectionist!: " + i);
                 }
                 yield return new WaitForSecondsRealtime(1f);
                 SessionPoints += randomstartingprogress;
