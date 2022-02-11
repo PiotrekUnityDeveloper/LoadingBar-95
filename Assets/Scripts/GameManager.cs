@@ -31,8 +31,8 @@ public class GameManager : MonoBehaviour
     //level
     public int currentLevel;
 
-    
-    
+
+
 
     //progressing
     public int ProLevels;
@@ -40,6 +40,8 @@ public class GameManager : MonoBehaviour
     public int MasterLevels;
     public int GrandMasterLevels;
     public int WarriorLevels;
+
+    public bool isChaos;
 
     //conditions
     [Tooltip("PRO BADGE BOOST - from 5000 to 7500")]
@@ -74,8 +76,12 @@ public class GameManager : MonoBehaviour
 
     public GameObject completeobjectprefab;
 
+    public GameObject completechaosprefab;
+
     //other vals
     public int clippysdestroyed;
+
+    [Header("Textures for point badges")]
 
     //textures
     public Sprite ProgressPoints;
@@ -101,6 +107,16 @@ public class GameManager : MonoBehaviour
     public Sprite ClippyCancel;
 
     public Sprite Levelup;
+
+    //now
+    public Sprite Stripes1; //blue first
+    public Sprite Stripes2; //orange first
+
+    public Sprite ThickStriper1; //blue first
+    public Sprite ThickStripes2; //orange first
+
+    //other
+    [Header("Other Stuff")]
 
     public Text progresstxt;
      
@@ -165,6 +181,11 @@ public class GameManager : MonoBehaviour
             progressstuff.Add("Warrior");
         }
         */
+
+        if(isChaos == true)
+        {
+            progressstuff.Add("Chaos");
+        }
 
         if(clippysdestroyed > 0)
         {
@@ -417,6 +438,111 @@ public class GameManager : MonoBehaviour
                 Destroy(instG2);
             }
 
+            if (s == "Stripes1")
+            {
+                GameObject instG2 = Instantiate(progressinfoPrefab, infoinstantiotor.transform.position, Quaternion.identity);
+                if (instG2 != null)
+                {
+                    instG2.transform.parent = GameObject.Find("inst").transform;
+                    instG2.GetComponent<Image>().sprite = Stripes1;
+                    //incrementpointslabel = GameObject.FindGameObjectWithTag("PointsIncreaser").GetComponent<Text>();
+                    //incrementpointslabel = GameObject.Find("incpoints").GetComponent<Text>();
+                    //incrementpointslabel = instG2.transform.GetChild(0).GetComponent<Text>();
+                    //progresstxt = instG2.transform.GetChild(0).GetComponent<Text>();
+                    instG2.GetComponent<Animator>().SetTrigger("newPoint");
+                    randomstartingprogress = Random.Range(5000, 7500);
+                    //randomstartingprogress = 20 * clippysdestroyed;
+                }
+                print("randomized number is " + randomstartingprogress);
+                labelanimmmmmmmmmmmmmmmmmator.SetTrigger("label1");
+                for (int i = 0; i < randomstartingprogress; i += 10)
+                {
+                    yield return new WaitForSecondsRealtime(0.0000001f);
+                    //progresstxt.text = ("Pro Badge: " + i);
+                    realscoreincreasinglabel.text = ("B-Y Stripes: " + i);
+                }
+                yield return new WaitForSecondsRealtime(1f);
+                SessionPoints += randomstartingprogress;
+                totalpointslabel.text = ("Total Points: " + SessionPoints);
+                if (instG2 != null)
+                {
+                    instG2.GetComponent<Animator>().SetTrigger("delPoint");
+                }
+
+                labelanimmmmmmmmmmmmmmmmmator.SetTrigger("close");
+                Destroy(instG2);
+            }
+
+            if (s == "Stripes2")
+            {
+                GameObject instG2 = Instantiate(progressinfoPrefab, infoinstantiotor.transform.position, Quaternion.identity);
+                if (instG2 != null)
+                {
+                    instG2.transform.parent = GameObject.Find("inst").transform;
+                    instG2.GetComponent<Image>().sprite = Stripes2;
+                    //incrementpointslabel = GameObject.FindGameObjectWithTag("PointsIncreaser").GetComponent<Text>();
+                    //incrementpointslabel = GameObject.Find("incpoints").GetComponent<Text>();
+                    //incrementpointslabel = instG2.transform.GetChild(0).GetComponent<Text>();
+                    //progresstxt = instG2.transform.GetChild(0).GetComponent<Text>();
+                    instG2.GetComponent<Animator>().SetTrigger("newPoint");
+                    randomstartingprogress = Random.Range(5000, 7500);
+                    //randomstartingprogress = 20 * clippysdestroyed;
+                }
+                print("randomized number is " + randomstartingprogress);
+                labelanimmmmmmmmmmmmmmmmmator.SetTrigger("label1");
+                for (int i = 0; i < randomstartingprogress; i += 10)
+                {
+                    yield return new WaitForSecondsRealtime(0.0000001f);
+                    //progresstxt.text = ("Pro Badge: " + i);
+                    realscoreincreasinglabel.text = ("Y-B Stripes: " + i);
+                }
+                yield return new WaitForSecondsRealtime(1f);
+                SessionPoints += randomstartingprogress;
+                totalpointslabel.text = ("Total Points: " + SessionPoints);
+                if (instG2 != null)
+                {
+                    instG2.GetComponent<Animator>().SetTrigger("delPoint");
+                }
+
+                labelanimmmmmmmmmmmmmmmmmator.SetTrigger("close");
+                Destroy(instG2);
+            }
+
+            if (s == "Chaos")
+            {
+                GameObject instG2 = Instantiate(completechaosprefab, infoinstantiotor.transform.position, Quaternion.identity);
+                if (instG2 != null)
+                {
+                    //instG2.transform.parent = GameObject.Find("inst").transform;
+                    //instG2.GetComponent<Image>().sprite = ClippyCancel;
+                    //incrementpointslabel = GameObject.FindGameObjectWithTag("PointsIncreaser").GetComponent<Text>();
+                    //incrementpointslabel = GameObject.Find("incpoints").GetComponent<Text>();
+                    //incrementpointslabel = instG2.transform.GetChild(0).GetComponent<Text>();
+                    //progresstxt = instG2.transform.GetChild(0).GetComponent<Text>();
+                    instG2.GetComponent<Animator>().SetTrigger("newPoint");
+                    randomstartingprogress = Random.Range(50000, 75000);
+                    //randomstartingprogress = 20 * clippysdestroyed;
+                }
+                print("randomized number is " + randomstartingprogress);
+                labelanimmmmmmmmmmmmmmmmmator.SetTrigger("label1");
+                for (int i = 0; i < randomstartingprogress; i += 1000)
+                {
+                    yield return new WaitForSecondsRealtime(0.0000001f);
+                    //progresstxt.text = ("Pro Badge: " + i);
+                    realscoreincreasinglabel.text = ("TRUE CHAOS!!!!: " + i);
+                }
+                yield return new WaitForSecondsRealtime(1f);
+                SessionPoints += randomstartingprogress;
+                totalpointslabel.text = ("Total Points: " + SessionPoints);
+                if (instG2 != null)
+                {
+                    instG2.GetComponent<Animator>().SetTrigger("delPoint");
+                }
+
+                labelanimmmmmmmmmmmmmmmmmator.SetTrigger("close");
+                Destroy(instG2);
+            }
+
             if (s == "AFK")
             {
                 GameObject instG2 = Instantiate(progressinfoPrefab, infoinstantiotor.transform.position, Quaternion.identity);
@@ -531,7 +657,7 @@ public class GameManager : MonoBehaviour
                 Destroy(instG2);
             }
 
-            if (s == "Symertic")
+            if (s == "Symetric")
             {
                 GameObject instG2 = Instantiate(progressinfoPrefab, infoinstantiotor.transform.position, Quaternion.identity);
                 if (instG2 != null)
