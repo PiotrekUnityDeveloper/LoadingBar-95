@@ -6969,9 +6969,9 @@ MonoBehaviour:
   m_HandleRect: {fileID: 0}
   m_Direction: 0
   m_MinValue: 0
-  m_MaxValue: 1
-  m_WholeNumbers: 0
-  m_Value: 0.64
+  m_MaxValue: 10
+  m_WholeNumbers: 1
+  m_Value: 0
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -8672,9 +8672,9 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0.64, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 10, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 4.9960237, y: 0}
+  m_SizeDelta: {x: 19.99205, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &566139637
 MonoBehaviour:
@@ -10372,9 +10372,9 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0.64, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 10, y: 0}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 5.018311, y: 0}
+  m_SizeDelta: {x: 20.03662, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &732730730
 MonoBehaviour:
@@ -15004,9 +15004,9 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0.64, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 10, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 5.1429725, y: 0}
+  m_SizeDelta: {x: 20.28594, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1058865533
 MonoBehaviour:
@@ -18132,9 +18132,9 @@ MonoBehaviour:
   m_HandleRect: {fileID: 0}
   m_Direction: 0
   m_MinValue: 0
-  m_MaxValue: 1
-  m_WholeNumbers: 0
-  m_Value: 0.64
+  m_MaxValue: 20
+  m_WholeNumbers: 1
+  m_Value: 20
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -22064,6 +22064,7 @@ MonoBehaviour:
   Minusonehundred: {fileID: 21300000, guid: bfe45f9de63b8f0409dcfcf0ad315e9d, type: 3}
   TempChallenge: {fileID: 21300000, guid: 1b3b085fcf7d78f4297583e6ea41d001, type: 3}
   AFK: {fileID: 21300000, guid: 5fef7294b69551644b796dffd54653a5, type: 3}
+  ClippyCancel: {fileID: 21300000, guid: 44df90a995ff63b4aab374765c63918c, type: 3}
   Levelup: {fileID: 21300000, guid: b33af27c889f85148960ee77bef787b8, type: 3}
   progresstxt: {fileID: 0}
   progressstuff: []
@@ -22564,9 +22565,9 @@ MonoBehaviour:
   m_HandleRect: {fileID: 0}
   m_Direction: 0
   m_MinValue: 0
-  m_MaxValue: 1
+  m_MaxValue: 50
   m_WholeNumbers: 0
-  m_Value: 0.64
+  m_Value: 50
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []

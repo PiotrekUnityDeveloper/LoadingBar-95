@@ -97,6 +97,7 @@ public class GameManager : MonoBehaviour
 
     public Sprite TempChallenge;
     public Sprite AFK;
+    public Sprite ClippyCancel;
 
     public Sprite Levelup;
 
@@ -163,6 +164,11 @@ public class GameManager : MonoBehaviour
             progressstuff.Add("Warrior");
         }
         */
+
+        if(clippysdestroyed > 0)
+        {
+            progressstuff.Add("Clippy_Points");
+        }
 
         levelslider.value = currentLevel;
 
@@ -261,6 +267,9 @@ public class GameManager : MonoBehaviour
             //p2c2progress.value = p2c2progress.maxValue;
             progressstuff.Add("AFK");
         }
+
+
+
 
 
         //randomstartingprogress = Random.Range(1500, 10000);
@@ -368,6 +377,41 @@ public class GameManager : MonoBehaviour
                     instG2.GetComponent<Animator>().SetTrigger("delPoint");
                 }
                 
+                labelanimmmmmmmmmmmmmmmmmator.SetTrigger("close");
+                Destroy(instG2);
+            }
+
+            if (s == "Clippy_Points")
+            {
+                GameObject instG2 = Instantiate(progressinfoPrefab, infoinstantiotor.transform.position, Quaternion.identity);
+                if (instG2 != null)
+                {
+                    instG2.transform.parent = GameObject.Find("inst").transform;
+                    instG2.GetComponent<Image>().sprite = ClippyCancel;
+                    //incrementpointslabel = GameObject.FindGameObjectWithTag("PointsIncreaser").GetComponent<Text>();
+                    //incrementpointslabel = GameObject.Find("incpoints").GetComponent<Text>();
+                    //incrementpointslabel = instG2.transform.GetChild(0).GetComponent<Text>();
+                    //progresstxt = instG2.transform.GetChild(0).GetComponent<Text>();
+                    instG2.GetComponent<Animator>().SetTrigger("newPoint");
+                    //randomstartingprogress = Random.Range(5000, 7500);
+                    randomstartingprogress = 20 * clippysdestroyed;
+                }
+                print("randomized number is " + randomstartingprogress);
+                labelanimmmmmmmmmmmmmmmmmator.SetTrigger("label1");
+                for (int i = 0; i < randomstartingprogress; i += 10)
+                {
+                    yield return new WaitForSecondsRealtime(0.0000001f);
+                    //progresstxt.text = ("Pro Badge: " + i);
+                    realscoreincreasinglabel.text = ("Cancelled Clippys: " + i);
+                }
+                yield return new WaitForSecondsRealtime(1f);
+                SessionPoints += randomstartingprogress;
+                totalpointslabel.text = ("Total Points: " + SessionPoints);
+                if (instG2 != null)
+                {
+                    instG2.GetComponent<Animator>().SetTrigger("delPoint");
+                }
+
                 labelanimmmmmmmmmmmmmmmmmator.SetTrigger("close");
                 Destroy(instG2);
             }
@@ -1488,9 +1532,9 @@ public class GameManager : MonoBehaviour
 
         
 
-        background2.maxValue = levelsfor2;
-        background3.maxValue = levelsfor3;
-        background4.maxValue = levelsfor4;
+        //background2.maxValue = levelsfor2;
+        //background3.maxValue = levelsfor3;
+        //background4.maxValue = levelsfor4;
 
         yield return new WaitForSecondsRealtime(1.4f);
 
@@ -1503,9 +1547,22 @@ public class GameManager : MonoBehaviour
         //background3.value = PlayerPrefs.GetFloat("back3val", 0);
         //background4.value = PlayerPrefs.GetFloat("back4val", 0);
 
-        background2.value += 1;
-        background3.value += 1;
-        background4.value += 1;
+        if(background2.value != background2.maxValue)
+        {
+            background2.value += 1;
+        }
+
+        if(background3.value != background3.maxValue)
+        {
+            background3.value += 1;
+        }
+
+        if(background4.value != background4.maxValue)
+        {
+            background4.value += 1;
+        }
+        
+        
 
         if (background2.value == background2.maxValue)
         {
@@ -1689,7 +1746,7 @@ public class GameManager : MonoBehaviour
         {
             if(SessionPoints >= 100000)
             {
-                for(int ii = 0; ii < 10000; ii+=1000)
+                for(int ii = 0; ii < 100000; ii+=1000)
                 {
                     yield return new WaitForSecondsRealtime(0.0001f);
                     p1c1progress.value += 1000;
