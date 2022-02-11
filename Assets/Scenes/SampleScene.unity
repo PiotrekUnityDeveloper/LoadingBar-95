@@ -22062,6 +22062,7 @@ MonoBehaviour:
   Hardcore: {fileID: 21300000, guid: ce0ab51129af9964fbca39c8caa87253, type: 3}
   Yinyang: {fileID: 21300000, guid: 735a8a2d8c494c14086330f76426bee9, type: 3}
   Minusonehundred: {fileID: 21300000, guid: bfe45f9de63b8f0409dcfcf0ad315e9d, type: 3}
+  Symetric: {fileID: 21300000, guid: 28e0a9b7af9e08b4cb0227f2299c4241, type: 3}
   TempChallenge: {fileID: 21300000, guid: 1b3b085fcf7d78f4297583e6ea41d001, type: 3}
   AFK: {fileID: 21300000, guid: 5fef7294b69551644b796dffd54653a5, type: 3}
   ClippyCancel: {fileID: 21300000, guid: 44df90a995ff63b4aab374765c63918c, type: 3}

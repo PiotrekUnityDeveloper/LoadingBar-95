@@ -1155,6 +1155,70 @@ public class TileCatcher : MonoBehaviour
             gmm.progressstuff.Add("Yin&Yang");
         }
 
+        if(finaltile1.GetComponent<Image>().color == finaltile20.GetComponent<Image>().color) //dont do that or the world will end
+        {
+            if (finaltile2.GetComponent<Image>().color == finaltile19.GetComponent<Image>().color)
+            {
+                if (finaltile3.GetComponent<Image>().color == finaltile18.GetComponent<Image>().color)
+                {
+                    if (finaltile4.GetComponent<Image>().color == finaltile17.GetComponent<Image>().color)
+                    {
+                        if (finaltile5.GetComponent<Image>().color == finaltile16.GetComponent<Image>().color)
+                        {
+                            if (finaltile6.GetComponent<Image>().color == finaltile15.GetComponent<Image>().color)
+                            {
+                                if (finaltile7.GetComponent<Image>().color == finaltile14.GetComponent<Image>().color)
+                                {
+                                    if (finaltile8.GetComponent<Image>().color == finaltile13.GetComponent<Image>().color)
+                                    {
+                                        if (finaltile9.GetComponent<Image>().color == finaltile12.GetComponent<Image>().color)
+                                        {
+                                            if (finaltile10.GetComponent<Image>().color == finaltile11.GetComponent<Image>().color)
+                                            {
+                                                if (finaltile11.GetComponent<Image>().color == finaltile10.GetComponent<Image>().color)
+                                                {
+                                                    if (finaltile12.GetComponent<Image>().color == finaltile9.GetComponent<Image>().color)
+                                                    {
+                                                        if (finaltile13.GetComponent<Image>().color == finaltile8.GetComponent<Image>().color)
+                                                        {
+                                                            if (finaltile14.GetComponent<Image>().color == finaltile7.GetComponent<Image>().color)
+                                                            {
+                                                                if (finaltile15.GetComponent<Image>().color == finaltile6.GetComponent<Image>().color)
+                                                                {
+                                                                    if (finaltile16.GetComponent<Image>().color == finaltile5.GetComponent<Image>().color)
+                                                                    {
+                                                                        if (finaltile17.GetComponent<Image>().color == finaltile4.GetComponent<Image>().color)
+                                                                        {
+                                                                            if (finaltile18.GetComponent<Image>().color == finaltile3.GetComponent<Image>().color)
+                                                                            {
+                                                                                if (finaltile19.GetComponent<Image>().color == finaltile2.GetComponent<Image>().color)
+                                                                                {
+                                                                                    if (finaltile20.GetComponent<Image>().color == finaltile1.GetComponent<Image>().color)
+                                                                                    {
+                                                                                        //its symetric!
+                                                                                        GameManager gmmmmmm = GameObject.Find("GameManager").GetComponent<GameManager>();
+                                                                                        gmmmmmm.progressstuff.Add("Symertic");
+                                                                                    }
+                                                                                }
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
         //DAILY REWARD WINDOW
         
 

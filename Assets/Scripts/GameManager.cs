@@ -94,6 +94,7 @@ public class GameManager : MonoBehaviour
 
     public Sprite Yinyang;
     public Sprite Minusonehundred;
+    public Sprite Symetric;
 
     public Sprite TempChallenge;
     public Sprite AFK;
@@ -517,6 +518,40 @@ public class GameManager : MonoBehaviour
                     yield return new WaitForSecondsRealtime(0.0000001f);
                     //progresstxt.text = ("Pro Badge: " + i);
                     realscoreincreasinglabel.text = ("Expert Badge: " + i);
+                }
+                yield return new WaitForSecondsRealtime(1f);
+                SessionPoints += randomstartingprogress;
+                totalpointslabel.text = ("Total Points: " + SessionPoints);
+                if (instG2 != null)
+                {
+                    instG2.GetComponent<Animator>().SetTrigger("delPoint");
+                }
+
+                labelanimmmmmmmmmmmmmmmmmator.SetTrigger("close");
+                Destroy(instG2);
+            }
+
+            if (s == "Symertic")
+            {
+                GameObject instG2 = Instantiate(progressinfoPrefab, infoinstantiotor.transform.position, Quaternion.identity);
+                if (instG2 != null)
+                {
+                    instG2.transform.parent = GameObject.Find("inst").transform;
+                    instG2.GetComponent<Image>().sprite = Symetric;
+                    //incrementpointslabel = GameObject.FindGameObjectWithTag("PointsIncreaser").GetComponent<Text>();
+                    //incrementpointslabel = GameObject.Find("incpoints").GetComponent<Text>();
+                    //incrementpointslabel = instG2.transform.GetChild(0).GetComponent<Text>();
+                    //progresstxt = instG2.transform.GetChild(0).GetComponent<Text>();
+                    instG2.GetComponent<Animator>().SetTrigger("newPoint");
+                    randomstartingprogress = Random.Range(9000, 9900);
+                }
+                print("randomized number is " + randomstartingprogress);
+                labelanimmmmmmmmmmmmmmmmmator.SetTrigger("label1");
+                for (int i = 0; i < randomstartingprogress; i += 50)
+                {
+                    yield return new WaitForSecondsRealtime(0.0000001f);
+                    //progresstxt.text = ("Pro Badge: " + i);
+                    realscoreincreasinglabel.text = ("Symetric Progress: " + i);
                 }
                 yield return new WaitForSecondsRealtime(1f);
                 SessionPoints += randomstartingprogress;
