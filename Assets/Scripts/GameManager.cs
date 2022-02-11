@@ -41,6 +41,7 @@ public class GameManager : MonoBehaviour
     public int GrandMasterLevels;
     public int WarriorLevels;
 
+    [Header("CHAOTIC SECTION")]
     public bool isChaos;
 
     //conditions
