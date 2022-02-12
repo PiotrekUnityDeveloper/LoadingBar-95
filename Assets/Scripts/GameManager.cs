@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
@@ -2108,5 +2109,22 @@ public class GameManager : MonoBehaviour
             StartCoroutine(clipincreaser());
         }
         */
+    }
+
+    public GameObject LoadingWindow;
+
+    public void ActivateWin95LOADER()
+    {
+        StartCoroutine(Load95Menu());
+    }
+
+    public IEnumerator Load95Menu()
+    {
+        //loadsceneasync
+        tempchallengeswindow.SetActive(false);
+        LoadingWindow.SetActive(true);
+        yield return new WaitForSecondsRealtime(Random.Range(0.1f, 2.1f));
+        SceneManager.LoadSceneAsync("LB95");
+        
     }
 }
