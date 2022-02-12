@@ -58,16 +58,34 @@ public class UIManager : MonoBehaviour
     public void ToggleCMDinGame(bool ison)
     {
         CMDWindow.SetActive(ison);
+
+        if(CMDWindow.active == true)
+        {
+            Time.timeScale = 0f;
+        }
+        else { Time.timeScale = 1;}
     }
 
     public void ToggleShutDownDialog(bool ison)
     {
         PowerWindow.SetActive(ison);
+
+        if(PowerWindow.active == true)
+        {
+            Time.timeScale = 0f;
+        }
+        else { Time.timeScale = 1; }
     }
 
     public void ToggleStopWindowinGame(bool ison)
     {
         StopWindow.SetActive(ison);
+
+        if(StopWindow.active == true)
+        {
+            Time.timeScale = 0;
+
+        }else { Time.timeScale = 1;}
     }
 
     //IN LOBBY
@@ -120,7 +138,7 @@ public class UIManager : MonoBehaviour
         if(radioshutdown.isOn == true)
         {
             //shutdown the pc 
-            Application.Quit();
+            //Application.Quit(); load shutdown scene first
         }
         else
         {

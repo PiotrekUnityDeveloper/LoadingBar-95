@@ -1401,6 +1401,8 @@ public class GameManager : MonoBehaviour
 
     public IEnumerator overallprogressbarwindow()
     {
+        StartCoroutine(emergencybuttonactivator());
+
         ovprogressslider.value = PlayerPrefs.GetFloat("savedprogress", 0);
 
         if(ovprogressslider.value > (ovprogressslider.maxValue - 1000))
@@ -1620,7 +1622,11 @@ public class GameManager : MonoBehaviour
         win4button.SetActive(true);
     }
 
-    
+    public IEnumerator emergencybuttonactivator()
+    {
+        yield return new WaitForSecondsRealtime(5.1f);
+        win4button.SetActive(true);
+    }
 
     public void hidesoundwindow()
     {
