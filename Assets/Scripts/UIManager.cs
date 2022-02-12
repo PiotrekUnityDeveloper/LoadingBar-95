@@ -43,10 +43,36 @@ public class UIManager : MonoBehaviour
         }
     }
 
+    public GameObject backgroundimg;
+
+    public Sprite back1;
+    public Sprite back2;
+    public Sprite back3;
+    public Sprite back4;
+
+
+
     // Start is called before the first frame update
     void Start()
     {
-        
+        if(SceneManager.GetActiveScene().name == "LB95")
+        {
+            switch (PlayerPrefs.GetInt("95backID", 1))
+            {
+                case 1:
+                    backgroundimg.GetComponent<Image>().sprite = back1;
+                    break;
+                case 2:
+                    backgroundimg.GetComponent<Image>().sprite = back2;
+                    break;
+                case 3:
+                    backgroundimg.GetComponent<Image>().sprite = back3;
+                    break;
+                case 4:
+                    backgroundimg.GetComponent<Image>().sprite = back4;
+                    break;
+            }
+        }
     }
 
     // Update is called once per frame

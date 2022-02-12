@@ -1815,6 +1815,8 @@ public class GameManager : MonoBehaviour
         {
             backgroundholder.sprite = back4txt;
         }
+
+        PlayerPrefs.SetInt("95backID", backgroundid);
     }
 
     //sixthwindow values and stuff
@@ -2070,6 +2072,7 @@ public class GameManager : MonoBehaviour
     void Start()
     {
         currentLevel = PlayerPrefs.GetInt("95level", 1);
+        ///asddPlayserPrefs.DelseteAll();
     }
 
     // Update is called once per frame
