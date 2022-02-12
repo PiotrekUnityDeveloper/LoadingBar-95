@@ -36,11 +36,11 @@ public class GameManager : MonoBehaviour
 
 
     //progressing
-    public int ProLevels;
-    public int ExpertLevels;
-    public int MasterLevels;
-    public int GrandMasterLevels;
-    public int WarriorLevels;
+    public int ProLevels = 10;
+    public int ExpertLevels = 20;
+    public int MasterLevels = 50;
+    public int GrandMasterLevels = 100;
+    public int WarriorLevels = 250;
 
     [Header("CHAOTIC SECTION")]
     public bool isChaos;
@@ -130,6 +130,12 @@ public class GameManager : MonoBehaviour
 
     public int catchedcats;
     public int catchedbonus;
+
+    //SOUND EFFECTS (too lazy to make a class for it lol)
+    //[Header("SOUND EFFECTS")]
+    //public AudioSource collect;    MOVED TO TILECATCHER
+    //public AudioSource pointadd;    MOVED TO TILECATCHER
+    //public AudioSource ballcollision; 
 
     private void Awake()
     {

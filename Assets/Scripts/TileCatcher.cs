@@ -10,7 +10,10 @@ public class TileCatcher : MonoBehaviour
     public Slider bluepoints;
     public Slider orangepoints;
 
-    
+    [Header("SOUND EFFECTS")]
+    public AudioSource collect;
+    //public AudioSource pointadd; MOVED TO TILEANIMATOR
+    //public AudioSource ballcollision;
 
     [Header("Tiles")]
 
@@ -119,6 +122,13 @@ public class TileCatcher : MonoBehaviour
     public GameObject DragObj;
     public Rigidbody2D dragRigid;
 
+    //another prefab stuff
+    public GameObject LBTrail;
+
+    public GameObject LBTrailHolder;
+
+    public GameObject plus5procent;
+
     private void Awake()
     {
         bluecolor = Color.blue;
@@ -138,6 +148,13 @@ public class TileCatcher : MonoBehaviour
     {
         procentTextShadow.text = procentText.text;
         secondProcentShadow.text = procentText.text;
+
+        if(isGameWon == false)
+        {
+            GameObject lbt = Instantiate(LBTrail, this.transform.position, Quaternion.identity);
+            lbt.transform.parent = LBTrailHolder.gameObject.transform;
+            lbt.transform.SetAsLastSibling();
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -152,6 +169,11 @@ public class TileCatcher : MonoBehaviour
             g.transform.parent = GameObject.Find("LoadingBar").gameObject.transform;
 
             procentText.text = (procent + "%");
+
+            collect.Play();
+
+            GameObject ggggg = Instantiate(plus5procent, g.transform.position, Quaternion.identity);
+            ggggg.transform.parent = null;
 
             //switch %
             //after tileanimation destroys
@@ -170,6 +192,8 @@ public class TileCatcher : MonoBehaviour
             g.gameObject.GetComponent<SpriteRenderer>().color = new Color(255, 179, 0);
 
             procentText.text = (procent + "%");
+
+            collect.Play();
 
             //switch %
             //after tileanimation destroys
@@ -191,6 +215,8 @@ public class TileCatcher : MonoBehaviour
 
             UpdateLoadingBar();
 
+            //PLAY MINUS SOUND HERE
+
             //switch %
             //after tileanimation destroys
 
@@ -210,6 +236,8 @@ public class TileCatcher : MonoBehaviour
             //procentText.text = (procent + "%");
 
             //UpdateLoadingBar();   GAMEOVER HERE
+
+            //PLAY ERROR SOUND HERE
 
             //switch %
             //after tileanimation destroys

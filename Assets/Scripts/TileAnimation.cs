@@ -11,10 +11,13 @@ public class TileAnimation : MonoBehaviour
     //other
     public bool isTileOrange;
 
+    public AudioSource pointadd;
+
     // Start is called before the first frame update
     void Start()
     {
         //Destroy(this.gameObject, 1); it destroys on collider
+        pointadd = GameObject.Find("PlusPoint").GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -41,7 +44,7 @@ public class TileAnimation : MonoBehaviour
                 tc.UpdateLoadingBar();
             }
 
-
+            pointadd.Play();
 
             
             //destroy animation object

@@ -6,10 +6,12 @@ public class NewClippy : MonoBehaviour
 {
     public float pushvalue;
 
+    private AudioSource punchsound;
+
     // Start is called before the first frame update
     void Start()
     {
-        
+        punchsound = GameObject.Find("Punch").GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -42,6 +44,8 @@ public class NewClippy : MonoBehaviour
                 StartCoroutine(RelaunchDrag());
                 collision.gameObject.transform.position += dir * Time.deltaTime * pushvalue * 3.2f;
             }
+
+            punchsound.Play();
         }
     }
 

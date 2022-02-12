@@ -16,6 +16,8 @@ public class ProgressDrag : MonoBehaviour
     public int ballpoints;
     public int balltouches;
 
+
+
     // Start is called before the first frame update
     void Start()
     {
