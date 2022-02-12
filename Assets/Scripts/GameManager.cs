@@ -155,33 +155,35 @@ public class GameManager : MonoBehaviour
         currentLevel += 1;
         PlayerPrefs.SetInt("95level", currentLevel);
 
-        /*
+        
+        
+        
         if(isPro)
         {
             levelslider.maxValue = ProLevels;
-            progressstuff.Add("Pro");
+            //progressstuff.Add("Pro");
         }
         else if(isExpert)
         {
             levelslider.maxValue = ExpertLevels;
-            progressstuff.Add("Expert");
+            //progressstuff.Add("Expert");
         }
         else if(isMaster)
         {
             levelslider.maxValue = MasterLevels;
-            progressstuff.Add("Master");
+            //progressstuff.Add("Master");
         }
         else if (isGrandMaster)
         {
             levelslider.maxValue = MasterLevels;
-            progressstuff.Add("GrandMaster");
+            //progressstuff.Add("GrandMaster");
         }
         else if (isWarrior)
         {
             levelslider.maxValue = MasterLevels;
-            progressstuff.Add("Warrior");
+            //progressstuff.Add("Warrior");
         }
-        */
+        
 
         if(isChaos == true)
         {
@@ -194,6 +196,7 @@ public class GameManager : MonoBehaviour
         }
 
         levelslider.value = currentLevel;
+        
 
         if(ProLevels == levelslider.value)
         {

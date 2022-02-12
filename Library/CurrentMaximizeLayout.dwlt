@@ -94,18 +94,18 @@ MonoBehaviour:
       y: 21
       width: 159.33331
       height: 274
-    m_Scale: {x: 0.28603375, y: 0.28603375}
-    m_Translation: {x: 79.66666, y: 135.98}
+    m_Scale: {x: 0.2777027, y: 0.2777027}
+    m_Translation: {x: 79.66666, y: 137}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -278.52188
-      y: -475.39844
-      width: 557.04376
-      height: 957.9289
+      x: -286.8775
+      y: -493.33334
+      width: 573.755
+      height: 986.6667
     m_MinimalGUI: 1
   m_defaultScale: 0.2777027
   m_LastWindowPixelSize: {x: 238.99997, y: 442.5}
@@ -224,18 +224,18 @@ MonoBehaviour:
       m_ExpandedIDs: 1639feff4201ffff9e01ffffdc01ffff2a6affff586affff766affff32b9ffff1ac3ffffdec3ffff70c4ffff5ee2ffffaee8ffffc6eeffffccefffff64fbffffac87000054c601009cc60100ec320200
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: raycastpanel
-        m_OriginalName: raycastpanel
+        m_Name: 
+        m_OriginalName: 
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: -114866
+        m_UserData: 0
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 0
+        m_OriginalEventType: 11
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 5}
       m_SearchString: 
@@ -308,9 +308,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 324.5943, y: 676.39594, z: -23.890755}
+    m_Target: {x: 361.38483, y: 550.352, z: -78.51949}
     speed: 2
-    m_Value: {x: 324.5943, y: 676.39594, z: -23.890755}
+    m_Value: {x: 361.38483, y: 550.352, z: -78.51949}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -361,9 +361,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 893.93384
+    m_Target: 388.53964
     speed: 2
-    m_Value: 893.93384
+    m_Value: 388.53964
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -746,21 +746,21 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets
+    - Assets/Materials
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 54
   m_LastFolders:
-  - Assets
+  - Assets/Materials
   m_LastFoldersGridSize: 54
   m_LastProjectPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 86520000
-    m_LastClickedID: 21126
+    m_SelectedIDs: 9a520000
+    m_LastClickedID: 21146
     m_ExpandedIDs: 000000008652000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
