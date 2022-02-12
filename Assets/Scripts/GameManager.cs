@@ -1628,7 +1628,7 @@ public class GameManager : MonoBehaviour
 
     public IEnumerator emergencybuttonactivator()
     {
-        yield return new WaitForSecondsRealtime(5.1f);
+        yield return new WaitForSecondsRealtime(9.4f);
         win4button.SetActive(true);
     }
 
@@ -1956,10 +1956,10 @@ public class GameManager : MonoBehaviour
 
             if(pdd.ballpoints >= 1000)
             {
-                for(int jj = 0; jj < 1000; jj+=10)
+                for(int jj = 0; jj < 1000; jj+=1000)
                 {
                     yield return new WaitForSecondsRealtime(0.0001f);
-                    p1c2progress.value += 10;
+                    p1c2progress.value += 1000;
                 }
                 //completion effect
                 PlayerPrefs.SetInt("p1c2", 5000);
@@ -1967,10 +1967,10 @@ public class GameManager : MonoBehaviour
             }
             else if(pdd.ballpoints < 1000)
             {
-                for (int jj = 0; jj < 1000; jj += 10)
+                for (int jj = 0; jj < 1000; jj += 1000)
                 {
                     yield return new WaitForSecondsRealtime(0.0001f);
-                    p1c2progress.value += 10;
+                    p1c2progress.value += 1000;
                 }
             }
 

@@ -2363,7 +2363,7 @@ MonoBehaviour:
   PowerWindowLobby: {fileID: 1889436995}
   backgroundpanel: {fileID: 474753085}
   StartMenuObject: {fileID: 1057172096}
-  backgroundimg: {fileID: 0}
+  backgroundimg: {fileID: 866488231}
   back1: {fileID: 21300000, guid: b6dc923d79b51504882d06e21f27b5a4, type: 3}
   back2: {fileID: 21300000, guid: 417ec32f66203114ca24054150840d22, type: 3}
   back3: {fileID: 21300000, guid: 334406b5434e60d4db8e899584e98a0d, type: 3}
