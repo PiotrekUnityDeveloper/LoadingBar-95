@@ -1,13 +1,47 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class UIManager : MonoBehaviour
 {
     //ingame
-    
+    public GameObject CMDWindow;
+    // public GameObject HelpWindow;
+    public GameObject StopWindow;
+    public GameObject PowerWindow;
 
     //inlobby (os-menu)
+
+    public GameObject CMDWindowLobby;
+    public GameObject PlayWindowLobby;
+    public GameObject HelpWindowLobby;
+    public GameObject PowerWindowLobby;
+
+    public GameObject backgroundpanel;
+
+    //TASKBAR
+    public GameObject StartMenuObject;
+
+    public void toggleStartMenu()
+    {
+        StartMenuObject.SetActive(!StartMenuObject.active);
+    }
+
+    public void ToggleStartMenuinGame()
+    {
+        StartMenuObject.SetActive(!StartMenuObject.active);
+
+        if(StartMenuObject.active = true)
+        {
+            Time.timeScale = 1;
+        }
+        else
+        {
+            Time.timeScale = 0;
+        }
+    }
 
     // Start is called before the first frame update
     void Start()
@@ -21,5 +55,78 @@ public class UIManager : MonoBehaviour
         
     }
 
+    public void ToggleCMDinGame(bool ison)
+    {
+        CMDWindow.SetActive(ison);
+    }
 
+    public void ToggleShutDownDialog(bool ison)
+    {
+        PowerWindow.SetActive(ison);
+    }
+
+    public void ToggleStopWindowinGame(bool ison)
+    {
+        StopWindow.SetActive(ison);
+    }
+
+    //IN LOBBY
+
+    public void ToggleCMDinLobby(bool ison)
+    {
+        CMDWindowLobby.SetActive(ison);
+    }
+
+    public void ToggleShutDownWindowinLobby(bool ison)
+    {
+        PowerWindowLobby.SetActive(ison);
+    }
+
+    public void TogglePlayWindow(bool ison)
+    {
+        PlayWindowLobby.SetActive(ison);
+        //backgroundpanel.GetComponent<Animator>().SetTrigger("onfade"); //it should play on load
+    }
+
+    public void ToggleHelpWindow(bool ison)
+    {
+        HelpWindowLobby.SetActive(ison);
+    }
+
+    public void StopGame()
+    {
+        SceneManager.LoadScene("LB95");
+    }
+    
+
+    //actions in menu
+
+    public void StartGame(int gameid)
+    {
+        if(gameid == 1)
+        {
+            SceneManager.LoadSceneAsync("LB95Relax");
+        }
+
+        //add other gamemodes later
+    }
+
+    //GLOBAL
+
+    public Toggle radioshutdown;
+
+    public void PowerPC()
+    {
+        if(radioshutdown.isOn == true)
+        {
+            //shutdown the pc 
+            Application.Quit();
+        }
+        else
+        {
+            //restart
+            //load os selection scene here
+        }
+    }
+    
 }
