@@ -249,6 +249,13 @@ public class GameManager : MonoBehaviour
             progressstuff.Add("TempC");
         }
 
+        PlayerPrefs.DeleteKey("p1c1");
+        PlayerPrefs.DeleteKey("p1c2");
+        PlayerPrefs.DeleteKey("p1c3");
+        PlayerPrefs.DeleteKey("p2c1");
+        PlayerPrefs.DeleteKey("p2c2");
+        PlayerPrefs.DeleteKey("p2c3");
+
 
         if (isWarrior)
         {
@@ -1395,6 +1402,11 @@ public class GameManager : MonoBehaviour
     public IEnumerator overallprogressbarwindow()
     {
         ovprogressslider.value = PlayerPrefs.GetFloat("savedprogress", 0);
+
+        if(ovprogressslider.value > (ovprogressslider.maxValue - 1000))
+        {
+            ovprogressslider.value = 0;
+        }
 
         if(SessionPoints > (ovprogressslider.maxValue - ovprogressslider.value))
         {
