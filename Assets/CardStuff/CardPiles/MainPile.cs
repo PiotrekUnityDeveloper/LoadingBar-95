@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class MainPile : InteractableCardPile
 {
@@ -35,7 +36,15 @@ public class MainPile : InteractableCardPile
 
     public override bool CardCanBePutOnHere(Card cardToPutOn)
     {
-        return Cards.Count == 0 && cardToPutOn.value == 13;
+
+        if(SceneManager.GetActiveScene().name == "ProgressolitaireRemade")
+        {
+            return Cards.Count == 0 && cardToPutOn.value == 5;
+        }
+        else
+        {
+            return Cards.Count == 0 && cardToPutOn.value == 13;
+        }
     }
 
     public override void Add(Card cardToPutOn, bool addStepToHistory = true)

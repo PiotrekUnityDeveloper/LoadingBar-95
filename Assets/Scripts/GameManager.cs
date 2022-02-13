@@ -110,6 +110,11 @@ public class GameManager : MonoBehaviour
 
     public Sprite Levelup;
 
+    public Sprite less100;
+    public Sprite less200;
+
+    public Sprite SolitaireJR;
+
     //now
     public Sprite Stripes1; //blue first
     public Sprite Stripes2; //orange first
@@ -198,9 +203,14 @@ public class GameManager : MonoBehaviour
         {
             progressstuff.Add("SolitaireBonus");
         }
-        
 
-        if(isChaos == true)
+        if (PlayerPrefs.GetInt("SimpleSolitaireBonus", 0) > 0)
+        {
+            progressstuff.Add("SimpleSolitaireBonus");
+        }
+
+
+        if (isChaos == true)
         {
             progressstuff.Add("Chaos");
         }
@@ -266,6 +276,19 @@ public class GameManager : MonoBehaviour
         {
             progressstuff.Add("TempC");
         }
+
+        if(PlayerPrefs.GetInt("LessThan100") == 1)
+        {
+            progressstuff.Add("Less100");
+        }
+
+        if (PlayerPrefs.GetInt("LessThan200") == 1)
+        {
+            progressstuff.Add("Less200");
+        }
+
+        PlayerPrefs.DeleteKey("LessThan200");
+        PlayerPrefs.DeleteKey("LessThan100");
 
         PlayerPrefs.DeleteKey("p1c1");
         PlayerPrefs.DeleteKey("p1c2");
@@ -570,6 +593,117 @@ public class GameManager : MonoBehaviour
                 labelanimmmmmmmmmmmmmmmmmator.SetTrigger("close");
 
                 PlayerPrefs.DeleteKey("SolitaireBonus");
+                Destroy(instG2);
+            }
+
+            if (s == "SimpleSolitaireBonus")
+            {
+                GameObject instG2 = Instantiate(completeobjectprefab, infoinstantiotor.transform.position, Quaternion.identity);
+                if (instG2 != null)
+                {
+                    instG2.transform.parent = GameObject.Find("inst").transform;
+                    instG2.GetComponent<Image>().sprite = SolitaireJR;
+                    //incrementpointslabel = GameObject.FindGameObjectWithTag("PointsIncreaser").GetComponent<Text>();
+                    //incrementpointslabel = GameObject.Find("incpoints").GetComponent<Text>();
+                    //incrementpointslabel = instG2.transform.GetChild(0).GetComponent<Text>();
+                    //progresstxt = instG2.transform.GetChild(0).GetComponent<Text>();
+                    instG2.GetComponent<Animator>().SetTrigger("newPoint");
+                    randomstartingprogress = PlayerPrefs.GetInt("SimpleSolitaireBonus", 0);
+                    //randomstartingprogress = 20 * clippysdestroyed;
+                }
+                print("randomized number is " + randomstartingprogress);
+                labelanimmmmmmmmmmmmmmmmmator.SetTrigger("label1");
+                for (int i = 0; i < randomstartingprogress; i += 1000)
+                {
+                    yield return new WaitForSecondsRealtime(0.0000001f);
+                    //progresstxt.text = ("Pro Badge: " + i);
+                    realscoreincreasinglabel.text = ("SolitaireJR Bonus: " + i);
+                }
+                yield return new WaitForSecondsRealtime(1f);
+                SessionPoints += randomstartingprogress;
+                totalpointslabel.text = ("Total Points: " + SessionPoints);
+                if (instG2 != null)
+                {
+                    instG2.GetComponent<Animator>().SetTrigger("delPoint");
+                }
+
+                labelanimmmmmmmmmmmmmmmmmator.SetTrigger("close");
+
+                PlayerPrefs.DeleteKey("SimpleSolitaireBonus");
+                Destroy(instG2);
+            }
+
+            if (s == "Less100")
+            {
+                GameObject instG2 = Instantiate(completeobjectprefab, infoinstantiotor.transform.position, Quaternion.identity);
+                if (instG2 != null)
+                {
+                    instG2.transform.parent = GameObject.Find("inst").transform;
+                    instG2.GetComponent<Image>().sprite = less100;
+                    //incrementpointslabel = GameObject.FindGameObjectWithTag("PointsIncreaser").GetComponent<Text>();
+                    //incrementpointslabel = GameObject.Find("incpoints").GetComponent<Text>();
+                    //incrementpointslabel = instG2.transform.GetChild(0).GetComponent<Text>();
+                    //progresstxt = instG2.transform.GetChild(0).GetComponent<Text>();
+                    instG2.GetComponent<Animator>().SetTrigger("newPoint");
+                    randomstartingprogress = Random.Range(9000, 12050);
+                    //randomstartingprogress = 20 * clippysdestroyed;
+                }
+                print("randomized number is " + randomstartingprogress);
+                labelanimmmmmmmmmmmmmmmmmator.SetTrigger("label1");
+                for (int i = 0; i < randomstartingprogress; i += 1000)
+                {
+                    yield return new WaitForSecondsRealtime(0.0000001f);
+                    //progresstxt.text = ("Pro Badge: " + i);
+                    realscoreincreasinglabel.text = ("Less than 100 moves: " + i);
+                }
+                yield return new WaitForSecondsRealtime(1f);
+                SessionPoints += randomstartingprogress;
+                totalpointslabel.text = ("Total Points: " + SessionPoints);
+                if (instG2 != null)
+                {
+                    instG2.GetComponent<Animator>().SetTrigger("delPoint");
+                }
+
+                labelanimmmmmmmmmmmmmmmmmator.SetTrigger("close");
+
+                //PlayerPrefs.DeleteKey("SimpleSolitaireBonus");
+                Destroy(instG2);
+            }
+
+            if (s == "Less200")
+            {
+                GameObject instG2 = Instantiate(completeobjectprefab, infoinstantiotor.transform.position, Quaternion.identity);
+                if (instG2 != null)
+                {
+                    instG2.transform.parent = GameObject.Find("inst").transform;
+                    instG2.GetComponent<Image>().sprite = less200;
+                    //incrementpointslabel = GameObject.FindGameObjectWithTag("PointsIncreaser").GetComponent<Text>();
+                    //incrementpointslabel = GameObject.Find("incpoints").GetComponent<Text>();
+                    //incrementpointslabel = instG2.transform.GetChild(0).GetComponent<Text>();
+                    //progresstxt = instG2.transform.GetChild(0).GetComponent<Text>();
+                    instG2.GetComponent<Animator>().SetTrigger("newPoint");
+                    randomstartingprogress = Random.Range(5500, 6750);
+                    //randomstartingprogress = 20 * clippysdestroyed;
+                }
+                print("randomized number is " + randomstartingprogress);
+                labelanimmmmmmmmmmmmmmmmmator.SetTrigger("label1");
+                for (int i = 0; i < randomstartingprogress; i += 1000)
+                {
+                    yield return new WaitForSecondsRealtime(0.0000001f);
+                    //progresstxt.text = ("Pro Badge: " + i);
+                    realscoreincreasinglabel.text = ("Less than 200 moves: " + i);
+                }
+                yield return new WaitForSecondsRealtime(1f);
+                SessionPoints += randomstartingprogress;
+                totalpointslabel.text = ("Total Points: " + SessionPoints);
+                if (instG2 != null)
+                {
+                    instG2.GetComponent<Animator>().SetTrigger("delPoint");
+                }
+
+                labelanimmmmmmmmmmmmmmmmmator.SetTrigger("close");
+
+                //PlayerPrefs.DeleteKey("SimpleSolitaireBonus");
                 Destroy(instG2);
             }
 

@@ -13,6 +13,6 @@ public class pointsmovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        this.transform.position = new Vector2(this.gameObject.transform.position.x, this.gameObject.transform.position.y + 0.000001f);
+        this.transform.position = new Vector2(this.gameObject.transform.position.x, this.gameObject.transform.position.y + 0.0001f);
     }
 }

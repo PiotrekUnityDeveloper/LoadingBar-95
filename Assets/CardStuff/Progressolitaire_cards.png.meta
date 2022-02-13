@@ -1,0 +1,808 @@
+fileFormatVersion: 2
+guid: e9bd1d129d530f546b5b7fd6499b80b3
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: 0
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Progressolitaire_cards_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 404
+        width: 66
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b8c3fe04af29cc20800000000000000
+      internalID: 3227162989659670711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Progressolitaire_cards_1
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 404
+        width: 66
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87b309f834ead0fe0800000000000000
+      internalID: -1221128318752900232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Progressolitaire_cards_2
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 404
+        width: 66
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 164ecbab8fe46fbe0800000000000000
+      internalID: -1443879800333867935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Progressolitaire_cards_3
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 404
+        width: 66
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f17729110fd51f480800000000000000
+      internalID: -8867202905647450337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Progressolitaire_cards_4
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 404
+        width: 65
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff970e49096d6a4f0800000000000000
+      internalID: -817730365859792385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Progressolitaire_cards_5
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 308
+        width: 66
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5421df63a74147130800000000000000
+      internalID: 3563495720298025541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Progressolitaire_cards_6
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 308
+        width: 66
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d5a09e0c3e260ab0800000000000000
+      internalID: -5042291897317415472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Progressolitaire_cards_7
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 308
+        width: 66
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f31fb7ce92889260800000000000000
+      internalID: 7104572030644589553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Progressolitaire_cards_8
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 308
+        width: 66
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 788e2cdb969045c70800000000000000
+      internalID: 8958795908506642567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Progressolitaire_cards_9
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 308
+        width: 66
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9c2e76957b16f710800000000000000
+      internalID: 1726597698993138842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Progressolitaire_cards_10
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 210
+        width: 66
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 690e6f9c30e7e3d70800000000000000
+      internalID: 9024789258035454102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Progressolitaire_cards_11
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 210
+        width: 66
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00fe5d8f353797c20800000000000000
+      internalID: 3204719414345068288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Progressolitaire_cards_12
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 210
+        width: 66
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2d48d4705caaf570800000000000000
+      internalID: 8501296708172926252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Progressolitaire_cards_13
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 210
+        width: 66
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54b92aaed43fbb590800000000000000
+      internalID: -7657259225438839995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Progressolitaire_cards_14
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 210
+        width: 66
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 315cce7177fff1410800000000000000
+      internalID: 1450158492004173075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Progressolitaire_cards_15
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 113
+        width: 66
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2f0a175089cddac0800000000000000
+      internalID: -3828682555140731090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Progressolitaire_cards_16
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 113
+        width: 66
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a116c4821526cca0800000000000000
+      internalID: -5997065092330024543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Progressolitaire_cards_17
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 113
+        width: 66
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc405e9fbaca85120800000000000000
+      internalID: 2402860255834080463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Progressolitaire_cards_18
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 113
+        width: 66
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bb04e1ec30d05310800000000000000
+      internalID: 1391841244763917236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Progressolitaire_cards_19
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 113
+        width: 66
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4658f1b1adab0c420800000000000000
+      internalID: 2648322026814539108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Progressolitaire_cards_20
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 15
+        width: 66
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfe65f747c40dab00800000000000000
+      internalID: 841333959340420861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Progressolitaire_cards_21
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 15
+        width: 66
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dafc33afe20d9c9d0800000000000000
+      internalID: -2753440796975575123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Progressolitaire_cards_22
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 15
+        width: 66
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6608e869bcdb2cc00800000000000000
+      internalID: 919505956038934630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Progressolitaire_cards_23
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 15
+        width: 66
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e535b4e0784b52b70800000000000000
+      internalID: 8873697132956832606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Progressolitaire_cards_24
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 15
+        width: 66
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 530feffb26eb45750800000000000000
+      internalID: 6292863910680653877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Progressolitaire_cards_25
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 15
+        width: 66
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dd9e99f5b2e9fed0800000000000000
+      internalID: -2379621656883716654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Progressolitaire_cards_26
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 15
+        width: 66
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e9149a6426813eb0800000000000000
+      internalID: -4741861441679386139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Progressolitaire_cards_27
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 15
+        width: 66
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1950503cd7550ea50800000000000000
+      internalID: 6548327856827860369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Progressolitaire_cards_28
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 15
+        width: 66
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6c6bc95f808daf00800000000000000
+      internalID: 1129700434715044974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Progressolitaire_cards_29
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 15
+        width: 67
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57e2d99ad3daf9770800000000000000
+      internalID: 8619798692160679541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Progressolitaire_cards_30
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 12
+        width: 72
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5df9db345cba25500800000000000000
+      internalID: 383557782013321173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Progressolitaire_cards_31
+      rect:
+        serializedVersion: 2
+        x: 866
+        y: 16
+        width: 65
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22a0d95efb7640530800000000000000
+      internalID: 3820292457805711906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline:
+    - - {x: -493, y: 156}
+      - {x: -493, y: 244}
+      - {x: -428, y: 244}
+      - {x: -428, y: 156}
+    - - {x: -415, y: 156}
+      - {x: -415, y: 244}
+      - {x: -350, y: 244}
+      - {x: -350, y: 156}
+    - - {x: -338, y: 156}
+      - {x: -338, y: 244}
+      - {x: -272, y: 244}
+      - {x: -272, y: 156}
+    - - {x: -259, y: 156}
+      - {x: -259, y: 245}
+      - {x: -194, y: 245}
+      - {x: -194, y: 156}
+    - - {x: -181, y: 156}
+      - {x: -181, y: 244}
+      - {x: -116, y: 244}
+      - {x: -116, y: 156}
+    - - {x: -493, y: 58}
+      - {x: -493, y: 147}
+      - {x: -428, y: 147}
+      - {x: -428, y: 58}
+    - - {x: -416, y: 58}
+      - {x: -416, y: 147}
+      - {x: -350, y: 147}
+      - {x: -350, y: 58}
+    - - {x: -337, y: 59}
+      - {x: -337, y: 147}
+      - {x: -272, y: 147}
+      - {x: -272, y: 59}
+    - - {x: -259, y: 59}
+      - {x: -259, y: 146}
+      - {x: -193, y: 146}
+      - {x: -193, y: 59}
+    - - {x: -182, y: 58}
+      - {x: -182, y: 146}
+      - {x: -116, y: 146}
+      - {x: -116, y: 58}
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

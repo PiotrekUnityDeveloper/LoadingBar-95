@@ -172,7 +172,7 @@ public class TileCatcher : MonoBehaviour
 
             collect.Play();
 
-            GameObject ggggg = Instantiate(plus5procent, g.transform.position, Quaternion.identity);
+            GameObject ggggg = Instantiate(plus5procent, this.transform.position, Quaternion.identity);
             ggggg.transform.parent = null;
 
             //switch %
@@ -194,6 +194,9 @@ public class TileCatcher : MonoBehaviour
             procentText.text = (procent + "%");
 
             collect.Play();
+
+            GameObject ggggg = Instantiate(plus5procent, this.transform.position, Quaternion.identity);
+            ggggg.transform.parent = null; 
 
             //switch %
             //after tileanimation destroys

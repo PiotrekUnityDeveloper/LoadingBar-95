@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class CardGameManager : MonoBehaviour
 {
@@ -119,18 +120,21 @@ public class CardGameManager : MonoBehaviour
 
     private IEnumerator AutoComplete()
     {
-        IsAutoCompleting = true;
-        WaitForSeconds wait = new WaitForSeconds(0.2f);
-
-        while (!DiscardPile.AllAreFull())
+        if (SceneManager.GetActiveScene().name == "Solitaire1")
         {
-            DiscardPile smallestDiscardPile = DiscardPile.GetSmallest(out Card cardToAdd);
-            cardToAdd.Move(smallestDiscardPile, false, false, true);
-            yield return wait;
-        }
+            IsAutoCompleting = true;
+            WaitForSeconds wait = new WaitForSeconds(0.2f);
 
-        IsAutoCompleting = false;
-        OnGameEnd();
+            while (!DiscardPile.AllAreFull())
+            {
+                DiscardPile smallestDiscardPile = DiscardPile.GetSmallest(out Card cardToAdd);
+                cardToAdd.Move(smallestDiscardPile, false, false, true);
+                yield return wait;
+            }
+
+            IsAutoCompleting = false;
+            OnGameEnd();
+        }
     }
 
     public GameObject WinPanel;
@@ -138,7 +142,30 @@ public class CardGameManager : MonoBehaviour
     private void OnGameEnd()
     {
         WinPanel.SetActive(true);
-        PlayerPrefs.SetInt("SolitaireBonus", (PlayerPrefs.GetInt("SolitaireBonus", 0) + 150000));
+        
+
+        if(SceneManager.GetActiveScene().name == "Solitaire1")
+        {
+            PlayerPrefs.SetInt("SolitaireBonus", (PlayerPrefs.GetInt("SolitaireBonus", 0) + 150000));
+        }
+        else //the player is playing simple solitaire version (aka progressolitaire)
+        {
+            PlayerPrefs.SetInt("SimpleSolitaireBonus", (PlayerPrefs.GetInt("SimpleSolitaireBonus", 0) + 50000));
+        }
+
+        if(SceneManager.GetActiveScene().name == "Solitaire1" && ActionCounter < 100)
+        {
+            PlayerPrefs.SetInt("LessThan100", 1);
+
+        }
+        else if(SceneManager.GetActiveScene().name == "Solitaire1" && ActionCounter < 200)
+        {
+            PlayerPrefs.SetInt("LessThan200", 1);
+        }
+        else if(SceneManager.GetActiveScene().name != "Solitaire1" && ActionCounter < 50)
+        {
+            //i am not sure if it works but it should give some points to the player if hes playing simple solitaire and has less than 50 moves
+        }
 
         int time = Timer.Instance.Stop();
         //HighscoreManager.Instance.Add(time);
