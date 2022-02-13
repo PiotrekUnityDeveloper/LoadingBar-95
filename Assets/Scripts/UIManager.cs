@@ -151,6 +151,10 @@ public class UIManager : MonoBehaviour
         {
             SceneManager.LoadSceneAsync("LB95Relax");
         }
+        else if (gameid == 7)
+        {
+            SceneManager.LoadSceneAsync("Solitaire1");
+        }
 
         //add other gamemodes later
     }
