@@ -33,6 +33,8 @@ public class CardGameManager : MonoBehaviour
         }
     }
 
+    public bool isCardGameWon;
+
     private void Awake()
     {
         Instance = this;
@@ -41,6 +43,18 @@ public class CardGameManager : MonoBehaviour
     private void Start()
     {
         GiveCards();
+    }
+
+    private void Update()
+    {
+        if(isCardGameWon == false)
+        {
+            if(DiscardPile.AllAreFull() == true)
+            {
+                OnGameEnd();
+                //isCardGameWon = true;  moved to onGameEnd()
+            }
+        }
     }
 
     private void GiveCards()
@@ -148,7 +162,7 @@ public class CardGameManager : MonoBehaviour
     private void OnGameEnd()
     {
         WinPanel.SetActive(true);
-        
+        isCardGameWon = true;
 
         if(SceneManager.GetActiveScene().name == "Solitaire1")
         {
