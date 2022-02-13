@@ -25,8 +25,8 @@ TagManager:
   - ProgressBar
   - ProgressBarHolder
   - DragObjectLayer
-  - 
-  - 
+  - Card
+  - ClosedDrawTile
   - 
   - 
   - 
@@ -56,4 +56,16 @@ TagManager:
     locked: 0
   - name: LoadingBarTrail
     uniqueID: 2010624405
+    locked: 0
+  - name: Background
+    uniqueID: 3195565143
+    locked: 0
+  - name: MidBackground
+    uniqueID: 1141213003
+    locked: 0
+  - name: Card
+    uniqueID: 1030875663
+    locked: 0
+  - name: UI
+    uniqueID: 777879651
     locked: 0
