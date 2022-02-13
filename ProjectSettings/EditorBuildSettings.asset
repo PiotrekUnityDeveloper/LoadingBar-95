@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/CardStuff/Solitaire1.unity
     guid: a95760f91432bcf4dbbc51d08051bef3
+  - enabled: 1
+    path: Assets/CardStuff/ProgressolitaireRemade.unity
+    guid: 2304b6c550d9a2b4a846d9c9474b17b7
   m_configObjects: {}

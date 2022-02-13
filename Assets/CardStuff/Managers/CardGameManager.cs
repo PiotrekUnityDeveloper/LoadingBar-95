@@ -113,13 +113,19 @@ public class CardGameManager : MonoBehaviour
         }
         else if (openDrawPile.Cards.Count == 0 && closedDrawPile.Cards.Count == 0 && MainPile.AllAreRevealedCompletely())
         {
-            MouseDragManager.draggingEnabled = false;
+            if(SceneManager.GetActiveScene().name == "Solitaire1")
+            {
+                MouseDragManager.draggingEnabled = false;
+            }
+            
             StartCoroutine(AutoComplete());
         }
     }
 
     private IEnumerator AutoComplete()
     {
+        IsAutoCompleting = false;
+
         if (SceneManager.GetActiveScene().name == "Solitaire1")
         {
             IsAutoCompleting = true;
