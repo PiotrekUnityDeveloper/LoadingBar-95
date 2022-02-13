@@ -117,6 +117,9 @@ public class GameManager : MonoBehaviour
     public Sprite ThickStriper1; //blue first
     public Sprite ThickStripes2; //orange first
 
+    //even more
+    public Sprite Solitaire;
+
     //other
     [Header("Other Stuff")]
 
@@ -189,6 +192,11 @@ public class GameManager : MonoBehaviour
         {
             levelslider.maxValue = MasterLevels;
             //progressstuff.Add("Warrior");
+        }
+
+        if(PlayerPrefs.GetInt("SolitaireBonus", 0) > 0)
+        {
+            progressstuff.Add("SolitaireBonus");
         }
         
 
@@ -523,6 +531,45 @@ public class GameManager : MonoBehaviour
                 }
 
                 labelanimmmmmmmmmmmmmmmmmator.SetTrigger("close");
+                Destroy(instG2);
+            }
+
+            //SolitaireBonus
+
+            if (s == "SolitaireBonus")
+            {
+                GameObject instG2 = Instantiate(completeobjectprefab, infoinstantiotor.transform.position, Quaternion.identity);
+                if (instG2 != null)
+                {
+                    instG2.transform.parent = GameObject.Find("inst").transform;
+                    instG2.GetComponent<Image>().sprite = Solitaire;
+                    //incrementpointslabel = GameObject.FindGameObjectWithTag("PointsIncreaser").GetComponent<Text>();
+                    //incrementpointslabel = GameObject.Find("incpoints").GetComponent<Text>();
+                    //incrementpointslabel = instG2.transform.GetChild(0).GetComponent<Text>();
+                    //progresstxt = instG2.transform.GetChild(0).GetComponent<Text>();
+                    instG2.GetComponent<Animator>().SetTrigger("newPoint");
+                    randomstartingprogress = PlayerPrefs.GetInt("SolitaireBonus", 0);
+                    //randomstartingprogress = 20 * clippysdestroyed;
+                }
+                print("randomized number is " + randomstartingprogress);
+                labelanimmmmmmmmmmmmmmmmmator.SetTrigger("label1");
+                for (int i = 0; i < randomstartingprogress; i += 1000)
+                {
+                    yield return new WaitForSecondsRealtime(0.0000001f);
+                    //progresstxt.text = ("Pro Badge: " + i);
+                    realscoreincreasinglabel.text = ("Solitaire Bonus: " + i);
+                }
+                yield return new WaitForSecondsRealtime(1f);
+                SessionPoints += randomstartingprogress;
+                totalpointslabel.text = ("Total Points: " + SessionPoints);
+                if (instG2 != null)
+                {
+                    instG2.GetComponent<Animator>().SetTrigger("delPoint");
+                }
+
+                labelanimmmmmmmmmmmmmmmmmator.SetTrigger("close");
+
+                PlayerPrefs.DeleteKey("SolitaireBonus");
                 Destroy(instG2);
             }
 

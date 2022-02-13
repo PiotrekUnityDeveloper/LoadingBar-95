@@ -133,8 +133,13 @@ public class CardGameManager : MonoBehaviour
         OnGameEnd();
     }
 
+    public GameObject WinPanel;
+
     private void OnGameEnd()
     {
+        WinPanel.SetActive(true);
+        PlayerPrefs.SetInt("SolitaireBonus", (PlayerPrefs.GetInt("SolitaireBonus", 0) + 150000));
+
         int time = Timer.Instance.Stop();
         //HighscoreManager.Instance.Add(time);
         History.Reset();
