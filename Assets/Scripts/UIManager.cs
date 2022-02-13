@@ -155,6 +155,10 @@ public class UIManager : MonoBehaviour
         {
             SceneManager.LoadSceneAsync("Solitaire1");
         }
+        else if (gameid == 8)
+        {
+            SceneManager.LoadSceneAsync("ProgressolitaireRemade");
+        }
 
         //add other gamemodes later
     }
