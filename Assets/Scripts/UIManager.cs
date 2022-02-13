@@ -172,5 +172,10 @@ public class UIManager : MonoBehaviour
             //load os selection scene here
         }
     }
-    
+
+    private void Awake()
+    {
+        Screen.orientation = ScreenOrientation.Portrait;
+    }
+
 }

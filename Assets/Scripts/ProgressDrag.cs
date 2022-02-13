@@ -22,6 +22,7 @@ public class ProgressDrag : MonoBehaviour
     void Start()
     {
         fingerpoints = 0;
+        Screen.orientation = ScreenOrientation.Portrait;
     }
 
     // Update is called once per frame
