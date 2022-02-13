@@ -136,7 +136,7 @@ public class CardGameManager : MonoBehaviour
     private void OnGameEnd()
     {
         int time = Timer.Instance.Stop();
-        HighscoreManager.Instance.Add(time);
+        //HighscoreManager.Instance.Add(time);
         History.Reset();
     }
 }
