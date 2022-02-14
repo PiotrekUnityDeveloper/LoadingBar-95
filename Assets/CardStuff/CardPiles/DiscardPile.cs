@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using UnityEngine.SceneManagement;
 
 public class DiscardPile : InteractableCardPile
 {
@@ -13,10 +14,34 @@ public class DiscardPile : InteractableCardPile
 
     public static bool AllAreFull()
     {
+        if(SceneManager.GetActiveScene().name == "Solitaire1")
+        {
+            foreach (DiscardPile discardPile in allDiscardPiles)
+                if (discardPile.Cards.Count != 13)
+                    return false;
+            return true;
+        }
+        else
+        {
+            foreach (DiscardPile discardPile in allDiscardPiles)
+                if (discardPile.Cards.Count != 5)
+                    return false;
+            return true;
+        }
+        
+    }
+
+    public static int HowManyCardsOn()
+    {
+        //int i = 0;
         foreach (DiscardPile discardPile in allDiscardPiles)
-            if (discardPile.Cards.Count != 13)
-                return false;
-        return true;
+        {
+            //i++;
+            return discardPile.Cards.Count;
+        }
+
+        return 0;
+        
     }
 
     // Needed for auto completion.

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class CardGameManager : MonoBehaviour
 {
@@ -43,7 +44,11 @@ public class CardGameManager : MonoBehaviour
     private void Start()
     {
         GiveCards();
+        isCardGameWon = false;
     }
+
+    public Slider SolitaireJRProgress;
+    public Text ProgressText;
 
     private void Update()
     {
@@ -55,6 +60,10 @@ public class CardGameManager : MonoBehaviour
                 //isCardGameWon = true;  moved to onGameEnd()
             }
         }
+
+        SolitaireJRProgress.value = DiscardPile.HowManyCardsOn(); //game progress
+        ProgressText.text = (SolitaireJRProgress.value * 20) + "%";
+
     }
 
     private void GiveCards()
