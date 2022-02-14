@@ -715,10 +715,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   originalCard: {fileID: 751257861}
   images:
-  - {fileID: 21300000, guid: 65af6f3eb321e0d4ca9674abd9f73c9d, type: 3}
-  - {fileID: 21300000, guid: cb4ef7b8f547a984f90464c057ba402d, type: 3}
-  - {fileID: 21300000, guid: f7e620238ff0e184187329bb54af4cdd, type: 3}
-  - {fileID: 21300000, guid: de52dfdbc9353af429c6f7d2e03fc3c9, type: 3}
+  - {fileID: 21300000, guid: b7aa3b2de19deb64a9b5195ca569567e, type: 3}
+  - {fileID: 21300000, guid: e94b4701659990641ae2a486a4512d7c, type: 3}
+  - {fileID: 21300000, guid: f69744f7b19653b428d67e9d1a207cf8, type: 3}
+  - {fileID: 21300000, guid: 530498a9e3c53184599b9cb9c02a5a55, type: 3}
+  - {fileID: 21300000, guid: 91f6e752c1a6fd8498ff575198dc22a0, type: 3}
+  - {fileID: 21300000, guid: 5a3c62d88541bbb48b7abab40078ee01, type: 3}
+  - {fileID: 21300000, guid: c5ed1de51ab98504da8401877597ef1a, type: 3}
+  - {fileID: 21300000, guid: 87b4c3799d317db458e308b89131f1f3, type: 3}
+  - {fileID: 21300000, guid: fa17a2a3b746810418300b58d162d258, type: 3}
+  - {fileID: 21300000, guid: 10adbcff031fcf344b091e631cacaaf0, type: 3}
   ScoreLabel: {fileID: 0}
   ScoreTXT: {fileID: 1241778521}
 --- !u!4 &1063051621
