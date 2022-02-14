@@ -14,7 +14,7 @@ public class SceneController : MonoBehaviour {
 	private MemoryCard _secondRevealed;
 	private int _score = 0;
 
-	public const int gridRows = 5;
+	public const int gridRows = 2;
 	public const int gridCols = 4;
 	public const float offsetX = 1.50f;
 	public const float offsetY = 2.5f;

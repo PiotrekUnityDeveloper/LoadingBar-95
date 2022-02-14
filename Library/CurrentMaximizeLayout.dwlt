@@ -237,7 +237,7 @@ MonoBehaviour:
         m_IsRenaming: 0
         m_OriginalEventType: 11
         m_IsRenamingFilename: 0
-        m_ClientGUIView: {fileID: 7}
+        m_ClientGUIView: {fileID: 5}
       m_SearchString: 
     m_ExpandedScenes: []
     m_CurrenRootInstanceID: 0
@@ -308,9 +308,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -7.7855787, y: 3.216046, z: -104.3342}
+    m_Target: {x: -8.108228, y: 3.406584, z: -104.3564}
     speed: 2
-    m_Value: {x: -7.7855787, y: 3.216046, z: -104.3342}
+    m_Value: {x: -8.108228, y: 3.406584, z: -104.3564}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -361,9 +361,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 1.8229959
+    m_Target: 1.5163491
     speed: 2
-    m_Value: 1.8229959
+    m_Value: 1.5163491
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -778,7 +778,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 79}
     m_SelectedIDs: 164a0000
     m_LastClickedID: 18966
-    m_ExpandedIDs: 00000000164a0000264a000000ca9a3b
+    m_ExpandedIDs: 00000000164a000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
