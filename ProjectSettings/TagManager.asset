@@ -14,6 +14,7 @@ TagManager:
   - PointsIncreaser
   - PinkTile
   - RedTile
+  - GameButton
   layers:
   - Default
   - TransparentFX
