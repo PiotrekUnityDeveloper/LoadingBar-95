@@ -14,8 +14,8 @@ public class SceneController : MonoBehaviour {
 	private MemoryCard _secondRevealed;
 	private int _score = 0;
 
-	public const int gridRows = 2;
-	public const int gridCols = 4;
+	public const int gridRows = 3;
+	public const int gridCols = 6;
 	public const float offsetX = 1.50f;
 	public const float offsetY = 2.5f;
 
@@ -43,9 +43,12 @@ public class SceneController : MonoBehaviour {
 	}
 
 	void Start () {
+
+		Screen.orientation = ScreenOrientation.Landscape;
+
 		Vector3 startPos = originalCard.transform.position;
 
-		int[] numbers = {0,0,1,1,2,2,3,3};
+		int[] numbers = {0,0,1,1,2,2,3,3,4,4,5,5,6,6,7,7,8,8};
 		numbers = ShuffleArray (numbers);
 
 		for (int i = 0; i < gridCols; i++) {
@@ -58,6 +61,7 @@ public class SceneController : MonoBehaviour {
 					card = Instantiate(originalCard) as MemoryCard;
 
 				int index = j * gridCols + i;
+				print("the id is " + index);
 				int id = numbers[index];
 				card.SetCard(id,images[id]);
 				float posX = (offsetX * i) + startPos.x;
@@ -79,15 +83,18 @@ public class SceneController : MonoBehaviour {
 		return newArray;
 	}
 
+	public GameObject WinWindow;
+
 	private IEnumerator CheckMatch(){
 		if (_firstRevealed.id == _secondRevealed.id) {
 			_score++;
 			//ScoreLabel.text = "Score: " + _score;
 			ScoreTXT.text = "Pairs: " + _score;
 			Debug.Log ("Score: " + _score);
-			if(_score == 4)
+			if(_score == 9)
 			{
-				Debug.Log("Game Won!");
+				Debug.Log("Memory Game Won!");
+				WinWindow.SetActive(true);
 			}
 		} 
 		else {

@@ -17,4 +17,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/CardStuff/ProgressolitaireRemade.unity
     guid: 2304b6c550d9a2b4a846d9c9474b17b7
+  - enabled: 1
+    path: Assets/Scenes/StartupIntro.unity
+    guid: e20086c78aaf318468b3b62ef4dd8784
+  - enabled: 1
+    path: Assets/MemoryStuff/MEM.unity
+    guid: 708d55d567f4f7845808dea48edc67dc
   m_configObjects: {}

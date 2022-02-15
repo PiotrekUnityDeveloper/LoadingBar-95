@@ -20,6 +20,8 @@ public class Clippycde : MonoBehaviour
     {
         GameManager gmm = GameObject.Find("GameManager").GetComponent<GameManager>();
         gmm.clippysdestroyed += 1;
+        AudioSource clicksoundplayer = GameObject.Find("PointerClick").GetComponent<AudioSource>();
+        clicksoundplayer.Play();
         Destroy(this.gameObject);
     }
 }

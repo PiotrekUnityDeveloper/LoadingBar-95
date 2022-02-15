@@ -110,6 +110,8 @@ public class GameManager : MonoBehaviour
 
     public Sprite Levelup;
 
+    public Sprite MEMGame;
+
     public Sprite less100;
     public Sprite less200;
 
@@ -170,7 +172,10 @@ public class GameManager : MonoBehaviour
         currentLevel += 1;
         PlayerPrefs.SetInt("95level", currentLevel);
 
-        
+        if(PlayerPrefs.GetInt("MemoryGame", 0) == 1)
+        {
+            progressstuff.Add("Memory");
+        }
         
         
         if(isPro)
@@ -509,6 +514,41 @@ public class GameManager : MonoBehaviour
                     yield return new WaitForSecondsRealtime(0.0000001f);
                     //progresstxt.text = ("Pro Badge: " + i);
                     realscoreincreasinglabel.text = ("B-Y Stripes: " + i);
+                }
+                yield return new WaitForSecondsRealtime(1f);
+                SessionPoints += randomstartingprogress;
+                totalpointslabel.text = ("Total Points: " + SessionPoints);
+                if (instG2 != null)
+                {
+                    instG2.GetComponent<Animator>().SetTrigger("delPoint");
+                }
+
+                labelanimmmmmmmmmmmmmmmmmator.SetTrigger("close");
+                Destroy(instG2);
+            }
+
+            if (s == "Memory")
+            {
+                GameObject instG2 = Instantiate(progressinfoPrefab, infoinstantiotor.transform.position, Quaternion.identity);
+                if (instG2 != null)
+                {
+                    instG2.transform.parent = GameObject.Find("inst").transform;
+                    instG2.GetComponent<Image>().sprite = MEMGame;
+                    //incrementpointslabel = GameObject.FindGameObjectWithTag("PointsIncreaser").GetComponent<Text>();
+                    //incrementpointslabel = GameObject.Find("incpoints").GetComponent<Text>();
+                    //incrementpointslabel = instG2.transform.GetChild(0).GetComponent<Text>();
+                    //progresstxt = instG2.transform.GetChild(0).GetComponent<Text>();
+                    instG2.GetComponent<Animator>().SetTrigger("newPoint");
+                    randomstartingprogress = Random.Range(5000, 7500) + 2500;
+                    //randomstartingprogress = 20 * clippysdestroyed;
+                }
+                print("randomized number is " + randomstartingprogress);
+                labelanimmmmmmmmmmmmmmmmmator.SetTrigger("label1");
+                for (int i = 0; i < randomstartingprogress; i += 10)
+                {
+                    yield return new WaitForSecondsRealtime(0.0000001f);
+                    //progresstxt.text = ("Pro Badge: " + i);
+                    realscoreincreasinglabel.text = ("Your Last Memory Game: " + i);
                 }
                 yield return new WaitForSecondsRealtime(1f);
                 SessionPoints += randomstartingprogress;
@@ -2303,6 +2343,13 @@ public class GameManager : MonoBehaviour
     public void ActivateWin95LOADER()
     {
         StartCoroutine(Load95Menu());
+    }
+
+    public AudioSource clicksound;
+
+    public void ClickSound()
+    {
+        clicksound.Play();
     }
 
     public IEnumerator Load95Menu()

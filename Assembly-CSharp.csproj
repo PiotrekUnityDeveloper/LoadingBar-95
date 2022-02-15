@@ -60,6 +60,7 @@
     <Compile Include="Assets\Scripts\SolitaireManager.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SkewTextExample.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\WarpTextExample.cs" />
+    <Compile Include="Assets\MemoryStuff\UIButton.cs" />
     <Compile Include="Assets\Scripts\NewClippy.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SimpleScript.cs" />
     <Compile Include="Assets\Packages\DacenLibrary\Scripts\MultipleElementsButton.cs" />
@@ -86,6 +87,7 @@
     <Compile Include="Assets\MemoryStuff\oldstuff\GameController.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexJitter.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshProFloatingText.cs" />
+    <Compile Include="Assets\MemoryStuff\MemoryCard.cs" />
     <Compile Include="Assets\Scripts\LayerMover.cs" />
     <Compile Include="Assets\Scripts\AutoDestruction.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventHandler.cs" />
@@ -108,6 +110,7 @@
     <Compile Include="Assets\CardStuff\History.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\CameraController.cs" />
     <Compile Include="Assets\CardStuff\CardPiles\MainPile.cs" />
+    <Compile Include="Assets\MemoryStuff\SceneController.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\DropdownSample.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_PhoneNumberValidator.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMPro_InstructionOverlay.cs" />
@@ -124,9 +127,7 @@
     <Compile Include="Assets\CardStuff\CardPiles\InteractableCardPile.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventCheck.cs" />
-    <Compile Include="Assets\MemoryStuff\SceneController.cs" />
-    <Compile Include="Assets\MemoryStuff\MemoryCard.cs" />
-    <Compile Include="Assets\MemoryStuff\UIButton.cs" />
+    <Compile Include="Assets\MemoryStuff\Memorymanager.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
