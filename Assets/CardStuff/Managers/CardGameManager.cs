@@ -66,6 +66,14 @@ public class CardGameManager : MonoBehaviour
 
     }
 
+    public void CheckForCompletion()
+    {
+        if (DiscardPile.AllAreFull() == true)
+        {
+            OnGameEnd();
+        }
+    }
+
     private void GiveCards()
     {
         Timer.Instance.ResetTime();
