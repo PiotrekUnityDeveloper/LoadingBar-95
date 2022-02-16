@@ -2085,7 +2085,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 8ea64b9b0df70894fae0fa8e2cdce89c, type: 3}
   ScoreLabel: {fileID: 0}
   ScoreTXT: {fileID: 1241778521}
-  WinWindow: {fileID: 0}
+  WinWindow: {fileID: 574646291}
 --- !u!4 &1063051621
 Transform:
   m_ObjectHideFlags: 0

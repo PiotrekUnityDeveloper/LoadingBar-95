@@ -163,6 +163,10 @@ public class UIManager : MonoBehaviour
         {
             SceneManager.LoadSceneAsync("MEM");
         }
+        else if (gameid == 10)
+        {
+            SceneManager.LoadSceneAsync("Mahjong");
+        }
 
         //add other gamemodes later
     }
