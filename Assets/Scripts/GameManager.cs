@@ -112,6 +112,7 @@ public class GameManager : MonoBehaviour
     public Sprite ClippyCancel;
 
     public Sprite Levelup;
+    public Sprite Minesweeper;
 
     public Sprite MEMGame;
 
@@ -391,6 +392,11 @@ public class GameManager : MonoBehaviour
             progressstuff.Add("MahjongGame");
         }
 
+        if(PlayerPrefs.GetInt("Minesweeper", 0) == 1)
+        {
+            progressstuff.Add("Minesweeper");
+        }
+
         PlayerPrefs.DeleteKey("Mahjong");
 
         progressstuff.Add("Progress Points");
@@ -463,6 +469,40 @@ public class GameManager : MonoBehaviour
                     instG2.GetComponent<Animator>().SetTrigger("delPoint");
                 }
                 
+                labelanimmmmmmmmmmmmmmmmmator.SetTrigger("close");
+                Destroy(instG2);
+            }
+
+            if (s == "Minesweeper")
+            {
+                GameObject instG2 = Instantiate(progressinfoPrefab, infoinstantiotor.transform.position, Quaternion.identity);
+                if (instG2 != null)
+                {
+                    instG2.transform.parent = GameObject.Find("inst").transform;
+                    instG2.GetComponent<Image>().sprite = Minesweeper;
+                    //incrementpointslabel = GameObject.FindGameObjectWithTag("PointsIncreaser").GetComponent<Text>();
+                    //incrementpointslabel = GameObject.Find("incpoints").GetComponent<Text>();
+                    //incrementpointslabel = instG2.transform.GetChild(0).GetComponent<Text>();
+                    //progresstxt = instG2.transform.GetChild(0).GetComponent<Text>();
+                    instG2.GetComponent<Animator>().SetTrigger("newPoint");
+                    randomstartingprogress = Random.Range(500, 5000);
+                }
+                print("randomized number is " + randomstartingprogress);
+                labelanimmmmmmmmmmmmmmmmmator.SetTrigger("label1");
+                for (int i = 0; i < randomstartingprogress; i += 10)
+                {
+                    yield return new WaitForSecondsRealtime(0.0000001f);
+                    //progresstxt.text = ("Pro Badge: " + i);
+                    realscoreincreasinglabel.text = ("Minesweeper Warrior!: " + i);
+                }
+                yield return new WaitForSecondsRealtime(1f);
+                SessionPoints += randomstartingprogress;
+                totalpointslabel.text = ("Total Points: " + SessionPoints);
+                if (instG2 != null)
+                {
+                    instG2.GetComponent<Animator>().SetTrigger("delPoint");
+                }
+
                 labelanimmmmmmmmmmmmmmmmmator.SetTrigger("close");
                 Destroy(instG2);
             }

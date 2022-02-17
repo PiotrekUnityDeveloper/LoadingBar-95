@@ -147,7 +147,7 @@ public class UIManager : MonoBehaviour
 
     public void StartGame(int gameid)
     {
-        if(gameid == 1)
+        if(gameid == 1) //2-6 are normal games with different difficulties
         {
             SceneManager.LoadSceneAsync("LB95Relax");
         }
@@ -166,6 +166,10 @@ public class UIManager : MonoBehaviour
         else if (gameid == 10)
         {
             SceneManager.LoadSceneAsync("Mahjong");
+        }
+        else if (gameid == 11)
+        {
+            SceneManager.LoadSceneAsync("PlayScene");
         }
 
         //add other gamemodes later

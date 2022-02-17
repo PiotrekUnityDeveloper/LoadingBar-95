@@ -307,6 +307,7 @@ public class ControlScript : MonoBehaviour {
     public void GameisWon()
     {
         WinWindow.SetActive(true);
+        PlayerPrefs.SetInt("Minesweeper", 1);
     }
 
     public void CloseWonDialog()
