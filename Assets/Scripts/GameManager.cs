@@ -391,6 +391,8 @@ public class GameManager : MonoBehaviour
             progressstuff.Add("MahjongGame");
         }
 
+        PlayerPrefs.DeleteKey("Mahjong");
+
         progressstuff.Add("Progress Points");
         progressstuff.Add("Win95");
         progressstuff.Add("Levelup");

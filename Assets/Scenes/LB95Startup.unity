@@ -604,7 +604,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: Initializing...
+  m_Text: 'Initializing...
+
+    Quantum-core ATG 9'
 --- !u!222 &1788287916
 CanvasRenderer:
   m_ObjectHideFlags: 0
