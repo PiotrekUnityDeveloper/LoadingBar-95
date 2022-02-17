@@ -200,6 +200,8 @@
     <Compile Include="Assets\Water2D\Scrpts\screenshot.cs" />
     <Compile Include="Assets\Water2D\Core\MetaballParticleClass.cs" />
     <Compile Include="Assets\Water2D\PropertyDrawers\SeparatorAttributeDrawer.cs" />
+    <Compile Include="Assets\Scripts\IntroManager.cs" />
+    <Compile Include="Assets\Scenes\SceneRedirector.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
