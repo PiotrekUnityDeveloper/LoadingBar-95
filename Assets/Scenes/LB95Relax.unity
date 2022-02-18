@@ -25841,6 +25841,7 @@ MonoBehaviour:
   less100: {fileID: 21300000, guid: cd53a76132228e84883208813b59e4b1, type: 3}
   less200: {fileID: 21300000, guid: 45732506603e8f4448dbe8c7cb4f1e5e, type: 3}
   SolitaireJR: {fileID: 21300000, guid: 0c5a6d0b1f3bc624f88149bd76b28221, type: 3}
+  Jigsaw: {fileID: 21300000, guid: e385d4f9f77ae044fbba7855a2e11765, type: 3}
   Stripes1: {fileID: 21300000, guid: ec7d60e8d68e15f45b06e1f795e4dc62, type: 3}
   Stripes2: {fileID: 21300000, guid: a462b8afeb7de6b40a648b8a8aa584a9, type: 3}
   ThickStriper1: {fileID: 0}

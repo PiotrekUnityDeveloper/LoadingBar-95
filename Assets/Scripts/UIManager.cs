@@ -171,6 +171,11 @@ public class UIManager : MonoBehaviour
         {
             SceneManager.LoadSceneAsync("PlayScene");
         }
+        else if (gameid == 12)
+        {
+            print("loading puzzle scene...");
+            SceneManager.LoadSceneAsync("Puzzler");
+        }
 
         //add other gamemodes later
     }
@@ -192,6 +197,102 @@ public class UIManager : MonoBehaviour
             //load os selection scene here
         }
     }
+
+    public List<GameObject> GamemodePages = new List<GameObject>();
+
+    public int pageID = 1;
+
+    public void TurnPage(bool forward)
+    {
+        if(forward == true)
+        {
+            foreach(GameObject g in GamemodePages)
+            {
+                g.SetActive(false);
+            }
+
+
+            Debug.Log("page id is: " + pageID + " || pages count is: " + GamemodePages.Count.ToString());
+
+            if (pageID > GamemodePages.Count) // smth not right here 
+            {
+                pageID = 1;
+                GamemodePages[(pageID + 1)].SetActive(true);
+            }
+            else
+            {
+                GamemodePages[(pageID + 1)].SetActive(true);
+            }
+
+            Debug.Log("page id is: " + pageID + " || pages count is: " + GamemodePages.Count.ToString());
+
+            pageID += 1;
+        }
+        else if(forward == false)
+        {
+            foreach (GameObject g in GamemodePages)
+            {
+                g.SetActive(false);
+            }
+
+            if (pageID < 1)
+            {
+                pageID = GamemodePages.Count;
+                GamemodePages[(pageID - 1)].SetActive(true);
+            }
+            else
+            {
+                GamemodePages[(pageID - 1)].SetActive(true);
+            }
+
+            pageID -= 1;
+
+            Debug.Log("page id is: " + pageID + " || pages count is: " + GamemodePages.Count.ToString());
+        }
+
+       
+    }
+
+    public void GoToPage(int page)
+    {
+        foreach (GameObject g in GamemodePages)
+        {
+            g.SetActive(false);
+        }
+
+        GamemodePages[page].SetActive(true);
+    }
+
+    
+    /*
+
+    public GameObject PageOne;
+    public GameObject PageTwo; //i know i could just make a list
+
+    public void PageSwitcher(int pageid)
+    {
+        switch(pageid)
+        {
+            case 1:
+                PageOne.SetActive(true);
+                PageTwo.SetActive(false);
+                break;
+            case 2:
+                PageOne.SetActive(false);
+                PageTwo.SetActive(true);
+                break;
+        }
+    }
+
+    public void PageFlip(bool forward)
+    {
+        if(forward == true)
+        {
+            
+        }
+    }
+
+    */
 
     private void Awake()
     {

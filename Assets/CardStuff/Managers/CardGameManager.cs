@@ -61,9 +61,9 @@ public class CardGameManager : MonoBehaviour
             }
         }
 
-        SolitaireJRProgress.value = DiscardPile.HowManyCardsOn() * 5; //game progress
-        ProgressText.text = (SolitaireJRProgress.value * 20) + "%";
-
+        //SolitaireJRProgress.value = DiscardPile.HowManyCardsOn() * 5; //game progress
+        //ProgressText.text = (SolitaireJRProgress.value * 20) + "%";
+        
     }
 
     public void CheckForCompletion()

@@ -1,0 +1,2930 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 61
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 995438498, guid: 68c7e4565cde54155bb78d8e935f1ddb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cacheType: 6
+  lastUpdatedAtString: 2022-02-18T20:04:18.626+01:00
+  initializedAtString: 2022-02-18T12:58:26.423+01:00
+  entries:
+  - path: .vs\LoadingBar-95\v17\.suo
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\.vs\LoadingBar-95\v17\.suo
+    projectPath: .vs\LoadingBar-95\v17\.suo
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: .vs\LoadingBar-95\v17\fileList.bin
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\.vs\LoadingBar-95\v17\fileList.bin
+    projectPath: .vs\LoadingBar-95\v17\fileList.bin
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assembly-CSharp.csproj
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Assembly-CSharp.csproj
+    projectPath: Assembly-CSharp.csproj
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assembly-CSharp-Editor-firstpass.csproj
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Assembly-CSharp-Editor-firstpass.csproj
+    projectPath: Assembly-CSharp-Editor-firstpass.csproj
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Animations\puzzlescroll.anim
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Assets\Animations\puzzlescroll.anim
+    projectPath: Assets\Animations\puzzlescroll.anim
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Animations\puzzlescroll.anim.meta
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Assets\Animations\puzzlescroll.anim.meta
+    projectPath: Assets\Animations\puzzlescroll.anim.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Animations\StartPanel.controller
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Assets\Animations\StartPanel.controller
+    projectPath: Assets\Animations\StartPanel.controller
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Animations\StartPanel.controller.meta
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Assets\Animations\StartPanel.controller.meta
+    projectPath: Assets\Animations\StartPanel.controller.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\CardStuff\Managers\CardGameManager.cs
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Assets\CardStuff\Managers\CardGameManager.cs
+    projectPath: Assets\CardStuff\Managers\CardGameManager.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Photos.meta
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Assets\Photos.meta
+    projectPath: Assets\Photos.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Photos\131377861_2976255055935530_2940512711185920189_n.jpg
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Assets\Photos\131377861_2976255055935530_2940512711185920189_n.jpg
+    projectPath: Assets\Photos\131377861_2976255055935530_2940512711185920189_n.jpg
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Photos\131377861_2976255055935530_2940512711185920189_n.jpg.meta
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Assets\Photos\131377861_2976255055935530_2940512711185920189_n.jpg.meta
+    projectPath: Assets\Photos\131377861_2976255055935530_2940512711185920189_n.jpg.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Photos\182956504_840651436799920_2934344769041362842_n.jpg
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Assets\Photos\182956504_840651436799920_2934344769041362842_n.jpg
+    projectPath: Assets\Photos\182956504_840651436799920_2934344769041362842_n.jpg
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Photos\182956504_840651436799920_2934344769041362842_n.jpg.meta
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Assets\Photos\182956504_840651436799920_2934344769041362842_n.jpg.meta
+    projectPath: Assets\Photos\182956504_840651436799920_2934344769041362842_n.jpg.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Photos\192382100_273812534445251_1910845700611727637_n.png
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Assets\Photos\192382100_273812534445251_1910845700611727637_n.png
+    projectPath: Assets\Photos\192382100_273812534445251_1910845700611727637_n.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Photos\192382100_273812534445251_1910845700611727637_n.png.meta
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Assets\Photos\192382100_273812534445251_1910845700611727637_n.png.meta
+    projectPath: Assets\Photos\192382100_273812534445251_1910845700611727637_n.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Photos\261236796_951447212391124_5900859558998716767_n.jpg
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Assets\Photos\261236796_951447212391124_5900859558998716767_n.jpg
+    projectPath: Assets\Photos\261236796_951447212391124_5900859558998716767_n.jpg
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Photos\261236796_951447212391124_5900859558998716767_n.jpg.meta
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Assets\Photos\261236796_951447212391124_5900859558998716767_n.jpg.meta
+    projectPath: Assets\Photos\261236796_951447212391124_5900859558998716767_n.jpg.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Photos\268429773_460709179016484_3360684485024975612_n.jpg
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Assets\Photos\268429773_460709179016484_3360684485024975612_n.jpg
+    projectPath: Assets\Photos\268429773_460709179016484_3360684485024975612_n.jpg
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Photos\268429773_460709179016484_3360684485024975612_n.jpg.meta
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Assets\Photos\268429773_460709179016484_3360684485024975612_n.jpg.meta
+    projectPath: Assets\Photos\268429773_460709179016484_3360684485024975612_n.jpg.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Photos\894172934798123740917234.jpg
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Assets\Photos\894172934798123740917234.jpg
+    projectPath: Assets\Photos\894172934798123740917234.jpg
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Photos\894172934798123740917234.jpg.meta
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Assets\Photos\894172934798123740917234.jpg.meta
+    projectPath: Assets\Photos\894172934798123740917234.jpg.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Photos\Alpha_v1.0.0.png
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Assets\Photos\Alpha_v1.0.0.png
+    projectPath: Assets\Photos\Alpha_v1.0.0.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Photos\Alpha_v1.0.0.png.meta
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Assets\Photos\Alpha_v1.0.0.png.meta
+    projectPath: Assets\Photos\Alpha_v1.0.0.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Photos\chlodzeniepcwoda.PNG
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Assets\Photos\chlodzeniepcwoda.PNG
+    projectPath: Assets\Photos\chlodzeniepcwoda.PNG
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Photos\chlodzeniepcwoda.PNG.meta
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Assets\Photos\chlodzeniepcwoda.PNG.meta
+    projectPath: Assets\Photos\chlodzeniepcwoda.PNG.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Photos\DARKHR.PNG
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Assets\Photos\DARKHR.PNG
+    projectPath: Assets\Photos\DARKHR.PNG
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Photos\DARKHR.PNG.meta
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Assets\Photos\DARKHR.PNG.meta
+    projectPath: Assets\Photos\DARKHR.PNG.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Photos\elektrykos.jpg
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Assets\Photos\elektrykos.jpg
+    projectPath: Assets\Photos\elektrykos.jpg
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Photos\elektrykos.jpg.meta
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Assets\Photos\elektrykos.jpg.meta
+    projectPath: Assets\Photos\elektrykos.jpg.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Photos\hypercam.PNG
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Assets\Photos\hypercam.PNG
+    projectPath: Assets\Photos\hypercam.PNG
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Photos\hypercam.PNG.meta
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Assets\Photos\hypercam.PNG.meta
+    projectPath: Assets\Photos\hypercam.PNG.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: "Assets\\Photos\\nag\u0142owek-gory.jpg"
+    fullPath: "C:\\Users\\piotreczkoland14\\Documents\\GitHub\\LoadingBar-95\\Assets\\Photos\\nag\u0142owek-gory.jpg"
+    projectPath: "Assets\\Photos\\nag\u0142owek-gory.jpg"
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: "Assets\\Photos\\nag\u0142owek-gory.jpg.meta"
+    fullPath: "C:\\Users\\piotreczkoland14\\Documents\\GitHub\\LoadingBar-95\\Assets\\Photos\\nag\u0142owek-gory.jpg.meta"
+    projectPath: "Assets\\Photos\\nag\u0142owek-gory.jpg.meta"
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Photos\palisie.PNG
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Assets\Photos\palisie.PNG
+    projectPath: Assets\Photos\palisie.PNG
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Photos\palisie.PNG.meta
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Assets\Photos\palisie.PNG.meta
+    projectPath: Assets\Photos\palisie.PNG.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Photos\polskagurom.PNG
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Assets\Photos\polskagurom.PNG
+    projectPath: Assets\Photos\polskagurom.PNG
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Photos\polskagurom.PNG.meta
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Assets\Photos\polskagurom.PNG.meta
+    projectPath: Assets\Photos\polskagurom.PNG.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Photos\siemsondaosndad.png
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Assets\Photos\siemsondaosndad.png
+    projectPath: Assets\Photos\siemsondaosndad.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Photos\siemsondaosndad.png.meta
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Assets\Photos\siemsondaosndad.png.meta
+    projectPath: Assets\Photos\siemsondaosndad.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Photos\SUBUHJ.PNG
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Assets\Photos\SUBUHJ.PNG
+    projectPath: Assets\Photos\SUBUHJ.PNG
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Photos\SUBUHJ.PNG.meta
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Assets\Photos\SUBUHJ.PNG.meta
+    projectPath: Assets\Photos\SUBUHJ.PNG.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Photos\swiniok.PNG
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Assets\Photos\swiniok.PNG
+    projectPath: Assets\Photos\swiniok.PNG
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Photos\swiniok.PNG.meta
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Assets\Photos\swiniok.PNG.meta
+    projectPath: Assets\Photos\swiniok.PNG.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Photos\szydlowitepe.jpg
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Assets\Photos\szydlowitepe.jpg
+    projectPath: Assets\Photos\szydlowitepe.jpg
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Photos\szydlowitepe.jpg.meta
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Assets\Photos\szydlowitepe.jpg.meta
+    projectPath: Assets\Photos\szydlowitepe.jpg.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Photos\walwzeroipolwudestartopolskiem.PNG
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Assets\Photos\walwzeroipolwudestartopolskiem.PNG
+    projectPath: Assets\Photos\walwzeroipolwudestartopolskiem.PNG
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Photos\walwzeroipolwudestartopolskiem.PNG.meta
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Assets\Photos\walwzeroipolwudestartopolskiem.PNG.meta
+    projectPath: Assets\Photos\walwzeroipolwudestartopolskiem.PNG.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Photos\witkowagiera.png
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Assets\Photos\witkowagiera.png
+    projectPath: Assets\Photos\witkowagiera.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Photos\witkowagiera.png.meta
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Assets\Photos\witkowagiera.png.meta
+    projectPath: Assets\Photos\witkowagiera.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Photos\wuda.png
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Assets\Photos\wuda.png
+    projectPath: Assets\Photos\wuda.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Photos\wuda.png.meta
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Assets\Photos\wuda.png.meta
+    projectPath: Assets\Photos\wuda.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Photos\zaplyv.png
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Assets\Photos\zaplyv.png
+    projectPath: Assets\Photos\zaplyv.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Photos\zaplyv.png.meta
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Assets\Photos\zaplyv.png.meta
+    projectPath: Assets\Photos\zaplyv.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Photos\zasyfione.png
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Assets\Photos\zasyfione.png
+    projectPath: Assets\Photos\zasyfione.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Photos\zasyfione.png.meta
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Assets\Photos\zasyfione.png.meta
+    projectPath: Assets\Photos\zasyfione.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins.meta
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Assets\Plugins.meta
+    projectPath: Assets\Plugins.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\GitHub.meta
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Assets\Plugins\GitHub.meta
+    projectPath: Assets\Plugins\GitHub.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\GitHub\Editor.meta
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Assets\Plugins\GitHub\Editor.meta
+    projectPath: Assets\Plugins\GitHub\Editor.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
+    projectPath: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
+    projectPath: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
+    projectPath: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs.meta
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Assets\Plugins\GitHub\Editor\ExtensionLoader.cs.meta
+    projectPath: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll
+    projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.meta
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.meta
+    projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\GitHub\Editor\GitHub.Api.dll
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Assets\Plugins\GitHub\Editor\GitHub.Api.dll
+    projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
+    projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
+    projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
+    projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll
+    projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.meta
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.meta
+    projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
+    projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
+    projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll
+    projectPath: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.meta
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.meta
+    projectPath: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\GitHub\Editor\Mono.Posix.dll
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Assets\Plugins\GitHub\Editor\Mono.Posix.dll
+    projectPath: Assets\Plugins\GitHub\Editor\Mono.Posix.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
+    projectPath: Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
+    projectPath: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
+    projectPath: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\GitHub\Editor\sfw.net.dll
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Assets\Plugins\GitHub\Editor\sfw.net.dll
+    projectPath: Assets\Plugins\GitHub\Editor\sfw.net.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
+    projectPath: Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\GitHub\Editor\System.Threading.dll
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Assets\Plugins\GitHub\Editor\System.Threading.dll
+    projectPath: Assets\Plugins\GitHub\Editor\System.Threading.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
+    projectPath: Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
+    projectPath: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs.meta
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs.meta
+    projectPath: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Scenes\LB95.unity
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Assets\Scenes\LB95.unity
+    projectPath: Assets\Scenes\LB95.unity
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Scenes\LB95Relax.unity
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Assets\Scenes\LB95Relax.unity
+    projectPath: Assets\Scenes\LB95Relax.unity
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Scenes\Puzzler.unity
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Assets\Scenes\Puzzler.unity
+    projectPath: Assets\Scenes\Puzzler.unity
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Scenes\Puzzler.unity.meta
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Assets\Scenes\Puzzler.unity.meta
+    projectPath: Assets\Scenes\Puzzler.unity.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Scenes\PuzzlerSettings.lighting
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Assets\Scenes\PuzzlerSettings.lighting
+    projectPath: Assets\Scenes\PuzzlerSettings.lighting
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Scenes\PuzzlerSettings.lighting.meta
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Assets\Scenes\PuzzlerSettings.lighting.meta
+    projectPath: Assets\Scenes\PuzzlerSettings.lighting.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Scenes\Tan.asset
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Assets\Scenes\Tan.asset
+    projectPath: Assets\Scenes\Tan.asset
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Scenes\Tan.asset.meta
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Assets\Scenes\Tan.asset.meta
+    projectPath: Assets\Scenes\Tan.asset.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Scripts\DragAndDrop_.cs
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Assets\Scripts\DragAndDrop_.cs
+    projectPath: Assets\Scripts\DragAndDrop_.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Scripts\DragAndDrop_.cs.meta
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Assets\Scripts\DragAndDrop_.cs.meta
+    projectPath: Assets\Scripts\DragAndDrop_.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Scripts\GameManager.cs
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Assets\Scripts\GameManager.cs
+    projectPath: Assets\Scripts\GameManager.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Scripts\IntroManager.cs
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Assets\Scripts\IntroManager.cs
+    projectPath: Assets\Scripts\IntroManager.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Scripts\piecesScript.cs
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Assets\Scripts\piecesScript.cs
+    projectPath: Assets\Scripts\piecesScript.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Scripts\piecesScript.cs.meta
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Assets\Scripts\piecesScript.cs.meta
+    projectPath: Assets\Scripts\piecesScript.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Scripts\PuzzleManager.cs
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Assets\Scripts\PuzzleManager.cs
+    projectPath: Assets\Scripts\PuzzleManager.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Scripts\PuzzleManager.cs.meta
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Assets\Scripts\PuzzleManager.cs.meta
+    projectPath: Assets\Scripts\PuzzleManager.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Scripts\puzzleSelect_.cs
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Assets\Scripts\puzzleSelect_.cs
+    projectPath: Assets\Scripts\puzzleSelect_.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Scripts\puzzleSelect_.cs.meta
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Assets\Scripts\puzzleSelect_.cs.meta
+    projectPath: Assets\Scripts\puzzleSelect_.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Scripts\StartGame.cs
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Assets\Scripts\StartGame.cs
+    projectPath: Assets\Scripts\StartGame.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Scripts\StartGame.cs.meta
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Assets\Scripts\StartGame.cs.meta
+    projectPath: Assets\Scripts\StartGame.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Scripts\UIManager.cs
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Assets\Scripts\UIManager.cs
+    projectPath: Assets\Scripts\UIManager.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Sprites.meta
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Assets\Sprites.meta
+    projectPath: Assets\Sprites.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Sprites\LSP.png
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Assets\Sprites\LSP.png
+    projectPath: Assets\Sprites\LSP.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Sprites\LSP.png.meta
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Assets\Sprites\LSP.png.meta
+    projectPath: Assets\Sprites\LSP.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Sprites\Lumpy.png
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Assets\Sprites\Lumpy.png
+    projectPath: Assets\Sprites\Lumpy.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Sprites\Lumpy.png.meta
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Assets\Sprites\Lumpy.png.meta
+    projectPath: Assets\Sprites\Lumpy.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Sprites\Pieces.png
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Assets\Sprites\Pieces.png
+    projectPath: Assets\Sprites\Pieces.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Sprites\Pieces.png.meta
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Assets\Sprites\Pieces.png.meta
+    projectPath: Assets\Sprites\Pieces.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Sprites\Puzzle.jpg
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Assets\Sprites\Puzzle.jpg
+    projectPath: Assets\Sprites\Puzzle.jpg
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Sprites\Puzzle.jpg.meta
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Assets\Sprites\Puzzle.jpg.meta
+    projectPath: Assets\Sprites\Puzzle.jpg.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Sprites\sepia-png-6-png-image-sepia-background-png-900_675.png
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Assets\Sprites\sepia-png-6-png-image-sepia-background-png-900_675.png
+    projectPath: Assets\Sprites\sepia-png-6-png-image-sepia-background-png-900_675.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Sprites\sepia-png-6-png-image-sepia-background-png-900_675.png.meta
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Assets\Sprites\sepia-png-6-png-image-sepia-background-png-900_675.png.meta
+    projectPath: Assets\Sprites\sepia-png-6-png-image-sepia-background-png-900_675.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Sprites\snapeAlwayz.png
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Assets\Sprites\snapeAlwayz.png
+    projectPath: Assets\Sprites\snapeAlwayz.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Sprites\snapeAlwayz.png.meta
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Assets\Sprites\snapeAlwayz.png.meta
+    projectPath: Assets\Sprites\snapeAlwayz.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\TextMesh Pro\Examples & Extras\Resources\Fonts & Materials\Roboto-Bold
+      SDF.asset
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Assets\TextMesh
+      Pro\Examples & Extras\Resources\Fonts & Materials\Roboto-Bold SDF.asset
+    projectPath: Assets\TextMesh Pro\Examples & Extras\Resources\Fonts & Materials\Roboto-Bold
+      SDF.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\TextMesh Pro\Resources\Fonts & Materials\LiberationSans SDF - Drop
+      Shadow.mat
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Assets\TextMesh
+      Pro\Resources\Fonts & Materials\LiberationSans SDF - Drop Shadow.mat
+    projectPath: Assets\TextMesh Pro\Resources\Fonts & Materials\LiberationSans SDF
+      - Drop Shadow.mat
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\TextMesh Pro\Resources\Fonts & Materials\LiberationSans SDF - Fallback.asset
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Assets\TextMesh
+      Pro\Resources\Fonts & Materials\LiberationSans SDF - Fallback.asset
+    projectPath: Assets\TextMesh Pro\Resources\Fonts & Materials\LiberationSans SDF
+      - Fallback.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Textures\exittip11.png
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Assets\Textures\exittip11.png
+    projectPath: Assets\Textures\exittip11.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Textures\exittip11.png.meta
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Assets\Textures\exittip11.png.meta
+    projectPath: Assets\Textures\exittip11.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Textures\exittip12.png
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Assets\Textures\exittip12.png
+    projectPath: Assets\Textures\exittip12.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Textures\exittip12.png.meta
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Assets\Textures\exittip12.png.meta
+    projectPath: Assets\Textures\exittip12.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Textures\jigsawpuzzle.png
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Assets\Textures\jigsawpuzzle.png
+    projectPath: Assets\Textures\jigsawpuzzle.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Textures\jigsawpuzzle.png.meta
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Assets\Textures\jigsawpuzzle.png.meta
+    projectPath: Assets\Textures\jigsawpuzzle.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\APIUpdater\project-dependencies.graph
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Library\APIUpdater\project-dependencies.graph
+    projectPath: Library\APIUpdater\project-dependencies.graph
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ArtifactDB
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Library\ArtifactDB
+    projectPath: Library\ArtifactDB
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\Artifacts\00\004269125861f02c09d135f21b060786
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Library\Artifacts\00\004269125861f02c09d135f21b060786
+    projectPath: Library\Artifacts\00\004269125861f02c09d135f21b060786
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\01\0135b1565db2ee232dcea2a2add6058b
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Library\Artifacts\01\0135b1565db2ee232dcea2a2add6058b
+    projectPath: Library\Artifacts\01\0135b1565db2ee232dcea2a2add6058b
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\02\027614817452880000561a75a6f15404
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Library\Artifacts\02\027614817452880000561a75a6f15404
+    projectPath: Library\Artifacts\02\027614817452880000561a75a6f15404
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\03\031e93fc0904d1bf6e77e3af3af1e78d
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Library\Artifacts\03\031e93fc0904d1bf6e77e3af3af1e78d
+    projectPath: Library\Artifacts\03\031e93fc0904d1bf6e77e3af3af1e78d
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\04\04a52dfc073e241404a442adfa0e1e3c
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Library\Artifacts\04\04a52dfc073e241404a442adfa0e1e3c
+    projectPath: Library\Artifacts\04\04a52dfc073e241404a442adfa0e1e3c
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\04\04e3817e143c36ad2e3597a1c0938b9a
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Library\Artifacts\04\04e3817e143c36ad2e3597a1c0938b9a
+    projectPath: Library\Artifacts\04\04e3817e143c36ad2e3597a1c0938b9a
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\05\050e34481acda0d81f7b6323f24b841d
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Library\Artifacts\05\050e34481acda0d81f7b6323f24b841d
+    projectPath: Library\Artifacts\05\050e34481acda0d81f7b6323f24b841d
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\06\0687f59331391a7b70ab2bc8ec43c443
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Library\Artifacts\06\0687f59331391a7b70ab2bc8ec43c443
+    projectPath: Library\Artifacts\06\0687f59331391a7b70ab2bc8ec43c443
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\08\082a70bf9d3649364affa2d1a7bf4fc3
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Library\Artifacts\08\082a70bf9d3649364affa2d1a7bf4fc3
+    projectPath: Library\Artifacts\08\082a70bf9d3649364affa2d1a7bf4fc3
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\0a\0a3e125c6de9e4ff7a63fe36dbc0f10d
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Library\Artifacts\0a\0a3e125c6de9e4ff7a63fe36dbc0f10d
+    projectPath: Library\Artifacts\0a\0a3e125c6de9e4ff7a63fe36dbc0f10d
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\0a\0ab31a1f1cc8fe6b1661d9b8f23b0b9c
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Library\Artifacts\0a\0ab31a1f1cc8fe6b1661d9b8f23b0b9c
+    projectPath: Library\Artifacts\0a\0ab31a1f1cc8fe6b1661d9b8f23b0b9c
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\0b\0b31707fc13b5b34d8ae2670a2da4099
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Library\Artifacts\0b\0b31707fc13b5b34d8ae2670a2da4099
+    projectPath: Library\Artifacts\0b\0b31707fc13b5b34d8ae2670a2da4099
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\0b\0bc2e0855dc22e66494269d92d77fd8a
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Library\Artifacts\0b\0bc2e0855dc22e66494269d92d77fd8a
+    projectPath: Library\Artifacts\0b\0bc2e0855dc22e66494269d92d77fd8a
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\0b\0bf1c62fa6192c3512ea2d8598bff62e
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Library\Artifacts\0b\0bf1c62fa6192c3512ea2d8598bff62e
+    projectPath: Library\Artifacts\0b\0bf1c62fa6192c3512ea2d8598bff62e
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\0c\0c52d960e653ea5928a70e18146e0fb7
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Library\Artifacts\0c\0c52d960e653ea5928a70e18146e0fb7
+    projectPath: Library\Artifacts\0c\0c52d960e653ea5928a70e18146e0fb7
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\0d\0d57fcfdec6fe4f3fa25155a86bc01f2
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Library\Artifacts\0d\0d57fcfdec6fe4f3fa25155a86bc01f2
+    projectPath: Library\Artifacts\0d\0d57fcfdec6fe4f3fa25155a86bc01f2
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\0f\0ff55e5e7d4a4e83ac2b3687481f8705
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Library\Artifacts\0f\0ff55e5e7d4a4e83ac2b3687481f8705
+    projectPath: Library\Artifacts\0f\0ff55e5e7d4a4e83ac2b3687481f8705
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\12\1289bdd2823085445307590e3db8bf0e
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Library\Artifacts\12\1289bdd2823085445307590e3db8bf0e
+    projectPath: Library\Artifacts\12\1289bdd2823085445307590e3db8bf0e
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\13\135f03cadb216e65fc2280efde94f454
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Library\Artifacts\13\135f03cadb216e65fc2280efde94f454
+    projectPath: Library\Artifacts\13\135f03cadb216e65fc2280efde94f454
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\13\13a4209009f0b7eba4ecea965b741c67
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Library\Artifacts\13\13a4209009f0b7eba4ecea965b741c67
+    projectPath: Library\Artifacts\13\13a4209009f0b7eba4ecea965b741c67
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\14\14394eeac5f1b6fba1ce35460f05840e
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Library\Artifacts\14\14394eeac5f1b6fba1ce35460f05840e
+    projectPath: Library\Artifacts\14\14394eeac5f1b6fba1ce35460f05840e
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\14\143ab7ba04e72de6114f54f1aad177a7
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Library\Artifacts\14\143ab7ba04e72de6114f54f1aad177a7
+    projectPath: Library\Artifacts\14\143ab7ba04e72de6114f54f1aad177a7
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\15\15ea30ab7965df00dfa265985de6097c
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Library\Artifacts\15\15ea30ab7965df00dfa265985de6097c
+    projectPath: Library\Artifacts\15\15ea30ab7965df00dfa265985de6097c
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\17\17ed7947dcfb6fd0cc4a9179bf46ddb1
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Library\Artifacts\17\17ed7947dcfb6fd0cc4a9179bf46ddb1
+    projectPath: Library\Artifacts\17\17ed7947dcfb6fd0cc4a9179bf46ddb1
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\19\19011b2f585f742834b7a25aebb60300
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Library\Artifacts\19\19011b2f585f742834b7a25aebb60300
+    projectPath: Library\Artifacts\19\19011b2f585f742834b7a25aebb60300
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\1a\1a36ffd332f2cdec8b299670a436817f
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Library\Artifacts\1a\1a36ffd332f2cdec8b299670a436817f
+    projectPath: Library\Artifacts\1a\1a36ffd332f2cdec8b299670a436817f
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\1c\1c32777e67fe74bf9d21ce84df146104
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Library\Artifacts\1c\1c32777e67fe74bf9d21ce84df146104
+    projectPath: Library\Artifacts\1c\1c32777e67fe74bf9d21ce84df146104
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\1d\1d41f59a56cb48c84ec457de9a9ebd37
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Library\Artifacts\1d\1d41f59a56cb48c84ec457de9a9ebd37
+    projectPath: Library\Artifacts\1d\1d41f59a56cb48c84ec457de9a9ebd37
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\1d\1d7aa786781aeeec84f7cd37a057778c
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Library\Artifacts\1d\1d7aa786781aeeec84f7cd37a057778c
+    projectPath: Library\Artifacts\1d\1d7aa786781aeeec84f7cd37a057778c
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\1d\1da24ec63dc6fb9dc8855ceaded632e3
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Library\Artifacts\1d\1da24ec63dc6fb9dc8855ceaded632e3
+    projectPath: Library\Artifacts\1d\1da24ec63dc6fb9dc8855ceaded632e3
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\1d\1ddf6ba2b421db4fdaa071bebc0f345e
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Library\Artifacts\1d\1ddf6ba2b421db4fdaa071bebc0f345e
+    projectPath: Library\Artifacts\1d\1ddf6ba2b421db4fdaa071bebc0f345e
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\1d\1df3fd3bd03c669bdf82d69f67a106ba
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Library\Artifacts\1d\1df3fd3bd03c669bdf82d69f67a106ba
+    projectPath: Library\Artifacts\1d\1df3fd3bd03c669bdf82d69f67a106ba
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\1e\1e284bd8934b43d12b8c48d39b76d6bb
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Library\Artifacts\1e\1e284bd8934b43d12b8c48d39b76d6bb
+    projectPath: Library\Artifacts\1e\1e284bd8934b43d12b8c48d39b76d6bb
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\1e\1ee7bbf56d5c4a809f4ee34ad60a36a5
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Library\Artifacts\1e\1ee7bbf56d5c4a809f4ee34ad60a36a5
+    projectPath: Library\Artifacts\1e\1ee7bbf56d5c4a809f4ee34ad60a36a5
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\1f\1f56651080f480a463aa453be9e708b3
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Library\Artifacts\1f\1f56651080f480a463aa453be9e708b3
+    projectPath: Library\Artifacts\1f\1f56651080f480a463aa453be9e708b3
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\20\20255c215fb2e610b8883782c7f6d326
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Library\Artifacts\20\20255c215fb2e610b8883782c7f6d326
+    projectPath: Library\Artifacts\20\20255c215fb2e610b8883782c7f6d326
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\22\229415b792d839d3a472e4669f880201
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Library\Artifacts\22\229415b792d839d3a472e4669f880201
+    projectPath: Library\Artifacts\22\229415b792d839d3a472e4669f880201
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\23\23d6234f1f3e1021f28c77972caf8966
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Library\Artifacts\23\23d6234f1f3e1021f28c77972caf8966
+    projectPath: Library\Artifacts\23\23d6234f1f3e1021f28c77972caf8966
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\24\2428a05f690eb2f532674393eb3fb706
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Library\Artifacts\24\2428a05f690eb2f532674393eb3fb706
+    projectPath: Library\Artifacts\24\2428a05f690eb2f532674393eb3fb706
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\26\26a3838195b3121d53dbb59b20d5ec16
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Library\Artifacts\26\26a3838195b3121d53dbb59b20d5ec16
+    projectPath: Library\Artifacts\26\26a3838195b3121d53dbb59b20d5ec16
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\27\27add5f686f55eee2bb0ed5c6e800343
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Library\Artifacts\27\27add5f686f55eee2bb0ed5c6e800343
+    projectPath: Library\Artifacts\27\27add5f686f55eee2bb0ed5c6e800343
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\2b\2ba0179466b0a8dde6edb0d38e7005b1
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Library\Artifacts\2b\2ba0179466b0a8dde6edb0d38e7005b1
+    projectPath: Library\Artifacts\2b\2ba0179466b0a8dde6edb0d38e7005b1
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\2c\2cbaed92364bf66c9c39a92546ba3fcb
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Library\Artifacts\2c\2cbaed92364bf66c9c39a92546ba3fcb
+    projectPath: Library\Artifacts\2c\2cbaed92364bf66c9c39a92546ba3fcb
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\2c\2cff7e20ea82b77b791bd36156cec56a
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Library\Artifacts\2c\2cff7e20ea82b77b791bd36156cec56a
+    projectPath: Library\Artifacts\2c\2cff7e20ea82b77b791bd36156cec56a
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\2e\2e874ce975b87c85d67d18c006435af5
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Library\Artifacts\2e\2e874ce975b87c85d67d18c006435af5
+    projectPath: Library\Artifacts\2e\2e874ce975b87c85d67d18c006435af5
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\30\303bd976bd50138b27233fc59876eb77
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Library\Artifacts\30\303bd976bd50138b27233fc59876eb77
+    projectPath: Library\Artifacts\30\303bd976bd50138b27233fc59876eb77
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\33\33d5806061b3e40685bc411c77afa534
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Library\Artifacts\33\33d5806061b3e40685bc411c77afa534
+    projectPath: Library\Artifacts\33\33d5806061b3e40685bc411c77afa534
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\39\3901bf8346653f039c8d3379c685a5bf
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Library\Artifacts\39\3901bf8346653f039c8d3379c685a5bf
+    projectPath: Library\Artifacts\39\3901bf8346653f039c8d3379c685a5bf
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\39\39774907abc1c1d37d323cdeabd8e3c4
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Library\Artifacts\39\39774907abc1c1d37d323cdeabd8e3c4
+    projectPath: Library\Artifacts\39\39774907abc1c1d37d323cdeabd8e3c4
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\39\39f7ab75c8ea32acf95e535e0be05fbf
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Library\Artifacts\39\39f7ab75c8ea32acf95e535e0be05fbf
+    projectPath: Library\Artifacts\39\39f7ab75c8ea32acf95e535e0be05fbf
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\3a\3a9afcc9799b20af56d465053e843e6f
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Library\Artifacts\3a\3a9afcc9799b20af56d465053e843e6f
+    projectPath: Library\Artifacts\3a\3a9afcc9799b20af56d465053e843e6f
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\3b\3b77f5631c2e3e3616fdb4784d9b9d87
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Library\Artifacts\3b\3b77f5631c2e3e3616fdb4784d9b9d87
+    projectPath: Library\Artifacts\3b\3b77f5631c2e3e3616fdb4784d9b9d87
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\3d\3dbad23b2f326b289635ecd8a2ac29f0
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Library\Artifacts\3d\3dbad23b2f326b289635ecd8a2ac29f0
+    projectPath: Library\Artifacts\3d\3dbad23b2f326b289635ecd8a2ac29f0
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\3e\3ea4c6495c229731183cbc93208d8736
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Library\Artifacts\3e\3ea4c6495c229731183cbc93208d8736
+    projectPath: Library\Artifacts\3e\3ea4c6495c229731183cbc93208d8736
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\3f\3f62e8e1df8bb069f58521d91b1e6f6b
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Library\Artifacts\3f\3f62e8e1df8bb069f58521d91b1e6f6b
+    projectPath: Library\Artifacts\3f\3f62e8e1df8bb069f58521d91b1e6f6b
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\3f\3fbb31df4bbf923473190b81269edefc
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Library\Artifacts\3f\3fbb31df4bbf923473190b81269edefc
+    projectPath: Library\Artifacts\3f\3fbb31df4bbf923473190b81269edefc
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\40\409d02d986424aa753c900c1b0b28329
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Library\Artifacts\40\409d02d986424aa753c900c1b0b28329
+    projectPath: Library\Artifacts\40\409d02d986424aa753c900c1b0b28329
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\46\46ecccc1e91e68071eb019e91606a740
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Library\Artifacts\46\46ecccc1e91e68071eb019e91606a740
+    projectPath: Library\Artifacts\46\46ecccc1e91e68071eb019e91606a740
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\46\46f995f2709d705a3e8501c49293abe8
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Library\Artifacts\46\46f995f2709d705a3e8501c49293abe8
+    projectPath: Library\Artifacts\46\46f995f2709d705a3e8501c49293abe8
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\49\49f1a43ecb8776ecb99bee8e52342a8c
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Library\Artifacts\49\49f1a43ecb8776ecb99bee8e52342a8c
+    projectPath: Library\Artifacts\49\49f1a43ecb8776ecb99bee8e52342a8c
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\4e\4e0cdc647c8beaa3facfb48b9b524fa1
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Library\Artifacts\4e\4e0cdc647c8beaa3facfb48b9b524fa1
+    projectPath: Library\Artifacts\4e\4e0cdc647c8beaa3facfb48b9b524fa1
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\4e\4e3a87bbc0bff4361d9a67fbf2b01cc0
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Library\Artifacts\4e\4e3a87bbc0bff4361d9a67fbf2b01cc0
+    projectPath: Library\Artifacts\4e\4e3a87bbc0bff4361d9a67fbf2b01cc0
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\4f\4f055d76a82fe3b89f55c72c6d61ce3d
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Library\Artifacts\4f\4f055d76a82fe3b89f55c72c6d61ce3d
+    projectPath: Library\Artifacts\4f\4f055d76a82fe3b89f55c72c6d61ce3d
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\51\51979b5cc834553de97c3e4bba64d1f3
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Library\Artifacts\51\51979b5cc834553de97c3e4bba64d1f3
+    projectPath: Library\Artifacts\51\51979b5cc834553de97c3e4bba64d1f3
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\52\5228f2ab32e1fafed82f2c511678909a
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Library\Artifacts\52\5228f2ab32e1fafed82f2c511678909a
+    projectPath: Library\Artifacts\52\5228f2ab32e1fafed82f2c511678909a
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\53\53b041dd3582afa724296d4ab43c8c0e
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Library\Artifacts\53\53b041dd3582afa724296d4ab43c8c0e
+    projectPath: Library\Artifacts\53\53b041dd3582afa724296d4ab43c8c0e
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\55\55c7e65b8a90d683507d20dda17e3669
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Library\Artifacts\55\55c7e65b8a90d683507d20dda17e3669
+    projectPath: Library\Artifacts\55\55c7e65b8a90d683507d20dda17e3669
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\57\5787ec7726d79ca654a57a008678631b
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Library\Artifacts\57\5787ec7726d79ca654a57a008678631b
+    projectPath: Library\Artifacts\57\5787ec7726d79ca654a57a008678631b
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\5a\5ad1fcfe6843242b4475d1269b2220f0
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Library\Artifacts\5a\5ad1fcfe6843242b4475d1269b2220f0
+    projectPath: Library\Artifacts\5a\5ad1fcfe6843242b4475d1269b2220f0
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\5b\5ba9ff9f73ecc5bbd64b08cbc5b9a7e1
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Library\Artifacts\5b\5ba9ff9f73ecc5bbd64b08cbc5b9a7e1
+    projectPath: Library\Artifacts\5b\5ba9ff9f73ecc5bbd64b08cbc5b9a7e1
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\5e\5e5b4d2826675821c478f3886fe6a5ee
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Library\Artifacts\5e\5e5b4d2826675821c478f3886fe6a5ee
+    projectPath: Library\Artifacts\5e\5e5b4d2826675821c478f3886fe6a5ee
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\5f\5fa69b2463b8baf0510a522286c132b7
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Library\Artifacts\5f\5fa69b2463b8baf0510a522286c132b7
+    projectPath: Library\Artifacts\5f\5fa69b2463b8baf0510a522286c132b7
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\60\60c11af2e8703b9a8f2d206ac57d81a3
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Library\Artifacts\60\60c11af2e8703b9a8f2d206ac57d81a3
+    projectPath: Library\Artifacts\60\60c11af2e8703b9a8f2d206ac57d81a3
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\60\60c5372f90cfb757cd63417347b21c54
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Library\Artifacts\60\60c5372f90cfb757cd63417347b21c54
+    projectPath: Library\Artifacts\60\60c5372f90cfb757cd63417347b21c54
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\61\61e89f63a702ecc8c768eec28071addc
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Library\Artifacts\61\61e89f63a702ecc8c768eec28071addc
+    projectPath: Library\Artifacts\61\61e89f63a702ecc8c768eec28071addc
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\66\6652467dc5cccc119a7f5e96fb313afd
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Library\Artifacts\66\6652467dc5cccc119a7f5e96fb313afd
+    projectPath: Library\Artifacts\66\6652467dc5cccc119a7f5e96fb313afd
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\66\66c8bcda36225ba091464c8df68c12f5
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Library\Artifacts\66\66c8bcda36225ba091464c8df68c12f5
+    projectPath: Library\Artifacts\66\66c8bcda36225ba091464c8df68c12f5
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\66\66ee7c02583d1356fe9d9b78aa08ed09
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Library\Artifacts\66\66ee7c02583d1356fe9d9b78aa08ed09
+    projectPath: Library\Artifacts\66\66ee7c02583d1356fe9d9b78aa08ed09
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\68\6872ae49e95e6b297467ffff609570ed
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Library\Artifacts\68\6872ae49e95e6b297467ffff609570ed
+    projectPath: Library\Artifacts\68\6872ae49e95e6b297467ffff609570ed
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\68\68dd9ff86109f1db4be45c478f9da2a6
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Library\Artifacts\68\68dd9ff86109f1db4be45c478f9da2a6
+    projectPath: Library\Artifacts\68\68dd9ff86109f1db4be45c478f9da2a6
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\6c\6cb9e7034e45488ec9019f789bfafd8a
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Library\Artifacts\6c\6cb9e7034e45488ec9019f789bfafd8a
+    projectPath: Library\Artifacts\6c\6cb9e7034e45488ec9019f789bfafd8a
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\6e\6e6927d83ba70fbfe6f12285e312f19b
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Library\Artifacts\6e\6e6927d83ba70fbfe6f12285e312f19b
+    projectPath: Library\Artifacts\6e\6e6927d83ba70fbfe6f12285e312f19b
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\70\7045924b52b33b909d9a5bd59aa6be28
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Library\Artifacts\70\7045924b52b33b909d9a5bd59aa6be28
+    projectPath: Library\Artifacts\70\7045924b52b33b909d9a5bd59aa6be28
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\70\70e4a4f94c39ce5b4f69cbf9c7037f5a
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Library\Artifacts\70\70e4a4f94c39ce5b4f69cbf9c7037f5a
+    projectPath: Library\Artifacts\70\70e4a4f94c39ce5b4f69cbf9c7037f5a
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\72\72b6d2bfa42a566d2e4c912013489db9
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Library\Artifacts\72\72b6d2bfa42a566d2e4c912013489db9
+    projectPath: Library\Artifacts\72\72b6d2bfa42a566d2e4c912013489db9
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\74\744a90e6ee1e689c6ac288fb18d86398
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Library\Artifacts\74\744a90e6ee1e689c6ac288fb18d86398
+    projectPath: Library\Artifacts\74\744a90e6ee1e689c6ac288fb18d86398
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\74\74dae99aeb735877de66f9364132b9a7
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Library\Artifacts\74\74dae99aeb735877de66f9364132b9a7
+    projectPath: Library\Artifacts\74\74dae99aeb735877de66f9364132b9a7
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\75\7510a05b2d0db858e3ab4fd769812ccc
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Library\Artifacts\75\7510a05b2d0db858e3ab4fd769812ccc
+    projectPath: Library\Artifacts\75\7510a05b2d0db858e3ab4fd769812ccc
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\75\752efae0da3bf05c83afc34c21475fe2
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Library\Artifacts\75\752efae0da3bf05c83afc34c21475fe2
+    projectPath: Library\Artifacts\75\752efae0da3bf05c83afc34c21475fe2
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\75\75d260d2830efbe4dbea0786825f56b6
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Library\Artifacts\75\75d260d2830efbe4dbea0786825f56b6
+    projectPath: Library\Artifacts\75\75d260d2830efbe4dbea0786825f56b6
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\76\76b09290903b8c7da246ad69ed336ad2
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Library\Artifacts\76\76b09290903b8c7da246ad69ed336ad2
+    projectPath: Library\Artifacts\76\76b09290903b8c7da246ad69ed336ad2
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\79\791837548112c5758c2544d9f16f863c
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Library\Artifacts\79\791837548112c5758c2544d9f16f863c
+    projectPath: Library\Artifacts\79\791837548112c5758c2544d9f16f863c
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\79\798f008d33bcc47f5a50fa7760e015dd
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Library\Artifacts\79\798f008d33bcc47f5a50fa7760e015dd
+    projectPath: Library\Artifacts\79\798f008d33bcc47f5a50fa7760e015dd
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\7b\7b1d560f14fe95cf8f53bdcd8b96533e
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Library\Artifacts\7b\7b1d560f14fe95cf8f53bdcd8b96533e
+    projectPath: Library\Artifacts\7b\7b1d560f14fe95cf8f53bdcd8b96533e
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\7b\7b6e24c54f81c2f5e65b76cd4804d812
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Library\Artifacts\7b\7b6e24c54f81c2f5e65b76cd4804d812
+    projectPath: Library\Artifacts\7b\7b6e24c54f81c2f5e65b76cd4804d812
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\7c\7cba8cb1e2ad26f3e4f72349053b9fec
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Library\Artifacts\7c\7cba8cb1e2ad26f3e4f72349053b9fec
+    projectPath: Library\Artifacts\7c\7cba8cb1e2ad26f3e4f72349053b9fec
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\7d\7ddc111f46332e2810e0d684faf5f820
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Library\Artifacts\7d\7ddc111f46332e2810e0d684faf5f820
+    projectPath: Library\Artifacts\7d\7ddc111f46332e2810e0d684faf5f820
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\80\80d1eaba625b43ca15d7b38fcda234a5
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Library\Artifacts\80\80d1eaba625b43ca15d7b38fcda234a5
+    projectPath: Library\Artifacts\80\80d1eaba625b43ca15d7b38fcda234a5
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\81\811b9d40864c13f57f0b0ea9c714d5dc
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Library\Artifacts\81\811b9d40864c13f57f0b0ea9c714d5dc
+    projectPath: Library\Artifacts\81\811b9d40864c13f57f0b0ea9c714d5dc
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\82\82108f944ceb23fd0c375157bae96a18
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Library\Artifacts\82\82108f944ceb23fd0c375157bae96a18
+    projectPath: Library\Artifacts\82\82108f944ceb23fd0c375157bae96a18
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\82\82fc9c45e9ea5e460e1889e9ef941605
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Library\Artifacts\82\82fc9c45e9ea5e460e1889e9ef941605
+    projectPath: Library\Artifacts\82\82fc9c45e9ea5e460e1889e9ef941605
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\83\838c806fa7ded4b6ecc7bc883f401160
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Library\Artifacts\83\838c806fa7ded4b6ecc7bc883f401160
+    projectPath: Library\Artifacts\83\838c806fa7ded4b6ecc7bc883f401160
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\83\838f161a41516814360e9612a0578b7a
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Library\Artifacts\83\838f161a41516814360e9612a0578b7a
+    projectPath: Library\Artifacts\83\838f161a41516814360e9612a0578b7a
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\84\844c87cfc8360780e74b4fffd07dd503
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Library\Artifacts\84\844c87cfc8360780e74b4fffd07dd503
+    projectPath: Library\Artifacts\84\844c87cfc8360780e74b4fffd07dd503
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\8f\8f42ed9bb471cd8b6589efe9a51ccbb0
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Library\Artifacts\8f\8f42ed9bb471cd8b6589efe9a51ccbb0
+    projectPath: Library\Artifacts\8f\8f42ed9bb471cd8b6589efe9a51ccbb0
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\8f\8fa90590a111e4e75b7c176227f21a23
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Library\Artifacts\8f\8fa90590a111e4e75b7c176227f21a23
+    projectPath: Library\Artifacts\8f\8fa90590a111e4e75b7c176227f21a23
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\90\903366c23326874466a5634bc25969e5
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Library\Artifacts\90\903366c23326874466a5634bc25969e5
+    projectPath: Library\Artifacts\90\903366c23326874466a5634bc25969e5
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\94\94e0bdc91e6f67f11809982813f0dc77
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Library\Artifacts\94\94e0bdc91e6f67f11809982813f0dc77
+    projectPath: Library\Artifacts\94\94e0bdc91e6f67f11809982813f0dc77
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\98\9881e8476b62120da4d6578f65f33110
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Library\Artifacts\98\9881e8476b62120da4d6578f65f33110
+    projectPath: Library\Artifacts\98\9881e8476b62120da4d6578f65f33110
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\99\99ddc2a2f3b154c99176e1fa80dbf2de
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Library\Artifacts\99\99ddc2a2f3b154c99176e1fa80dbf2de
+    projectPath: Library\Artifacts\99\99ddc2a2f3b154c99176e1fa80dbf2de
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\9a\9a4d8284e4166ba151e18bb7016ead6c
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Library\Artifacts\9a\9a4d8284e4166ba151e18bb7016ead6c
+    projectPath: Library\Artifacts\9a\9a4d8284e4166ba151e18bb7016ead6c
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\9a\9a826bf1a3d439edca6a577497208090
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Library\Artifacts\9a\9a826bf1a3d439edca6a577497208090
+    projectPath: Library\Artifacts\9a\9a826bf1a3d439edca6a577497208090
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\9b\9b215f9c5687365e281854fbb0575d03
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Library\Artifacts\9b\9b215f9c5687365e281854fbb0575d03
+    projectPath: Library\Artifacts\9b\9b215f9c5687365e281854fbb0575d03
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\9c\9c338cf8d287988cac0305c331f148bd
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Library\Artifacts\9c\9c338cf8d287988cac0305c331f148bd
+    projectPath: Library\Artifacts\9c\9c338cf8d287988cac0305c331f148bd
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\9c\9c9a4de97b54a7c3d6f609d84ea56075
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Library\Artifacts\9c\9c9a4de97b54a7c3d6f609d84ea56075
+    projectPath: Library\Artifacts\9c\9c9a4de97b54a7c3d6f609d84ea56075
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\9c\9cfdcfda5cf2fa37dcfd8379978cd2cf
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Library\Artifacts\9c\9cfdcfda5cf2fa37dcfd8379978cd2cf
+    projectPath: Library\Artifacts\9c\9cfdcfda5cf2fa37dcfd8379978cd2cf
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\9d\9d4aa9b72d2d19aa5f130e028bf7ca70
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Library\Artifacts\9d\9d4aa9b72d2d19aa5f130e028bf7ca70
+    projectPath: Library\Artifacts\9d\9d4aa9b72d2d19aa5f130e028bf7ca70
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\9f\9faa09911e49b940a66b9e089992702a
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Library\Artifacts\9f\9faa09911e49b940a66b9e089992702a
+    projectPath: Library\Artifacts\9f\9faa09911e49b940a66b9e089992702a
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\a0\a0787c09a69f3fe23387b9b255f83718
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Library\Artifacts\a0\a0787c09a69f3fe23387b9b255f83718
+    projectPath: Library\Artifacts\a0\a0787c09a69f3fe23387b9b255f83718
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\a3\a3419bda2bc72ae5c2cd41a97e613801
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Library\Artifacts\a3\a3419bda2bc72ae5c2cd41a97e613801
+    projectPath: Library\Artifacts\a3\a3419bda2bc72ae5c2cd41a97e613801
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\a4\a4f046623e43183123438070539f0dba
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Library\Artifacts\a4\a4f046623e43183123438070539f0dba
+    projectPath: Library\Artifacts\a4\a4f046623e43183123438070539f0dba
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\a6\a602f8df2a044733543c6f60e47c9dd1
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Library\Artifacts\a6\a602f8df2a044733543c6f60e47c9dd1
+    projectPath: Library\Artifacts\a6\a602f8df2a044733543c6f60e47c9dd1
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\a6\a646ddb2ba1c1b131704f34d5ae5df1c
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Library\Artifacts\a6\a646ddb2ba1c1b131704f34d5ae5df1c
+    projectPath: Library\Artifacts\a6\a646ddb2ba1c1b131704f34d5ae5df1c
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\a6\a6a0a5933728e050f832ee8be0ae4b9e
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Library\Artifacts\a6\a6a0a5933728e050f832ee8be0ae4b9e
+    projectPath: Library\Artifacts\a6\a6a0a5933728e050f832ee8be0ae4b9e
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\a7\a72bd05c2f437a0385de572c844f75d4
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Library\Artifacts\a7\a72bd05c2f437a0385de572c844f75d4
+    projectPath: Library\Artifacts\a7\a72bd05c2f437a0385de572c844f75d4
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\a8\a8a389ee06c71f434f3654b8c64cbaa4
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Library\Artifacts\a8\a8a389ee06c71f434f3654b8c64cbaa4
+    projectPath: Library\Artifacts\a8\a8a389ee06c71f434f3654b8c64cbaa4
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\a9\a916d67f660b8de03fc4db15322cd70e
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Library\Artifacts\a9\a916d67f660b8de03fc4db15322cd70e
+    projectPath: Library\Artifacts\a9\a916d67f660b8de03fc4db15322cd70e
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\aa\aa1a8be7fd2851b62434b239bced1cd5
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Library\Artifacts\aa\aa1a8be7fd2851b62434b239bced1cd5
+    projectPath: Library\Artifacts\aa\aa1a8be7fd2851b62434b239bced1cd5
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\aa\aa6059138aae40272240842a11594880
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Library\Artifacts\aa\aa6059138aae40272240842a11594880
+    projectPath: Library\Artifacts\aa\aa6059138aae40272240842a11594880
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\ab\ab61c9dd6f00ed7019fd2ea53113cf45
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Library\Artifacts\ab\ab61c9dd6f00ed7019fd2ea53113cf45
+    projectPath: Library\Artifacts\ab\ab61c9dd6f00ed7019fd2ea53113cf45
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\af\af08f545c088c7667374b6ca8b2dffe3
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Library\Artifacts\af\af08f545c088c7667374b6ca8b2dffe3
+    projectPath: Library\Artifacts\af\af08f545c088c7667374b6ca8b2dffe3
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\af\af2bdce23af8bd260e382314d4ac1dda
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Library\Artifacts\af\af2bdce23af8bd260e382314d4ac1dda
+    projectPath: Library\Artifacts\af\af2bdce23af8bd260e382314d4ac1dda
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\b7\b70547605645b0fef1fe4d2cc1f0c8a1
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Library\Artifacts\b7\b70547605645b0fef1fe4d2cc1f0c8a1
+    projectPath: Library\Artifacts\b7\b70547605645b0fef1fe4d2cc1f0c8a1
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\bc\bc23fa14b62ef80f1a7d7c84756c63ce
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Library\Artifacts\bc\bc23fa14b62ef80f1a7d7c84756c63ce
+    projectPath: Library\Artifacts\bc\bc23fa14b62ef80f1a7d7c84756c63ce
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\bc\bc35831b76cef8afd396a2ec72f99e2d
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Library\Artifacts\bc\bc35831b76cef8afd396a2ec72f99e2d
+    projectPath: Library\Artifacts\bc\bc35831b76cef8afd396a2ec72f99e2d
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\bf\bf108c052dc43b46bb21c7f088d2eaa3
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Library\Artifacts\bf\bf108c052dc43b46bb21c7f088d2eaa3
+    projectPath: Library\Artifacts\bf\bf108c052dc43b46bb21c7f088d2eaa3
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\c1\c134e512d2c62cfbe66f244df7f8b7b5
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Library\Artifacts\c1\c134e512d2c62cfbe66f244df7f8b7b5
+    projectPath: Library\Artifacts\c1\c134e512d2c62cfbe66f244df7f8b7b5
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\c2\c2419ac33495f2476cac6b0c023b95bd
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Library\Artifacts\c2\c2419ac33495f2476cac6b0c023b95bd
+    projectPath: Library\Artifacts\c2\c2419ac33495f2476cac6b0c023b95bd
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\c2\c2ee494ea668479ca68492a5d7813b86
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Library\Artifacts\c2\c2ee494ea668479ca68492a5d7813b86
+    projectPath: Library\Artifacts\c2\c2ee494ea668479ca68492a5d7813b86
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\c9\c92330c55e915ad3a22a8b4be55a1239
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Library\Artifacts\c9\c92330c55e915ad3a22a8b4be55a1239
+    projectPath: Library\Artifacts\c9\c92330c55e915ad3a22a8b4be55a1239
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\ca\caeca90ed831733c7f1c79d073aa41f2
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Library\Artifacts\ca\caeca90ed831733c7f1c79d073aa41f2
+    projectPath: Library\Artifacts\ca\caeca90ed831733c7f1c79d073aa41f2
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\cc\cc08e1287a1047a4a4aac8f7032b7dd8
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Library\Artifacts\cc\cc08e1287a1047a4a4aac8f7032b7dd8
+    projectPath: Library\Artifacts\cc\cc08e1287a1047a4a4aac8f7032b7dd8
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\cc\cc26ce7c9a970c0428eef69a9913832f
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Library\Artifacts\cc\cc26ce7c9a970c0428eef69a9913832f
+    projectPath: Library\Artifacts\cc\cc26ce7c9a970c0428eef69a9913832f
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\d1\d186fa40ae65a4021967bd50673a4f35
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Library\Artifacts\d1\d186fa40ae65a4021967bd50673a4f35
+    projectPath: Library\Artifacts\d1\d186fa40ae65a4021967bd50673a4f35
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\d2\d2f54f9c34b5660043b25d9f54f9f670
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Library\Artifacts\d2\d2f54f9c34b5660043b25d9f54f9f670
+    projectPath: Library\Artifacts\d2\d2f54f9c34b5660043b25d9f54f9f670
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\d4\d45e12e39302155dd61911d32c6eea45
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Library\Artifacts\d4\d45e12e39302155dd61911d32c6eea45
+    projectPath: Library\Artifacts\d4\d45e12e39302155dd61911d32c6eea45
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\d4\d4e8c67965e4efa86744fc87248c9663
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Library\Artifacts\d4\d4e8c67965e4efa86744fc87248c9663
+    projectPath: Library\Artifacts\d4\d4e8c67965e4efa86744fc87248c9663
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\d4\d4fb3aa8cbd333f813d6376b2be87c5a
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Library\Artifacts\d4\d4fb3aa8cbd333f813d6376b2be87c5a
+    projectPath: Library\Artifacts\d4\d4fb3aa8cbd333f813d6376b2be87c5a
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\d5\d53985e6e9a4aaa8a662088547c1404f
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Library\Artifacts\d5\d53985e6e9a4aaa8a662088547c1404f
+    projectPath: Library\Artifacts\d5\d53985e6e9a4aaa8a662088547c1404f
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\d8\d8bc2964e3f29621eaddcee340803f6e
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Library\Artifacts\d8\d8bc2964e3f29621eaddcee340803f6e
+    projectPath: Library\Artifacts\d8\d8bc2964e3f29621eaddcee340803f6e
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\d9\d9f36c9df953d8b8f8bcf2222558dc57
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Library\Artifacts\d9\d9f36c9df953d8b8f8bcf2222558dc57
+    projectPath: Library\Artifacts\d9\d9f36c9df953d8b8f8bcf2222558dc57
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\db\db46fb6747067c7caf3c72430ee0858b
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Library\Artifacts\db\db46fb6747067c7caf3c72430ee0858b
+    projectPath: Library\Artifacts\db\db46fb6747067c7caf3c72430ee0858b
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\dc\dc52f72b5d4f6f5347e5efaa01921c85
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Library\Artifacts\dc\dc52f72b5d4f6f5347e5efaa01921c85
+    projectPath: Library\Artifacts\dc\dc52f72b5d4f6f5347e5efaa01921c85
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\de\de85a490a14396f4c8eeffc8b0763111
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Library\Artifacts\de\de85a490a14396f4c8eeffc8b0763111
+    projectPath: Library\Artifacts\de\de85a490a14396f4c8eeffc8b0763111
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\e0\e0b88e15d747efc77a6237a7e1877d01
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Library\Artifacts\e0\e0b88e15d747efc77a6237a7e1877d01
+    projectPath: Library\Artifacts\e0\e0b88e15d747efc77a6237a7e1877d01
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\e0\e0f615d58225399f7193881ec0c0c80b
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Library\Artifacts\e0\e0f615d58225399f7193881ec0c0c80b
+    projectPath: Library\Artifacts\e0\e0f615d58225399f7193881ec0c0c80b
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\e1\e13a97db2159d59332da2b0371c0725b
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Library\Artifacts\e1\e13a97db2159d59332da2b0371c0725b
+    projectPath: Library\Artifacts\e1\e13a97db2159d59332da2b0371c0725b
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\e2\e2c078849122be406531c62924a91bf3
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Library\Artifacts\e2\e2c078849122be406531c62924a91bf3
+    projectPath: Library\Artifacts\e2\e2c078849122be406531c62924a91bf3
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\e3\e371f004bd5e901726b09f9dcd7e3745
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Library\Artifacts\e3\e371f004bd5e901726b09f9dcd7e3745
+    projectPath: Library\Artifacts\e3\e371f004bd5e901726b09f9dcd7e3745
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\e3\e3d4dd510d000b11620b99dd772e578f
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Library\Artifacts\e3\e3d4dd510d000b11620b99dd772e578f
+    projectPath: Library\Artifacts\e3\e3d4dd510d000b11620b99dd772e578f
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\e4\e4105404278887fbaa3c817fc9f73bff
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Library\Artifacts\e4\e4105404278887fbaa3c817fc9f73bff
+    projectPath: Library\Artifacts\e4\e4105404278887fbaa3c817fc9f73bff
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\e4\e454941dc5a114a0d6a2985005ba08d3
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Library\Artifacts\e4\e454941dc5a114a0d6a2985005ba08d3
+    projectPath: Library\Artifacts\e4\e454941dc5a114a0d6a2985005ba08d3
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\e6\e64920f4bea714abbbf19cb3ad831ed5
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Library\Artifacts\e6\e64920f4bea714abbbf19cb3ad831ed5
+    projectPath: Library\Artifacts\e6\e64920f4bea714abbbf19cb3ad831ed5
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\e6\e6886dffc8b89257c554a661ec863856
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Library\Artifacts\e6\e6886dffc8b89257c554a661ec863856
+    projectPath: Library\Artifacts\e6\e6886dffc8b89257c554a661ec863856
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\e8\e8fe19c90a5f30d9487ab4ef3934a349
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Library\Artifacts\e8\e8fe19c90a5f30d9487ab4ef3934a349
+    projectPath: Library\Artifacts\e8\e8fe19c90a5f30d9487ab4ef3934a349
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\e9\e975c2f2a24dc22097accd8bafca38fe
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Library\Artifacts\e9\e975c2f2a24dc22097accd8bafca38fe
+    projectPath: Library\Artifacts\e9\e975c2f2a24dc22097accd8bafca38fe
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\ea\eace0c36928838b4a4ca40abc5b4c700
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Library\Artifacts\ea\eace0c36928838b4a4ca40abc5b4c700
+    projectPath: Library\Artifacts\ea\eace0c36928838b4a4ca40abc5b4c700
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\ec\ec15b12677d3a3471c999103eea916fe
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Library\Artifacts\ec\ec15b12677d3a3471c999103eea916fe
+    projectPath: Library\Artifacts\ec\ec15b12677d3a3471c999103eea916fe
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\ed\ed768dec96b9ed1311d16f5fee1177f6
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Library\Artifacts\ed\ed768dec96b9ed1311d16f5fee1177f6
+    projectPath: Library\Artifacts\ed\ed768dec96b9ed1311d16f5fee1177f6
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\f0\f08808de9e6101c5337e309fdc40eb06
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Library\Artifacts\f0\f08808de9e6101c5337e309fdc40eb06
+    projectPath: Library\Artifacts\f0\f08808de9e6101c5337e309fdc40eb06
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\f2\f21bfe4ce90b06058f43dbc09269cfd7
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Library\Artifacts\f2\f21bfe4ce90b06058f43dbc09269cfd7
+    projectPath: Library\Artifacts\f2\f21bfe4ce90b06058f43dbc09269cfd7
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\f2\f2731ac56b2a168baf1997a4f225ad03
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Library\Artifacts\f2\f2731ac56b2a168baf1997a4f225ad03
+    projectPath: Library\Artifacts\f2\f2731ac56b2a168baf1997a4f225ad03
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\f2\f27fc536c5c71679094b6e9119448d9f
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Library\Artifacts\f2\f27fc536c5c71679094b6e9119448d9f
+    projectPath: Library\Artifacts\f2\f27fc536c5c71679094b6e9119448d9f
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\f4\f4b462c1f4e63f23fae279c02683c716
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Library\Artifacts\f4\f4b462c1f4e63f23fae279c02683c716
+    projectPath: Library\Artifacts\f4\f4b462c1f4e63f23fae279c02683c716
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\f9\f9199759996e8b0a27210adb108aa114
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Library\Artifacts\f9\f9199759996e8b0a27210adb108aa114
+    projectPath: Library\Artifacts\f9\f9199759996e8b0a27210adb108aa114
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\f9\f9f5bc6bc2dbba9d33e6f3e0a8e16a01
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Library\Artifacts\f9\f9f5bc6bc2dbba9d33e6f3e0a8e16a01
+    projectPath: Library\Artifacts\f9\f9f5bc6bc2dbba9d33e6f3e0a8e16a01
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\fc\fc28a21534c99f89412296161fe8a6fa
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Library\Artifacts\fc\fc28a21534c99f89412296161fe8a6fa
+    projectPath: Library\Artifacts\fc\fc28a21534c99f89412296161fe8a6fa
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\fe\fec24cfd10165288b64763c0f1d74c72
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Library\Artifacts\fe\fec24cfd10165288b64763c0f1d74c72
+    projectPath: Library\Artifacts\fe\fec24cfd10165288b64763c0f1d74c72
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\CurrentLayout-default.dwlt
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Library\CurrentLayout-default.dwlt
+    projectPath: Library\CurrentLayout-default.dwlt
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\CurrentMaximizeLayout.dwlt
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Library\CurrentMaximizeLayout.dwlt
+    projectPath: Library\CurrentMaximizeLayout.dwlt
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\EditorInstance.json
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Library\EditorInstance.json
+    projectPath: Library\EditorInstance.json
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\gfu\cache\gitlocks.yaml
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Library\gfu\cache\gitlocks.yaml
+    projectPath: Library\gfu\cache\gitlocks.yaml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\gfu\cache\gitstatusentries.yaml
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Library\gfu\cache\gitstatusentries.yaml
+    projectPath: Library\gfu\cache\gitstatusentries.yaml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\gfu\cache\gittrackingstatus.yaml
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Library\gfu\cache\gittrackingstatus.yaml
+    projectPath: Library\gfu\cache\gittrackingstatus.yaml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\gfu\cache\repoinfo.yaml
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Library\gfu\cache\repoinfo.yaml
+    projectPath: Library\gfu\cache\repoinfo.yaml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\InspectorExpandedItems.asset
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Library\InspectorExpandedItems.asset
+    projectPath: Library\InspectorExpandedItems.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\SceneVisibilityState.asset
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Library\SceneVisibilityState.asset
+    projectPath: Library\SceneVisibilityState.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\Assembly-CSharp.dll
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Library\ScriptAssemblies\Assembly-CSharp.dll
+    projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\Assembly-CSharp.pdb
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Library\ScriptAssemblies\Assembly-CSharp.pdb
+    projectPath: Library\ScriptAssemblies\Assembly-CSharp.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+    projectPath: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.pdb
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.pdb
+    projectPath: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.pdb
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\5\5b509bf99909e8b460be152202809b4a.bin
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Library\ShaderCache\5\5b509bf99909e8b460be152202809b4a.bin
+    projectPath: Library\ShaderCache\5\5b509bf99909e8b460be152202809b4a.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\a\adc5c2866a1905f428e8df7fd751b172.bin
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Library\ShaderCache\a\adc5c2866a1905f428e8df7fd751b172.bin
+    projectPath: Library\ShaderCache\a\adc5c2866a1905f428e8df7fd751b172.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\EditorEncounteredVariants
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Library\ShaderCache\EditorEncounteredVariants
+    projectPath: Library\ShaderCache\EditorEncounteredVariants
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\SourceAssetDB
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Library\SourceAssetDB
+    projectPath: Library\SourceAssetDB
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\StateCache\MainStageHierarchy\4d\4d2a36d9faf65734f0bbefb3ee623532.json
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Library\StateCache\MainStageHierarchy\4d\4d2a36d9faf65734f0bbefb3ee623532.json
+    projectPath: Library\StateCache\MainStageHierarchy\4d\4d2a36d9faf65734f0bbefb3ee623532.json
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\StateCache\SceneView\8c\8cd7c613bf844de3b80696e27a479d5e.json
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Library\StateCache\SceneView\8c\8cd7c613bf844de3b80696e27a479d5e.json
+    projectPath: Library\StateCache\SceneView\8c\8cd7c613bf844de3b80696e27a479d5e.json
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: LoadingBar-95.sln
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\LoadingBar-95.sln
+    projectPath: LoadingBar-95.sln
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Logs\ApiUpdaterCheck.txt
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Logs\ApiUpdaterCheck.txt
+    projectPath: Logs\ApiUpdaterCheck.txt
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Logs\AssetImportWorker0.log
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Logs\AssetImportWorker0.log
+    projectPath: Logs\AssetImportWorker0.log
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Logs\AssetImportWorker0-prev.log
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Logs\AssetImportWorker0-prev.log
+    projectPath: Logs\AssetImportWorker0-prev.log
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Logs\shadercompiler-AssetImportWorker0.log
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Logs\shadercompiler-AssetImportWorker0.log
+    projectPath: Logs\shadercompiler-AssetImportWorker0.log
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Logs\shadercompiler-UnityShaderCompiler.exe0.log
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Logs\shadercompiler-UnityShaderCompiler.exe0.log
+    projectPath: Logs\shadercompiler-UnityShaderCompiler.exe0.log
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Logs\shadercompiler-UnityShaderCompiler.exe1.log
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Logs\shadercompiler-UnityShaderCompiler.exe1.log
+    projectPath: Logs\shadercompiler-UnityShaderCompiler.exe1.log
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Logs\shadercompiler-UnityShaderCompiler.exe2.log
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Logs\shadercompiler-UnityShaderCompiler.exe2.log
+    projectPath: Logs\shadercompiler-UnityShaderCompiler.exe2.log
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: obj\Debug\Assembly-CSharp.csproj.AssemblyReference.cache
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\obj\Debug\Assembly-CSharp.csproj.AssemblyReference.cache
+    projectPath: obj\Debug\Assembly-CSharp.csproj.AssemblyReference.cache
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: obj\Debug\Assembly-CSharp-Editor-firstpass.csproj.AssemblyReference.cache
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\obj\Debug\Assembly-CSharp-Editor-firstpass.csproj.AssemblyReference.cache
+    projectPath: obj\Debug\Assembly-CSharp-Editor-firstpass.csproj.AssemblyReference.cache
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: ProjectSettings\EditorBuildSettings.asset
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\ProjectSettings\EditorBuildSettings.asset
+    projectPath: ProjectSettings\EditorBuildSettings.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Temp\__Backupscenes\0.backup
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Temp\__Backupscenes\0.backup
+    projectPath: Temp\__Backupscenes\0.backup
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\ApiUpdater_CheckMovedFroma5f7160e10e4f1d469bad548386a5ff7
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Temp\ApiUpdater_CheckMovedFroma5f7160e10e4f1d469bad548386a5ff7
+    projectPath: Temp\ApiUpdater_CheckMovedFroma5f7160e10e4f1d469bad548386a5ff7
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\Assembly-CSharp.dll.hash
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Temp\Assembly-CSharp.dll.hash
+    projectPath: Temp\Assembly-CSharp.dll.hash
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\Assembly-CSharp-Editor.dll.hash
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Temp\Assembly-CSharp-Editor.dll.hash
+    projectPath: Temp\Assembly-CSharp-Editor.dll.hash
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\Assembly-CSharp-Editor-firstpass.dll.hash
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Temp\Assembly-CSharp-Editor-firstpass.dll.hash
+    projectPath: Temp\Assembly-CSharp-Editor-firstpass.dll.hash
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\AstarPathfindingProject.dll.hash
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Temp\AstarPathfindingProject.dll.hash
+    projectPath: Temp\AstarPathfindingProject.dll.hash
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\AstarPathfindingProjectEditor.dll.hash
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Temp\AstarPathfindingProjectEditor.dll.hash
+    projectPath: Temp\AstarPathfindingProjectEditor.dll.hash
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\CompilationLog.txt
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Temp\CompilationLog.txt
+    projectPath: Temp\CompilationLog.txt
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\Leopotam.Ecs.dll.hash
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Temp\Leopotam.Ecs.dll.hash
+    projectPath: Temp\Leopotam.Ecs.dll.hash
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\Leopotam.Ecs.Types.dll.hash
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Temp\Leopotam.Ecs.Types.dll.hash
+    projectPath: Temp\Leopotam.Ecs.Types.dll.hash
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\Leopotam.Ecs.UnityIntegration.dll.hash
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Temp\Leopotam.Ecs.UnityIntegration.dll.hash
+    projectPath: Temp\Leopotam.Ecs.UnityIntegration.dll.hash
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\Leopotam.Ecs.UnityIntegration.Editor.dll.hash
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Temp\Leopotam.Ecs.UnityIntegration.Editor.dll.hash
+    projectPath: Temp\Leopotam.Ecs.UnityIntegration.Editor.dll.hash
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\PackageToolsEditor.dll.hash
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Temp\PackageToolsEditor.dll.hash
+    projectPath: Temp\PackageToolsEditor.dll.hash
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\PsdPlugin.dll.hash
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Temp\PsdPlugin.dll.hash
+    projectPath: Temp\PsdPlugin.dll.hash
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\Unity.2D.Animation.Editor.dll.hash
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Temp\Unity.2D.Animation.Editor.dll.hash
+    projectPath: Temp\Unity.2D.Animation.Editor.dll.hash
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\Unity.2D.Animation.Runtime.dll.hash
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Temp\Unity.2D.Animation.Runtime.dll.hash
+    projectPath: Temp\Unity.2D.Animation.Runtime.dll.hash
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\Unity.2D.Animation.Triangle.Runtime.dll.hash
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Temp\Unity.2D.Animation.Triangle.Runtime.dll.hash
+    projectPath: Temp\Unity.2D.Animation.Triangle.Runtime.dll.hash
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\Unity.2D.Common.Editor.dll.hash
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Temp\Unity.2D.Common.Editor.dll.hash
+    projectPath: Temp\Unity.2D.Common.Editor.dll.hash
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\Unity.2D.Common.Runtime.dll.hash
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Temp\Unity.2D.Common.Runtime.dll.hash
+    projectPath: Temp\Unity.2D.Common.Runtime.dll.hash
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\Unity.2D.IK.Editor.dll.hash
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Temp\Unity.2D.IK.Editor.dll.hash
+    projectPath: Temp\Unity.2D.IK.Editor.dll.hash
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\Unity.2D.IK.Runtime.dll.hash
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Temp\Unity.2D.IK.Runtime.dll.hash
+    projectPath: Temp\Unity.2D.IK.Runtime.dll.hash
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\Unity.2D.Path.Editor.dll.hash
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Temp\Unity.2D.Path.Editor.dll.hash
+    projectPath: Temp\Unity.2D.Path.Editor.dll.hash
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\Unity.2D.PixelPerfect.dll.hash
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Temp\Unity.2D.PixelPerfect.dll.hash
+    projectPath: Temp\Unity.2D.PixelPerfect.dll.hash
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\Unity.2D.PixelPerfect.Editor.dll.hash
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Temp\Unity.2D.PixelPerfect.Editor.dll.hash
+    projectPath: Temp\Unity.2D.PixelPerfect.Editor.dll.hash
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\Unity.2D.Psdimporter.Editor.dll.hash
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Temp\Unity.2D.Psdimporter.Editor.dll.hash
+    projectPath: Temp\Unity.2D.Psdimporter.Editor.dll.hash
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\Unity.2D.Sprite.Editor.dll.hash
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Temp\Unity.2D.Sprite.Editor.dll.hash
+    projectPath: Temp\Unity.2D.Sprite.Editor.dll.hash
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\Unity.2D.SpriteShape.Editor.dll.hash
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Temp\Unity.2D.SpriteShape.Editor.dll.hash
+    projectPath: Temp\Unity.2D.SpriteShape.Editor.dll.hash
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\Unity.2D.SpriteShape.Runtime.dll.hash
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Temp\Unity.2D.SpriteShape.Runtime.dll.hash
+    projectPath: Temp\Unity.2D.SpriteShape.Runtime.dll.hash
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\Unity.2D.Tilemap.Editor.dll.hash
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Temp\Unity.2D.Tilemap.Editor.dll.hash
+    projectPath: Temp\Unity.2D.Tilemap.Editor.dll.hash
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\Unity.CollabProxy.Editor.dll.hash
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Temp\Unity.CollabProxy.Editor.dll.hash
+    projectPath: Temp\Unity.CollabProxy.Editor.dll.hash
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\Unity.InternalAPIEditorBridge.001.dll.hash
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Temp\Unity.InternalAPIEditorBridge.001.dll.hash
+    projectPath: Temp\Unity.InternalAPIEditorBridge.001.dll.hash
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\Unity.InternalAPIEngineBridge.001.dll.hash
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Temp\Unity.InternalAPIEngineBridge.001.dll.hash
+    projectPath: Temp\Unity.InternalAPIEngineBridge.001.dll.hash
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\Unity.Mathematics.dll.hash
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Temp\Unity.Mathematics.dll.hash
+    projectPath: Temp\Unity.Mathematics.dll.hash
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\Unity.Mathematics.Editor.dll.hash
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Temp\Unity.Mathematics.Editor.dll.hash
+    projectPath: Temp\Unity.Mathematics.Editor.dll.hash
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\Unity.Mobile.AndroidLogcat.Editor.dll.hash
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Temp\Unity.Mobile.AndroidLogcat.Editor.dll.hash
+    projectPath: Temp\Unity.Mobile.AndroidLogcat.Editor.dll.hash
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\Unity.Notifications.Android.dll.hash
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Temp\Unity.Notifications.Android.dll.hash
+    projectPath: Temp\Unity.Notifications.Android.dll.hash
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\Unity.Notifications.dll.hash
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Temp\Unity.Notifications.dll.hash
+    projectPath: Temp\Unity.Notifications.dll.hash
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\Unity.Notifications.iOS.dll.hash
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Temp\Unity.Notifications.iOS.dll.hash
+    projectPath: Temp\Unity.Notifications.iOS.dll.hash
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\Unity.PlasticSCM.Editor.dll.hash
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Temp\Unity.PlasticSCM.Editor.dll.hash
+    projectPath: Temp\Unity.PlasticSCM.Editor.dll.hash
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\Unity.Rider.Editor.dll.hash
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Temp\Unity.Rider.Editor.dll.hash
+    projectPath: Temp\Unity.Rider.Editor.dll.hash
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\Unity.Services.Core.Editor.dll.hash
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Temp\Unity.Services.Core.Editor.dll.hash
+    projectPath: Temp\Unity.Services.Core.Editor.dll.hash
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\Unity.TextMeshPro.dll.hash
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Temp\Unity.TextMeshPro.dll.hash
+    projectPath: Temp\Unity.TextMeshPro.dll.hash
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\Unity.TextMeshPro.Editor.dll.hash
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Temp\Unity.TextMeshPro.Editor.dll.hash
+    projectPath: Temp\Unity.TextMeshPro.Editor.dll.hash
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\Unity.Timeline.dll.hash
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Temp\Unity.Timeline.dll.hash
+    projectPath: Temp\Unity.Timeline.dll.hash
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\Unity.Timeline.Editor.dll.hash
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Temp\Unity.Timeline.Editor.dll.hash
+    projectPath: Temp\Unity.Timeline.Editor.dll.hash
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\Unity.VisualStudio.Editor.dll.hash
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Temp\Unity.VisualStudio.Editor.dll.hash
+    projectPath: Temp\Unity.VisualStudio.Editor.dll.hash
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\Unity.VSCode.Editor.dll.hash
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Temp\Unity.VSCode.Editor.dll.hash
+    projectPath: Temp\Unity.VSCode.Editor.dll.hash
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityEditor.TestRunner.dll.hash
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Temp\UnityEditor.TestRunner.dll.hash
+    projectPath: Temp\UnityEditor.TestRunner.dll.hash
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityEditor.UI.dll.hash
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Temp\UnityEditor.UI.dll.hash
+    projectPath: Temp\UnityEditor.UI.dll.hash
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityEngine.TestRunner.dll.hash
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Temp\UnityEngine.TestRunner.dll.hash
+    projectPath: Temp\UnityEngine.TestRunner.dll.hash
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityEngine.UI.dll.hash
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Temp\UnityEngine.UI.dll.hash
+    projectPath: Temp\UnityEngine.UI.dll.hash
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-02078e16aba267e4fb6ab3c654957fa9
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Temp\UnityTempFile-02078e16aba267e4fb6ab3c654957fa9
+    projectPath: Temp\UnityTempFile-02078e16aba267e4fb6ab3c654957fa9
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-082f8170793a65d40ad0ca7fcd33fe16
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Temp\UnityTempFile-082f8170793a65d40ad0ca7fcd33fe16
+    projectPath: Temp\UnityTempFile-082f8170793a65d40ad0ca7fcd33fe16
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-0d22129ed1424df49b4a1b652c3b28f3
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Temp\UnityTempFile-0d22129ed1424df49b4a1b652c3b28f3
+    projectPath: Temp\UnityTempFile-0d22129ed1424df49b4a1b652c3b28f3
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-101b7147256c8fc4fb9bb5e0b3865e31
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Temp\UnityTempFile-101b7147256c8fc4fb9bb5e0b3865e31
+    projectPath: Temp\UnityTempFile-101b7147256c8fc4fb9bb5e0b3865e31
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-1628cb28b65e64f4d92c71f987bae095
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Temp\UnityTempFile-1628cb28b65e64f4d92c71f987bae095
+    projectPath: Temp\UnityTempFile-1628cb28b65e64f4d92c71f987bae095
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-177971faebde9994d94dc058b2a0fb36
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Temp\UnityTempFile-177971faebde9994d94dc058b2a0fb36
+    projectPath: Temp\UnityTempFile-177971faebde9994d94dc058b2a0fb36
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-185f3767440bdad4fa80f663125f8777
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Temp\UnityTempFile-185f3767440bdad4fa80f663125f8777
+    projectPath: Temp\UnityTempFile-185f3767440bdad4fa80f663125f8777
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-18a182ef28b440a45848f1298a790390
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Temp\UnityTempFile-18a182ef28b440a45848f1298a790390
+    projectPath: Temp\UnityTempFile-18a182ef28b440a45848f1298a790390
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-207fe88f7d0a2b849a02222bc3a1477c
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Temp\UnityTempFile-207fe88f7d0a2b849a02222bc3a1477c
+    projectPath: Temp\UnityTempFile-207fe88f7d0a2b849a02222bc3a1477c
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-2361cc8cfc6bda24fba2643febea21d2
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Temp\UnityTempFile-2361cc8cfc6bda24fba2643febea21d2
+    projectPath: Temp\UnityTempFile-2361cc8cfc6bda24fba2643febea21d2
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-243efc8a688a9a24286b70ccd97bdb26
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Temp\UnityTempFile-243efc8a688a9a24286b70ccd97bdb26
+    projectPath: Temp\UnityTempFile-243efc8a688a9a24286b70ccd97bdb26
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-24671d7b01c3e344cb4799878cc203db
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Temp\UnityTempFile-24671d7b01c3e344cb4799878cc203db
+    projectPath: Temp\UnityTempFile-24671d7b01c3e344cb4799878cc203db
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-253dfd868a497f347b42b9766f404895
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Temp\UnityTempFile-253dfd868a497f347b42b9766f404895
+    projectPath: Temp\UnityTempFile-253dfd868a497f347b42b9766f404895
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-2592676c7521e04489e0b04086116623
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Temp\UnityTempFile-2592676c7521e04489e0b04086116623
+    projectPath: Temp\UnityTempFile-2592676c7521e04489e0b04086116623
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-265a30b6f8dc7774a9f1f54bfd78d190
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Temp\UnityTempFile-265a30b6f8dc7774a9f1f54bfd78d190
+    projectPath: Temp\UnityTempFile-265a30b6f8dc7774a9f1f54bfd78d190
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-2888dc68c3c3aef4e82ebf65e94ff79a
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Temp\UnityTempFile-2888dc68c3c3aef4e82ebf65e94ff79a
+    projectPath: Temp\UnityTempFile-2888dc68c3c3aef4e82ebf65e94ff79a
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-28bbdbedb3f1bec4a8fb158e8c385309
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Temp\UnityTempFile-28bbdbedb3f1bec4a8fb158e8c385309
+    projectPath: Temp\UnityTempFile-28bbdbedb3f1bec4a8fb158e8c385309
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-2aba2e654672d2e40bdfe8a21d46c583
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Temp\UnityTempFile-2aba2e654672d2e40bdfe8a21d46c583
+    projectPath: Temp\UnityTempFile-2aba2e654672d2e40bdfe8a21d46c583
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-2bd0dc35858d9394d8c35cf5b713adb2
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Temp\UnityTempFile-2bd0dc35858d9394d8c35cf5b713adb2
+    projectPath: Temp\UnityTempFile-2bd0dc35858d9394d8c35cf5b713adb2
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-3598158de22b12f48b0574d07240f986
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Temp\UnityTempFile-3598158de22b12f48b0574d07240f986
+    projectPath: Temp\UnityTempFile-3598158de22b12f48b0574d07240f986
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-369d4e30731444d4a9b8ca0c9fc23454
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Temp\UnityTempFile-369d4e30731444d4a9b8ca0c9fc23454
+    projectPath: Temp\UnityTempFile-369d4e30731444d4a9b8ca0c9fc23454
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-37f6ea98acc4c0a4ab38ac77de75aca3
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Temp\UnityTempFile-37f6ea98acc4c0a4ab38ac77de75aca3
+    projectPath: Temp\UnityTempFile-37f6ea98acc4c0a4ab38ac77de75aca3
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-3c504f4789ef37e43996125669da895f
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Temp\UnityTempFile-3c504f4789ef37e43996125669da895f
+    projectPath: Temp\UnityTempFile-3c504f4789ef37e43996125669da895f
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-3d1c07959f72c5c429682d7e0eb0fc97
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Temp\UnityTempFile-3d1c07959f72c5c429682d7e0eb0fc97
+    projectPath: Temp\UnityTempFile-3d1c07959f72c5c429682d7e0eb0fc97
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-3f72fbb6b844cc540ab45d90cb538891
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Temp\UnityTempFile-3f72fbb6b844cc540ab45d90cb538891
+    projectPath: Temp\UnityTempFile-3f72fbb6b844cc540ab45d90cb538891
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-41561481e9c426645be9166651b69ffb
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Temp\UnityTempFile-41561481e9c426645be9166651b69ffb
+    projectPath: Temp\UnityTempFile-41561481e9c426645be9166651b69ffb
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-4841c2b97126ea64d82f88f02aebe24f
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Temp\UnityTempFile-4841c2b97126ea64d82f88f02aebe24f
+    projectPath: Temp\UnityTempFile-4841c2b97126ea64d82f88f02aebe24f
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-484d0513164a0df4bbd7ac78fefaa53a
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Temp\UnityTempFile-484d0513164a0df4bbd7ac78fefaa53a
+    projectPath: Temp\UnityTempFile-484d0513164a0df4bbd7ac78fefaa53a
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-50a96508cf5bef740ac0d20b71a47422
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Temp\UnityTempFile-50a96508cf5bef740ac0d20b71a47422
+    projectPath: Temp\UnityTempFile-50a96508cf5bef740ac0d20b71a47422
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-53796eeca3f7cac46b89737db2464304
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Temp\UnityTempFile-53796eeca3f7cac46b89737db2464304
+    projectPath: Temp\UnityTempFile-53796eeca3f7cac46b89737db2464304
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-562123a457d07b14fb79960747cf1bc9
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Temp\UnityTempFile-562123a457d07b14fb79960747cf1bc9
+    projectPath: Temp\UnityTempFile-562123a457d07b14fb79960747cf1bc9
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-59d3b29bfffca4e47a0d89c3cb499db7
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Temp\UnityTempFile-59d3b29bfffca4e47a0d89c3cb499db7
+    projectPath: Temp\UnityTempFile-59d3b29bfffca4e47a0d89c3cb499db7
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-5c8a08ec8dda7c146ab8de66d5037a0a
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Temp\UnityTempFile-5c8a08ec8dda7c146ab8de66d5037a0a
+    projectPath: Temp\UnityTempFile-5c8a08ec8dda7c146ab8de66d5037a0a
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-5f9183dca27b56a429c85989d17bca9a
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Temp\UnityTempFile-5f9183dca27b56a429c85989d17bca9a
+    projectPath: Temp\UnityTempFile-5f9183dca27b56a429c85989d17bca9a
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-6029e1870b64980409d00bbbb137eddd
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Temp\UnityTempFile-6029e1870b64980409d00bbbb137eddd
+    projectPath: Temp\UnityTempFile-6029e1870b64980409d00bbbb137eddd
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-63722c97018c05f499b418698589b32b
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Temp\UnityTempFile-63722c97018c05f499b418698589b32b
+    projectPath: Temp\UnityTempFile-63722c97018c05f499b418698589b32b
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-66063f236dcc4f94d83ac54ab89cb3a0
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Temp\UnityTempFile-66063f236dcc4f94d83ac54ab89cb3a0
+    projectPath: Temp\UnityTempFile-66063f236dcc4f94d83ac54ab89cb3a0
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-6ac7f202338cbe848af4c54bb7984e69
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Temp\UnityTempFile-6ac7f202338cbe848af4c54bb7984e69
+    projectPath: Temp\UnityTempFile-6ac7f202338cbe848af4c54bb7984e69
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-7339258bc9aa16b4e894bcd60db17547
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Temp\UnityTempFile-7339258bc9aa16b4e894bcd60db17547
+    projectPath: Temp\UnityTempFile-7339258bc9aa16b4e894bcd60db17547
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-793e6f63d129dad428e16825c7bb8404
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Temp\UnityTempFile-793e6f63d129dad428e16825c7bb8404
+    projectPath: Temp\UnityTempFile-793e6f63d129dad428e16825c7bb8404
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-79a38bebb2acac546b4b7682f55a9a41
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Temp\UnityTempFile-79a38bebb2acac546b4b7682f55a9a41
+    projectPath: Temp\UnityTempFile-79a38bebb2acac546b4b7682f55a9a41
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-7b3a213763defa74c846ee9cc512caf5
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Temp\UnityTempFile-7b3a213763defa74c846ee9cc512caf5
+    projectPath: Temp\UnityTempFile-7b3a213763defa74c846ee9cc512caf5
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-7b78b82d62fe2b84b91be815e585f6c2
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Temp\UnityTempFile-7b78b82d62fe2b84b91be815e585f6c2
+    projectPath: Temp\UnityTempFile-7b78b82d62fe2b84b91be815e585f6c2
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-7d4aec56d04bff047b6eb4d50574fcd7
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Temp\UnityTempFile-7d4aec56d04bff047b6eb4d50574fcd7
+    projectPath: Temp\UnityTempFile-7d4aec56d04bff047b6eb4d50574fcd7
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-7daa7506c96142f4c9853dbee8be8840
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Temp\UnityTempFile-7daa7506c96142f4c9853dbee8be8840
+    projectPath: Temp\UnityTempFile-7daa7506c96142f4c9853dbee8be8840
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-81a31fc92aea54b4ba2270f519f54ee2
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Temp\UnityTempFile-81a31fc92aea54b4ba2270f519f54ee2
+    projectPath: Temp\UnityTempFile-81a31fc92aea54b4ba2270f519f54ee2
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-8753e8745e09ed443b2a460f5cecfe1a
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Temp\UnityTempFile-8753e8745e09ed443b2a460f5cecfe1a
+    projectPath: Temp\UnityTempFile-8753e8745e09ed443b2a460f5cecfe1a
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-89d1887aba4c433458365c6b4b440953
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Temp\UnityTempFile-89d1887aba4c433458365c6b4b440953
+    projectPath: Temp\UnityTempFile-89d1887aba4c433458365c6b4b440953
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-8cdd8be77d2c3d0448912bda561bec98
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Temp\UnityTempFile-8cdd8be77d2c3d0448912bda561bec98
+    projectPath: Temp\UnityTempFile-8cdd8be77d2c3d0448912bda561bec98
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-8d72aa5593d194b4b907ce18951e2eb2
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Temp\UnityTempFile-8d72aa5593d194b4b907ce18951e2eb2
+    projectPath: Temp\UnityTempFile-8d72aa5593d194b4b907ce18951e2eb2
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-912708cbce2d6d54aa9b9776c2527e63
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Temp\UnityTempFile-912708cbce2d6d54aa9b9776c2527e63
+    projectPath: Temp\UnityTempFile-912708cbce2d6d54aa9b9776c2527e63
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-9233b0f3f24cca549bfe2784b2b41255
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Temp\UnityTempFile-9233b0f3f24cca549bfe2784b2b41255
+    projectPath: Temp\UnityTempFile-9233b0f3f24cca549bfe2784b2b41255
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-928a9669ab545f747b434686e7816216
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Temp\UnityTempFile-928a9669ab545f747b434686e7816216
+    projectPath: Temp\UnityTempFile-928a9669ab545f747b434686e7816216
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-950998207d8705547bbb12e3679d2b75
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Temp\UnityTempFile-950998207d8705547bbb12e3679d2b75
+    projectPath: Temp\UnityTempFile-950998207d8705547bbb12e3679d2b75
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-9b934035d63dbd2439365b54a93b7a30
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Temp\UnityTempFile-9b934035d63dbd2439365b54a93b7a30
+    projectPath: Temp\UnityTempFile-9b934035d63dbd2439365b54a93b7a30
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-9e5049f9a2d71dc4d8cedb1edaf38b8d
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Temp\UnityTempFile-9e5049f9a2d71dc4d8cedb1edaf38b8d
+    projectPath: Temp\UnityTempFile-9e5049f9a2d71dc4d8cedb1edaf38b8d
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-a76a222b6a36d1b4c97e0c3ac41f4732
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Temp\UnityTempFile-a76a222b6a36d1b4c97e0c3ac41f4732
+    projectPath: Temp\UnityTempFile-a76a222b6a36d1b4c97e0c3ac41f4732
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-a7943e6faf98336468d10c51f2ea786b
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Temp\UnityTempFile-a7943e6faf98336468d10c51f2ea786b
+    projectPath: Temp\UnityTempFile-a7943e6faf98336468d10c51f2ea786b
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-adfaf235ce01cfa45a8ede73d4e356a2
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Temp\UnityTempFile-adfaf235ce01cfa45a8ede73d4e356a2
+    projectPath: Temp\UnityTempFile-adfaf235ce01cfa45a8ede73d4e356a2
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-af5200117ddab254a98da5e8a7055ad7
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Temp\UnityTempFile-af5200117ddab254a98da5e8a7055ad7
+    projectPath: Temp\UnityTempFile-af5200117ddab254a98da5e8a7055ad7
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-afdee221a2156d042a8d976e25ed3cdd
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Temp\UnityTempFile-afdee221a2156d042a8d976e25ed3cdd
+    projectPath: Temp\UnityTempFile-afdee221a2156d042a8d976e25ed3cdd
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-b3d1016c7c6027346a05d6f05ed90e21
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Temp\UnityTempFile-b3d1016c7c6027346a05d6f05ed90e21
+    projectPath: Temp\UnityTempFile-b3d1016c7c6027346a05d6f05ed90e21
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-b40776a0e3f565849aaf3d7d5aa8dc37
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Temp\UnityTempFile-b40776a0e3f565849aaf3d7d5aa8dc37
+    projectPath: Temp\UnityTempFile-b40776a0e3f565849aaf3d7d5aa8dc37
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-b52c1fa1b7dfdc547a3a94561d1c1c92
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Temp\UnityTempFile-b52c1fa1b7dfdc547a3a94561d1c1c92
+    projectPath: Temp\UnityTempFile-b52c1fa1b7dfdc547a3a94561d1c1c92
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-b54abfc79d74b7a45b78a204a7319a82
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Temp\UnityTempFile-b54abfc79d74b7a45b78a204a7319a82
+    projectPath: Temp\UnityTempFile-b54abfc79d74b7a45b78a204a7319a82
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-bc33ed92f976e6c489960170ae4de01f
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Temp\UnityTempFile-bc33ed92f976e6c489960170ae4de01f
+    projectPath: Temp\UnityTempFile-bc33ed92f976e6c489960170ae4de01f
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-bff6bb12bfb4bae4ab3b29f47f34d5d7
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Temp\UnityTempFile-bff6bb12bfb4bae4ab3b29f47f34d5d7
+    projectPath: Temp\UnityTempFile-bff6bb12bfb4bae4ab3b29f47f34d5d7
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-c43e1cf8ce311e540aa92f48b8a9f8f4
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Temp\UnityTempFile-c43e1cf8ce311e540aa92f48b8a9f8f4
+    projectPath: Temp\UnityTempFile-c43e1cf8ce311e540aa92f48b8a9f8f4
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-c4e4e1abaf0544444b51700252bb1436
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Temp\UnityTempFile-c4e4e1abaf0544444b51700252bb1436
+    projectPath: Temp\UnityTempFile-c4e4e1abaf0544444b51700252bb1436
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-c753ad08a1711e4408e28f9bbe15cd66
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Temp\UnityTempFile-c753ad08a1711e4408e28f9bbe15cd66
+    projectPath: Temp\UnityTempFile-c753ad08a1711e4408e28f9bbe15cd66
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-c7ecb935a7a51314e84743df446321ff
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Temp\UnityTempFile-c7ecb935a7a51314e84743df446321ff
+    projectPath: Temp\UnityTempFile-c7ecb935a7a51314e84743df446321ff
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-ccb91d944f3903242aa10c9a7b89f6b0
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Temp\UnityTempFile-ccb91d944f3903242aa10c9a7b89f6b0
+    projectPath: Temp\UnityTempFile-ccb91d944f3903242aa10c9a7b89f6b0
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-cd8478804e44fdf458e2c71e1a4342c6
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Temp\UnityTempFile-cd8478804e44fdf458e2c71e1a4342c6
+    projectPath: Temp\UnityTempFile-cd8478804e44fdf458e2c71e1a4342c6
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-cfa3e7b4b1dcafe47a58111400563707
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Temp\UnityTempFile-cfa3e7b4b1dcafe47a58111400563707
+    projectPath: Temp\UnityTempFile-cfa3e7b4b1dcafe47a58111400563707
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-d02d18d8374afaa46bdf705a3dac422e
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Temp\UnityTempFile-d02d18d8374afaa46bdf705a3dac422e
+    projectPath: Temp\UnityTempFile-d02d18d8374afaa46bdf705a3dac422e
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-d25769282f9088e4e8bdb34c5e3370bf
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Temp\UnityTempFile-d25769282f9088e4e8bdb34c5e3370bf
+    projectPath: Temp\UnityTempFile-d25769282f9088e4e8bdb34c5e3370bf
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-d28d418ce76345e459007a5759357bf7
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Temp\UnityTempFile-d28d418ce76345e459007a5759357bf7
+    projectPath: Temp\UnityTempFile-d28d418ce76345e459007a5759357bf7
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-d3d7c0972633bb04c83e553c8f92e880
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Temp\UnityTempFile-d3d7c0972633bb04c83e553c8f92e880
+    projectPath: Temp\UnityTempFile-d3d7c0972633bb04c83e553c8f92e880
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-d684464fe498caa40acb22f99479e388
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Temp\UnityTempFile-d684464fe498caa40acb22f99479e388
+    projectPath: Temp\UnityTempFile-d684464fe498caa40acb22f99479e388
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-da234bae15d856b43aa5684fe0e62073
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Temp\UnityTempFile-da234bae15d856b43aa5684fe0e62073
+    projectPath: Temp\UnityTempFile-da234bae15d856b43aa5684fe0e62073
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-daa0bf4dc1e251c49a82d7cbffbdaaf7
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Temp\UnityTempFile-daa0bf4dc1e251c49a82d7cbffbdaaf7
+    projectPath: Temp\UnityTempFile-daa0bf4dc1e251c49a82d7cbffbdaaf7
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-de549d2e2bc9da24dae5649fa8e8be70
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Temp\UnityTempFile-de549d2e2bc9da24dae5649fa8e8be70
+    projectPath: Temp\UnityTempFile-de549d2e2bc9da24dae5649fa8e8be70
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-eb536bdc664119e42a3bd2a9fb78a594
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Temp\UnityTempFile-eb536bdc664119e42a3bd2a9fb78a594
+    projectPath: Temp\UnityTempFile-eb536bdc664119e42a3bd2a9fb78a594
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-edff835977cc7fd4ea7c54393294321a
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Temp\UnityTempFile-edff835977cc7fd4ea7c54393294321a
+    projectPath: Temp\UnityTempFile-edff835977cc7fd4ea7c54393294321a
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-f0466c1b3473f854db8d8dfa487b5c78
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Temp\UnityTempFile-f0466c1b3473f854db8d8dfa487b5c78
+    projectPath: Temp\UnityTempFile-f0466c1b3473f854db8d8dfa487b5c78
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-f0653a5575a5bc6479a678ea84cb2621
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Temp\UnityTempFile-f0653a5575a5bc6479a678ea84cb2621
+    projectPath: Temp\UnityTempFile-f0653a5575a5bc6479a678ea84cb2621
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-f486bd6655e7dc144a58685376320759
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Temp\UnityTempFile-f486bd6655e7dc144a58685376320759
+    projectPath: Temp\UnityTempFile-f486bd6655e7dc144a58685376320759
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-f5824dc43aae4ad49b87660f0b6c62d0
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Temp\UnityTempFile-f5824dc43aae4ad49b87660f0b6c62d0
+    projectPath: Temp\UnityTempFile-f5824dc43aae4ad49b87660f0b6c62d0
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-f75ceeb7303dffb4bb0a78c51bebf9b2
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Temp\UnityTempFile-f75ceeb7303dffb4bb0a78c51bebf9b2
+    projectPath: Temp\UnityTempFile-f75ceeb7303dffb4bb0a78c51bebf9b2
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-f8f21696e00a84b4fa3e89f835707a7b
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Temp\UnityTempFile-f8f21696e00a84b4fa3e89f835707a7b
+    projectPath: Temp\UnityTempFile-f8f21696e00a84b4fa3e89f835707a7b
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-f93c087c4ef92474abbfb27b16d71d3e
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Temp\UnityTempFile-f93c087c4ef92474abbfb27b16d71d3e
+    projectPath: Temp\UnityTempFile-f93c087c4ef92474abbfb27b16d71d3e
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-fd7c00f507c2ffb448f8929bf787d225
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Temp\UnityTempFile-fd7c00f507c2ffb448f8929bf787d225
+    projectPath: Temp\UnityTempFile-fd7c00f507c2ffb448f8929bf787d225
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-fec8092f2088f9749a05f17bcd4d2f1e
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Temp\UnityTempFile-fec8092f2088f9749a05f17bcd4d2f1e
+    projectPath: Temp\UnityTempFile-fec8092f2088f9749a05f17bcd4d2f1e
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\workerlic
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\Temp\workerlic
+    projectPath: Temp\workerlic
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: UserSettings\EditorUserSettings.asset
+    fullPath: C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\UserSettings\EditorUserSettings.asset
+    projectPath: UserSettings\EditorUserSettings.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3

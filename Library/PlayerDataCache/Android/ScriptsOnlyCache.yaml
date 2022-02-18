@@ -2,13 +2,23 @@ ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
     - AutoDestruction
+    - BombNumberScript
     - CamScrshot
+    - CameraScript
     - Card
     - CardGameManager
     - Clippycde
     - ClosedDrawPile
+    - ControlScript
     - DiscardPile
+    - DragAndDrop_
     - GameManager
+    - IntroManager
+    - Mahjong.ECS.EcsStartup
+    - Mahjong.TileSet
+    - Mahjong.TileView
+    - Mahjong.TileViewService
+    - MahjongManager
     - MainPile
     - MemoryCard
     - Memorymanager
@@ -17,20 +27,38 @@ ScriptsOnlyBuild:
     - NewClippy
     - NormalTileBehaviour
     - OpenDrawPile
+    - OptionsFormScript
+    - PersistentInfoScript
     - ProgressDrag
+    - PuzzleManager
     - SceneController
+    - SceneRedirector
     - SolitaireManager
+    - StateButtonScript
     - TileAnimation
     - TileCatcher
+    - TileScript
     - TileSpawner
+    - TimeScript
     - Timer
     - UIManager
+    - piecesScript
     - pointsmovement
+    - puzzleSelect_
     AstarPathfindingProject.dll:
     - AstarPath
     - Pathfinding.AIDestinationSetter
     - Pathfinding.AIPath
     - Pathfinding.Seeker
+    DOTween.dll:
+    - DG.Tweening.Core.DOTweenSettings
+    GitHub.Unity.45.dll:
+    - GitHub.Unity.ApplicationCache
+    - GitHub.Unity.EnvironmentCache
+    - GitHub.Unity.GitAheadBehindCache
+    - GitHub.Unity.GitLocksCache
+    - GitHub.Unity.GitStatusCache
+    - GitHub.Unity.RepositoryInfoCache
     Unity.2D.Animation.Editor.dll:
     - UnityEditor.U2D.Animation.BoneGizmo
     Unity.2D.IK.Editor.dll:
@@ -56,8 +84,10 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -104,49 +134,49 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1546}
+      Script: {instanceID: 1554}
     - Class: 114
-      Script: {instanceID: 1548}
+      Script: {instanceID: 1556}
     - Class: 114
-      Script: {instanceID: 1818}
+      Script: {instanceID: 1846}
     - Class: 114
-      Script: {instanceID: 1838}
+      Script: {instanceID: 1866}
     - Class: 114
-      Script: {instanceID: 1984}
+      Script: {instanceID: 2020}
     - Class: 114
-      Script: {instanceID: 2146}
+      Script: {instanceID: 2188}
     - Class: 114
-      Script: {instanceID: 2298}
+      Script: {instanceID: 2352}
     - Class: 114
-      Script: {instanceID: 2472}
+      Script: {instanceID: 2534}
     - Class: 114
-      Script: {instanceID: 2792}
+      Script: {instanceID: 2870}
     - Class: 114
-      Script: {instanceID: 2938}
+      Script: {instanceID: 3024}
     - Class: 114
-      Script: {instanceID: 3132}
+      Script: {instanceID: 3224}
     - Class: 114
-      Script: {instanceID: 3186}
+      Script: {instanceID: 3278}
     - Class: 114
-      Script: {instanceID: 3206}
+      Script: {instanceID: 3298}
     - Class: 114
-      Script: {instanceID: 3414}
+      Script: {instanceID: 3514}
     - Class: 114
-      Script: {instanceID: 3702}
+      Script: {instanceID: 3816}
     - Class: 114
-      Script: {instanceID: 4468}
+      Script: {instanceID: 4620}
     - Class: 114
-      Script: {instanceID: 4694}
+      Script: {instanceID: 4894}
     - Class: 114
-      Script: {instanceID: 4750}
+      Script: {instanceID: 4950}
     - Class: 114
-      Script: {instanceID: 4958}
+      Script: {instanceID: 5170}
     - Class: 114
-      Script: {instanceID: 5684}
+      Script: {instanceID: 5930}
     - Class: 114
-      Script: {instanceID: 6116}
+      Script: {instanceID: 6374}
     - Class: 114
-      Script: {instanceID: 6198}
+      Script: {instanceID: 6466}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -193,47 +223,47 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1546}
+      Script: {instanceID: 1554}
     - Class: 114
-      Script: {instanceID: 1548}
+      Script: {instanceID: 1556}
     - Class: 114
-      Script: {instanceID: 1818}
+      Script: {instanceID: 1846}
     - Class: 114
-      Script: {instanceID: 1984}
+      Script: {instanceID: 2020}
     - Class: 114
-      Script: {instanceID: 2146}
+      Script: {instanceID: 2188}
     - Class: 114
-      Script: {instanceID: 2298}
+      Script: {instanceID: 2352}
     - Class: 114
-      Script: {instanceID: 2472}
+      Script: {instanceID: 2534}
     - Class: 114
-      Script: {instanceID: 2792}
+      Script: {instanceID: 2870}
     - Class: 114
-      Script: {instanceID: 2938}
+      Script: {instanceID: 3024}
     - Class: 114
-      Script: {instanceID: 3132}
+      Script: {instanceID: 3224}
     - Class: 114
-      Script: {instanceID: 3186}
+      Script: {instanceID: 3278}
     - Class: 114
-      Script: {instanceID: 3206}
+      Script: {instanceID: 3298}
     - Class: 114
-      Script: {instanceID: 3414}
+      Script: {instanceID: 3514}
     - Class: 114
-      Script: {instanceID: 3702}
+      Script: {instanceID: 3816}
     - Class: 114
-      Script: {instanceID: 4468}
+      Script: {instanceID: 4620}
     - Class: 114
-      Script: {instanceID: 4694}
+      Script: {instanceID: 4894}
     - Class: 114
-      Script: {instanceID: 4750}
+      Script: {instanceID: 4950}
     - Class: 114
-      Script: {instanceID: 4958}
+      Script: {instanceID: 5170}
     - Class: 114
-      Script: {instanceID: 5684}
+      Script: {instanceID: 5930}
     - Class: 114
-      Script: {instanceID: 6116}
+      Script: {instanceID: 6374}
     - Class: 114
-      Script: {instanceID: 6198}
+      Script: {instanceID: 6466}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -253,6 +283,77 @@ ScriptsOnlyBuild:
     - Class: 224
       Script: {instanceID: 0}
     - Class: 225
+      Script: {instanceID: 0}
+    Assets/MahjongStuff/Mahjong.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 49
+      Script: {instanceID: 0}
+    - Class: 50
+      Script: {instanceID: 0}
+    - Class: 61
+      Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1554}
+    - Class: 114
+      Script: {instanceID: 1556}
+    - Class: 114
+      Script: {instanceID: 1962}
+    - Class: 114
+      Script: {instanceID: 2534}
+    - Class: 114
+      Script: {instanceID: 3024}
+    - Class: 114
+      Script: {instanceID: 3224}
+    - Class: 114
+      Script: {instanceID: 3426}
+    - Class: 114
+      Script: {instanceID: 3514}
+    - Class: 114
+      Script: {instanceID: 3816}
+    - Class: 114
+      Script: {instanceID: 4744}
+    - Class: 114
+      Script: {instanceID: 5894}
+    - Class: 114
+      Script: {instanceID: 6442}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 212
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
       Script: {instanceID: 0}
     Assets/MemoryStuff/MEM.unity:
     - Class: 1
@@ -278,27 +379,27 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1546}
+      Script: {instanceID: 1554}
     - Class: 114
-      Script: {instanceID: 1548}
+      Script: {instanceID: 1556}
     - Class: 114
-      Script: {instanceID: 2472}
+      Script: {instanceID: 2534}
     - Class: 114
-      Script: {instanceID: 2938}
+      Script: {instanceID: 3024}
     - Class: 114
-      Script: {instanceID: 3132}
+      Script: {instanceID: 3224}
     - Class: 114
-      Script: {instanceID: 3414}
+      Script: {instanceID: 3514}
     - Class: 114
-      Script: {instanceID: 3702}
+      Script: {instanceID: 3816}
     - Class: 114
-      Script: {instanceID: 4462}
+      Script: {instanceID: 4614}
     - Class: 114
-      Script: {instanceID: 4694}
+      Script: {instanceID: 4894}
     - Class: 114
-      Script: {instanceID: 5772}
+      Script: {instanceID: 5788}
     - Class: 114
-      Script: {instanceID: 27952}
+      Script: {instanceID: 6020}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -341,27 +442,27 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1546}
+      Script: {instanceID: 1554}
     - Class: 114
-      Script: {instanceID: 1548}
+      Script: {instanceID: 1556}
     - Class: 114
-      Script: {instanceID: 1750}
+      Script: {instanceID: 1764}
     - Class: 114
-      Script: {instanceID: 2472}
+      Script: {instanceID: 2534}
     - Class: 114
-      Script: {instanceID: 2738}
+      Script: {instanceID: 2814}
     - Class: 114
-      Script: {instanceID: 2938}
+      Script: {instanceID: 3024}
     - Class: 114
-      Script: {instanceID: 3132}
+      Script: {instanceID: 3224}
     - Class: 114
-      Script: {instanceID: 3414}
+      Script: {instanceID: 3514}
     - Class: 114
-      Script: {instanceID: 3486}
+      Script: {instanceID: 3590}
     - Class: 114
-      Script: {instanceID: 3702}
+      Script: {instanceID: 3816}
     - Class: 114
-      Script: {instanceID: 3814}
+      Script: {instanceID: 3930}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -393,8 +494,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 48
       Script: {instanceID: 0}
-    - Class: 49
-      Script: {instanceID: 0}
     - Class: 50
       Script: {instanceID: 0}
     - Class: 60
@@ -418,71 +517,63 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1546}
+      Script: {instanceID: 1554}
     - Class: 114
-      Script: {instanceID: 1548}
+      Script: {instanceID: 1556}
     - Class: 114
-      Script: {instanceID: 1750}
+      Script: {instanceID: 1764}
     - Class: 114
-      Script: {instanceID: 1752}
+      Script: {instanceID: 1774}
     - Class: 114
-      Script: {instanceID: 1812}
+      Script: {instanceID: 1840}
     - Class: 114
-      Script: {instanceID: 1838}
+      Script: {instanceID: 1866}
     - Class: 114
-      Script: {instanceID: 1984}
+      Script: {instanceID: 2020}
     - Class: 114
-      Script: {instanceID: 1990}
+      Script: {instanceID: 2026}
     - Class: 114
-      Script: {instanceID: 2068}
+      Script: {instanceID: 2110}
     - Class: 114
-      Script: {instanceID: 2136}
+      Script: {instanceID: 2178}
     - Class: 114
-      Script: {instanceID: 2460}
+      Script: {instanceID: 2534}
     - Class: 114
-      Script: {instanceID: 2472}
+      Script: {instanceID: 2814}
     - Class: 114
-      Script: {instanceID: 2738}
+      Script: {instanceID: 2996}
     - Class: 114
-      Script: {instanceID: 2910}
+      Script: {instanceID: 3024}
     - Class: 114
-      Script: {instanceID: 2938}
+      Script: {instanceID: 3224}
     - Class: 114
-      Script: {instanceID: 3132}
+      Script: {instanceID: 3278}
     - Class: 114
-      Script: {instanceID: 3186}
+      Script: {instanceID: 3336}
     - Class: 114
-      Script: {instanceID: 3244}
+      Script: {instanceID: 3506}
     - Class: 114
-      Script: {instanceID: 3406}
+      Script: {instanceID: 3514}
     - Class: 114
-      Script: {instanceID: 3414}
+      Script: {instanceID: 3590}
     - Class: 114
-      Script: {instanceID: 3486}
+      Script: {instanceID: 3816}
     - Class: 114
-      Script: {instanceID: 3702}
+      Script: {instanceID: 3930}
     - Class: 114
-      Script: {instanceID: 3814}
+      Script: {instanceID: 4682}
     - Class: 114
-      Script: {instanceID: 4528}
+      Script: {instanceID: 4802}
     - Class: 114
-      Script: {instanceID: 4608}
+      Script: {instanceID: 5368}
     - Class: 114
-      Script: {instanceID: 5150}
+      Script: {instanceID: 5492}
     - Class: 114
-      Script: {instanceID: 5240}
+      Script: {instanceID: 5692}
     - Class: 114
-      Script: {instanceID: 5272}
+      Script: {instanceID: 6500}
     - Class: 114
-      Script: {instanceID: 5420}
-    - Class: 114
-      Script: {instanceID: 5460}
-    - Class: 114
-      Script: {instanceID: 5864}
-    - Class: 114
-      Script: {instanceID: 6230}
-    - Class: 114
-      Script: {instanceID: 6346}
+      Script: {instanceID: 6618}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -503,6 +594,215 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 225
       Script: {instanceID: 0}
+    Assets/Scenes/LB95Startup.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1554}
+    - Class: 114
+      Script: {instanceID: 2534}
+    - Class: 114
+      Script: {instanceID: 3024}
+    - Class: 114
+      Script: {instanceID: 3224}
+    - Class: 114
+      Script: {instanceID: 3514}
+    - Class: 114
+      Script: {instanceID: 3816}
+    - Class: 114
+      Script: {instanceID: 5220}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 212
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    - Class: 225
+      Script: {instanceID: 0}
+    Assets/Scenes/PlayScene.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 61
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1554}
+    - Class: 114
+      Script: {instanceID: 1556}
+    - Class: 114
+      Script: {instanceID: 2196}
+    - Class: 114
+      Script: {instanceID: 2258}
+    - Class: 114
+      Script: {instanceID: 2534}
+    - Class: 114
+      Script: {instanceID: 3024}
+    - Class: 114
+      Script: {instanceID: 3224}
+    - Class: 114
+      Script: {instanceID: 3514}
+    - Class: 114
+      Script: {instanceID: 3590}
+    - Class: 114
+      Script: {instanceID: 3816}
+    - Class: 114
+      Script: {instanceID: 3972}
+    - Class: 114
+      Script: {instanceID: 4238}
+    - Class: 114
+      Script: {instanceID: 4354}
+    - Class: 114
+      Script: {instanceID: 4760}
+    - Class: 114
+      Script: {instanceID: 5046}
+    - Class: 114
+      Script: {instanceID: 5830}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 124
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 212
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    - Class: 850595691
+      Script: {instanceID: 0}
+    Assets/Scenes/Puzzler.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 61
+      Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1554}
+    - Class: 114
+      Script: {instanceID: 1556}
+    - Class: 114
+      Script: {instanceID: 2020}
+    - Class: 114
+      Script: {instanceID: 2534}
+    - Class: 114
+      Script: {instanceID: 3024}
+    - Class: 114
+      Script: {instanceID: 3224}
+    - Class: 114
+      Script: {instanceID: 3278}
+    - Class: 114
+      Script: {instanceID: 3514}
+    - Class: 114
+      Script: {instanceID: 3816}
+    - Class: 114
+      Script: {instanceID: 5460}
+    - Class: 114
+      Script: {instanceID: 19720}
+    - Class: 114
+      Script: {instanceID: 19722}
+    - Class: 114
+      Script: {instanceID: 19724}
+    - Class: 114
+      Script: {instanceID: 20732}
+    - Class: 114
+      Script: {instanceID: 46434}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 210
+      Script: {instanceID: 0}
+    - Class: 212
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    - Class: 331
+      Script: {instanceID: 0}
+    - Class: 850595691
+      Script: {instanceID: 0}
     Assets/Scenes/StartupIntro.unity:
     - Class: 1
       Script: {instanceID: 0}
@@ -510,15 +810,69 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 20
       Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
     - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 49
+      Script: {instanceID: 0}
+    - Class: 74
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
+      Script: {instanceID: 0}
     - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1554}
+    - Class: 114
+      Script: {instanceID: 1556}
+    - Class: 114
+      Script: {instanceID: 2020}
+    - Class: 114
+      Script: {instanceID: 2522}
+    - Class: 114
+      Script: {instanceID: 3024}
+    - Class: 114
+      Script: {instanceID: 3224}
+    - Class: 114
+      Script: {instanceID: 3514}
+    - Class: 114
+      Script: {instanceID: 3816}
+    - Class: 114
+      Script: {instanceID: 5460}
+    - Class: 114
+      Script: {instanceID: 5652}
+    - Class: 114
+      Script: {instanceID: 6114}
+    - Class: 114
+      Script: {instanceID: 6292}
+    - Class: 114
+      Script: {instanceID: 6434}
+    - Class: 114
+      Script: {instanceID: 123846}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
+      Script: {instanceID: 0}
+    - Class: 212
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
       Script: {instanceID: 0}
   scriptHashData:
   - hash:
@@ -545,6 +899,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: AnimationPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: screenshot
   - hash:
       serializedVersion: 2
       Hash: ff653aebffb231eb559930e8cf311d62
@@ -589,7 +949,7 @@ ScriptsOnlyBuild:
     className: Toggle
   - hash:
       serializedVersion: 2
-      Hash: 497cdb0826293fa34bbe960238f53e82
+      Hash: bce18a94e084bdf8becad59cd73e7b81
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: GameManager
@@ -655,6 +1015,12 @@ ScriptsOnlyBuild:
     className: BlockManager
   - hash:
       serializedVersion: 2
+      Hash: 63cad02066600713ef2800bfa6c3f29f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Mahjong
+    className: TileSet
+  - hash:
+      serializedVersion: 2
       Hash: e6f0efd0e20669d577e9d21526b3d3f9
     assemblyName: Assembly-CSharp.dll
     namespaceName: TMPro.Examples
@@ -715,10 +1081,22 @@ ScriptsOnlyBuild:
     className: MouseDragManager
   - hash:
       serializedVersion: 2
+      Hash: 63f75d352fca61abefbd537f3fbcc773
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ControlScript
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Assembly-CSharp.dll
     namespaceName: TMPro
     className: TMP_DigitValidator
+  - hash:
+      serializedVersion: 2
+      Hash: c6269ed44075d5a829c8c42c4a2c8b27
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: StateButtonScript
   - hash:
       serializedVersion: 2
       Hash: 0cceca996e1eb1401d74a841f34c4f83
@@ -737,6 +1115,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: ClosedDrawPile
+  - hash:
+      serializedVersion: 2
+      Hash: bf452cb8255d075fd6036a2116a699d6
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: UnityStandardAssets.ImageEffects
+    className: MetaballCameraEffect
   - hash:
       serializedVersion: 2
       Hash: c3d3430df9e3ea95e3e3d587961390fb
@@ -793,7 +1177,7 @@ ScriptsOnlyBuild:
     className: IKManager2D
   - hash:
       serializedVersion: 2
-      Hash: dd106e5bf44f2b7b73fc2f090f108f1c
+      Hash: 0fe3e29062b7031abe9ab191988af15f
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: UIManager
@@ -815,6 +1199,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: TMPro.Examples
     className: Benchmark02
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: TestScript
   - hash:
       serializedVersion: 2
       Hash: 6cd30e66b8b8737cd9e9c9402bc9f6e1
@@ -919,6 +1309,12 @@ ScriptsOnlyBuild:
     className: AIDestinationSetter
   - hash:
       serializedVersion: 2
+      Hash: c0c757b54f1c4c8ec15a06efe25a78c5
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Mahjong
+    className: TileView
+  - hash:
+      serializedVersion: 2
       Hash: 8abe5c5970b933d28c84fe29c2232578
     assemblyName: AstarPathfindingProject.dll
     namespaceName: Pathfinding
@@ -1015,6 +1411,12 @@ ScriptsOnlyBuild:
     className: NodeLink
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Water2D
+    className: _SpawnExampleController
+  - hash:
+      serializedVersion: 2
       Hash: 748dd2a2a28da4e618912da5ac45684b
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
@@ -1063,6 +1465,12 @@ ScriptsOnlyBuild:
     className: Benchmark04
   - hash:
       serializedVersion: 2
+      Hash: e6e3d455613faec6ebadbfa4aa0532c4
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: TimeScript
+  - hash:
+      serializedVersion: 2
       Hash: 349d08daa6108b9a28f8c38fd40ce96f
     assemblyName: Unity.2D.SpriteShape.Runtime.dll
     namespaceName: UnityEngine.U2D
@@ -1073,6 +1481,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TextContainer
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: MouseColliderController
   - hash:
       serializedVersion: 2
       Hash: bd3f0ca738703903e759f77536ed74fd
@@ -1087,10 +1501,22 @@ ScriptsOnlyBuild:
     className: ContentSizeFitter
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: OptionsFormScript
+  - hash:
+      serializedVersion: 2
       Hash: caa533b001ae39b864ba8425019e2268
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: Outline
+  - hash:
+      serializedVersion: 2
+      Hash: f0747f50694676ab5e53767ecdbb0551
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CameraScript
   - hash:
       serializedVersion: 2
       Hash: c3d3430df9e3ea95e3e3d587961390fb
@@ -1171,6 +1597,12 @@ ScriptsOnlyBuild:
     className: LayerMover
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ControlMainMenuScript
+  - hash:
+      serializedVersion: 2
       Hash: bd3cf68c8964d3c66d1c43f4f98508c9
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
@@ -1195,10 +1627,16 @@ ScriptsOnlyBuild:
     className: TargetMover
   - hash:
       serializedVersion: 2
-      Hash: 87ff43d2baf3385cba327d8f803a4ebb
-    assemblyName: Unity.Timeline.dll
-    namespaceName: UnityEngine.Timeline
-    className: AudioPlayableAsset
+      Hash: 02438e27c39fc39f3861440fcbbe4cd2
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Mahjong
+    className: TileViewService
+  - hash:
+      serializedVersion: 2
+      Hash: 2fbdd61b5c734de087e850066b6fc3b5
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: TileScript
   - hash:
       serializedVersion: 2
       Hash: 4e516d6d64d44446989426b8f725c6f8
@@ -1211,6 +1649,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: TileSpawner
+  - hash:
+      serializedVersion: 2
+      Hash: 87ff43d2baf3385cba327d8f803a4ebb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: AudioPlayableAsset
   - hash:
       serializedVersion: 2
       Hash: 0317e061ae5a2db4af9737023a643168
@@ -1273,6 +1717,12 @@ ScriptsOnlyBuild:
     className: ActivationTrack
   - hash:
       serializedVersion: 2
+      Hash: a598c906a6d0bd19047c009db364ee8c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PersistentInfoScript
+  - hash:
+      serializedVersion: 2
       Hash: a1ca1237bad0f30ea5ba8f4060929114
     assemblyName: Assembly-CSharp.dll
     namespaceName: TMPro.Examples
@@ -1309,6 +1759,12 @@ ScriptsOnlyBuild:
     className: NodeLink2
   - hash:
       serializedVersion: 2
+      Hash: 5a57ea616ead2561e49c1263a9e40cbb
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SceneRedirector
+  - hash:
+      serializedVersion: 2
       Hash: bd3f0ca738703903e759f77536ed74fd
     assemblyName: Assembly-CSharp.dll
     namespaceName: TMPro.Examples
@@ -1337,6 +1793,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: TileAnimation
+  - hash:
+      serializedVersion: 2
+      Hash: 0c6ac15e1cd3c8b48e57cc0e86f1427b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Water2D
+    className: Water2D_Spawner
   - hash:
       serializedVersion: 2
       Hash: b424b4eeb810aecb0ff91c62639241e9
@@ -1429,6 +1891,24 @@ ScriptsOnlyBuild:
     className: CameraController
   - hash:
       serializedVersion: 2
+      Hash: 6e181cd4ae71bad16aa6af13015f75c5
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Memorymanager
+  - hash:
+      serializedVersion: 2
+      Hash: 13fd0ec6a1fec7eedce15e482e530580
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: MetaballParticleClass
+  - hash:
+      serializedVersion: 2
+      Hash: 0ef81f4c63e5774291623eb3c95b125b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: BombNumberScript
+  - hash:
+      serializedVersion: 2
       Hash: e2c52df92f5a11103c324ae820575e40
     assemblyName: AstarPathfindingProject.dll
     namespaceName: Pathfinding.Examples
@@ -1439,6 +1919,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.2D.Animation.Runtime.dll
     namespaceName: UnityEngine.Experimental.U2D.Animation
     className: SpriteLibraryAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 6e181cd4ae71bad16aa6af13015f75c5
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: MahjongManager
   - hash:
       serializedVersion: 2
       Hash: 63bdc2cf3273aa9bf650350f19d2af61
@@ -1525,6 +2011,12 @@ ScriptsOnlyBuild:
     className: TextConsoleSimulator
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: IntroManager
+  - hash:
+      serializedVersion: 2
       Hash: e63944317d2f5958e31963668bb29158
     assemblyName: Assembly-CSharp.dll
     namespaceName: TMPro.Examples
@@ -1541,6 +2033,24 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: MenuManager
+  - hash:
+      serializedVersion: 2
+      Hash: 704dcd31abc789439bc3f3cd10b58c2b
+    assemblyName: DOTween.dll
+    namespaceName: DG.Tweening.Core
+    className: DOTweenComponent
+  - hash:
+      serializedVersion: 2
+      Hash: 9b2663563359a91d0a6867fee160c936
+    assemblyName: DOTween.dll
+    namespaceName: DG.Tweening.Core
+    className: DOTweenSettings
+  - hash:
+      serializedVersion: 2
+      Hash: c4c0adc8263872f5b387a265b04106cf
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Mahjong.ECS
+    className: EcsStartup
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -1627,16 +2137,44 @@ ScriptsOnlyBuild:
     className: SingleNodeBlocker
   - hash:
       serializedVersion: 2
-      Hash: 6e181cd4ae71bad16aa6af13015f75c5
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: Memorymanager
+    className: StartGame
+  - hash:
+      serializedVersion: 2
+      Hash: 601241f620918d1f852ebc70ad589a8e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: piecesScript
+  - hash:
+      serializedVersion: 2
+      Hash: 34f97fd02c502098bbf40d7bd075a249
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: puzzleSelect_
+  - hash:
+      serializedVersion: 2
+      Hash: 8409a8c93a520267feac13fab9cce05c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: DragAndDrop_
+  - hash:
+      serializedVersion: 2
+      Hash: b815a2ae189f13e7369ee4e149798e16
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PuzzleManager
   platform: 13
   scenePathNames:
-  - Assets/Scenes/LB95Relax.unity
+  - Assets/Scenes/StartupIntro.unity
+  - Assets/Scenes/LB95Startup.unity
   - Assets/Scenes/LB95.unity
+  - Assets/Scenes/LB95Relax.unity
   - Assets/CardStuff/Solitaire1.unity
   - Assets/CardStuff/ProgressolitaireRemade.unity
-  - Assets/Scenes/StartupIntro.unity
+  - Assets/Scenes/Puzzler.unity
+  - Assets/Scenes/PlayScene.unity
   - Assets/MemoryStuff/MEM.unity
-  playerPath: C:/Users/piotreczkoland14/Desktop/LoadingBar95_Third-Build-Test.apk
+  - Assets/MahjongStuff/Mahjong.unity
+  playerPath: C:/Users/piotreczkoland14/Desktop/Fourth_Build_of_LoadingBar95.apk

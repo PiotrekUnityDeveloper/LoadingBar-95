@@ -34,7 +34,7 @@ public class IntroManager : MonoBehaviour
     public IEnumerator FirstTimeCR()
     {
         PlayerPrefs.SetInt("FirstTime", 1);
-        yield return new WaitForSecondsRealtime(17.5f);
+        yield return new WaitForSecondsRealtime(25.5f);
         SceneManager.LoadScene("LB95Startup");
     }
 
