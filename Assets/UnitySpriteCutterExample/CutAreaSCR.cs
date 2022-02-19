@@ -50,9 +50,27 @@ public class CutAreaSCR : MonoBehaviour
         countdownText.GetComponent<CanvasGroup>().alpha = 1f;
         countdownText.text = "3";
         yield return new WaitForSecondsRealtime(1);
-        countdownText.text = "2";
+        
+        if(isTouching == true)
+        {
+            countdownText.text = "2";
+        }
+        else
+        {
+            countdownText.GetComponent<CanvasGroup>().alpha = 0f;
+        }
+
         yield return new WaitForSecondsRealtime(1);
-        countdownText.text = "1";
+
+        if (isTouching == true)
+        {
+            countdownText.text = "1";
+        }
+        else
+        {
+            countdownText.GetComponent<CanvasGroup>().alpha = 0f;
+        }
+
         yield return new WaitForSecondsRealtime(1);
         countdownText.text = "";
         
