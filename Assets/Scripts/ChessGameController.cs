@@ -69,6 +69,15 @@ public class ChessGameController : MonoBehaviour
         {
             DebugList.text += ("|-(ten minutes passed)-|");
         }
+        else
+        {
+            if (seconds.ToString().Contains("00"))
+            {
+                DebugList.text += ("(" + seconds.ToString() + " seconds passed already. really loong game huh?)");
+            }
+        }
+
+        StartCoroutine(TimeCounter());
     }
 
     // Update is called once per frame
