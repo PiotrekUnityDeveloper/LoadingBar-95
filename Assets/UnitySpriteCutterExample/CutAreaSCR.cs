@@ -6,6 +6,9 @@ using UnityEngine.UI;
 
 public class CutAreaSCR : MonoBehaviour
 {
+    public bool isEnded = false;
+    public bool isTouching = false;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -32,6 +35,8 @@ public class CutAreaSCR : MonoBehaviour
          }
         */
 
+        isTouching = true;
+
         if (collision.tag == "TargetBall")
         {
             StartCoroutine(CountdowntoWin());
@@ -50,7 +55,11 @@ public class CutAreaSCR : MonoBehaviour
         countdownText.text = "1";
         yield return new WaitForSecondsRealtime(1);
         countdownText.text = "";
-        GameisWonBro();
+        
+        if(isTouching == true)
+        {
+            GameisWonBro();
+        }
     }
 
     public IEnumerator ContinuousBreaker()
@@ -90,6 +99,8 @@ public class CutAreaSCR : MonoBehaviour
         }
         */
 
+        isTouching = false;
+
         countdownText.text = "";
 
         StartCoroutine(breaker());
@@ -107,6 +118,7 @@ public class CutAreaSCR : MonoBehaviour
         //StartCoroutine(ContinuousBreaker());
         countdownText.GetComponent<CanvasGroup>().alpha = 0f;
 
+        isEnded = true;
         PlayerPrefs.SetInt(("level" + levelid), 1);
         WinScreen.SetActive(true);
     }
