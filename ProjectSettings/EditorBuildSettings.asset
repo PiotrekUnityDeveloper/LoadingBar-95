@@ -30,8 +30,14 @@ EditorBuildSettings:
     path: Assets/Scenes/Puzzler.unity
     guid: 0edd0a83b71570b419c97e140a6df1a5
   - enabled: 1
+    path: Assets/Scenes/ModeScene.unity
+    guid: c156a6b34383d4487b0d238b1c8cc0a9
+  - enabled: 1
     path: Assets/Scenes/PlayScene.unity
     guid: 57cac0a425277e74da0ba59979d4a145
+  - enabled: 1
+    path: Assets/Scenes/GameScene.unity
+    guid: 70b81bfb10e3785409cebe4d69e4e8e9
   - enabled: 1
     path: Assets/MemoryStuff/MEM.unity
     guid: 708d55d567f4f7845808dea48edc67dc
