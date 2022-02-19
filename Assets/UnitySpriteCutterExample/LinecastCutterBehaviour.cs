@@ -1,6 +1,7 @@
 using UnityEngine;
 using System.Collections.Generic;
 using UnitySpriteCutter;
+using UnityEngine.UI;
 
 public class LinecastCutterBehaviour : MonoBehaviour {
 
@@ -10,6 +11,8 @@ public class LinecastCutterBehaviour : MonoBehaviour {
 	public int cutsRemaining;
 
 	public bool cuttingLimit;
+
+	public Text cutsInformer;
 
 	Vector2 mouseStart;
 	void Update() {
@@ -26,6 +29,7 @@ public class LinecastCutterBehaviour : MonoBehaviour {
 			if (Input.GetMouseButtonUp(0))
 			{
 				LinecastCut(mouseStart, mouseEnd, layerMask.value);
+				cutsRemaining -= 1;
 			}
 		}
 		else if(cuttingLimit == false && canCut == true)
@@ -40,10 +44,21 @@ public class LinecastCutterBehaviour : MonoBehaviour {
 			if (Input.GetMouseButtonUp(0))
 			{
 				LinecastCut(mouseStart, mouseEnd, layerMask.value);
+				cutsRemaining -= 1;
 			}
 		}
 
+
 		
+
+		if(cuttingLimit == true)
+        {
+			cutsInformer.text = ("you have " + cutsRemaining + " remaining cuts");
+		}
+        else
+        {
+			cutsInformer.text = ("u hav infinite amount of cuts :D");
+		}
 	}
 	
 	void LinecastCut( Vector2 lineStart, Vector2 lineEnd, int layerMask = Physics2D.AllLayers ) {
