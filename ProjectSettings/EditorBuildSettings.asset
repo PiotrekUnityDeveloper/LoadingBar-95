@@ -23,6 +23,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/CardStuff/ProgressolitaireRemade.unity
     guid: 2304b6c550d9a2b4a846d9c9474b17b7
+  - enabled: 1
+    path: Assets/Scenes/CutScenes/CutLevelSelector.unity
+    guid: 2240569c64fe34b4dbac0495c6e82ef2
+  - enabled: 1
+    path: Assets/Scenes/CutScenes/CutLevel1.unity
+    guid: ab23fd738baed454482cb088e7b33085
   - enabled: 0
     path: Assets/Scenes/Intro.unity
     guid: b59f1b42a5ddbe94a9387c9e9a299c89

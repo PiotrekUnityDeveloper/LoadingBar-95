@@ -35,10 +35,11 @@ public class CutAreaSCR : MonoBehaviour
          }
         */
 
-        isTouching = true;
+        
 
         if (collision.tag == "TargetBall")
         {
+            isTouching = true;
             StartCoroutine(CountdowntoWin());
         }
     }
@@ -89,6 +90,32 @@ public class CutAreaSCR : MonoBehaviour
         // DONT USE - STACKOVERFLOW ERROR OCCURS
     }
 
+    public List<GameObject> hints = new List<GameObject>();
+    public int currentHintID = 1;
+
+    public void ShowHint()
+    {
+        /*
+        if(currentHintID < hints.Count)
+        {
+            hints[currentHintID].SetActive(true);
+            currentHintID++;
+        }
+
+        
+        if(currentHintID == 1)
+        {
+            hints[1].SetActive(true);
+            currentHintID++;
+        }
+        */
+
+        foreach(GameObject g in hints)
+        {
+            g.SetActive(true);
+        }
+    }
+
     private void OnTriggerStay2D(Collider2D collision)
     {
         /*
@@ -119,11 +146,16 @@ public class CutAreaSCR : MonoBehaviour
         }
         */
 
-        isTouching = false;
+        
 
-        countdownText.text = "";
+        if (collision.tag == "TargetBall")
+        {
+            isTouching = false;
 
-        StartCoroutine(breaker());
+            countdownText.text = "";
+
+            StartCoroutine(breaker());
+        }
     }
 
     public IEnumerator breaker()
