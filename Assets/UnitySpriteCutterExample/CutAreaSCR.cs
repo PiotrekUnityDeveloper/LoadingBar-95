@@ -58,6 +58,7 @@ public class CutAreaSCR : MonoBehaviour
         else
         {
             countdownText.GetComponent<CanvasGroup>().alpha = 0f;
+            StartCoroutine(breaker());
         }
 
         yield return new WaitForSecondsRealtime(1);
@@ -69,6 +70,7 @@ public class CutAreaSCR : MonoBehaviour
         else
         {
             countdownText.GetComponent<CanvasGroup>().alpha = 0f;
+            StartCoroutine(breaker());
         }
 
         yield return new WaitForSecondsRealtime(1);
@@ -84,7 +86,7 @@ public class CutAreaSCR : MonoBehaviour
     {
         StartCoroutine(ContinuousBreaker());
         yield break;
-        
+        // DONT USE - STACKOVERFLOW ERROR OCCURS
     }
 
     private void OnTriggerStay2D(Collider2D collision)
