@@ -94,13 +94,16 @@
     <Compile Include="Assets\MahjongStuff\_Content\Scripts\Systems\TileDeselectSystem.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshSpawner.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
+    <Compile Include="Assets\Scripts\PuzzleManager.cs" />
     <Compile Include="Assets\CardStuff\Managers\CardGameManager.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_A.cs" />
     <Compile Include="Assets\MahjongStuff\_Content\Scripts\Components\TileView.cs" />
     <Compile Include="Assets\MahjongStuff\_Content\Scripts\UnityComponents\TileView.cs" />
     <Compile Include="Assets\Scripts\ProgressDrag.cs" />
+    <Compile Include="Assets\Scripts\StartGame.cs" />
     <Compile Include="Assets\Water2D\PropertyDrawers\PopUpAttributeDrawer.cs" />
     <Compile Include="Assets\Scripts\Input\ActionNode.cs" />
+    <Compile Include="Assets\Scripts\DragAndDrop_.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark03.cs" />
     <Compile Include="Assets\DOTween\Modules\DOTweenModulePhysics2D.cs" />
     <Compile Include="Assets\MahjongStuff\_Content\Scripts\Systems\TileMatchSystem.cs" />
@@ -147,8 +150,10 @@
     <Compile Include="Assets\Scripts\PersistentInfoScript.cs" />
     <Compile Include="Assets\CardStuff\CardPiles\SimpleInteractableCardPile1.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_B.cs" />
+    <Compile Include="Assets\Scripts\piecesScript.cs" />
     <Compile Include="Assets\CardStuff\Timer.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\EnvMapAnimator.cs" />
+    <Compile Include="Assets\Scripts\puzzleSelect_.cs" />
     <Compile Include="Assets\Scenes\SceneRedirector.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_UiFrameRateCounter.cs" />
     <Compile Include="Assets\CardStuff\Managers\HighscoreManager.cs" />
@@ -202,11 +207,9 @@
     <Compile Include="Assets\MahjongStuff\_Content\Scripts\Systems\TileDestroyMatchedSystem.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventCheck.cs" />
     <Compile Include="Assets\MahjongStuff\_Content\Scripts\Systems\TileViewUpdateSystem.cs" />
-    <Compile Include="Assets\Scripts\StartGame.cs" />
-    <Compile Include="Assets\Scripts\piecesScript.cs" />
-    <Compile Include="Assets\Scripts\puzzleSelect_.cs" />
-    <Compile Include="Assets\Scripts\DragAndDrop_.cs" />
-    <Compile Include="Assets\Scripts\PuzzleManager.cs" />
+    <Compile Include="Assets\Scripts\ChessGameController.cs" />
+    <Compile Include="Assets\Scripts\PieceController.cs" />
+    <Compile Include="Assets\Scripts\BoxController.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

@@ -1,0 +1,2 @@
+C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\obj\Debug\PackageToolsEditor.csproj.AssemblyReference.cache
+C:\Users\piotreczkoland14\Documents\GitHub\LoadingBar-95\obj\Debug\PackageToolsEditor.csproj.CoreCompileInputs.cache
