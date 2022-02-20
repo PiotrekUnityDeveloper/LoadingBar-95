@@ -53,6 +53,7 @@ public class TetrisGameController : MonoBehaviour {
         muteButton.SetActive(true);
         speakerButton.SetActive(false);
         InitGame();
+        Screen.orientation = ScreenOrientation.Landscape;
     }
 
     void InitGame() {

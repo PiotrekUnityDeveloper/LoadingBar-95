@@ -8,7 +8,8 @@ public class PuzzleManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        PlayerPrefs.SetInt("Puzzle", 1);   
+        PlayerPrefs.SetInt("Puzzle", 1);
+        Screen.orientation = ScreenOrientation.Landscape;
     }
 
     // Update is called once per frame

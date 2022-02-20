@@ -176,6 +176,14 @@ public class UIManager : MonoBehaviour
             print("loading puzzle scene...");
             SceneManager.LoadSceneAsync("Puzzler");
         }
+        else if (gameid == 13)
+        {
+            SceneManager.LoadSceneAsync("ModeScene");
+        }
+        else if (gameid == 14)
+        {
+            SceneManager.LoadSceneAsync("CutLevelSelector");
+        }
 
         //add other gamemodes later
     }

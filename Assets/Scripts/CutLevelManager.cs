@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class CutLevelManager : MonoBehaviour
 {
@@ -13,6 +14,9 @@ public class CutLevelManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        Screen.orientation = ScreenOrientation.Landscape;
+
+        /*
         for(int i = 0; i < totalLevels; i++)
         {
             if(PlayerPrefs.GetInt("level" + i) == 1)
@@ -23,9 +27,21 @@ public class CutLevelManager : MonoBehaviour
             {
                 levelbuttons[i].GetComponent<Button>().interactable = false;
             }
-        }
+        } //resigned
+
 
         levelbuttons[1].GetComponent<Button>().interactable = true;
+        */
+    }
+
+    public void LoadLCutevel(int levelID)
+    {
+        SceneManager.LoadScene("CutLevel" + levelID);
+    }
+
+    public void ExitCutGame()
+    {
+        SceneManager.LoadScene("LB95");
     }
 
     // Update is called once per frame

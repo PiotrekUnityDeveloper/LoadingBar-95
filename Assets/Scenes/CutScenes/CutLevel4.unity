@@ -2855,6 +2855,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isEnded: 0
   isTouching: 0
+  Leveltxt: {fileID: 1365506340}
   levelid: 4
   TimeOutSlider: {fileID: 1795040554}
   countdownText: {fileID: 1770890243}

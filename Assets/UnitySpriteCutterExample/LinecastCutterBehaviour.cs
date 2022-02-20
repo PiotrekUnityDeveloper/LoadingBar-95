@@ -17,6 +17,11 @@ public class LinecastCutterBehaviour : MonoBehaviour {
 	Vector2 mouseStart;
 	void Update() {
 
+		if(GameObject.Find("WinArea").GetComponent<CutAreaSCR>().currentTool != 1)
+        {
+			return;
+        }
+
 		if(cutsRemaining > 0 && cuttingLimit == true && canCut)
         {
 			if (Input.GetMouseButtonDown(0))
@@ -69,6 +74,11 @@ public class LinecastCutterBehaviour : MonoBehaviour {
 				gameObjectsToCut.Add( hit.transform.gameObject );
 			}
 		}
+
+		if(gameObjectsToCut.Count == 0)
+        {
+			cutsRemaining += 1;
+        }
 		
 		foreach ( GameObject go in gameObjectsToCut ) {
 			SpriteCutterOutput output = SpriteCutter.Cut( new SpriteCutterInput() {
