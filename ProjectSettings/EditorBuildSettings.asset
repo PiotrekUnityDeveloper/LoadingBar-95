@@ -18,6 +18,15 @@ EditorBuildSettings:
     path: Assets/Scenes/LB95Relax.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
+    path: Assets/Scenes/PhysicsLoader1.unity
+    guid: b82fd00b9f9fb6e4a969e644cb34f43a
+  - enabled: 1
+    path: Assets/Scenes/SoftBodyDemo.unity
+    guid: ddf8949d2b8774af2b3c200811db0b7a
+  - enabled: 1
+    path: Assets/Scenes/Demo.unity
+    guid: 0ab61520f30dba1468adadce55fe25dd
+  - enabled: 1
     path: Assets/CardStuff/Solitaire1.unity
     guid: a95760f91432bcf4dbbc51d08051bef3
   - enabled: 1

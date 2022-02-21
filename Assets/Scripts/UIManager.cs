@@ -184,6 +184,10 @@ public class UIManager : MonoBehaviour
         {
             SceneManager.LoadSceneAsync("CutLevelSelector");
         }
+        else if (gameid == 15)
+        {
+            SceneManager.LoadSceneAsync("PhysicsLoader1");
+        }
 
         //add other gamemodes later
     }
