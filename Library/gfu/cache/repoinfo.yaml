@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 1
-  lastUpdatedAtString: 2022-02-21T20:43:35.780+01:00
-  initializedAtString: 2022-02-21T20:43:35.780+01:00
+  lastUpdatedAtString: 2022-02-22T12:39:01.787+01:00
+  initializedAtString: 2022-02-22T12:39:01.787+01:00
   currentGitRemote:
     name: origin
     url: https://github.com/PiotrekUnityDeveloper/LoadingBar-95.git
