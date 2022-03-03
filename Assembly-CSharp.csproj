@@ -56,634 +56,244 @@
     <Compile Include="Assets\Scripts\AudioManager.cs" />
     <Compile Include="Assets\Common\Mathematics\FMath.cs" />
     <Compile Include="Assets\Water2D\Scrpts\screenshot.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ShaderPropAnimator.cs" />
     <Compile Include="Assets\CardStuff\HighscoreDisplay.cs" />
     <Compile Include="Assets\MahjongStuff\_Content\Scripts\Services\ITileViewService.cs" />
-    <Compile Include="Assets\FEM2D\Scripts\CreateCantileverBeam.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
     <Compile Include="Assets\MahjongStuff\_Content\Scripts\Systems\TileSelectionSystem.cs" />
-    <Compile Include="Assets\Scripts\NormalTileBehaviour.cs" />
     <Compile Include="Assets\Scripts\SolitaireManager.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SkewTextExample.cs" />
     <Compile Include="Assets\Scripts\Grow.cs" />
-    <Compile Include="Assets\UnitySpriteCutter\SpriteCutter.cs" />
-    <Compile Include="Assets\MahjongStuff\_Content\Scripts\TileSet.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\WarpTextExample.cs" />
-    <Compile Include="Assets\MemoryStuff\UIButton.cs" />
     <Compile Include="Assets\Scripts\NewClippy.cs" />
+    <Compile Include="Assets\MemoryStuff\UIButton.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SimpleScript.cs" />
     <Compile Include="Assets\Packages\DacenLibrary\Scripts\MultipleElementsButton.cs" />
     <Compile Include="Assets\MahjongStuff\_Content\Scripts\Components\BoardGen\Vacant.cs" />
-    <Compile Include="Assets\MahjongStuff\_Content\Scripts\Systems\CameraSetupSystem.cs" />
     <Compile Include="Assets\Common\LinearAlgebra\Matrix2x2d.cs" />
     <Compile Include="Assets\Common\LinearAlgebra\MatrixMxN.cs" />
     <Compile Include="Assets\Scripts\TileCatcher.cs" />
-    <Compile Include="Assets\CardStuff\Managers\MouseDragManager.cs" />
     <Compile Include="Assets\Scripts\ControlScript.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_DigitValidator.cs" />
-    <Compile Include="Assets\Scripts\StateButtonScript.cs" />
-    <Compile Include="Assets\MahjongStuff\_Content\Scripts\Int3EqualityComparer.cs" />
-    <Compile Include="Assets\Scenes\AspectManager.cs" />
     <Compile Include="Assets\UnitySpriteCutter\Tools\PolygonColliderParametersRepresentation.cs" />
     <Compile Include="Assets\Common\Decomposition\Decomposition2x2d.cs" />
     <Compile Include="Assets\CardStuff\CardPiles\ClosedDrawPile.cs" />
-    <Compile Include="Assets\MahjongStuff\_Content\Scripts\Components\Matched.cs" />
     <Compile Include="Assets\Packages\DacenLibrary\Scripts\ExtensionMethods.cs" />
     <Compile Include="Assets\Water2D\Core\MetaballCameraEffect.cs" />
-    <Compile Include="Assets\MahjongStuff\_Content\Scripts\Components\Position.cs" />
     <Compile Include="Assets\DOTween\Modules\DOTweenModulePhysics.cs" />
-    <Compile Include="Assets\FEM2D\Scripts\FEMFractureEvent.cs" />
     <Compile Include="Assets\Water2D\PropertyDrawers\Attributes.cs" />
-    <Compile Include="Assets\MahjongStuff\_Content\Scripts\Systems\BoardGen\BoardTilePairCreateSystem.cs" />
     <Compile Include="Assets\Scripts\UIManager.cs" />
-    <Compile Include="Assets\Scenes\DefScKIT.cs" />
-    <Compile Include="Assets\Water2D\PropertyDrawers\FieldDescriptionAttributeDrawer.cs" />
-    <Compile Include="Assets\CardStuff\Card.cs" />
-    <Compile Include="Assets\MahjongStuff\_Content\Scripts\TileGridUtils.cs" />
     <Compile Include="Assets\UnitySpriteCutterExample\LinecastCutterBehaviour.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
-    <Compile Include="Assets\CodeMonkey\MonoBehaviours\CameraFollowSetup.cs" />
-    <Compile Include="Assets\Scripts\BoxController.cs" />
     <Compile Include="Assets\Scripts\TestScript.cs" />
     <Compile Include="Assets\Scripts\CamScrshot.cs" />
-    <Compile Include="Assets\CodeMonkey\MonoBehaviours\CameraFollow.cs" />
     <Compile Include="Assets\MahjongStuff\_Content\Scripts\Systems\TileDeselectSystem.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshSpawner.cs" />
     <Compile Include="Assets\UnitySpriteCutterExample\MouseInputRepresentationBehaviour.cs" />
-    <Compile Include="Assets\Common\LinearAlgebra\Vector3i.cs" />
     <Compile Include="Assets\FEM2D\Scripts\CreateFromImage.cs" />
     <Compile Include="Assets\Scripts\ClickToSpawn.cs" />
-    <Compile Include="Assets\UnitySpriteCutter\SpriteCutterGameObject.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
-    <Compile Include="Assets\CodeMonkey\MonoBehaviours\DoubleFollower.cs" />
     <Compile Include="Assets\Scripts\PuzzleManager.cs" />
-    <Compile Include="Assets\CardStuff\Managers\CardGameManager.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_A.cs" />
     <Compile Include="Assets\Samples\2D SpriteShape\5.1.7\Sprite Shape Extras\Scripts\GenerateSpriteShapes.cs" />
     <Compile Include="Assets\MahjongStuff\_Content\Scripts\Components\TileView.cs" />
-    <Compile Include="Assets\MahjongStuff\_Content\Scripts\UnityComponents\TileView.cs" />
     <Compile Include="Assets\Scripts\Helper.cs" />
     <Compile Include="Assets\Scripts\ProgressDrag.cs" />
-    <Compile Include="Assets\Common\LinearAlgebra\Vector3f.cs" />
     <Compile Include="Assets\Scripts\StartGame.cs" />
     <Compile Include="Assets\Water2D\PropertyDrawers\PopUpAttributeDrawer.cs" />
     <Compile Include="Assets\Scripts\Input\ActionNode.cs" />
     <Compile Include="Assets\Scripts\DragAndDrop_.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark03.cs" />
     <Compile Include="Assets\Common\LinearAlgebra\Matrix3x3d.cs" />
     <Compile Include="Assets\Common\LinearAlgebra\Vector4i.cs" />
     <Compile Include="Assets\DOTween\Modules\DOTweenModulePhysics2D.cs" />
-    <Compile Include="Assets\MahjongStuff\_Content\Scripts\Systems\TileMatchSystem.cs" />
     <Compile Include="Assets\Scripts\TetrisGameController.cs" />
-    <Compile Include="Assets\Scripts\Input\Action.cs" />
     <Compile Include="Assets\Scripts\ModeController.cs" />
     <Compile Include="Assets\Common\LinearAlgebra\Quaternion3f.cs" />
     <Compile Include="Assets\Water2D\Scrpts\_SpawnExampleController.cs" />
     <Compile Include="Assets\Scripts\ChessGameController.cs" />
     <Compile Include="Assets\FEM2D\Scripts\FEMElement.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeA.cs" />
-    <Compile Include="Assets\Scripts\GemBlock.cs" />
     <Compile Include="Assets\MahjongStuff\_Content\Scripts\Components\Tile.cs" />
     <Compile Include="Assets\Scripts\TetrisBlock.cs" />
-    <Compile Include="Assets\Scripts\Block.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark04.cs" />
     <Compile Include="Assets\MahjongStuff\_Content\Scripts\Systems\BoardGen\BoardLayoutInitSystem.cs" />
-    <Compile Include="Assets\Scripts\TimeScript.cs" />
     <Compile Include="Assets\MahjongStuff\_Content\Scripts\Components\Locked.cs" />
-    <Compile Include="Assets\Common\LinearAlgebra\Vector4f.cs" />
     <Compile Include="Assets\Common\LinearAlgebra\Matrix4x4d.cs" />
     <Compile Include="Assets\Water2D\Scrpts\MouseColliderController.cs" />
-    <Compile Include="Assets\Common\LinearAlgebra\Matrix2x2f.cs" />
-    <Compile Include="Assets\UnitySpriteCutterExample\RestartBehaviour.cs" />
-    <Compile Include="Assets\UnitySpriteCutter\Cutters\FlatConvexPolygonMeshCutter.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_FrameRateCounter.cs" />
     <Compile Include="Assets\MahjongStuff\_Content\Scripts\Services\TextMapService.cs" />
     <Compile Include="Assets\Common\LinearAlgebra\Matrix3x3f.cs" />
-    <Compile Include="Assets\Common\Mathematics\IMath.cs" />
-    <Compile Include="Assets\Scripts\OptionsFormScript.cs" />
-    <Compile Include="Assets\MahjongStuff\_Content\Scripts\Systems\BoardGen\BoardGenerationCompleteSystem.cs" />
-    <Compile Include="Assets\Samples\2D SpriteShape\5.1.7\Sprite Shape Extras\Scripts\ConformingSpline.cs" />
     <Compile Include="Assets\DOTween\Modules\DOTweenModuleAudio.cs" />
-    <Compile Include="Assets\Scripts\Input\Keyboard.cs" />
     <Compile Include="Assets\Scripts\CameraScript.cs" />
     <Compile Include="Assets\Common\LinearAlgebra\Vector3d.cs" />
-    <Compile Include="Assets\Common\LinearAlgebra\Vector2i.cs" />
-    <Compile Include="Assets\Samples\2D SpriteShape\5.1.7\Sprite Shape Extras\Scripts\SimpleDraw.cs" />
-    <Compile Include="Assets\UnitySpriteCutterExample\CutAreaSCR.cs" />
     <Compile Include="Assets\CardStuff\CardPiles\CardPile.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ChatController.cs" />
-    <Compile Include="Assets\MemoryStuff\oldstuff\GameController.cs" />
-    <Compile Include="Assets\DOTween\Modules\DOTweenModuleUI.cs" />
-    <Compile Include="Assets\MahjongStuff\_Content\Scripts\Systems\BoardGen\BoardGenerationInitSystem.cs" />
-    <Compile Include="Assets\MahjongStuff\_Content\Scripts\TileState.cs" />
     <Compile Include="Assets\Common\LinearAlgebra\Vector2d.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexJitter.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshProFloatingText.cs" />
     <Compile Include="Assets\MemoryStuff\MemoryCard.cs" />
     <Compile Include="Assets\Scripts\PieceController.cs" />
     <Compile Include="Assets\Samples\2D SpriteShape\5.1.7\Sprite Shape Extras\Scripts\Clipper.cs" />
     <Compile Include="Assets\Scripts\LayerMover.cs" />
-    <Compile Include="Assets\Scripts\ControlMainMenuScript.cs" />
-    <Compile Include="Assets\Scripts\AutoDestruction.cs" />
-    <Compile Include="Assets\DOTween\Modules\DOTweenModuleSprite.cs" />
     <Compile Include="Assets\MahjongStuff\_Content\Scripts\Services\IMapService.cs" />
     <Compile Include="Assets\MahjongStuff\_Content\Scripts\Services\TileViewService.cs" />
-    <Compile Include="Assets\MahjongStuff\_Content\Scripts\Components\Mismatched.cs" />
     <Compile Include="Assets\Scripts\GhostBlock.cs" />
     <Compile Include="Assets\Scripts\TileScript.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventHandler.cs" />
     <Compile Include="Assets\Scripts\TileSpawner.cs" />
     <Compile Include="Assets\Scripts\clippy.cs" />
-    <Compile Include="Assets\MahjongStuff\_Content\Scripts\ITileView.cs" />
     <Compile Include="Assets\UnitySpriteCutter\Cutters\ColliderPathsCreator.cs" />
-    <Compile Include="Assets\Samples\2D SpriteShape\5.1.7\Sprite Shape Extras\Scripts\GeometryCollider.cs" />
     <Compile Include="Assets\MemoryStuff\oldstuff\AddButtons.cs" />
     <Compile Include="Assets\Common\Decomposition\Decomposition2x2f.cs" />
     <Compile Include="Assets\CardStuff\CardPiles\OpenDrawPile.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeB.cs" />
-    <Compile Include="Assets\Common\LinearAlgebra\Vector2f.cs" />
-    <Compile Include="Assets\Scripts\PersistentInfoScript.cs" />
-    <Compile Include="Assets\CardStuff\CardPiles\SimpleInteractableCardPile1.cs" />
     <Compile Include="Assets\FEM2D\Scripts\FEMScene.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_B.cs" />
     <Compile Include="Assets\FEM2D\Scripts\CreateTorus.cs" />
     <Compile Include="Assets\Scripts\piecesScript.cs" />
-    <Compile Include="Assets\UnitySpriteCutter\Tools\SafeSpriteRendererRemoverBehaviour.cs" />
-    <Compile Include="Assets\FEM2D\Scripts\Triangle.cs" />
     <Compile Include="Assets\CardStuff\Timer.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\EnvMapAnimator.cs" />
-    <Compile Include="Assets\Scripts\puzzleSelect_.cs" />
-    <Compile Include="Assets\Scenes\SceneRedirector.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_UiFrameRateCounter.cs" />
-    <Compile Include="Assets\CardStuff\Managers\HighscoreManager.cs" />
     <Compile Include="Assets\Scripts\TileAnimation.cs" />
-    <Compile Include="Assets\UnitySpriteCutter\Tools\SpriteMeshContructor.cs" />
     <Compile Include="Assets\Water2D\Core\Water2D_Spawner.cs" />
-    <Compile Include="Assets\CardStuff\ICardEndDragTarget.cs" />
-    <Compile Include="Assets\Scripts\CutLevelManager.cs" />
     <Compile Include="Assets\Common\Decomposition\Decomposition3x3f.cs" />
-    <Compile Include="Assets\Packages\DacenLibrary\Scripts\DacenUtility.cs" />
-    <Compile Include="Assets\Scripts\Clippycde.cs" />
     <Compile Include="Assets\MahjongStuff\_Content\Scripts\Systems\BoardGen\BoardGenerationStepSystem.cs" />
     <Compile Include="Assets\DOTween\Modules\DOTweenModuleUtils.cs" />
-    <Compile Include="Assets\Water2D\PropertyDrawers\SeparatorAttributeDrawer.cs" />
-    <Compile Include="Assets\Scripts\AiDestCondition.cs" />
-    <Compile Include="Assets\FEM2D\Scripts\FEMParticle.cs" />
-    <Compile Include="Assets\Scripts\Input\Mouse.cs" />
     <Compile Include="Assets\DOTween\Modules\DOTweenModuleUnityVersion.cs" />
-    <Compile Include="Assets\CardStuff\History.cs" />
     <Compile Include="Assets\Common\Decomposition\Decomposition3x3d.cs" />
-    <Compile Include="Assets\UnitySpriteCutterExample\DelOnclik.cs" />
     <Compile Include="Assets\Scenes\PhysicsLoadManager.cs" />
-    <Compile Include="Assets\Water2D\PropertyDrawers\IncrementableAttribute.cs" />
-    <Compile Include="Assets\FEM2D\Scripts\DelaunayTriangulation.cs" />
-    <Compile Include="Assets\Scripts\Blob.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\CameraController.cs" />
+    <Compile Include="Assets\FEM2D\Scripts\DelaunayTriangulation.cs" />
     <Compile Include="Assets\MahjongStuff\_Content\Scripts\Systems\TileViewCreateSystem.cs" />
-    <Compile Include="Assets\MemoryStuff\Memorymanager.cs" />
     <Compile Include="Assets\Water2D\Core\MetaballParticleClass.cs" />
     <Compile Include="Assets\Scripts\BombNumberScript.cs" />
     <Compile Include="Assets\FEM2D\Scripts\Mesher.cs" />
     <Compile Include="Assets\MahjongStuff\MahjongManager.cs" />
     <Compile Include="Assets\CardStuff\CardPiles\MainPile.cs" />
+    <Compile Include="Assets\Water2D\PropertyDrawers\IncrementableAttributeDrawer.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMPro_InstructionOverlay.cs" />
+    <Compile Include="Assets\Water2D\PropertyDrawers\TitleAttributeDrawer.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_ExampleScript_01.cs" />
+    <Compile Include="Assets\Scripts\Utililty\Vector2i.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextConsoleSimulator.cs" />
+    <Compile Include="Assets\Scripts\IntroManager.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ObjectSpin.cs" />
+    <Compile Include="Assets\CardStuff\Managers\MenuManager.cs" />
+    <Compile Include="Assets\UnitySpriteCutter\Cutters\FlatConvexCollidersCutter.cs" />
+    <Compile Include="Assets\FEM2D\Scripts\FEMDemo.cs" />
+    <Compile Include="Assets\DOTween\Modules\DOTweenModuleEPOOutline.cs" />
+    <Compile Include="Assets\MahjongStuff\_Content\Scripts\Systems\TileLockSystem.cs" />
+    <Compile Include="Assets\Scripts\Sound.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextInfoDebugTool.cs" />
+    <Compile Include="Assets\Scripts\pointsmovement.cs" />
+    <Compile Include="Assets\Scripts\Utililty\Utility.cs" />
+    <Compile Include="Assets\CardStuff\CardPiles\InteractableCardPile.cs" />
+    <Compile Include="Assets\MahjongStuff\_Content\Scripts\Systems\TileDestroyMatchedSystem.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventCheck.cs" />
+    <Compile Include="Assets\MahjongStuff\_Content\Scripts\Systems\TileViewUpdateSystem.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ShaderPropAnimator.cs" />
+    <Compile Include="Assets\FEM2D\Scripts\CreateCantileverBeam.cs" />
+    <Compile Include="Assets\Scripts\NormalTileBehaviour.cs" />
+    <Compile Include="Assets\UnitySpriteCutter\SpriteCutter.cs" />
+    <Compile Include="Assets\MahjongStuff\_Content\Scripts\TileSet.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\WarpTextExample.cs" />
+    <Compile Include="Assets\MahjongStuff\_Content\Scripts\Systems\CameraSetupSystem.cs" />
+    <Compile Include="Assets\CardStuff\Managers\MouseDragManager.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_DigitValidator.cs" />
+    <Compile Include="Assets\Scenes\AspectManager.cs" />
+    <Compile Include="Assets\MahjongStuff\_Content\Scripts\Int3EqualityComparer.cs" />
+    <Compile Include="Assets\Scripts\StateButtonScript.cs" />
+    <Compile Include="Assets\MahjongStuff\_Content\Scripts\Components\Matched.cs" />
+    <Compile Include="Assets\MahjongStuff\_Content\Scripts\Components\Position.cs" />
+    <Compile Include="Assets\FEM2D\Scripts\FEMFractureEvent.cs" />
+    <Compile Include="Assets\MahjongStuff\_Content\Scripts\Systems\BoardGen\BoardTilePairCreateSystem.cs" />
+    <Compile Include="Assets\Scenes\DefScKIT.cs" />
+    <Compile Include="Assets\Water2D\PropertyDrawers\FieldDescriptionAttributeDrawer.cs" />
+    <Compile Include="Assets\CardStuff\Card.cs" />
+    <Compile Include="Assets\MahjongStuff\_Content\Scripts\TileGridUtils.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
+    <Compile Include="Assets\Scripts\BoxController.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshSpawner.cs" />
+    <Compile Include="Assets\Common\LinearAlgebra\Vector3i.cs" />
+    <Compile Include="Assets\UnitySpriteCutter\SpriteCutterGameObject.cs" />
+    <Compile Include="Assets\CardStuff\Managers\CardGameManager.cs" />
+    <Compile Include="Assets\MahjongStuff\_Content\Scripts\UnityComponents\TileView.cs" />
+    <Compile Include="Assets\Common\LinearAlgebra\Vector3f.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark03.cs" />
+    <Compile Include="Assets\MahjongStuff\_Content\Scripts\Systems\TileMatchSystem.cs" />
+    <Compile Include="Assets\Scripts\Input\Action.cs" />
+    <Compile Include="Assets\Scripts\GemBlock.cs" />
+    <Compile Include="Assets\Scripts\Block.cs" />
+    <Compile Include="Assets\Scripts\TimeScript.cs" />
+    <Compile Include="Assets\Common\LinearAlgebra\Vector4f.cs" />
+    <Compile Include="Assets\Common\LinearAlgebra\Matrix2x2f.cs" />
+    <Compile Include="Assets\UnitySpriteCutterExample\RestartBehaviour.cs" />
+    <Compile Include="Assets\UnitySpriteCutter\Cutters\FlatConvexPolygonMeshCutter.cs" />
+    <Compile Include="Assets\Common\Mathematics\IMath.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_FrameRateCounter.cs" />
+    <Compile Include="Assets\Scripts\OptionsFormScript.cs" />
+    <Compile Include="Assets\Samples\2D SpriteShape\5.1.7\Sprite Shape Extras\Scripts\ConformingSpline.cs" />
+    <Compile Include="Assets\MahjongStuff\_Content\Scripts\Systems\BoardGen\BoardGenerationCompleteSystem.cs" />
+    <Compile Include="Assets\Scripts\Input\Keyboard.cs" />
+    <Compile Include="Assets\Common\LinearAlgebra\Vector2i.cs" />
+    <Compile Include="Assets\Samples\2D SpriteShape\5.1.7\Sprite Shape Extras\Scripts\SimpleDraw.cs" />
+    <Compile Include="Assets\UnitySpriteCutterExample\CutAreaSCR.cs" />
+    <Compile Include="Assets\MemoryStuff\oldstuff\GameController.cs" />
+    <Compile Include="Assets\DOTween\Modules\DOTweenModuleUI.cs" />
+    <Compile Include="Assets\MahjongStuff\_Content\Scripts\Systems\BoardGen\BoardGenerationInitSystem.cs" />
+    <Compile Include="Assets\MahjongStuff\_Content\Scripts\TileState.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexJitter.cs" />
+    <Compile Include="Assets\Scripts\ControlMainMenuScript.cs" />
+    <Compile Include="Assets\Scripts\AutoDestruction.cs" />
+    <Compile Include="Assets\DOTween\Modules\DOTweenModuleSprite.cs" />
+    <Compile Include="Assets\MahjongStuff\_Content\Scripts\Components\Mismatched.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventHandler.cs" />
+    <Compile Include="Assets\MahjongStuff\_Content\Scripts\ITileView.cs" />
+    <Compile Include="Assets\Samples\2D SpriteShape\5.1.7\Sprite Shape Extras\Scripts\GeometryCollider.cs" />
+    <Compile Include="Assets\Common\LinearAlgebra\Vector2f.cs" />
+    <Compile Include="Assets\Scripts\PersistentInfoScript.cs" />
+    <Compile Include="Assets\CardStuff\CardPiles\SimpleInteractableCardPile1.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_B.cs" />
+    <Compile Include="Assets\UnitySpriteCutter\Tools\SafeSpriteRendererRemoverBehaviour.cs" />
+    <Compile Include="Assets\FEM2D\Scripts\Triangle.cs" />
+    <Compile Include="Assets\Scripts\puzzleSelect_.cs" />
+    <Compile Include="Assets\Scenes\SceneRedirector.cs" />
+    <Compile Include="Assets\CardStuff\Managers\HighscoreManager.cs" />
+    <Compile Include="Assets\UnitySpriteCutter\Tools\SpriteMeshContructor.cs" />
+    <Compile Include="Assets\CardStuff\ICardEndDragTarget.cs" />
+    <Compile Include="Assets\Scripts\CutLevelManager.cs" />
+    <Compile Include="Assets\Packages\DacenLibrary\Scripts\DacenUtility.cs" />
+    <Compile Include="Assets\Scripts\Clippycde.cs" />
+    <Compile Include="Assets\Water2D\PropertyDrawers\SeparatorAttributeDrawer.cs" />
+    <Compile Include="Assets\Scripts\AiDestCondition.cs" />
+    <Compile Include="Assets\FEM2D\Scripts\FEMParticle.cs" />
+    <Compile Include="Assets\Scripts\Input\Mouse.cs" />
+    <Compile Include="Assets\CardStuff\History.cs" />
+    <Compile Include="Assets\UnitySpriteCutterExample\DelOnclik.cs" />
+    <Compile Include="Assets\Water2D\PropertyDrawers\IncrementableAttribute.cs" />
+    <Compile Include="Assets\Scripts\Blob.cs" />
+    <Compile Include="Assets\MemoryStuff\Memorymanager.cs" />
     <Compile Include="Assets\MahjongStuff\_Content\Scripts\Components\Selected.cs" />
     <Compile Include="Assets\MemoryStuff\SceneController.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\DropdownSample.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_PhoneNumberValidator.cs" />
-    <Compile Include="Assets\Water2D\PropertyDrawers\IncrementableAttributeDrawer.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMPro_InstructionOverlay.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexColorCycler.cs" />
     <Compile Include="Assets\UnitySpriteCutter\Cutters\ShapeCutter.cs" />
     <Compile Include="Assets\FEM2D\Scripts\CreateRandomConvex.cs" />
-    <Compile Include="Assets\Water2D\PropertyDrawers\TitleAttributeDrawer.cs" />
     <Compile Include="Assets\UnitySpriteCutter\Tools\RendererParametersRepresentation.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TeleType.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_ExampleScript_01.cs" />
     <Compile Include="Assets\Scripts\Input\ActionMap.cs" />
     <Compile Include="Assets\Samples\2D SpriteShape\5.1.7\Sprite Shape Extras\Scripts\Sprinkler.cs" />
-    <Compile Include="Assets\Scripts\Utililty\Vector2i.cs" />
     <Compile Include="Assets\Common\LinearAlgebra\Vector4d.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextConsoleSimulator.cs" />
-    <Compile Include="Assets\Scripts\IntroManager.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ObjectSpin.cs" />
-    <Compile Include="Assets\CardStuff\Managers\MenuManager.cs" />
-    <Compile Include="Assets\FEM2D\Scripts\FEMDemo.cs" />
-    <Compile Include="Assets\UnitySpriteCutter\Cutters\FlatConvexCollidersCutter.cs" />
     <Compile Include="Assets\MahjongStuff\_Content\Scripts\EcsStartup.cs" />
-    <Compile Include="Assets\DOTween\Modules\DOTweenModuleEPOOutline.cs" />
     <Compile Include="Assets\CardStuff\CardPiles\DiscardPile.cs" />
     <Compile Include="Assets\Common\Mathematics\DMath.cs" />
-    <Compile Include="Assets\MahjongStuff\_Content\Scripts\Systems\TileLockSystem.cs" />
-    <Compile Include="Assets\Scripts\Sound.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextInfoDebugTool.cs" />
     <Compile Include="Assets\Samples\2D SpriteShape\5.1.7\Sprite Shape Extras\Scripts\LegacyCollider.cs" />
     <Compile Include="Assets\Common\LinearAlgebra\Quaternion3d.cs" />
     <Compile Include="Assets\Common\LinearAlgebra\Matrix4x4f.cs" />
-    <Compile Include="Assets\Scripts\pointsmovement.cs" />
-    <Compile Include="Assets\Scripts\Utililty\Utility.cs" />
-    <Compile Include="Assets\CardStuff\CardPiles\InteractableCardPile.cs" />
     <Compile Include="Assets\Water2D\PropertyDrawers\ButtonAttributeDrawer.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
-    <Compile Include="Assets\MahjongStuff\_Content\Scripts\Systems\TileDestroyMatchedSystem.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventCheck.cs" />
-    <Compile Include="Assets\MahjongStuff\_Content\Scripts\Systems\TileViewUpdateSystem.cs" />
-    <Compile Include="Assets\_\GridBuildingSystem\Scripts\BuildingGhost2D.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\OpenDoors\Scripts\Triggers\DoorTriggerPressurePlate_Done.cs" />
-    <Compile Include="Assets\_\Base\RenderPasses\FullScreenQuad.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\TopDownShooter\Scripts\GameHandler_Setup.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\TopDownShooter\Scripts\EnableLights.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\Graph\Scripts\Test_Window_Graph.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\TopDownShooter\Scripts\ShieldFieldTransformer.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\BossBattle\Scripts\BossBattle.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\LoadingScene\LoadingProgressBar.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\KeyDoor\Scripts\UI_KeyHolder.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\CraftingSystemSO\Scripts\CharacterEquipment.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\CarDriverAI\Scripts\CarAITargetMouse.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\Shop\Scripts\PlayerShop.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\CursorIcons\Scripts\UnitRTS.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\RTSControls\PlayerRTS.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\SaveSystem.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\CraftingSystemSO\Scripts\IItemHolder.cs" />
-    <Compile Include="Assets\_\Stuff\V_ObjectSystem\V_IObjectTransformBody.cs" />
-    <Compile Include="Assets\_\Stuff\V_ObjectSystem\V_IObjectTransform.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\HealthBarDamageTaken\HealthBarShrink.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\BattleSystem\Scripts\BattleSystem.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\CraftingSystemSO\Scripts\UI_ItemDrag.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\ManaBar\ManaBar.cs" />
-    <Compile Include="Assets\_\Stuff\GridPathfinding\UnitMovement.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\TaskSystem\CM_WorkerTaskAI.cs" />
-    <Compile Include="Assets\_\Base\BaseScripts\Characters\PlayerLookAt.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\TopDownShooter\Scripts\UI_Weapon.cs" />
-    <Compile Include="Assets\_\HouseBuildingSystem\Scripts\FloorEdgePosition.cs" />
-    <Compile Include="Assets\_\Stuff\GridPathfinding\PathNode.cs" />
-    <Compile Include="Assets\_\Base\RenderPasses\FullScreenQuadPass.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\CarDriver\Scripts\CarDriverPlayer.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\HighscoreTable\UI_HighscoreTable.cs" />
-    <Compile Include="Assets\CodeMonkey\Assets.cs" />
-    <Compile Include="Assets\_\HouseBuildingSystem\Scripts\HouseCharacter.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\CheckpointSystem\Scripts\TrackCheckpointsUI.cs" />
-    <Compile Include="Assets\InventoryTetris\Scripts\ItemTetrisGhost.cs" />
-    <Compile Include="Assets\_\GridBuildingSystem\Scripts\PlacedObjectTypeSO.cs" />
-    <Compile Include="Assets\_\Stuff\Scripts\Dirt_Handler.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\MeshParticleSystem\Scripts\DirtParticleSystemHandler.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\TopDownShooter\Scripts\Weapon.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\ModularCharacter\Scripts\Done\SwordAttack.cs" />
-    <Compile Include="Assets\_\Stuff\V_ObjectSystem\V_TimeScaleManager.cs" />
-    <Compile Include="Assets\_\Base\BaseScripts\Characters\PlayerAim_Base.cs" />
-    <Compile Include="Assets\_\Stuff\Scripts\WeaponTracer.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\CraftingSystemSO\Scripts\UI_CraftingItemSlot.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\QuestPointer\Scripts\Window_QuestPointer.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\Inventory\Scripts\ItemAssets.cs" />
-    <Compile Include="Assets\_\Base\BaseScripts\Mouse3D.cs" />
-    <Compile Include="Assets\_\Base\BaseScripts\Characters\Player_Base.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\Minimap\Scripts\GameHandler.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\TextWriter\Scripts\UI_Assistant.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\CursorIcons\Scripts\GameRTSController.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\MeshMaskUI\MaskMeshDone\MaskMeshUIDone.cs" />
-    <Compile Include="Assets\_\Base\BaseScripts\MaterialTintColor.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\Inventory\Scripts\ItemWorldSpawner.cs" />
-    <Compile Include="Assets\_\Stuff\GridPathfinding\MapPos.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\ModularCharacter\Scripts\MoveAnimsRigidbodyVelocity.cs" />
-    <Compile Include="Assets\_\Base\BaseScripts\Characters\PlayerMovementHandler.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\HotkeyBar\Scripts\UI_HotkeyBarAbilitySlot.cs" />
-    <Compile Include="Assets\_\GridBuildingSystem\Scripts\BuildingAnimation.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\ModularCharacter\Scripts\MoveVelocity3D.cs" />
-    <Compile Include="Assets\CodeMonkey\Utils\Button_UI.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\ModularCharacter\Scripts\Done\ProjectileBolt.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\MeshMaskUI\MaskMeshDone\MaskMeshUIDoneSingle.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\CraftingSystemSO\Scripts\UI_Item.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\Tilemap\Tilemap.cs" />
-    <Compile Include="Assets\_\Stuff\V_ObjectSystem\V_IHasWorldPosition.cs" />
-    <Compile Include="Assets\_\Stuff\Shaders\ShaderGraph\Scripts\BlurAnimated.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\LoadingScene\LoaderCallback.cs" />
-    <Compile Include="Assets\CodeMonkey\Utils\World_Sprite.cs" />
-    <Compile Include="Assets\_\HouseBuildingSystem\Scripts\SelectPlaceObjectsUI.cs" />
-    <Compile Include="Assets\_\Stuff\Scripts\SpawnEnemyOnKeyDown.cs" />
-    <Compile Include="Assets\_\Stuff\GridPathfinding\PathQueue.cs" />
-    <Compile Include="Assets\_\Base\BaseScripts\Characters\ICharacterAnims.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\ModularCharacter\Scripts\IMovePosition.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\ModularCharacter\Scripts\Done\ProjectileAttack.cs" />
-    <Compile Include="Assets\_\Base\BaseScripts\Characters\CharacterAim_Base.cs" />
-    <Compile Include="Assets\_\HouseBuildingSystem\Scripts\HouseBuildingSystemAssets.cs" />
-    <Compile Include="Assets\_\Stuff\Scripts\V_UnitSkeleton_Composite_Weapon.cs" />
-    <Compile Include="Assets\_\Stuff\Scripts\GameAssets.cs" />
-    <Compile Include="Assets\CodeMonkey\Utils\World_Bar.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\TopDownShooter\Scripts\PlayerMain.cs" />
-    <Compile Include="Assets\_\Base\BaseScripts\FlyingBody.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\TowerDefenseAI\Scripts\UpgradeOverlay.cs" />
-    <Compile Include="Assets\CodeMonkey\MonoBehaviours\ComponentActions.cs" />
-    <Compile Include="Assets\_\Base\BaseScripts\Characters\PlayerCharacterDashRoll_Base.cs" />
-    <Compile Include="Assets\_\Base\BaseScripts\Characters\PlayerMovement.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\TopDownShooter\Scripts\EnemyDamaged.cs" />
-    <Compile Include="Assets\_\Base\RenderPasses\BlitMultiPass.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\WeaponAim\Scripts\Testing_WeaponAim.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\MeshParticleSystem\Scripts\ShellParticleSystemHandler.cs" />
-    <Compile Include="Assets\_\Base\BaseScripts\Characters\Character_Base.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\ModularCharacter\Scripts\PlayerMovementKeys.cs" />
-    <Compile Include="Assets\_\Stuff\Scripts\V_UnitSkeleton_Composite_WeaponInvert.cs" />
-    <Compile Include="Assets\_\Base\BaseScripts\Characters\PlayerAim.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\TowerDefenseAI\Scripts\ProjectileArrow.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\TopDownShooter\Scripts\PlayerMovementHandler.cs" />
-    <Compile Include="Assets\_\Base\BaseScripts\Characters\CharacterPathfindingMovementHandler.cs" />
-    <Compile Include="Assets\CodeMonkey\Utils\FunctionTimer.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\SkillTree\Scripts\UI_SkillTree.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\ChatBubble\Scripts\MoveRoam_ChatBubble.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\TopDownShooter\Scripts\EnemyShuriken.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\OpenDoors\Scripts\DoorInteractAutomatic.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\OpenDoors\Scripts\DoorTriggerButton.cs" />
-    <Compile Include="Assets\_\Stuff\Scripts\UVVectors.cs" />
-    <Compile Include="Assets\_\Base\TargetFramerate.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\TopDownShooter\Scripts\PlayerDodgeRoll.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\CinematicBars.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\CursorIcons\Scripts\CursorManager.cs" />
-    <Compile Include="Assets\_\Base\BaseScripts\Characters\PlayerPlatformer.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\ScreenshotHandler.cs" />
-    <Compile Include="Assets\_\Base\BaseScripts\Characters\Enemy.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\Minimap\Scripts\Minimap.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\CraftingSystemSO\Scripts\CraftingSystem.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\ShootProjectiles\Scripts\Target.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\TaskSystem\CM_TaskSystem.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\OpenDoors\Scripts\DoorSetActive.cs" />
-    <Compile Include="Assets\_\Base\BaseScripts\Characters\CharacterLookAt_Base.cs" />
-    <Compile Include="Assets\CodeMonkey\Utils\UtilsClass.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\TopDownShooter\Scripts\UI_Black.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\ModularCharacter\Scripts\Done\MoveWaypoints.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\RadarChart\Scripts\Stats.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\TaskSystem\CM_IWorker.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\HotkeyBar\Scripts\HotkeyBar_Testing.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\TopDownShooter\Scripts\EnemyTurretAimShootAnims.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\Shop\Scripts\UI_Shop.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\RadarChart\Scripts\UI_StatsRadarChart.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\RadarChart\Scripts\RadarChart_Testing.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\Tooltip\Window_Items.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\TopDownShooter\Scripts\Enemy.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\TopDownShooter\Scripts\ICharacterAnims.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\TopDownShooter\Scripts\AimingShoot.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\CursorIcons\Scripts\CursorObject.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\TopDownShooter\Scripts\PickupHealth.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\ModularCharacter\Scripts\Done\IAttack.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\LevelingSystem\LevelSystem.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\SkillTree\Scripts\Testing_SkillTree.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\LevelingSystem\LevelSystemAnimated.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\TopDownShooter\Scripts\EnemySpawn.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\CraftingSystemSO\Scripts\UI_CharacterEquipmentSlot.cs" />
-    <Compile Include="Assets\_\HouseBuildingSystem\Scripts\GridLevelUI.cs" />
-    <Compile Include="Assets\_\Base\BaseScripts\GradientHolder.cs" />
-    <Compile Include="Assets\_\Stuff\GridPathfinding\LastMoveTo.cs" />
-    <Compile Include="Assets\_\Base\BaseScripts\CinemachineShake.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\SkillTree\Scripts\PlayerSkillTree.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\HeartsHealthSystem\HeartsHealthVisual.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\EditorClicks\Scripts\CustomAction.cs" />
-    <Compile Include="Assets\_\Base\BaseScripts\Characters\CharacterWaypointsHandler.cs" />
-    <Compile Include="Assets\_\Base\RenderPasses\BlitMulti.cs" />
-    <Compile Include="Assets\_\HouseBuildingSystem\Scripts\HouseBuildingLooseObjectGhost.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\ChatBubble\Scripts\PlayerTalk.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\TopDownShooter\Scripts\EnemyStats.cs" />
-    <Compile Include="Assets\_\HouseBuildingSystem\Scripts\FloorEdgeObjectTypeSO.cs" />
-    <Compile Include="Assets\_\HouseBuildingSystem\Scripts\HouseObjectTypeSO.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\Graph\Scripts\Window_Graph_Object.cs" />
-    <Compile Include="Assets\_\Stuff\V_ObjectSystem\V_Main.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\ShootProjectiles\Scripts\PlayerShootProjectiles.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\CraftingSystemSO\Scripts\EnemySpawner.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\TopDownShooter\Scripts\UI_WeaponBar.cs" />
-    <Compile Include="Assets\CodeMonkey\Utils\UI_Sprite.cs" />
-    <Compile Include="Assets\_\Stuff\Scripts\AnimatedWalker.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\OpenDoors\Scripts\DoorInteractPressurePlate.cs" />
-    <Compile Include="Assets\_\Stuff\V_ObjectSystem\V_ObjectLogic_SkeletonUpdater.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\TowerDefenseAI\Scripts\TowerDefenseAI.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\CraftingSystemSO\Scripts\RecipeScriptableObject.cs" />
-    <Compile Include="Assets\CodeMonkey\MonoBehaviours\PositionRendererSorter.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\TaskSystem\CM_Worker.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\TowerDefenseAI\Scripts\Tower.cs" />
-    <Compile Include="Assets\_\HouseBuildingSystem\Scripts\HouseBuildingEdgeGhost.cs" />
-    <Compile Include="Assets\_\Base\RenderPasses\SimpleBlitRenderPassFeature.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\ChatBubble\Scripts\ChatBubble.cs" />
-    <Compile Include="Assets\_\Stuff\V_ObjectSystem\V_Object.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\Graph\Scripts\Window_Graph.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\KeyDoor\Scripts\Key.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\CaptureOnTriggerEnter2D.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\BattleSystem\Scripts\Testing_BattleSystem.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\ModularCharacter\Scripts\PlayerAttack.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\ModularCharacter\Scripts\MovePositionPathfinding.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\KeyDoor\Scripts\KeyDoor.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\Tooltip\Tooltip_Warning.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\Tooltip\Window.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\CraftingSystemSO\Scripts\UI_CraftingSystem.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\CarDriverAI\Scripts\CarDriverAI.cs" />
-    <Compile Include="Assets\_\HouseBuildingSystem\Scripts\LooseObjectSO.cs" />
-    <Compile Include="Assets\InventoryTetris\Scripts\InventoryTetrisDragDrop.cs" />
-    <Compile Include="Assets\_\Base\BaseScripts\Characters\CharacterSwordHandler.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\DamagePopups\DamagePopup.cs" />
-    <Compile Include="Assets\_\GridBuildingSystem\Scripts\BuildingGhost.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\Minimap\Scripts\MinimapCamera.cs" />
-    <Compile Include="Assets\_\Base\BaseScripts\Characters\CharacterPositionMovementHandler.cs" />
-    <Compile Include="Assets\_\Base\BaseScripts\Characters\PlayerPunch.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\ShootProjectiles\Scripts\Bullet.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\MeshMaskUI\Scripts\MeshMaskUI.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\Tilemap\TilemapVisual.cs" />
-    <Compile Include="Assets\_\Base\BaseScripts\HealthSystem.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\Minimap\Scripts\MinimapWindow.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\WeaponAim\Scripts\PlayerAimWeapon.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\Tooltip\ItemInfo.cs" />
-    <Compile Include="Assets\_\Base\BaseScripts\Characters\Enemy_Base.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\CheckpointSystem\Scripts\CheckpointSingle.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\CraftingSystemSO\Scripts\InventoryItemScriptableObject.cs" />
-    <Compile Include="Assets\_\HouseBuildingSystem\Scripts\LooseObjectSOHolder.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\TextWriter\Scripts\TextWriter.cs" />
-    <Compile Include="Assets\_\GridBuildingSystem\Scripts\PlacedObject.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\ModularCharacter\Scripts\MovePositionDirect.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\CheckpointSystem\Scripts\TrackCheckpoints.cs" />
-    <Compile Include="Assets\_\Base\BaseScripts\Characters\PlayerDodgeRoll.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\RadarChart\Scripts\UI_TestStatsRadarChart.cs" />
-    <Compile Include="Assets\CodeMonkey\Utils\UI_Bar.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\Shop\Scripts\ShopTriggerCollider.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\ModularCharacter\Scripts\IGetPosition.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\TopDownShooter\Scripts\Character_Base.cs" />
-    <Compile Include="Assets\_\Stuff\Scripts\SetSpriteSorting.cs" />
-    <Compile Include="Assets\CodeMonkey\Utils\UI_BarMultiple.cs" />
-    <Compile Include="Assets\_\Base\BaseScripts\Characters\PlayerCharacterController.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\CharacterPortrait\Scripts\Character.cs" />
-    <Compile Include="Assets\CodeMonkey\Utils\World_Mesh.cs" />
-    <Compile Include="Assets\InventoryTetris\Scripts\InventoryTetrisManualPlacement.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\DragDrop\Scripts\DragDrop.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\HotkeyBar\Scripts\HotkeyAbilitySystem.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\TopDownShooter\Scripts\PickupRifle.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\InputWindow\Scripts\UI_InputWindow.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\LevelingSystem\LevelWindow.cs" />
-    <Compile Include="Assets\_\Base\BaseScripts\Characters\PlayerMain.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\TopDownShooter\Scripts\ShieldField.cs" />
-    <Compile Include="Assets\InventoryTetris\Scripts\InventoryTetrisTesting.cs" />
-    <Compile Include="Assets\_\Base\RenderPasses\BlitPass.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\ShootProjectiles\Scripts\BulletPhysics.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\TopDownShooter\Scripts\EnemyAimLogic.cs" />
-    <Compile Include="Assets\_\Stuff\V_ObjectSystem\V_IDestroySelf.cs" />
-    <Compile Include="Assets\_\Stuff\Scripts\FullscreenPlayMode.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\MeshParticleSystem\Scripts\FootprintParticleSystemHandler.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\Inventory\Scripts\Inventory.cs" />
-    <Compile Include="Assets\_\Stuff\Scripts\V_UnitSkeleton_Composite_Walker.cs" />
-    <Compile Include="Assets\InventoryTetris\Scripts\InventoryTetrisAssets.cs" />
-    <Compile Include="Assets\InventoryTetris\Scripts\InventoryTetris.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\ShootProjectiles\Scripts\BulletRaycast3D.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\TopDownShooter\Scripts\DoorOpenTrigger.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\CraftingSystemSO\Scripts\Testing_CraftingSystem.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\InventorySimple\Scripts\InventorySimple.cs" />
-    <Compile Include="Assets\_\Stuff\GridPathfinding\GridPathfinding.cs" />
-    <Compile Include="Assets\InventoryTetris\Scripts\InventoryTetrisBackground.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\ShootProjectiles\Scripts\BulletRaycast.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\TopDownShooter\Scripts\BossBattle_TopDownShooter.cs" />
-    <Compile Include="Assets\_\Base\BaseScripts\Characters\CharacterAimHandler.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\Inventory\Scripts\ItemWorld.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\TopDownShooter\Scripts\EnemyChargerLogic.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\ModularCharacter\Scripts\Done\PunchAttack.cs" />
-    <Compile Include="Assets\CodeMonkey\Utils\UI_TextComplex.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\Tooltip\Tooltip_ItemStats.cs" />
-    <Compile Include="Assets\_\Stuff\V_ObjectSystem\V_ObjectTransform_LateUpdate.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\BRT_GuestSpritesheet\Scripts\GuestSpritesheetData.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\ModularCharacter\Scripts\Done\MoveRoam.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\OpenDoors\Scripts\Triggers\DoorTriggerKey_Done.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\KeyDoor\Scripts\DoorAnims.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\KeyDoor\Scripts\DoorAnims3D.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\HeartsHealthSystem\HeartsHealthSystem.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\Shop\Scripts\IShopCustomer.cs" />
-    <Compile Include="Assets\_\Stuff\Scripts\Blood_Handler.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\HealthBarDamageTaken\HealthBarCut.cs" />
-    <Compile Include="Assets\_\Stuff\GridPathfinding\BinaryTree.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\RTSControls\CharacterRTS.cs" />
-    <Compile Include="Assets\_\Stuff\GridPathfinding\PathRoute.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\ModularCharacter\Scripts\MoveVelocity.cs" />
-    <Compile Include="Assets\_\Stuff\V_ObjectSystem\V_ObjectTransform.cs" />
-    <Compile Include="Assets\_\Base\BaseScripts\Characters\IAimShootAnims.cs" />
-    <Compile Include="Assets\_\HouseBuildingSystem\Scripts\FloorPlacedObject.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\TaskSystem\CM_WorkerTransporterTaskAI.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\LoadingScene\Loader.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\HotkeyBar\Scripts\UI_HotkeyBar.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\Splines\Scripts\Spline.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\CraftingSystemSO\Scripts\CraftingSystem_Testing.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\HealthBarDamageTaken\HealthBarFade.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\TopDownShooter\Scripts\EnemyDropLoot.cs" />
-    <Compile Include="Assets\_\Base\BaseScripts\Characters\PlayerSword.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\BRT_GuestSpritesheet\Scripts\GuestHandler.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\TaskSystem\CM_GameHandler.cs" />
-    <Compile Include="Assets\_\GridBuildingSystem\Scripts\GridBuildingSystem3D.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\Grid\GridXZ.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\TopDownShooter\Scripts\EnemyTurretLogic.cs" />
-    <Compile Include="Assets\_\Base\BaseScripts\Characters\PlayerPositionMovement.cs" />
-    <Compile Include="Assets\_\Stuff\Scripts\Generic_Mesh_Script.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\TopDownShooter\Scripts\Star.cs" />
-    <Compile Include="Assets\InventoryTetris\Scripts\ItemTetrisSO.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\DragWindows\DragWindow.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\FieldOfView\Scripts\FieldOfView.cs" />
-    <Compile Include="Assets\_\HouseBuildingSystem\Scripts\FloorEdgePlacedObject.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\KeyDoor\Scripts\KeyHolder.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\WebRequests.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\ModularCharacter\Scripts\MoveTransformVelocity.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\TopDownShooter\Scripts\EnemyMain.cs" />
-    <Compile Include="Assets\_\Stuff\V_ObjectSystem\V_IActiveInactive.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\Grid\GridNodeSimple.cs" />
-    <Compile Include="Assets\_\HouseBuildingSystem\Scripts\HouseBuildingSystem.cs" />
-    <Compile Include="Assets\_\Base\BaseScripts\Characters\CharacterController2D_Simple.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\TopDownShooter\Scripts\DoorStartState.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\TopDownShooter\Scripts\UI_Controls.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\CharacterPortrait\Scripts\Window_CharacterPortrait.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\TopDownShooter\Scripts\EnemyArcherLogic.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\TopDownShooter\Scripts\PickupShotgun.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\CraftingSystemSO\Scripts\UI_Player.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\Splines\Scripts\SplineMesh.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\TooltipCanvas\TooltipCanvas.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\Grid\Grid.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\BossBattle\Scripts\BossBattleInteraction.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\CarDriver\Scripts\CarDriver.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\Inventory\Scripts\UI_Inventory.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\OpenDoors\Scripts\DoorHinge.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\MeshUtils.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\Player.cs" />
-    <Compile Include="Assets\_\Base\BaseScripts\Characters\EnemyAim.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\Inventory\Scripts\Item.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\CursorIcons\Scripts\EnemyRTS.cs" />
-    <Compile Include="Assets\_\HouseBuildingSystem\Scripts\HouseCharacterNPC.cs" />
-    <Compile Include="Assets\_\Base\BaseScripts\InvertedMaskImage.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\HealthBarDamageTaken\HealthBarCutFallDown.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\ModularCharacter\Scripts\IMoveVelocity.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\ParallaxBackground\Scripts\ParallaxBackground.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\ModularCharacter\Scripts\MoveAnimsTransformLastMoveDir.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\CraftingSystemSO\Scripts\UI_CharacterEquipment.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\ModularCharacter\Scripts\PlayerMovementMouse.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\ChatBubble\Scripts\GameHandler_ChatBubble.cs" />
-    <Compile Include="Assets\_\Stuff\Shaders\ShaderGraph\Scripts\PixelateAnimated.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\OpenDoors\Scripts\IDoor.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\TopDownShooter\Scripts\BattleSystem_Done.cs" />
-    <Compile Include="Assets\_\Base\BaseScripts\Characters\CharacterController3D.cs" />
-    <Compile Include="Assets\_\Stuff\V_ObjectSystem\V_IObjectActiveLogic.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\Splines\Scripts\Testing_Splines.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\Shop\Scripts\UI_PlayerShop.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\TopDownShooter\Scripts\EnemyPathfindingMovement.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\TopDownShooter\Scripts\EnemyTargeting.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\ModularCharacter\Scripts\MovePositionPathfindingNavMesh.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\Grid\GridGradientVisual.cs" />
-    <Compile Include="Assets\_\Base\BaseScripts\CameraTarget.cs" />
-    <Compile Include="Assets\_\GridBuildingSystem\Scripts\GridBuildingSystem2D.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\MeshParticleSystem\Scripts\MeshParticleSystem_Testing.cs" />
-    <Compile Include="Assets\_\Base\BaseScripts\Characters\PlayerCharacterDashRoll.cs" />
-    <Compile Include="Assets\_\Base\BaseScripts\CameraFov.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\Tooltip\Tooltip.cs" />
-    <Compile Include="Assets\_\Base\BaseScripts\GameHandler_Setup.cs" />
-    <Compile Include="Assets\_\Stuff\Scripts\SpriteAnimator.cs" />
-    <Compile Include="Assets\InventoryTetris\Scripts\InventoryTetris_Old.cs" />
-    <Compile Include="Assets\_\Base\BaseScripts\DashEffect.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\SkillTree\Scripts\PlayerSkills.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\OpenDoors\Scripts\Triggers\DoorTriggerButton_Done.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\TopDownShooter\Scripts\IAimShootAnims.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\TopDownShooter\Scripts\Player.cs" />
-    <Compile Include="Assets\CodeMonkey\CMDebug.cs" />
-    <Compile Include="Assets\_\GridBuildingSystem\Scripts\GridBuildingSystemSelector.cs" />
-    <Compile Include="Assets\_\Base\BaseScripts\Characters\PlayerAim3D.cs" />
-    <Compile Include="Assets\_\Stuff\Scripts\Sound_Manager.cs" />
-    <Compile Include="Assets\_\GridBuildingSystem\Scripts\BuildingSound.cs" />
-    <Compile Include="Assets\_\HouseBuildingSystem\Scripts\HouseBuildingGhost.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\Splines\Scripts\SplineFollower.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\OpenDoors\Scripts\Triggers\DoorTriggerAutomatic_Done.cs" />
-    <Compile Include="Assets\_\Stuff\V_ObjectSystem\V_ObjectTransformBody.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\OpenDoors\Scripts\DoorAnimated.cs" />
-    <Compile Include="Assets\CodeMonkey\Utils\Button_Sprite.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\InputWindow\Scripts\UI_Blocker.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\Grid\GridPrefabVisual.cs" />
-    <Compile Include="Assets\CodeMonkey\Utils\FunctionPeriodic.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\CraftingSystemSO\Scripts\UI_ItemSlot.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\CharacterPortrait\Scripts\CharacterPortrait_GameHandler.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\TopDownShooter\Scripts\UI_Keys.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\MeshParticleSystem\Scripts\BloodParticleSystemHandler.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\HitCounter\HitCounter.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\DragDrop\Scripts\ItemSlot.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\Minimap\Scripts\MinimapIcon.cs" />
-    <Compile Include="Assets\_\Base\BaseScripts\Characters\CharacterController2D.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\MeshParticleSystem\Scripts\MeshParticleSystem.cs" />
-    <Compile Include="Assets\CodeMonkey\Utils\FunctionUpdater.cs" />
-    <Compile Include="Assets\_\Stuff\Shaders\ShaderGraph\Scripts\DissolveAnimate.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\TimeTickSystem.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\BRT_GuestSpritesheet\Scripts\BRT_GuestSpritesheet_GameHandler.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\OpenDoors\Scripts\DoorInteractButton.cs" />
-    <Compile Include="Assets\_\Stuff\Scripts\Shoot_Flash.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\QuestPointer\Scripts\QuestPointer_GameHandler.cs" />
-    <Compile Include="Assets\_\Base\BaseScripts\Characters\PlayerSwapAimNormal.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\SkillTree\Scripts\ExperienceBar.cs" />
-    <Compile Include="Assets\InventoryTetris\Scripts\InventoryTetrisDragDropSystem.cs" />
-    <Compile Include="Assets\_\Base\RenderPasses\Blit.cs" />
-    <Compile Include="Assets\_\Stuff\Videos\EditorClicks\Scripts\RunCustomAction.cs" />
-    <Compile Include="Assets\_\Base\BaseScripts\Characters\EnemyHandler.cs" />
+    <Compile Include="Assets\Scripts\Game\GameController.cs" />
+    <Compile Include="Assets\Scripts\Game\GameXonix.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets\_\Stuff\Shaders\VertexLitCG.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
-    <None Include="Assets\_\Stuff\Shaders\Endless_UI_SolidColorTint.shader" />
-    <None Include="Assets\_\Stuff\Shaders\Endless_Sprites_Hue.shader" />
     <None Include="Assets\Stages\3.txt" />
     <None Include="Assets\Stages\12.txt" />
-    <None Include="Assets\_\Stuff\Shaders\Endless_UI_Blur.shader" />
-    <None Include="Assets\_\Stuff\Shaders\Endless_Sprites_Outline.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
-    <None Include="Assets\_\Stuff\Shaders\Endless_TestUnlit.shader" />
     <None Include="Assets\DOTween\DOTween.dll" />
     <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Oswald-Bold - OFL.txt" />
     <None Include="Assets\Stages\4.txt" />
@@ -692,15 +302,12 @@
     <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Anton OFL.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
-    <None Include="Assets\_\Stuff\Shaders\Endless_TransColor.shader" />
     <None Include="Assets\MahjongStuff\_Content\Resources\Maps\turtle.txt" />
     <None Include="Assets\Stages\19.txt" />
+    <None Include="Assets\Scripts\Shaders\NewShader.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
-    <None Include="Assets\CodeMonkey\README.txt" />
     <None Include="Assets\DOTween\readme.txt" />
-    <None Include="Assets\_\Stuff\Shaders\Endless_Sprites_Shadow.shader" />
     <None Include="Assets\Shaders\Circle.shader" />
-    <None Include="Assets\_\Stuff\Shaders\MultiplyTwoTextures.shader" />
     <None Include="Assets\Stages\15.txt" />
     <None Include="Assets\MahjongStuff\_Content\Resources\Maps\montezuma.txt" />
     <None Include="Assets\FEM2D\Materials\TextureShader.shader" />
@@ -711,7 +318,6 @@
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF.shader" />
     <None Include="Assets\Stages\14.txt" />
     <None Include="Assets\Stages\10.txt" />
-    <None Include="Assets\_\Stuff\Shaders\Endless_TransDiffuseWithTint.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
     <None Include="Assets\Stages\16.txt" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
@@ -720,33 +326,21 @@
     <None Include="Assets\Stages\11.txt" />
     <None Include="Assets\Stages\7.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
-    <None Include="Assets\_\Stuff\Shaders\Endless_TransDiffuse.shader" />
-    <None Include="Assets\_\Stuff\Shaders\Endless_Sprites_SolidColorTint.shader" />
-    <None Include="Assets\_\Base\RenderPasses\KawaseBlur.shader" />
     <None Include="Assets\Stages\5.txt" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
-    <None Include="Assets\_\Stuff\Shaders\Endless_FogOfWarPersistenEffect.shader" />
     <None Include="Assets\Stages\9.txt" />
     <None Include="Assets\Stages\8.txt" />
     <None Include="Assets\Stages\2.txt" />
-    <None Include="Assets\_\Stuff\Shaders\Endless_Sprites_Shadow_Vertical.shader" />
-    <None Include="Assets\_\Stuff\Shaders\Endless_Sprites_Default.shader" />
     <None Include="Assets\Stages\18.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
-    <None Include="Assets\_\Stuff\Shaders\Endless_BW.shader" />
-    <None Include="Assets\_\Stuff\Shaders\Endless_UI_Greyscale.shader" />
     <None Include="Assets\Stages\17.txt" />
-    <None Include="Assets\_\Stuff\Shaders\Endless_Sprites_Test.shader" />
-    <None Include="Assets\_\Stuff\Shaders\Endless_TransDiffuse_Alpha.shader" />
     <None Include="Assets\Stages\1.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
     <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
-    <None Include="Assets\_\Stuff\Shaders\3DText.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
     <None Include="Assets\MahjongStuff\_Content\Resources\Maps\butterfly.txt" />
     <None Include="Assets\Stages\13.txt" />
-    <None Include="Assets\_\Stuff\Shaders\GrayscaleToAlpha.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
     <None Include="Assets\Water2D\readme.txt" />
     <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Bangers - OFL.txt" />
@@ -966,11 +560,11 @@
     <Reference Include="UnityEditor.UnityConnectModule">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.25f1\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
     </Reference>
-    <Reference Include="Newtonsoft.Json">
-      <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json@2.0.0\Runtime\Newtonsoft.Json.dll</HintPath>
-    </Reference>
     <Reference Include="Pathfinding.Ionic.Zip.Reduced">
       <HintPath>Assets\AstarPathfindingProject\Plugins\DotNetZip\Pathfinding.Ionic.Zip.Reduced.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json@2.0.0\Runtime\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="DOTween">
       <HintPath>Assets\DOTween\DOTween.dll</HintPath>
@@ -1320,9 +914,6 @@
     <Reference Include="System.Xml.Serialization">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.25f1\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\System.Xml.Serialization.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.2D.Animation.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.InternalAPIEngineBridge.001">
       <HintPath>Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll</HintPath>
     </Reference>
@@ -1332,8 +923,8 @@
     <Reference Include="Unity.2D.PixelPerfect">
       <HintPath>Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.2D.Tilemap.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll</HintPath>
+    <Reference Include="Unity.RenderPipelines.Universal.Shaders">
+      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Notifications">
       <HintPath>Library\ScriptAssemblies\Unity.Notifications.dll</HintPath>
@@ -1347,44 +938,29 @@
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.VisualStudio.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
-    </Reference>
     <Reference Include="Leopotam.Ecs.Types">
       <HintPath>Library\ScriptAssemblies\Leopotam.Ecs.Types.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Timeline">
-      <HintPath>Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Leopotam.Ecs.UnityIntegration.Editor">
       <HintPath>Library\ScriptAssemblies\Leopotam.Ecs.UnityIntegration.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.TextMeshPro">
-      <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
+    <Reference Include="Unity.Searcher.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Searcher.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.IK.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.2D.IK.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.2D.Psdimporter.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.2D.Path.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.2D.Path.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.InternalAPIEditorBridge.001">
-      <HintPath>Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.2D.Sprite.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
       <HintPath>Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.PlasticSCM.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.Rider.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Core.ShaderLibrary">
+      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
       <HintPath>Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
@@ -1392,17 +968,74 @@
     <Reference Include="Unity.Notifications.iOS">
       <HintPath>Library\ScriptAssemblies\Unity.Notifications.iOS.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Mathematics">
-      <HintPath>Library\ScriptAssemblies\Unity.Mathematics.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.2D.IK.Runtime">
       <HintPath>Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ShaderGraph.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Cinemachine">
+      <HintPath>Library\ScriptAssemblies\Cinemachine.dll</HintPath>
+    </Reference>
+    <Reference Include="com.unity.cinemachine.editor">
+      <HintPath>Library\ScriptAssemblies\com.unity.cinemachine.editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Animation.Triangle.Runtime">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipeline.Universal.ShaderLibrary">
+      <HintPath>Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Mathematics.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Mathematics.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Notifications.Android">
+      <HintPath>Library\ScriptAssemblies\Unity.Notifications.Android.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Common.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.Common.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Animation.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Tilemap.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Universal.Runtime">
+      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualStudio.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Timeline">
+      <HintPath>Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro">
+      <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Sprite.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Psdimporter.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.InternalAPIEditorBridge.001">
+      <HintPath>Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Core.Runtime">
+      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.PlasticSCM.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Mathematics">
+      <HintPath>Library\ScriptAssemblies\Unity.Mathematics.dll</HintPath>
     </Reference>
     <Reference Include="Leopotam.Ecs">
       <HintPath>Library\ScriptAssemblies\Leopotam.Ecs.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.2D.Animation.Triangle.Runtime">
-      <HintPath>Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll</HintPath>
+    <Reference Include="Unity.RenderPipelines.Universal.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Animation.Runtime">
       <HintPath>Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll</HintPath>
@@ -1413,26 +1046,23 @@
     <Reference Include="Unity.Mobile.AndroidLogcat.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Mobile.AndroidLogcat.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary">
+      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Mathematics.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.Mathematics.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Common.Runtime">
       <HintPath>Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Notifications.Android">
-      <HintPath>Library\ScriptAssemblies\Unity.Notifications.Android.dll</HintPath>
+    <Reference Include="Unity.2D.SpriteShape.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.2D.Common.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.2D.Common.Editor.dll</HintPath>
+    <Reference Include="Unity.RenderPipelines.Core.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.SpriteShape.Runtime">
       <HintPath>Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.2D.SpriteShape.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -1440,17 +1070,13 @@
       <Project>{57C1FD05-A2E2-A6CC-D48E-EF5F5D76B2D5}</Project>
       <Name>PackageToolsEditor</Name>
     </ProjectReference>
-    <ProjectReference Include="AstarPathfindingProject.csproj">
-      <Project>{E7845C96-EC7D-E059-FB49-3765A277C48D}</Project>
-      <Name>AstarPathfindingProject</Name>
-    </ProjectReference>
     <ProjectReference Include="AstarPathfindingProjectEditor.csproj">
       <Project>{CD1CA6DF-FF0B-5EFA-DFEE-B05A14D67F0B}</Project>
       <Name>AstarPathfindingProjectEditor</Name>
     </ProjectReference>
-    <ProjectReference Include="V_Animation.csproj">
-      <Project>{9B760FD7-B6D6-AD79-0CB8-95608C297D44}</Project>
-      <Name>V_Animation</Name>
+    <ProjectReference Include="AstarPathfindingProject.csproj">
+      <Project>{E7845C96-EC7D-E059-FB49-3765A277C48D}</Project>
+      <Name>AstarPathfindingProject</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
