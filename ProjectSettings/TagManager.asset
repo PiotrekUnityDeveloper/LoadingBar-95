@@ -18,6 +18,10 @@ TagManager:
   - ModeController
   - WinArea
   - TargetBall
+  - PersistentInfo
+  - Metaball_liquid
+  - Link
+  - RopeBall
   layers:
   - Default
   - TransparentFX

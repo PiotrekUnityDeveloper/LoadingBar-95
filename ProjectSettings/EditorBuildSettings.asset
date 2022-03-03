@@ -71,4 +71,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/MahjongStuff/Mahjong.unity
     guid: f882cf12e0fd1eb4d9c8bf32cc3613eb
+  - enabled: 1
+    path: Assets/Scenes/Xonix.unity
+    guid: f75b9ddee1ea44144885480c2d191412
+  - enabled: 1
+    path: Assets/CutRope/RopeLevels.unity
+    guid: 58a825868ccf8c64fb157b41c47291c9
+  - enabled: 1
+    path: Assets/CutRope/Rope1.unity
+    guid: 3f031a4a91e2f0c4ebd62559de78c0b1
   m_configObjects: {}

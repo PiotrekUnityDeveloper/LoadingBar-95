@@ -188,6 +188,14 @@ public class UIManager : MonoBehaviour
         {
             SceneManager.LoadSceneAsync("PhysicsLoader1");
         }
+        else if (gameid == 16)
+        {
+            SceneManager.LoadSceneAsync("Xonix");
+        }
+        else if (gameid == 17)
+        {
+            SceneManager.LoadSceneAsync("RopeLevels");
+        }
 
         //add other gamemodes later
     }

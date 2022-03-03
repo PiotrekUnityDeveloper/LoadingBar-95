@@ -287,6 +287,13 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
     <Compile Include="Assets\Scripts\Game\GameController.cs" />
     <Compile Include="Assets\Scripts\Game\GameXonix.cs" />
+    <Compile Include="Assets\CutRope\Weight.cs" />
+    <Compile Include="Assets\CutRope\Rope.cs" />
+    <Compile Include="Assets\CutRope\RopeCutter.cs" />
+    <Compile Include="Assets\ScnLoadbyname.cs" />
+    <Compile Include="Assets\CutRope\RopeManagerLV.cs" />
+    <Compile Include="Assets\CutRope\Trigrope.cs" />
+    <Compile Include="Assets\Scenes\testtts.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
